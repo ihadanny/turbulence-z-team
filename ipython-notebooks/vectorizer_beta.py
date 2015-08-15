@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[54]:
+# In[1]:
 
 ## Used for vectorizing the raw data (run it once on train and once on test) :
 ## Pivoting it from the initial feature_name:feature_value form to a vector
@@ -11,19 +11,19 @@
 ## Filling empty values with means - NOTE that these have to be the train data means
 
 
-# In[55]:
+# In[2]:
 
 import pandas as pd
 import numpy as np
 
 
-# In[56]:
+# In[3]:
 
 df = pd.read_csv('../train_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.describe()
 
 
-# In[57]:
+# In[4]:
 
 interesting = df[(df.form_name == 'Demographic') | (df.form_name == 'Vitals')]
 print interesting['feature_name'].unique()
@@ -32,7 +32,7 @@ vectorized = pd.DataFrame(index=df['SubjectID'].unique())
 print vectorized.shape
 
 
-# In[58]:
+# In[5]:
 
 def scalar_feature_to_dummies(df, feature_name):
     my_slice = df[df.feature_name == feature_name]
@@ -49,7 +49,7 @@ for feature_name in ['Gender', 'Race']:
 vectorized.head()
 
 
-# In[59]:
+# In[6]:
 
 ### Calculating slope - the diffs between each measurement and the first measurement (0 day) 
 def calc_slope(row) :
@@ -87,7 +87,7 @@ for feature_name in ['bp_diastolic', 'bp_systolic', 'pulse', 'respiratory_rate',
 vectorized.head()
 
 
-# In[60]:
+# In[7]:
 
 def timeseries_feature_last_value(df, feature_name):
     my_slice = df[df.feature_name == feature_name]
@@ -102,7 +102,7 @@ for feature_name in ['BMI', 'height']:
 vectorized.head()
 
 
-# In[61]:
+# In[8]:
 
 ## Filling empty values with means - NOTE that these have to be the train data means
 train_data_means = vectorized.mean()
@@ -110,7 +110,7 @@ vectorized = vectorized.fillna(train_data_means)
 vectorized.head()
 
 
-# In[63]:
+# In[9]:
 
 for t in ["train", "test"]:
     df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
@@ -122,6 +122,11 @@ for t in ["train", "test"]:
     final_data.index.name='SubjectID'
     print t, final_data.shape
     final_data.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
+
+
+# In[11]:
+
+func_per_feature
 
 
 # In[ ]:
