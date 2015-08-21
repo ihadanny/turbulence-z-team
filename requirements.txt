@@ -1,0 +1,8 @@
+ipython==4.0.0
+notebook==4.0.4
+matplotlib==1.4.3
+numpy==1.9.2
+pandas==0.16.2
+scikit-learn==0.16.1
+scipy==0.16.0
+virtualenv==1.11.6
