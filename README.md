@@ -14,3 +14,20 @@ A working prototype (reference implementation) pipeline. There's a lot to improv
 
 1. train_test_splitter
 2. scorer
+
+
+# Installation instructions
+
+    git clone git@github.com:ihadanny/p4l-als-z-team.git
+    cd p4l-als-z-team
+    sudo pip install pip virtualenv --upgrade
+    virtualenv venv
+    venv/bin/pip install -r requirements.txt
+    echo "alias ipy=\"venv/bin/python -c 'import IPython; IPython.terminal.ipapp.launch_new_instance()'\"" >> ~/.bashrc
+    
+Run `ipython notebook` with:
+  
+    ipy notebook
+    
+from within the project directory.
+    
