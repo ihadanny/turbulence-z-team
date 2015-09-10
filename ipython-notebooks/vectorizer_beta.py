@@ -39,11 +39,6 @@ df = df[df.feature_delta < 92]
 df.head()
 
 
-# In[5]:
-
-print "\n".join( (df.form_name + " - " + df.feature_name).unique() )
-
-
 # In[ ]:
 
 
@@ -140,7 +135,7 @@ def last_boolean(ts_data):
 # 
 # There is a list for time-series functions (as described before) and for global function (like scalar->dummies). Both are inverted to feature_to_funcs maps.
 
-# In[10]:
+# In[18]:
 
 ts_funcs_to_features = [ 
     { 
@@ -198,7 +193,7 @@ all_feature_to_funcs.update(global_feature_to_funcs)
 
 # ## Calculate all features
 
-# In[18]:
+# In[11]:
 
 def to_series(f):
     def foo(x):
@@ -241,7 +236,7 @@ def vectorize(df, ts_feature_to_funcs, global_feature_to_funcs):
     return vectorized, feature_groups
 
 
-# In[19]:
+# In[12]:
 
 vectorized, feature_groups = vectorize(df, ts_feature_to_funcs, global_feature_to_funcs)
 vectorized.head()
@@ -284,9 +279,9 @@ def calc_all_zscore(vectorized):
 
 # ## Run everything on `test` and `train`
 
-# In[15]:
+# In[17]:
 
-train_vectorized = vectorize(df, ts_feature_to_funcs, global_feature_to_funcs)
+train_vectorized, train_feature_groups = vectorize(df, ts_feature_to_funcs, global_feature_to_funcs)
 train_data_means = train_vectorized.mean()
 
 for t in ["train", "test"]:
