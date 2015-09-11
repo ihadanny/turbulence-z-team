@@ -62,28 +62,14 @@ def visualize_kmeans(kmeans, data, resolution = 100):
     x_min, x_max = reduced_data[:, 0].min(), reduced_data[:, 0].max()
     y_min, y_max = reduced_data[:, 1].min(), reduced_data[:, 1].max()
     
-#     xx, yy = np.meshgrid(np.linspace(x_min, x_max, resolution), np.linspace(y_min, y_max, resolution))
-
-    # Obtain labels for each point in mesh. Use last trained model.
-#     Z = kmeans.predict(np.c_[xx.ravel(), yy.ravel()])
-
-#     # Put the result into a color plot
-#     Z = Z.reshape(xx.shape)
-#     plt.figure(1)
-#     plt.clf()
-#     plt.imshow(Z, interpolation='nearest',
-#                extent=(xx.min(), xx.max(), yy.min(), yy.max()),
-#                cmap=plt.cm.Paired,
-#                aspect='auto', origin='lower')
-
     plt.scatter(reduced_data[:, 0], reduced_data[:, 1], c=kmeans.labels_, s=10, edgecolor='none', cmap='Paired')
-    # Plot the centroids as a white X
+    # Plot the centroids as Xs
     centroids = pca.transform(kmeans.cluster_centers_)
     plt.scatter(centroids[:, 0], centroids[:, 1],
                 marker='x', s=169, linewidths=3,
                 c=range(len(centroids)), zorder=10, cmap='Paired')
     plt.title('K-means clustering on the digits dataset (PCA-reduced data)\n'
-              'Centroids are marked with white cross')
+              'Centroids are marked with crosses')
     plt.xlim(x_min, x_max)
     plt.ylim(y_min, y_max)
     plt.xticks(())
@@ -91,19 +77,6 @@ def visualize_kmeans(kmeans, data, resolution = 100):
     plt.figure(figsize=(40,40))
     plt.show()
 
-
-
-# In[5]:
-
-# digits = load_digits()
-# dig_data = scale(digits.data)
-
-# n_samples, n_features = dig_data.shape
-# n_digits = len(np.unique(digits.target))
-
-# kmeans = KMeans(init='k-means++', n_clusters=10, n_init=10)
-# kmeans.fit(dig_data)
-# visualize_kmeans(kmeans, dig_data)
 
 
 # In[6]:
