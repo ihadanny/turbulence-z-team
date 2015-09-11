@@ -1,15 +1,13 @@
 
 # coding: utf-8
 
-# In[1]:
+# ## Used to create clusters of the vectorized data. 
+# * currently using good old k-means
+# * to visualize, we projected the data on 2d using PCA
+# * inspired by http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html)
+# 
 
-## Used to create clusters of the vectorized data. Currently using good old k-means
-## to visualize, we projected the data on 2d using PCA
-## (taken from http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html)
-## as the PCA decomposition showed dominance of Gender and Race, we took them out of the game before clustering 
-
-
-# In[2]:
+# In[7]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -18,6 +16,7 @@ import numpy as np
 from time import time
 import numpy as np
 import matplotlib.pyplot as plt
+import pickle
 
 from sklearn import metrics
 from sklearn.cluster import KMeans
@@ -31,29 +30,29 @@ from sklearn.externals import joblib
 plt.rcParams['figure.figsize'] = (15.0, 15.0)
 
 
-# In[3]:
+# In[2]:
 
 clustering_columns = [
-    'ALSFRS_Total_last_zscore',
-    'ALSFRS_Total_mean_slope_zscore',
-    'weight_mean_zscore', 
-    'weight_pct_diff_zscore',
-    'Age_last_zscore',
+    'ALSFRS_Total_last',
+    'ALSFRS_Total_mean_slope',
+    'weight_mean', 
+    'weight_pct_diff',
+    'Age_last',
     
-    'onset_delta_last_zscore',
-    'Albumin_last_zscore',
-    'Creatinine_last_zscore',
-    'fvc_percent_pct_diff_zscore',
-    'bp_systolic_mean_zscore',
+    'onset_delta_last',
+    'Albumin_last',
+    'Creatinine_last',
+    'fvc_percent_pct_diff',
+    'bp_systolic_mean',
         
 ]
 
 
-# In[4]:
+# ## Visualize results on PCA-reduced data
+
+# In[3]:
 
 
-###############################################################################
-# Visualize results on PCA-reduced data
 def visualize_kmeans(kmeans, data, resolution = 100):
     pca = PCA(n_components=2)
     reduced_data = pca.fit_transform(data)
@@ -79,23 +78,30 @@ def visualize_kmeans(kmeans, data, resolution = 100):
 
 
 
-# In[6]:
+# In[4]:
 
 proact_train = pd.read_csv('../train_data_vectorized.csv', sep = '|', index_col = 'SubjectID', dtype='float')
 proact_train = proact_train[clustering_columns]
 proact_train.head()
 
 
-# In[7]:
+# In[5]:
 
 kmeans = KMeans(init='k-means++', n_clusters=3)
 kmeans.fit(proact_train)
 visualize_kmeans(kmeans, proact_train)
-sorted([(metrics.adjusted_mutual_info_score(proact_train[col], kmeans.labels_), col) for col in proact_train.columns])
+print sorted([(metrics.adjusted_mutual_info_score(proact_train[col], kmeans.labels_), col) for col in proact_train.columns])
 print "Cluster cnt: ", np.bincount(kmeans.labels_)
 
 
+# ## Pickle the clustering model
+
 # In[8]:
+
+pickle.dump( kmeans, open('../kmeans.pickle', 'wb') )
+
+
+# In[10]:
 
 
 for t in ['train', 'test']:
@@ -103,7 +109,13 @@ for t in ['train', 'test']:
     cur_data = cur_data[clustering_columns]
     res = pd.DataFrame(index = cur_data.index)
     res['cluster'] = kmeans.predict(cur_data)
+    print t, res.shape
     res.to_csv('../' + t + '_kmeans_clusters.csv',sep='|')
+
+
+# In[ ]:
+
+
 
 
 # In[ ]:
