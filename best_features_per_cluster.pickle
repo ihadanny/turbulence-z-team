@@ -29,9 +29,9 @@ aS'BMI'
 p13
 aS'Gender'
 p14
-aS'Race'
-p15
 aS'family_ALS_hist'
+p15
+aS'fvc_percent'
 p16
 aS'height'
 p17
@@ -45,10 +45,10 @@ Rp20
 g12
 ag13
 ag14
-aS'fvc_percent'
+aS'Race'
 p22
 ag17
-aS'respiratory_rate'
+aS'pulse'
 p23
 asg1
 (g5
@@ -60,7 +60,7 @@ Rp26
 g12
 ag13
 ag14
+ag22
 ag15
-ag16
 ag17
 as.
