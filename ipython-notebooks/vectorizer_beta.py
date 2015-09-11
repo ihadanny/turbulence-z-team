@@ -1,17 +1,14 @@
 
 # coding: utf-8
 
-# In[1]:
+# ## Builds a model for vectorizing the raw data (apply it once on train and once on test) :
+# * pivot from the initial feature_name:feature_value form to a vector
+# * handle dummy variables: translate categoric variables into N-1 dummy variables (The model is based on categories in train data)
+# * handle time-series variables: reduce them in several hard-coded methods
+# * fill missing values with train data means, and normalize to z-scores with train data std
+# 
 
-## Used for vectorizing the raw data (run it once on train and once on test) :
-## Pivoting it from the initial feature_name:feature_value form to a vector
-## scalar_feature_to_dummies - Translating categoric variables into N-1 dummy variables
-## timeseries_feature_slope_reduced - mean, std for time series variables (have multiple measurements in different times)
-## timeseries_feature_last_value - take last value in time series
-## Filling empty values with means - NOTE that these have to be the train data means
-
-
-# In[2]:
+# In[199]:
 
 import pandas as pd
 import numpy as np
@@ -19,7 +16,7 @@ import pickle
 from collections import defaultdict
 
 
-# In[3]:
+# In[200]:
 
 df = pd.read_csv('../train_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
@@ -37,7 +34,7 @@ df.head()
 
 # ### Scalar -> Dummies
 
-# In[4]:
+# In[201]:
 
 def scalar_feature_to_dummies_core(df, feature_metadata):
     my_slice = df[df.feature_name == feature_metadata["feature_name"]]
@@ -52,8 +49,7 @@ def learn_scalar_feature_to_dummies(df, feature_metadata):
 
 def apply_scalar_feature_to_dummies(df, feature_metadata):
     dum = scalar_feature_to_dummies_core(df, feature_metadata)
-    dum.reindex(columns = feature_metadata["derived_features"], fill_value=0)   
-    return dum
+    return dum.reindex(columns = feature_metadata["derived_features"], fill_value=0)   
 
 
 # ## Time Series functions
@@ -63,11 +59,11 @@ def apply_scalar_feature_to_dummies(df, feature_metadata):
 
 # ### Timeseries -> Slope, %diff, stats
 
-# In[5]:
+# In[202]:
 
 def ts_pct_diff(ts_data, feature_metadata):
     if len(ts_data) < 2:
-        return None
+        return { "pct_diff": None }
     
     ts_data_sorted = ts_data.sort('feature_delta')
     values = ts_data_sorted.feature_value.astype('float')
@@ -76,20 +72,20 @@ def ts_pct_diff(ts_data, feature_metadata):
     time_diff = time_values.iloc[-1] - time_values.iloc[0]
     val = ( values.iloc[-1] - values.iloc[0] ) / ( values.iloc[0] * time_diff)
     if val == float('inf'):
-        return None
+        return { "pct_diff": None }
     
     return { "pct_diff": val }
     
 def ts_stats(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return None
+        return { "mean": None, "std": None, "median": None }
     
     values = ts_data.feature_value.astype('float')
     return { "mean": values.mean(), "std": values.std(), "median": values.median() }
     
 def ts_mean_slope(ts_data, feature_metadata):
     if len(ts_data) < 2:
-        return None
+        return { "mean_slope": None }
     
     ts_data_sorted = ts_data.sort('feature_delta') 
     ts_data_sorted.feature_value = ts_data_sorted.feature_value.astype('float')
@@ -101,21 +97,21 @@ def ts_mean_slope(ts_data, feature_metadata):
 
 # ## Timeseries -> last value
 
-# In[6]:
+# In[203]:
 
 def ts_last_value(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return None
+        return { "last": None }
     
     ts_data_sorted = ts_data.sort('feature_delta') 
     return { "last": ts_data_sorted.feature_value.astype('float').iloc[-1] }
 
 
-# In[7]:
+# In[204]:
 
 def ts_last_boolean(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return None
+        return { "last": None }
     val_str = str(ts_data.feature_value.iloc[-1]).lower()
     if val_str == 'y' or val_str == 'true':
         val = 1
@@ -125,12 +121,17 @@ def ts_last_boolean(ts_data, feature_metadata):
     
 
 
-# # Assign features to functions
+# # Build metadata: assign features to vectorizing functions
 # funcs_to_features arrays define pairs of funcs (can be a list of functions or a single one) and features that should get these functions calculated. Overlapping is allowed.
 # 
-# There is a list for time-series functions (as described before) and for global function (like scalar->dummies). Both are inverted to feature_to_funcs maps.
+# There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[8]:
+# In[ ]:
+
+
+
+
+# In[206]:
 
 ts_funcs_to_features = [ 
     { 
@@ -177,21 +178,19 @@ def invert_func_to_features(ftf, feature_type):
         for func in funcs: 
             for feature in features:
                 if feature not in res:
-                    res[feature] = {"feature_name": feature, "funcs": set(), "feature_type": feature_type}
+                    res[feature] = {"feature_name": feature, "funcs": set(), 
+                                    "feature_type": feature_type, "derived_features": set()}
                 res[feature]["funcs"].add(func)
     return res
     
-ts_feature_to_funcs = invert_func_to_features(ts_funcs_to_features, "ts")
-dummy_feature_to_funcs = invert_func_to_features(dummy_funcs_to_features, "dummy")
-
-all_feature_metadata = ts_feature_to_funcs.copy()
-all_feature_metadata.update(dummy_feature_to_funcs)
+all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
+all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
 
 
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[9]:
+# In[207]:
 
 def learn_to_dummies_model(df, all_feature_metadata):
     new_metadata = all_feature_metadata.copy()
@@ -204,20 +203,14 @@ def learn_to_dummies_model(df, all_feature_metadata):
 all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 
-# In[ ]:
+# ##Vectorize `train` data 
 
-
-
-
-# In[10]:
+# In[208]:
 
 def to_series(f):
     def foo(x, args):
         res = f(x, args)
-        if res is None: 
-            return None
-        else:
-            return pd.Series(res)
+        return pd.Series(res)
     return foo
 
 def parse_feature_delta(fd):
@@ -230,47 +223,52 @@ def parse_feature_delta(fd):
         return None
 
 
-def vectorize(df, all_feature_metadata):
+# In[211]:
+
+
+def vectorize(df, all_feature_metadata, debug=False):
     vectorized = pd.DataFrame(index=df.SubjectID.unique())
     df.loc[:,'feature_delta'] = df.feature_delta.apply(parse_feature_delta)
     pointintime_data = df[df.feature_delta < 92]
     pointintime_data = pointintime_data.drop_duplicates(subset = ['SubjectID', 'feature_name' ,'feature_delta'], take_last=True)
     new_metadata = all_feature_metadata.copy()
     for feature, fm in all_feature_metadata.iteritems():
-        if fm["feature_type"] == "dummy":
-            for func in fm["funcs"]:
+        feature_ts_data = pointintime_data[pointintime_data.feature_name == feature]
+        for func in fm["funcs"]:
+            if fm["feature_type"] == "dummy":
                 res = func(df, fm)
-        elif fm["feature_type"] == "ts":    
-            # Time Series functions: receive time-series data, return a dict from feature_suffix ("mean", "median", "last", ...) to value
-            # Those are being run on a specific SubjectID and within the allowed timeframe.
-            feature_ts_data = pointintime_data[pointintime_data.feature_name == feature]
-            for func in fm["funcs"]: 
+            elif fm["feature_type"] == "ts":    
                 res = pd.DataFrame(feature_ts_data.groupby('SubjectID').apply(to_series(func), args=fm))
                 res.columns = [ feature + "_" + str(col_suffix) for col_suffix in res.columns ]
-        else:
-            raise Exception("unknown feature type: " + fv["feature_type"])
-        vectorized = pd.merge(vectorized, res, how='left', right_index=True, left_index=True)
-        new_metadata[feature]["derived_features"] = res.columns
+                for col in res.columns:
+                    new_metadata[feature]["derived_features"].add(col)
+            else:
+                raise Exception("unknown feature type: " + fv["feature_type"])
+            vectorized = pd.merge(vectorized, res, how='left', right_index=True, left_index=True)
+        if debug:
+            print feature
 
     vectorized.index.name='SubjectID'
     return vectorized, new_metadata
 
 
-# In[11]:
+# In[212]:
 
-vectorized, all_feature_metadata = vectorize(df, all_feature_metadata)
+
+vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
 vectorized.head()
 
 
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[12]:
+# In[213]:
 
 train_data_means = vectorized.mean()
 train_data_std = vectorized.std()
 
 def normalize(vectorized, all_feature_metadata, train_data_means, train_data_std):
+    vectorized = vectorized.reindex(columns=train_data_means.keys())
     normalized = vectorized.fillna(train_data_means)
     for feature, fm in all_feature_metadata.iteritems():
         for col in fm["derived_features"]:
@@ -279,7 +277,6 @@ def normalize(vectorized, all_feature_metadata, train_data_means, train_data_std
     return normalized, all_feature_metadata
             
 normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-print normalized.columns
 normalized.head()
 
 
@@ -288,56 +285,49 @@ normalized.head()
 
 
 
-# ## Pickle everything we need to use later when vectorizing
+# ## Pickle all metadata we will need to use later when applying vectorizer
 
-# In[15]:
+# In[214]:
 
 pickle.dump( all_feature_metadata, open('../all_feature_metadata.pickle', 'wb') )
 pickle.dump( train_data_means, open('../train_data_means.pickle', 'wb') )
 pickle.dump( train_data_std, open('../train_data_std.pickle', 'wb') )
 
 
-# ## Apply model on `train`, and then apply model on `test` subject by subject, as thats the required mod-op in production
+# ## Apply model on `train`,  `test` 
+# 
 
-# In[16]:
+# In[215]:
 
 
-t = "train"
-df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
-vectorized, _ = vectorize(df, all_feature_metadata)
-normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-print t, normalized.shape
-normalized.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
+for t in ["train", "test"]:
+    df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
+    vectorized, _ = vectorize(df, all_feature_metadata, debug=False)
+    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+    print t, normalized.shape
+    normalized.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
+
+normalized.head()
+
+
+# Test subject by subject, as thats the required mod-op in production
+
+# In[216]:
 
 t = "test"
 df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
-for subj in df.SubjectID.unique():
+stack = None
+for subj in df.SubjectID.unique()[:5]:
     df_subj = df[df.SubjectID == subj]
     vectorized, _ = vectorize(df_subj, all_feature_metadata)
     normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+    if stack is None:
+        stack = normalized
+    else: 
+        stack = stack.append(normalized)
 
-print t, normalized.shape
-normalized.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
+print t, stack.shape
+stack.head()
 
 
 # In[ ]:
