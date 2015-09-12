@@ -8,7 +8,7 @@
 # * First line: the cluster identifier for that patient
 # * Following lines: the selected features selected for that specific single patient, using the same format as the input data. A maximum of 6 features are allowed.
 
-# In[8]:
+# In[1]:
 
 import pickle
 import pandas as pd
