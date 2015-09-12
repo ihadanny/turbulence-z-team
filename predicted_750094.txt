@@ -1,0 +1,2 @@
+SubjectID|SubjectID|cluster|features_list|prediction
+750094|750094|2|Age;BMI;Gender;Race;family_ALS_hist;height|-0.739465196552

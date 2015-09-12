@@ -1,0 +1,6 @@
+cluster: 2
+750094|Demographic|Gender|F||0.0
+750094|Demographic|Age|64||0.0
+750094|Demographic|Race|White||0.0
+750094|Vitals|height|158.0|cm|0.0
+750094|Vitals|height|158.0|cm|8.0

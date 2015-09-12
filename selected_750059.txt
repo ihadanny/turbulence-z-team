@@ -1,0 +1,5 @@
+cluster: 0
+750059|Demographic|Gender|M||0.0
+750059|Demographic|Age|54||0.0
+750059|Vitals|height|195.58|cm|0.0
+750059|Vitals|BMI|0.00282223686053039||0.0

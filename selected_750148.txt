@@ -1,0 +1,6 @@
+cluster: 2
+750148|Demographic|Gender|F||0.0
+750148|Demographic|Age|67||0.0
+750148|Demographic|Race|White||0.0
+750148|Vitals|height|160.0|cm|0.0
+750148|Vitals|BMI|0.0022421875||0.0

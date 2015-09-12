@@ -19,10 +19,12 @@ from collections import defaultdict
 
 # ### Scalar -> Dummies
 
-# In[9]:
+# In[1]:
 
 def scalar_feature_to_dummies_core(df, feature_metadata):
     my_slice = df[df.feature_name == feature_metadata["feature_name"]]
+    if my_slice.shape[0] == 0:
+        return pd.DataFrame()
     my_slice_pivot = pd.pivot_table(my_slice, values = ['feature_value'], index = ['SubjectID'], 
                                 columns = ['feature_name'], aggfunc = lambda x:x)
     dum = pd.get_dummies(my_slice_pivot['feature_value'][feature_metadata["feature_name"]])
