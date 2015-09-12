@@ -4,7 +4,7 @@
 # ## Run predictor.sh
 # Read the challenge standard selected features and emit a prediction
 
-# In[6]:
+# In[1]:
 
 import pickle
 import pandas as pd
@@ -14,15 +14,15 @@ from os.path import isfile, join
 from StringIO import StringIO
 from vectorizing_funcs import *
 
-all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
-train_data_means = pickle.load( open('../train_data_means.pickle', 'rb') )
-train_data_std = pickle.load( open('../train_data_std.pickle', 'rb') )
-model_per_cluster = pickle.load( open('../model_per_cluster.pickle', 'rb') )
-
 if "IPython" not in sys.argv[0]:
-    input_file, output_file= sys.argv[1], sys.argv[2]
+    models_folder, input_file, output_file= sys.argv[1], sys.argv[2], sys.argv[3]
 else:
-    input_file, output_file= "../selected_60879.txt", "../predicted_60879.txt"
+    models_folder, input_file, output_file= "../", "../selected_60879.txt", "../predicted_60879.txt"
+
+all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
+train_data_means = pickle.load( open(models_folder + '/train_data_means.pickle', 'rb') )
+train_data_std = pickle.load( open(models_folder + '/train_data_std.pickle', 'rb') )
+model_per_cluster = pickle.load( open(models_folder + '/model_per_cluster.pickle', 'rb') )
 
 def calc(x):
     c = x['cluster']

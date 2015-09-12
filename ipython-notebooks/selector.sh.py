@@ -15,18 +15,17 @@ import pandas as pd
 import sys
 from vectorizing_funcs import *
 
-
-all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
-train_data_means = pickle.load( open('../train_data_means.pickle', 'rb') )
-train_data_std = pickle.load( open('../train_data_std.pickle', 'rb') )
-clustering_model = pickle.load( open('../clustering_model.pickle', 'rb') )
-best_features_per_cluster = pickle.load( open('../best_features_per_cluster.pickle', 'rb') )
-
 if "IPython" not in sys.argv[0]:
-    input_file, output_file= sys.argv[1], sys.argv[2]
+    models_folder, input_file, output_file= sys.argv[1], sys.argv[2], sys.argv[3]
 else:
-    input_file, output_file= "../60879.txt", "../selected_60879.txt"
-    
+    models_folder, input_file, output_file= "../", "../60879.txt", "../selected_60879.txt"
+
+all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
+train_data_means = pickle.load( open(models_folder + '/train_data_means.pickle', 'rb') )
+train_data_std = pickle.load( open(models_folder + '/train_data_std.pickle', 'rb') )
+clustering_model = pickle.load( open(models_folder + '/clustering_model.pickle', 'rb') )
+best_features_per_cluster = pickle.load( open(models_folder + '/best_features_per_cluster.pickle', 'rb') )
+   
 df = pd.read_csv(input_file, sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 for subj in df.SubjectID.unique()[:3]:
     df_subj = df[df.SubjectID == subj]
