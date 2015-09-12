@@ -8,7 +8,7 @@
 # * fill missing values with train data means, and normalize to z-scores with train data std
 # 
 
-# In[4]:
+# In[1]:
 
 import pandas as pd
 import numpy as np
@@ -17,7 +17,7 @@ from collections import defaultdict
 from vectorizing_funcs import *
 
 
-# In[5]:
+# In[2]:
 
 df = pd.read_csv('../train_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
@@ -28,7 +28,7 @@ df.head()
 # 
 # There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[6]:
+# In[3]:
 
 ts_funcs_to_features = [ 
     { 
@@ -87,7 +87,7 @@ all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "du
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[7]:
+# In[4]:
 
 def learn_to_dummies_model(df, all_feature_metadata):
     new_metadata = all_feature_metadata.copy()
@@ -102,7 +102,7 @@ all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 # ##Vectorize `train` data 
 
-# In[8]:
+# In[5]:
 
 
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
@@ -112,20 +112,10 @@ vectorized.head()
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[9]:
+# In[6]:
 
 train_data_means = vectorized.mean()
-train_data_std = vectorized.std()
-
-def normalize(vectorized, all_feature_metadata, train_data_means, train_data_std):
-    vectorized = vectorized.reindex(columns=train_data_means.keys())
-    normalized = vectorized.fillna(train_data_means)
-    for feature, fm in all_feature_metadata.iteritems():
-        for col in fm["derived_features"]:
-            data = normalized[col].astype('float')
-            normalized.loc[:, col] = (data - train_data_means[col])/train_data_std[col]
-    return normalized, all_feature_metadata
-            
+train_data_std = vectorized.std()            
 normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
 normalized.head()
 
@@ -137,7 +127,7 @@ normalized.head()
 
 # ## Pickle all metadata we will need to use later when applying vectorizer
 
-# In[10]:
+# In[7]:
 
 pickle.dump( all_feature_metadata, open('../all_feature_metadata.pickle', 'wb') )
 pickle.dump( train_data_means, open('../train_data_means.pickle', 'wb') )
@@ -147,7 +137,7 @@ pickle.dump( train_data_std, open('../train_data_std.pickle', 'wb') )
 # ## Apply model on `train`,  `test` 
 # 
 
-# In[11]:
+# In[8]:
 
 
 for t in ["train", "test"]:
@@ -158,31 +148,6 @@ for t in ["train", "test"]:
     normalized.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
 
 normalized.head()
-
-
-# Test subject by subject, as thats the required mod-op in production
-
-# In[13]:
-
-t = "test"
-df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
-stack = None
-for subj in df.SubjectID.unique()[:5]:
-    df_subj = df[df.SubjectID == subj]
-    vectorized, _ = vectorize(df_subj, all_feature_metadata)
-    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-    if stack is None:
-        stack = normalized
-    else: 
-        stack = stack.append(normalized)
-
-print t, stack.shape
-stack.head()
-
-
-# In[ ]:
-
-
 
 
 # In[ ]:

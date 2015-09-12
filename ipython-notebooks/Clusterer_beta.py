@@ -7,7 +7,7 @@
 # * inspired by http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html)
 # 
 
-# In[4]:
+# In[8]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -25,32 +25,15 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import scale
 
 from sklearn.externals import joblib
+from clustering_and_selection_functions import *
 
 
 plt.rcParams['figure.figsize'] = (15.0, 15.0)
 
 
-# In[5]:
-
-clustering_columns = [
-    'ALSFRS_Total_last',
-    'ALSFRS_Total_mean_slope',
-    'weight_mean', 
-    'weight_pct_diff',
-    'Age_last',
-    
-    'onset_delta_last',
-    'Albumin_last',
-    'Creatinine_last',
-    'fvc_percent_pct_diff',
-    'bp_systolic_mean',
-        
-]
-
-
 # ## Visualize results on PCA-reduced data
 
-# In[6]:
+# In[9]:
 
 
 def visualize_kmeans(kmeans, data, resolution = 100):
@@ -78,14 +61,14 @@ def visualize_kmeans(kmeans, data, resolution = 100):
 
 
 
-# In[7]:
+# In[10]:
 
 proact_train = pd.read_csv('../train_data_vectorized.csv', sep = '|', index_col = 'SubjectID', dtype='float')
 proact_train = proact_train[clustering_columns]
 proact_train.head()
 
 
-# In[8]:
+# In[11]:
 
 kmeans = KMeans(init='k-means++', n_clusters=3)
 kmeans.fit(proact_train)
@@ -96,13 +79,13 @@ print "Cluster cnt: ", np.bincount(kmeans.labels_)
 
 # ## Pickle the clustering model
 
-# In[9]:
+# In[12]:
 
 clustering_model = {"columns": clustering_columns, "model": kmeans}
 pickle.dump( clustering_model, open('../clustering_model.pickle', 'wb') )
 
 
-# In[12]:
+# In[13]:
 
 
 for t in ['train', 'test']:
