@@ -12,6 +12,11 @@ import pickle
 from collections import defaultdict
 
 
+# In[ ]:
+
+
+
+
 # # Define all kind of vectorization and aggregation functions
 
 # ## Global functions
@@ -108,6 +113,62 @@ def ts_last_boolean(ts_data, feature_metadata):
     
 
 
+# ## Metadata
+# Static part of our metadata - which feature maps to which vectorizing func?
+
+# In[ ]:
+
+ts_funcs_to_features = [ 
+    { 
+        "funcs": [ ts_stats, ts_mean_slope, ts_pct_diff ],
+        "features": [
+            'ALSFRS_Total', 'weight', 'Albumin', 'Creatinine',
+            'bp_diastolic', 'bp_systolic', 'pulse', 'respiratory_rate', 'temperature',
+        ]
+    },
+    {
+        "funcs": ts_last_value,
+        "features": [
+            'ALSFRS_Total', 'BMI', 'height', 'Age', 'onset_delta', 'Albumin', 'Creatinine',
+        ]
+    },
+    { 
+        "funcs": ts_pct_diff,
+        "features": [ 
+            'fvc_percent',
+        ]
+    },
+    {
+        "funcs": ts_last_boolean,
+        "features": [
+            'family_ALS_hist',
+        ]
+    }
+]
+
+dummy_funcs_to_features = [ 
+    { 
+        "funcs": apply_scalar_feature_to_dummies,
+        "features": [ 'Gender', 'Race' ]
+    }   
+]
+
+def invert_func_to_features(ftf, feature_type):
+    res = {}
+    for ff in ftf:
+        funcs = ff['funcs']
+        features = ff['features']
+        if not type(funcs) is list:
+            funcs = [funcs] # a single function
+        for func in funcs: 
+            for feature in features:
+                if feature not in res:
+                    res[feature] = {"feature_name": feature, "funcs": set(), 
+                                    "feature_type": feature_type, "derived_features": set()}
+                res[feature]["funcs"].add(func)
+    return res
+
+
 # ## Helper functions
 
 # In[13]:
@@ -159,7 +220,7 @@ def vectorize(df, all_feature_metadata, debug=False):
     return vectorized, new_metadata
 
 
-# ## Normalizer
+# ## Normalize
 
 # In[15]:
 

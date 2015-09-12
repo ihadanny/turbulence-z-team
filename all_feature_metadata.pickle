@@ -35,10 +35,10 @@ g3
 g4
 ((lp19
 cvectorizing_funcs
-ts_stats
+ts_pct_diff
 p20
 acvectorizing_funcs
-ts_pct_diff
+ts_stats
 p21
 acvectorizing_funcs
 ts_mean_slope
@@ -307,9 +307,9 @@ p138
 g3
 g4
 ((lp140
-g20
+g67
+ag20
 ag21
-ag67
 ag22
 atp141
 Rp142
@@ -340,9 +340,9 @@ p152
 g3
 g4
 ((lp154
-g20
+g67
+ag20
 ag21
-ag67
 ag22
 atp155
 Rp156
@@ -483,9 +483,9 @@ p214
 g3
 g4
 ((lp216
-g20
+g67
+ag20
 ag21
-ag67
 ag22
 atp217
 Rp218
@@ -516,7 +516,7 @@ p228
 g3
 g4
 ((lp230
-g21
+g20
 atp231
 Rp232
 sg9
