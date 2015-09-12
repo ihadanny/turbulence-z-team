@@ -6,7 +6,7 @@
 # Used by organizers to calculate score
 
 
-# In[1]:
+# In[4]:
 
 import pandas as pd
 import numpy as np
@@ -25,6 +25,11 @@ for t in [('train_prediction', 'train_slope'),
     # The mean square error
     print f + " mean square error: %.3f, size: %s" % (np.mean((j['prediction'] - j['ALSFRS_slope']) ** 2), j.shape)  
     print
+
+
+# In[ ]:
+
+
 
 
 # In[ ]:

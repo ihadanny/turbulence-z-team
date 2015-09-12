@@ -1,0 +1,3979 @@
+SubjectID|form_name|feature_name|feature_value|feature_unit|feature_delta
+750059|Demographic|Gender|M||0.0
+750059|Demographic|Age|54||0.0
+750059|Vitals|height|195.58|cm|0
+750059|Vitals|BMI|0.00282223686053039||0
+750195|Demographic|Gender|M||0.0
+750195|Demographic|Age|67||0.0
+750195|Vitals|height|178.0|cm|0
+750195|FVC|fvc_percent|84.6419811721586|%|0
+750195|FVC|fvc_percent|84.6419811721586|%|31
+750406|Demographic|Gender|F||0.0
+750406|Demographic|Age|60||0.0
+750406|Vitals|height|160.0|cm|0
+750406|Vitals|height|160.0|cm|19
+750406|Vitals|BMI|0.0031953125||0
+750406|Vitals|BMI|0.0031953125||19
+750406|FVC|fvc_percent|81.358530394793|%|0
+750406|FVC|fvc_percent|82.3009071947327|%|19
+750406|FVC|fvc_percent|77.5890231950343|%|47
+750406|FVC|fvc_percent|72.8771391953359|%|84
+755652|Demographic|Gender|F||0.0
+755652|Demographic|Age|49||0.0
+755652|FamilyHx|family_ALS_hist|N||0.0
+755652|Vitals|height|165.0|cm|0
+755652|Vitals|BMI|0.00293112947658402||0
+755652|FVC|fvc_percent|71.5353936660033|%|0
+755652|FVC|fvc_percent|78.0633383351443|%|29
+755652|FVC|fvc_percent|73.1673798332885|%|56
+755652|FVC|fvc_percent|73.7113752223836|%|88
+756895|Demographic|Gender|M||0.0
+756895|Demographic|Age|72||0.0
+756895|Vitals|height|176.0|cm|0
+756895|Vitals|BMI|0.00290547520661157||0
+757403|Demographic|Gender|M||0.0
+757403|Demographic|Age|74||0.0
+757403|Vitals|height|183.0|cm|0
+757403|FVC|fvc_percent|70.7174519931982|%|0
+757403|FVC|fvc_percent|79.1516435153227|%|31
+757403|FVC|fvc_percent|75.4752010569608|%|62
+757403|FVC|fvc_percent|70.7174519931982|%|90
+757552|Demographic|Gender|F||0.0
+757552|Demographic|Age|42||0.0
+757552|Vitals|height|168.0|cm|0
+757552|Vitals|height|168.0|cm|9
+757552|FVC|fvc_percent|109.983963169749|%|0
+757552|FVC|fvc_percent|96.5217228741446|%|9
+757552|FVC|fvc_percent|98.8077636790586|%|39
+757552|FVC|fvc_percent|105.157877026042|%|70
+757719|Demographic|Gender|M||0.0
+757719|Demographic|Age|57||0.0
+757719|FamilyHx|family_ALS_hist|N||0.0
+757719|Vitals|height|179.0|cm|0
+757719|Vitals|BMI|0.00327393027683281||0
+757719|FVC|fvc_percent|103.393528991956|%|0
+757719|FVC|fvc_percent|99.3468155284746|%|36
+757719|FVC|fvc_percent|101.977179279738|%|63
+757731|Demographic|Gender|M||0.0
+757731|Demographic|Age|51||0.0
+757731|Vitals|height|170.0|cm|7
+757731|Vitals|height|170.0|cm|0
+757731|Vitals|BMI|0.0029757785467128||7
+757731|Vitals|BMI|0.00294117647058824||0
+757731|FVC|fvc_percent|84.2409219336382|%|7
+757731|FVC|fvc_percent|84.6534648257405|%|42
+757731|FVC|fvc_percent|82.5907565533476|%|0
+758504|Demographic|Gender|M||0.0
+758504|Demographic|Age|49||0.0
+758504|Vitals|height|165.0|cm|0
+758504|Vitals|height|165.0|cm|7
+758504|FVC|fvc_percent|84.5933386143635|%|0
+758504|FVC|fvc_percent|88.1082972825503|%|7
+758504|FVC|fvc_percent|88.3426278604294|%|36
+758504|FVC|fvc_percent|83.8903468807261|%|66
+758679|Demographic|Gender|M||0.0
+758679|Demographic|Age|40||0.0
+758679|FVC|fvc_percent|84.2454763805049|%|0
+758679|FVC|fvc_percent|85.3793320518441|%|10
+759115|Demographic|Gender|F||0.0
+759115|Demographic|Age|40||0.0
+759115|Vitals|height|155.0|cm|0
+759115|Vitals|BMI|0.00300936524453694||0
+759115|FVC|fvc_percent|103.499483545826|%|76
+759115|FVC|fvc_percent|101.278464585615|%|7
+759115|FVC|fvc_percent|109.274132842374|%|0
+759302|Demographic|Gender|F||0.0
+759302|Demographic|Age|42||0.0
+759302|Vitals|height|160.0|cm|0
+759302|Vitals|height|160.0|cm|8
+759302|FVC|fvc_percent|110.47880159811|%|0
+759302|FVC|fvc_percent|107.942298500194|%|8
+759302|FVC|fvc_percent|105.687629079824|%|40
+759302|FVC|fvc_percent|105.687629079824|%|71
+760076|Demographic|Gender|M||0.0
+760076|Demographic|Age|18||0.0
+760076|Vitals|height|177.8|cm|0
+760076|Vitals|BMI|0.0023072142078978||0
+762989|Demographic|Gender|M||0.0
+762989|Demographic|Age|60||0.0
+762989|Vitals|height|170.0|cm|0
+762989|FVC|fvc_percent|114.44014147428|%|0
+762989|FVC|fvc_percent|110.45349720161|%|28
+762989|FVC|fvc_percent|110.922514174865|%|56
+762989|FVC|fvc_percent|102.949225629526|%|91
+764526|Demographic|Gender|M||0.0
+764526|Demographic|Age|53||0.0
+764526|FVC|fvc_percent|81.8314661471018|%|0
+764526|FVC|fvc_percent|83.7798343886995|%|13
+764526|FVC|fvc_percent|79.8830979055041|%|37
+764526|FVC|fvc_percent|84.169508037019|%|69
+764548|Demographic|Gender|M||0.0
+764548|Demographic|Age|48||0.0
+764548|Vitals|height|188.0|cm|0
+764548|FVC|fvc_percent|80.5191036793794|%|76
+764548|FVC|fvc_percent|79.1999833700842|%|11
+764548|FVC|fvc_percent|85.9011145413039|%|0
+765885|Demographic|Gender|M||0.0
+765885|Demographic|Age|57||0.0
+765885|Vitals|height|181.0|cm|0
+765885|Vitals|BMI|0.00270138274167455||0
+765885|FVC|fvc_percent|111.69102412833|%|0
+765885|FVC|fvc_percent|106.963361731364|%|28
+765885|FVC|fvc_percent|110.903080395503|%|57
+765885|FVC|fvc_percent|106.372403931743|%|91
+766855|Demographic|Gender|M||0.0
+766855|Demographic|Age|41||0.0
+766855|FamilyHx|family_ALS_hist|N||0.0
+766855|Vitals|height|188.0|cm|0
+766855|Vitals|height|188.0|cm|16
+766855|FVC|fvc_percent|75.5497102452516|%|0
+766855|FVC|fvc_percent|74.0420663600914|%|16
+766855|FVC|fvc_percent|82.7528976965728|%|51
+766855|FVC|fvc_percent|68.8490707556506|%|77
+768342|Demographic|Gender|M||0.0
+768342|Demographic|Age|62||0.0
+768342|FVC|fvc_percent|80.3953918546163|%|0
+768342|FVC|fvc_percent|80.0272810860512|%|12
+770063|Demographic|Gender|M||0.0
+770063|Demographic|Age|45||0.0
+770063|Vitals|height|180.0|cm|0
+770063|Vitals|height|180.0|cm|9
+770063|Vitals|BMI|0.00303086419753086||0
+770063|Vitals|BMI|0.00303086419753086||9
+770063|FVC|fvc_percent|64.9060372556902|%|0
+770063|FVC|fvc_percent|69.4081901289173|%|9
+770063|FVC|fvc_percent|64.530857849588|%|36
+770063|FVC|fvc_percent|51.399578636009|%|71
+770220|Demographic|Gender|M||0.0
+770220|Demographic|Age|39||0.0
+770220|Vitals|height|174.0|cm|0
+770220|Vitals|BMI|0.00254326859558726||0
+770220|FVC|fvc_percent|102.633680507021|%|0
+770220|FVC|fvc_percent|97.6993689441836|%|33
+770220|FVC|fvc_percent|98.8836037192646|%|68
+770886|Demographic|Gender|M||0.0
+770886|Demographic|Age|48||0.0
+770886|Vitals|height|180.0|cm|0
+770886|Vitals|height|180.0|cm|8
+770886|Vitals|BMI|0.0040679012345679||0
+770886|Vitals|BMI|0.00396913580246914||8
+770886|FVC|fvc_percent|61.624466586986|%|0
+770886|FVC|fvc_percent|61.244068645091|%|8
+770886|FVC|fvc_percent|61.0538696741435|%|40
+770886|FVC|fvc_percent|60.863670703196|%|68
+771961|Demographic|Gender|F||0.0
+771961|Demographic|Age|46||0.0
+771961|Vitals|height|170.0|cm|0
+771961|Vitals|BMI|0.0026643598615917||0
+771961|FVC|fvc_percent|104.33891492054|%|0
+771961|FVC|fvc_percent|99.0591144064888|%|26
+771961|FVC|fvc_percent|104.087495848443|%|56
+771961|FVC|fvc_percent|101.824724199563|%|77
+773887|Demographic|Gender|M||0.0
+773887|Demographic|Age|56||0.0
+773887|Vitals|height|164.0|cm|0
+773887|Vitals|height|164.0|cm|17
+773887|FVC|fvc_percent|92.2024553005487|%|0
+773887|FVC|fvc_percent|105.40983403279|%|17
+773887|FVC|fvc_percent|105.908225683063|%|52
+773887|FVC|fvc_percent|103.665463256833|%|80
+773939|Demographic|Gender|M||0.0
+773939|Demographic|Age|50||0.0
+773939|FamilyHx|family_ALS_hist|Y||0.0
+773939|Vitals|height|183.0|cm|0
+773939|Vitals|BMI|0.00268744961031981||0
+773939|FVC|fvc_percent|88.3676490858095|%|0
+773939|FVC|fvc_percent|97.6111270236557|%|33
+773939|FVC|fvc_percent|93.3591271722464|%|66
+774670|Demographic|Gender|M||0.0
+774670|Demographic|Age|53||0.0
+774670|Vitals|height|183.0|cm|0
+774670|Vitals|height|183.0|cm|13
+774670|Vitals|BMI|0.00256502135029413||0
+774670|Vitals|BMI|0.00258890979127475||13
+774670|FVC|fvc_percent|72.0148186661932|%|13
+774670|FVC|fvc_percent|89.0377098441568|%|41
+774670|FVC|fvc_percent|92.1630084329901|%|0
+774727|Demographic|Gender|M||0.0
+774727|Demographic|Age|52||0.0
+774727|FVC|fvc_percent|93.1258106355383|%|0
+774727|FVC|fvc_percent|98.5732814526589|%|42
+774727|FVC|fvc_percent|93.6446173800259|%|70
+774837|Demographic|Gender|M||0.0
+774837|Demographic|Age|64||0.0
+774837|Vitals|height|173.0|cm|0
+774837|FVC|fvc_percent|79.5338910764588|%|0
+774837|FVC|fvc_percent|70.2857642071031|%|28
+774837|FVC|fvc_percent|75.3722339852488|%|56
+774837|FVC|fvc_percent|76.5282498439182|%|91
+775723|Demographic|Gender|M||0.0
+775723|Demographic|Age|48||0.0
+775723|Vitals|height|170.0|cm|0
+775723|Vitals|height|170.0|cm|11
+775723|Vitals|BMI|0.00305190311418685||0
+775723|Vitals|BMI|0.00303460207612457||11
+775723|FVC|fvc_percent|81.2128597740545|%|0
+775723|FVC|fvc_percent|85.1215000840358|%|11
+775723|FVC|fvc_percent|79.0413929351761|%|39
+775723|FVC|fvc_percent|83.8186199807087|%|67
+776021|Demographic|Gender|M||0.0
+776021|Demographic|Age|39||0.0
+776021|Vitals|height|185.0|cm|0
+776021|Vitals|height|185.0|cm|7
+776021|FVC|fvc_percent|78.0666290924341|%|0
+776021|FVC|fvc_percent|84.0982671017833|%|7
+776021|FVC|fvc_percent|83.9259345872305|%|34
+776021|FVC|fvc_percent|80.6516168107266|%|69
+776467|Demographic|Gender|F||0.0
+776467|Demographic|Age|47||0.0
+776467|FamilyHx|family_ALS_hist|Y||0.0
+776467|Vitals|height|163.0|cm|0
+776467|Vitals|height|163.0|cm|7
+776467|FVC|fvc_percent|89.3435210948282|%|0
+776467|FVC|fvc_percent|89.8967317517621|%|7
+776467|FVC|fvc_percent|88.2370997809604|%|35
+776467|FVC|fvc_percent|75.7898599999472|%|69
+776825|Demographic|Gender|M||0.0
+776825|Demographic|Age|39||0.0
+776825|FVC|fvc_percent|82.3059866962306|%|0
+776825|FVC|fvc_percent|82.3059866962306|%|7
+776825|FVC|fvc_percent|78.9356984478936|%|35
+776825|FVC|fvc_percent|81.9512195121951|%|57
+776825|FVC|fvc_percent|82.3059866962306|%|91
+778179|Demographic|Gender|M||0.0
+778179|Demographic|Age|49||0.0
+778179|Vitals|height|198.0|cm|21
+778179|FVC|fvc_percent|73.9931621211349|%|21
+778179|FVC|fvc_percent|79.0696160712336|%|49
+778179|FVC|fvc_percent|80.146439636406|%|84
+779087|Demographic|Gender|M||0.0
+779087|Demographic|Age|66||0.0
+779087|FamilyHx|family_ALS_hist|N||0.0
+779087|Vitals|height|173.0|cm|0
+779087|FVC|fvc_percent|117.466293951441|%|0
+779087|FVC|fvc_percent|113.707372544995|%|36
+779087|FVC|fvc_percent|123.809473824819|%|66
+781188|Demographic|Gender|M||0.0
+781188|Demographic|Age|32||0.0
+781188|Vitals|height|180.3|cm|0
+781188|Vitals|BMI|0.00259012448901181||0
+781188|FVC|fvc_percent|75.9155060819427|%|0
+781188|FVC|fvc_percent|67.2429382109565|%|71
+781188|FVC|fvc_percent|74.9993897575428|%|8
+782964|Demographic|Gender|M||0.0
+782964|Demographic|Age|52||0.0
+782964|Vitals|height|178.0|cm|0
+782964|Vitals|BMI|0.00288473677565964||0
+782964|FVC|fvc_percent|90.9629141789744|%|0
+782964|FVC|fvc_percent|80.1561478209688|%|14
+782964|FVC|fvc_percent|89.8893943420864|%|78
+785549|Demographic|Gender|M||0.0
+785549|Demographic|Age|52||0.0
+785549|FamilyHx|family_ALS_hist|N||0.0
+785549|Vitals|height|178.0|cm|0
+785549|Vitals|height|178.0|cm|7
+785549|FVC|fvc_percent|79.296527747704|%|0
+785549|FVC|fvc_percent|77.50339018557|%|7
+785549|FVC|fvc_percent|68.7369398818037|%|37
+785549|FVC|fvc_percent|71.1277899646491|%|63
+787725|Demographic|Gender|M||0.0
+787725|Demographic|Age|64||0.0
+787725|Vitals|height|180.0|cm|0
+787725|Vitals|height|180.0|cm|16
+787725|Vitals|BMI|0.00237037037037037||0
+787725|Vitals|BMI|0.00239814814814815||16
+787725|FVC|fvc_percent|62.8938176839864|%|0
+787725|FVC|fvc_percent|57.0432299924528|%|16
+787725|FVC|fvc_percent|64.1475150464579|%|44
+787725|FVC|fvc_percent|65.6101619693413|%|72
+789026|Demographic|Gender|M||0.0
+789026|Demographic|Age|40||0.0
+789026|Vitals|height|178.0|cm|0
+789026|Vitals|BMI|0.00299835879308168||0
+789588|Demographic|Gender|M||0.0
+789588|Demographic|Age|40||0.0
+789588|Vitals|height|171.0|cm|0
+789588|Vitals|BMI|0.00300947300023939||0
+789588|FVC|fvc_percent|75.2110976665722|%|0
+789588|FVC|fvc_percent|69.0293636117854|%|28
+789588|FVC|fvc_percent|80.7746583158803|%|62
+789588|FVC|fvc_percent|71.9141728373526|%|90
+790075|Demographic|Gender|M||0.0
+790075|Demographic|Age|48||0.0
+790075|Vitals|height|171.0|cm|0
+790075|Vitals|height|171.0|cm|18
+790075|FVC|fvc_percent|92.1017162272356|%|0
+790075|FVC|fvc_percent|87.1753453592672|%|18
+790075|FVC|fvc_percent|92.5300963027111|%|46
+790075|FVC|fvc_percent|89.5314357743825|%|81
+790183|Demographic|Gender|M||0.0
+790183|Demographic|Age|55||0.0
+790183|FVC|fvc_percent|81.8059701492537|%|0
+790183|FVC|fvc_percent|87.7304104477612|%|12
+791116|Demographic|Gender|M||0.0
+791116|Demographic|Age|58||0.0
+791116|Vitals|height|163.0|cm|0
+791116|Vitals|BMI|0.00238623960254432||0
+791116|FVC|fvc_percent|70.9165739530958|%|0
+791116|FVC|fvc_percent|100.208202325027|%|30
+791116|FVC|fvc_percent|81.4512824026498|%|59
+791116|FVC|fvc_percent|86.8471086816897|%|90
+791456|Demographic|Gender|M||0.0
+791456|Demographic|Age|49||0.0
+791456|Vitals|height|179.0|cm|0
+791456|Vitals|BMI|0.00252801098592428||0
+791456|FVC|fvc_percent|90.6050637520654|%|0
+791456|FVC|fvc_percent|90.2178626249198|%|27
+791456|FVC|fvc_percent|90.992264879211|%|62
+791456|FVC|fvc_percent|90.6050637520654|%|90
+795744|Demographic|Gender|M||0.0
+795744|Demographic|Age|51||0.0
+795744|FamilyHx|family_ALS_hist|N||0.0
+795744|Vitals|height|180.0|cm|0
+795744|Vitals|BMI|0.00245679012345679||0
+795744|FVC|fvc_percent|75.2942412068393|%|0
+795744|FVC|fvc_percent|74.3289304221362|%|34
+795744|FVC|fvc_percent|75.6803655207205|%|62
+795744|FVC|fvc_percent|71.0468737541458|%|90
+795938|Demographic|Gender|F||0.0
+795938|Demographic|Age|55||0.0
+795938|Vitals|height|168.0|cm|0
+795938|Vitals|BMI|0.00258645124716553||0
+795938|FVC|fvc_percent|82.4180630720591|%|62
+795938|FVC|fvc_percent|86.0232274348709|%|0
+795938|FVC|fvc_percent|86.0232274348709|%|0
+796759|Demographic|Gender|M||0.0
+796759|Demographic|Age|55||0.0
+796759|Vitals|height|169.0|cm|28
+796759|FVC|fvc_percent|86.3868039635423|%|28
+796759|FVC|fvc_percent|70.0744021512777|%|59
+796759|FVC|fvc_percent|78.1157269883096|%|91
+797151|Demographic|Gender|M||0.0
+797151|Demographic|Age|64||0.0
+797151|FamilyHx|family_ALS_hist|N||0.0
+797151|Vitals|height|169.0|cm|28
+797151|FVC|fvc_percent|81.3232322770228|%|28
+797151|FVC|fvc_percent|81.3232322770228|%|56
+797151|FVC|fvc_percent|83.7801275119782|%|88
+798403|Demographic|Gender|M||0.0
+798403|Demographic|Age|56||0.0
+798403|Vitals|height|172.0|cm|0
+798403|Vitals|BMI|0.00280557057869118||0
+798403|FVC|fvc_percent|99.2466716831133|%|0
+798403|FVC|fvc_percent|98.5820734352353|%|23
+798403|FVC|fvc_percent|80.4163879932369|%|59
+798403|FVC|fvc_percent|109.437178150576|%|84
+800811|Demographic|Gender|F||0.0
+800811|Demographic|Age|59||0.0
+800811|Vitals|height|165.0|cm|0
+800811|Vitals|BMI|0.00361065197428834||0
+800811|FVC|fvc_percent|89.5447237168924|%|0
+800811|FVC|fvc_percent|93.2668915673571|%|77
+800811|FVC|fvc_percent|85.0781222963349|%|14
+800877|Demographic|Gender|M||0.0
+800877|Demographic|Age|32||0.0
+800877|Vitals|height|188.0|cm|0
+800877|Vitals|height|188.0|cm|2
+800877|Vitals|BMI|0.0030273879583522||0
+800877|Vitals|BMI|0.0030273879583522||2
+800877|FVC|fvc_percent|103.557317577907|%|29
+800877|FVC|fvc_percent|103.21852625891|%|86
+800877|FVC|fvc_percent|105.646532179823|%|0
+802947|Demographic|Gender|M||0.0
+802947|Demographic|Age|49||0.0
+802947|Vitals|height|179.0|cm|0
+802947|Vitals|height|179.0|cm|7
+802947|Vitals|BMI|0.00258106800661652||7
+802947|FVC|fvc_percent|97.5746840406859|%|0
+802947|FVC|fvc_percent|96.9938823499675|%|7
+802947|FVC|fvc_percent|99.3170891128409|%|34
+802947|FVC|fvc_percent|98.7362874221226|%|70
+806080|Demographic|Gender|M||0.0
+806080|Demographic|Age|51||0.0
+806080|FamilyHx|family_ALS_hist|N||0.0
+806080|Vitals|height|181.0|cm|0
+806080|Vitals|height|181.0|cm|16
+806080|FVC|fvc_percent|79.2837533169721|%|0
+806080|FVC|fvc_percent|80.6178549352865|%|16
+806080|FVC|fvc_percent|79.2837533169721|%|42
+806080|FVC|fvc_percent|85.5730895175973|%|71
+806704|Demographic|Gender|M||0.0
+806704|Demographic|Age|59||0.0
+806704|Vitals|height|185.0|cm|0
+806704|FVC|fvc_percent|89.4428081789302|%|0
+806704|FVC|fvc_percent|89.6319050249745|%|30
+806704|FVC|fvc_percent|87.740936564532|%|56
+806704|FVC|fvc_percent|86.6063554882665|%|88
+807861|Demographic|Gender|M||0.0
+807861|Demographic|Age|42||0.0
+807861|Vitals|height|170.0|cm|0
+807861|FVC|fvc_percent|108.498669153217|%|0
+807861|FVC|fvc_percent|105.127836713506|%|28
+807861|FVC|fvc_percent|102.810389411204|%|56
+807861|FVC|fvc_percent|103.231743466168|%|91
+809124|Demographic|Gender|M||0.0
+809124|Demographic|Age|33||0.0
+809124|Vitals|height|176.0|cm|0
+809124|Vitals|BMI|0.00264721074380165||0
+810756|Demographic|Gender|M||0.0
+810756|Demographic|Age|63||0.0
+810756|Vitals|height|175.0|cm|0
+810756|FVC|fvc_percent|110.059738599209|%|0
+810756|FVC|fvc_percent|105.158292750661|%|30
+810756|FVC|fvc_percent|101.593604860808|%|57
+811471|Demographic|Gender|M||0.0
+811471|Demographic|Age|45||0.0
+811471|Vitals|height|172.0|cm|0
+811471|FVC|fvc_percent|100.71113128589|%|0
+811471|FVC|fvc_percent|101.751535534712|%|28
+811471|FVC|fvc_percent|98.0060802389554|%|55
+811471|FVC|fvc_percent|101.959616384476|%|89
+811635|Demographic|Gender|F||0.0
+811635|Demographic|Age|35||0.0
+811635|Vitals|height|168.0|cm|0
+811635|Vitals|BMI|0.00203018707482993||0
+811635|FVC|fvc_percent|70.7887733791141|%|0
+811635|FVC|fvc_percent|69.0439796690655|%|29
+811635|FVC|fvc_percent|79.0142294407717|%|63
+811635|FVC|fvc_percent|71.7857983562847|%|91
+812988|Demographic|Gender|M||0.0
+812988|Demographic|Age|42||0.0
+812988|Vitals|height|187.0|cm|0
+812988|Vitals|BMI|0.00233349538162372||0
+812988|FVC|fvc_percent|113.304134370211|%|0
+812988|FVC|fvc_percent|107.689965550065|%|27
+812988|FVC|fvc_percent|108.880849845247|%|63
+812988|FVC|fvc_percent|104.117312664518|%|91
+813024|Demographic|Gender|M||0.0
+813024|Demographic|Age|62||0.0
+813024|FVC|fvc_percent|121.784232365145|%|0
+813024|FVC|fvc_percent|97.5103734439834|%|14
+813024|FVC|fvc_percent|94.1908713692946|%|41
+813024|FVC|fvc_percent|94.1908713692946|%|74
+814540|Demographic|Gender|M||0.0
+814540|Demographic|Age|35||0.0
+814540|Vitals|height|165.0|cm|0
+814540|Vitals|height|165.0|cm|27
+814540|FVC|fvc_percent|133.118842228925|%|0
+814540|FVC|fvc_percent|131.58874059411|%|27
+814540|FVC|fvc_percent|128.52853732448|%|59
+814540|FVC|fvc_percent|132.244498437602|%|90
+816023|Demographic|Gender|M||0.0
+816023|Demographic|Age|60||0.0
+816023|Vitals|height|180.0|cm|0
+816023|Vitals|BMI|0.00270679012345679||0
+816023|FVC|fvc_percent|88.2704443705016|%|0
+816023|FVC|fvc_percent|81.7620245090821|%|28
+816023|FVC|fvc_percent|79.9315314230579|%|56
+816023|FVC|fvc_percent|85.6263988017999|%|84
+819587|Demographic|Gender|M||0.0
+819587|Demographic|Age|68||0.0
+819587|FVC|fvc_percent|100|%|0
+819587|FVC|fvc_percent|84.6325167037862|%|2
+819587|FVC|fvc_percent|88.195991091314|%|25
+819587|FVC|fvc_percent|95.5456570155902|%|67
+819930|Demographic|Gender|M||0.0
+819930|Demographic|Age|57||0.0
+819930|Vitals|height|178.0|cm|0
+819930|Vitals|height|178.0|cm|21
+819930|Vitals|BMI|0.00255649539199596||0
+819930|Vitals|BMI|0.00259752556495392||21
+819930|FVC|fvc_percent|123.058488789089|%|0
+819930|FVC|fvc_percent|108.086372653083|%|21
+819930|FVC|fvc_percent|113.829102129907|%|56
+819930|FVC|fvc_percent|113.624004648592|%|77
+820318|Demographic|Gender|M||0.0
+820318|Demographic|Age|50||0.0
+820318|Vitals|height|180.0|cm|0
+820318|Vitals|BMI|0.00276234567901235||0
+820318|FVC|fvc_percent|88.3193883652925|%|76
+820318|FVC|fvc_percent|94.6231260314561|%|11
+820318|FVC|fvc_percent|98.2444221375501|%|0
+820641|Demographic|Gender|M||0.0
+820641|Demographic|Age|70||0.0
+820641|Vitals|height|173.0|cm|0
+820641|Vitals|BMI|0.00250593070266297||0
+820641|FVC|fvc_percent|87.775516465425|%|0
+820641|FVC|fvc_percent|81.9400250660615|%|32
+820641|FVC|fvc_percent|90.2069712151597|%|56
+820641|FVC|fvc_percent|84.3714798157963|%|88
+821056|Demographic|Gender|M||0.0
+821056|Demographic|Age|43||0.0
+821056|Vitals|height|176.0|cm|0
+821056|Vitals|BMI|0.00261492768595041||0
+821056|FVC|fvc_percent|96.6469964073846|%|0
+821056|FVC|fvc_percent|98.6034133387082|%|28
+821056|FVC|fvc_percent|96.842638100517|%|59
+821056|FVC|fvc_percent|101.929322121958|%|91
+824137|Demographic|Gender|F||0.0
+824137|Demographic|Age|56||0.0
+824137|FamilyHx|family_ALS_hist|Y||0.0
+824137|Vitals|height|155.0|cm|33
+824137|FVC|fvc_percent|76.6571770650571|%|33
+824137|FVC|fvc_percent|68.1397129467175|%|68
+827725|Demographic|Gender|M||0.0
+827725|Demographic|Age|49||0.0
+827725|Vitals|height|175.0|cm|0
+827725|Vitals|BMI|0.00310204081632653||0
+827725|FVC|fvc_percent|76.299533271438|%|70
+827725|FVC|fvc_percent|80.1292395746376|%|7
+827725|FVC|fvc_percent|79.0245166025608|%|0
+827801|Demographic|Gender|M||0.0
+827801|Demographic|Age|32||0.0
+827801|FVC|fvc_percent|104.573904670197|%|0
+827801|FVC|fvc_percent|113.625421280693|%|9
+827801|FVC|fvc_percent|112.469908521907|%|35
+827801|FVC|fvc_percent|107.077515647569|%|63
+827963|Demographic|Gender|M||0.0
+827963|Demographic|Age|24||0.0
+827963|Vitals|height|189.0|cm|0
+827963|Vitals|BMI|0.00201562106324011||0
+829390|Demographic|Gender|M||0.0
+829390|Demographic|Age|43||0.0
+829390|FVC|fvc_percent|96.2425122526774|%|0
+829390|FVC|fvc_percent|96.6418587765475|%|7
+829390|FVC|fvc_percent|93.2474133236522|%|33
+829390|FVC|fvc_percent|89.852967870757|%|65
+829390|FVC|fvc_percent|97.4405518242875|%|89
+829875|Demographic|Gender|M||0.0
+829875|Demographic|Age|48||0.0
+829875|Vitals|height|154.0|cm|0
+829875|Vitals|height|154.0|cm|0
+829875|Vitals|BMI|0.00344914825434306||0
+829875|Vitals|BMI|0.00344914825434306||0
+829875|FVC|fvc_percent|62.0597023993203|%|0
+829875|FVC|fvc_percent|44.0198994220841|%|25
+829875|FVC|fvc_percent|54.3980098387507|%|91
+829875|FVC|fvc_percent|62.0597023993203|%|0
+830228|Demographic|Gender|M||0.0
+830228|Demographic|Age|22||0.0
+830228|Vitals|height|185.0|cm|10
+830228|FVC|fvc_percent|89.1149836137971|%|10
+830228|FVC|fvc_percent|89.279706319183|%|42
+830228|FVC|fvc_percent|87.1383111491657|%|74
+831639|Demographic|Gender|M||0.0
+831639|Demographic|Age|54||0.0
+831639|Vitals|height|187.7|cm|0
+831639|Vitals|BMI|0.0029944972210782||0
+831639|FVC|fvc_percent|97.1390194751061|%|0
+831639|FVC|fvc_percent|98.9040373500594|%|65
+831639|FVC|fvc_percent|100.101728050921|%|9
+833579|Demographic|Gender|M||0.0
+833579|Demographic|Age|59||0.0
+833579|FamilyHx|family_ALS_hist|Y||0.0
+833579|Vitals|height|175.0|cm|0
+833579|Vitals|height|175.0|cm|7
+833579|Vitals|BMI|0.00261224489795918||0
+833579|Vitals|BMI|0.00264163265306122||7
+833579|FVC|fvc_percent|59.7767015324386|%|0
+833579|FVC|fvc_percent|58.6937902727929|%|7
+833579|FVC|fvc_percent|49.1641711879114|%|39
+833579|FVC|fvc_percent|51.5465759591318|%|62
+833798|Demographic|Gender|M||0.0
+833798|Demographic|Age|73||0.0
+833798|Vitals|height|180.0|cm|0
+833798|Vitals|BMI|0.00268518518518518||0
+836857|Demographic|Gender|M||0.0
+836857|Demographic|Age|37||0.0
+836857|Vitals|height|189.0|cm|0
+836857|FVC|fvc_percent|71.7176378512898|%|0
+836857|FVC|fvc_percent|69.9206127570661|%|28
+836857|FVC|fvc_percent|67.4701239922157|%|56
+836857|FVC|fvc_percent|68.6136854158125|%|84
+837004|Demographic|Gender|M||0.0
+837004|Demographic|Age|34||0.0
+837004|Vitals|height|179.6|cm|0
+837004|Vitals|BMI|0.00321798999012902||0
+837004|FVC|fvc_percent|64.9204856583164|%|72
+837004|FVC|fvc_percent|86.3126227663576|%|11
+837004|FVC|fvc_percent|78.1278050902375|%|0
+838628|Demographic|Gender|M||0.0
+838628|Demographic|Age|56||0.0
+838628|FVC|fvc_percent|90.6035856084691|%|0
+838628|FVC|fvc_percent|95.2788595989417|%|14
+838628|FVC|fvc_percent|86.008919790246|%|44
+838628|FVC|fvc_percent|92.2157490534596|%|70
+839180|Demographic|Gender|M||0.0
+839180|Demographic|Age|64||0.0
+839180|FVC|fvc_percent|68.120651786433|%|0
+839180|FVC|fvc_percent|77.7819942272973|%|13
+839528|Demographic|Gender|F||0.0
+839528|Demographic|Age|42||0.0
+839528|Vitals|height|160.0|cm|0
+839528|Vitals|BMI|0.00216796875||0
+839528|FVC|fvc_percent|87.3684400393214|%|0
+839528|FVC|fvc_percent|86.804772684229|%|34
+839528|FVC|fvc_percent|78.3497623578431|%|65
+840188|Demographic|Gender|F||0.0
+840188|Demographic|Age|53||0.0
+840188|Vitals|height|157.0|cm|19
+840188|Vitals|height|157.0|cm|0
+840188|Vitals|BMI|0.00277496044464278||19
+840188|FVC|fvc_percent|92.7247954364216|%|0
+840188|FVC|fvc_percent|91.1690102780924|%|19
+840188|FVC|fvc_percent|92.1024813730899|%|47
+840188|FVC|fvc_percent|94.2805805947508|%|75
+840495|Demographic|Gender|M||0.0
+840495|Demographic|Age|34||0.0
+840495|Vitals|height|183.0|cm|0
+840495|Vitals|height|183.0|cm|63
+840495|Vitals|BMI|0.00295918062647436||0
+840495|Vitals|BMI|0.00293230613037117||63
+840495|FVC|fvc_percent|84.5410467422448|%|0
+840495|FVC|fvc_percent|89.2281273624514|%|63
+842908|Demographic|Gender|M||0.0
+842908|Demographic|Age|35||0.0
+842908|Vitals|height|186.0|cm|0
+842908|Vitals|BMI|0.00231240605850387||0
+842908|FVC|fvc_percent|84.0482855921477|%|0
+842908|FVC|fvc_percent|82.8716095938576|%|35
+842908|FVC|fvc_percent|77.6606158871445|%|65
+843944|Demographic|Gender|M||0.0
+843944|Demographic|Age|53||0.0
+843944|Vitals|height|183.0|cm|0
+843944|Vitals|height|183.0|cm|1
+843944|FVC|fvc_percent|90.2774663476292|%|0
+843944|FVC|fvc_percent|90.0897793074055|%|1
+843944|FVC|fvc_percent|86.8990996236015|%|34
+843944|FVC|fvc_percent|88.4005959453916|%|61
+843944|FVC|fvc_percent|92.7173978705382|%|89
+844582|Demographic|Gender|M||0.0
+844582|Demographic|Age|53||0.0
+844582|FamilyHx|family_ALS_hist|N||0.0
+844582|Vitals|height|183.0|cm|0
+844582|Vitals|BMI|0.00206037803457852||0
+844582|FVC|fvc_percent|91.2159015487481|%|0
+844582|FVC|fvc_percent|83.1453588191263|%|40
+844582|FVC|fvc_percent|83.5207328995738|%|68
+844674|Demographic|Gender|M||0.0
+844674|Demographic|Age|40||0.0
+844674|Vitals|height|178.0|cm|0
+844674|Vitals|height|178.0|cm|7
+844674|FVC|fvc_percent|93.2478869727405|%|0
+844674|FVC|fvc_percent|91.1757117066796|%|7
+844674|FVC|fvc_percent|88.9151568709768|%|35
+844674|FVC|fvc_percent|92.305989124531|%|70
+844706|Demographic|Gender|F||0.0
+844706|Demographic|Age|39||0.0
+844706|Vitals|height|168.0|cm|0
+844706|Vitals|height|168.0|cm|7
+844706|Vitals|BMI|0.00345450680272109||0
+844706|Vitals|BMI|0.00347222222222222||7
+844706|FVC|fvc_percent|130.726259926224|%|7
+845021|Demographic|Gender|M||0.0
+845021|Demographic|Age|55||0.0
+845021|Vitals|height|169.0|cm|0
+845021|Vitals|height|169.0|cm|13
+845021|Vitals|BMI|0.00364132908511607||13
+845021|FVC|fvc_percent|90.0628381747569|%|0
+845021|FVC|fvc_percent|82.9405218905287|%|13
+845021|FVC|fvc_percent|86.3868039635423|%|49
+845021|FVC|fvc_percent|85.9272996871405|%|77
+849799|Demographic|Gender|M||0.0
+849799|Demographic|Age|57||0.0
+849799|Vitals|height|170.0|cm|0
+849799|FVC|fvc_percent|84.4668842760075|%|0
+849799|FVC|fvc_percent|86.3031208907033|%|28
+849799|FVC|fvc_percent|85.6145321601924|%|60
+849799|FVC|fvc_percent|85.3850025833554|%|91
+851228|Demographic|Gender|F||0.0
+851228|Demographic|Age|64||0.0
+851228|Vitals|height|157.0|cm|0
+851228|Vitals|BMI|0.00350927015294738||0
+851228|FVC|fvc_percent|53.4209479215049|%|77
+851228|FVC|fvc_percent|62.2630358533402|%|14
+851228|FVC|fvc_percent|67.5437272570752|%|0
+851702|Demographic|Gender|M||0.0
+851702|Demographic|Age|48||0.0
+851702|FamilyHx|family_ALS_hist|Y||0.0
+851702|Vitals|height|175.0|cm|0
+851702|FVC|fvc_percent|77.535798653739|%|0
+851702|FVC|fvc_percent|84.0309440907015|%|34
+851702|FVC|fvc_percent|80.3774247824101|%|63
+851702|FVC|fvc_percent|83.6249975008913|%|91
+853550|Demographic|Gender|M||0.0
+853550|Demographic|Age|37||0.0
+853550|Vitals|height|186.0|cm|0
+853550|Vitals|BMI|0.00225748641461441||0
+853877|Demographic|Gender|M||0.0
+853877|Demographic|Age|61||0.0
+853877|FVC|fvc_percent|108.333333333333|%|0
+853877|FVC|fvc_percent|125.206922498119|%|3
+853877|FVC|fvc_percent|98.3069977426636|%|34
+853877|FVC|fvc_percent|100.507900677201|%|62
+853877|FVC|fvc_percent|108.822422874342|%|84
+854299|Demographic|Gender|M||0.0
+854299|Demographic|Age|55||0.0
+854299|Vitals|height|176.0|cm|0
+854299|FVC|fvc_percent|76.2068015394907|%|0
+854299|FVC|fvc_percent|80.3711076345448|%|33
+854299|FVC|fvc_percent|77.4560933680069|%|61
+854299|FVC|fvc_percent|85.5764902533625|%|89
+854499|Demographic|Gender|M||0.0
+854499|Demographic|Age|32||0.0
+854499|FVC|fvc_percent|71.3180578214009|%|0
+854499|FVC|fvc_percent|66.5357973843973|%|14
+855075|Demographic|Gender|M||0.0
+855075|Demographic|Age|64||0.0
+855075|FVC|fvc_percent|89.2817679558011|%|0
+855075|FVC|fvc_percent|80.8839779005525|%|6
+855075|FVC|fvc_percent|87.0718232044199|%|34
+855075|FVC|fvc_percent|85.9668508287293|%|70
+857219|Demographic|Gender|M||0.0
+857219|Demographic|Age|34||0.0
+857219|FamilyHx|family_ALS_hist|N||0.0
+857219|Vitals|height|178.0|cm|0
+857219|FVC|fvc_percent|89.7856841162495|%|0
+857219|FVC|fvc_percent|72.2710229436752|%|28
+857219|FVC|fvc_percent|70.0586446902974|%|49
+857219|FVC|fvc_percent|66.7400773102306|%|84
+858188|Demographic|Gender|M||0.0
+858188|Demographic|Age|63||0.0
+858188|Vitals|height|173.0|cm|0
+858188|Vitals|BMI|0.00319422633566106||0
+858188|FVC|fvc_percent|103.53080999192|%|79
+858188|FVC|fvc_percent|90.5037544300226|%|20
+858188|FVC|fvc_percent|103.016584114477|%|0
+858325|Demographic|Gender|M||0.0
+858325|Demographic|Age|73||0.0
+858325|Vitals|height|168.0|cm|0
+858325|Vitals|BMI|0.00254039115646258||0
+858325|FVC|fvc_percent|90.9970733494106|%|0
+858325|FVC|fvc_percent|92.083605568508|%|34
+858325|FVC|fvc_percent|96.1581013901234|%|62
+858480|Demographic|Gender|M||0.0
+858480|Demographic|Age|44||0.0
+858480|FamilyHx|family_ALS_hist|Y||0.0
+858480|Vitals|height|180.0|cm|0
+858480|Vitals|BMI|0.00217283950617284||0
+858480|FVC|fvc_percent|103.845961325971|%|0
+858480|FVC|fvc_percent|105.34014781987|%|26
+858480|FVC|fvc_percent|104.59305457292|%|59
+858480|FVC|fvc_percent|104.032734637708|%|90
+858533|Demographic|Gender|M||0.0
+858533|Demographic|Age|32||0.0
+858533|Vitals|height|175.0|cm|0
+858533|Vitals|height|175.0|cm|27
+858533|FVC|fvc_percent|100.364267165497|%|0
+858533|FVC|fvc_percent|103.595692434083|%|27
+858533|FVC|fvc_percent|101.504770201469|%|60
+858533|FVC|fvc_percent|98.8435964508686|%|89
+859934|Demographic|Gender|M||0.0
+859934|Demographic|Age|41||0.0
+859934|Vitals|height|166.0|cm|0
+859934|Vitals|height|166.0|cm|10
+859934|FVC|fvc_percent|92.9668267003524|%|0
+859934|FVC|fvc_percent|92.0814283508252|%|10
+859934|FVC|fvc_percent|89.203883714862|%|38
+859934|FVC|fvc_percent|91.4173795886799|%|66
+861436|Demographic|Gender|M||0.0
+861436|Demographic|Age|45||0.0
+861436|FamilyHx|family_ALS_hist|N||0.0
+861436|Vitals|height|185.0|cm|0
+861436|Vitals|height|185.0|cm|21
+861436|FVC|fvc_percent|78.9984199434333|%|0
+861436|FVC|fvc_percent|72.2976611089456|%|21
+861436|FVC|fvc_percent|69.8289604857133|%|49
+861436|FVC|fvc_percent|69.4762889681087|%|84
+864086|Demographic|Gender|M||0.0
+864086|Demographic|Age|44||0.0
+864086|FamilyHx|family_ALS_hist|N||0.0
+864086|Vitals|height|178.0|cm|0
+864086|Vitals|height|178.0|cm|13
+864086|Vitals|BMI|0.00259752556495392||0
+864086|Vitals|BMI|0.0025407145562429||13
+864086|FVC|fvc_percent|82.3658967123074|%|0
+864086|FVC|fvc_percent|87.920806025463|%|13
+864086|FVC|fvc_percent|86.7715144434308|%|41
+864086|FVC|fvc_percent|82.7489939063181|%|70
+864154|Demographic|Gender|M||0.0
+864154|Demographic|Age|39||0.0
+864154|Vitals|height|177.0|cm|0
+864154|Vitals|height|177.0|cm|11
+864154|FVC|fvc_percent|74.6741814405291|%|0
+864154|FVC|fvc_percent|73.7241282415402|%|11
+864154|FVC|fvc_percent|79.8044687150693|%|39
+864154|FVC|fvc_percent|79.9944793548671|%|68
+864906|Demographic|Gender|M||0.0
+864906|Demographic|Age|57||0.0
+864906|Vitals|height|178.0|cm|0
+864906|Vitals|height|178.0|cm|14
+864906|FVC|fvc_percent|87.9868194841984|%|0
+864906|FVC|fvc_percent|92.7040615544468|%|14
+864906|FVC|fvc_percent|89.0123068907741|%|35
+864906|FVC|fvc_percent|90.6530867412953|%|70
+864955|Demographic|Gender|M||0.0
+864955|Demographic|Age|43||0.0
+864955|Vitals|height|168.0|cm|0
+864955|Vitals|BMI|0.00244472789115646||0
+864955|FVC|fvc_percent|83.9430242768358|%|0
+864955|FVC|fvc_percent|86.9875899241822|%|27
+864955|FVC|fvc_percent|87.4225278738031|%|55
+864955|FVC|fvc_percent|81.5508655539208|%|80
+865512|Demographic|Gender|M||0.0
+865512|Demographic|Age|50||0.0
+865512|FVC|fvc_percent|105.144149236857|%|0
+865512|FVC|fvc_percent|104.691916336914|%|5
+865512|FVC|fvc_percent|103.561334087055|%|33
+865512|FVC|fvc_percent|108.309779536461|%|58
+865512|FVC|fvc_percent|99.0390050876201|%|89
+870908|Demographic|Gender|M||0.0
+870908|Demographic|Age|70||0.0
+870908|Vitals|height|168.0|cm|0
+870908|Vitals|BMI|0.00325255102040816||0
+870908|FVC|fvc_percent|57.4452453002622|%|0
+870908|FVC|fvc_percent|56.9182247011772|%|28
+870908|FVC|fvc_percent|52.7020599084974|%|56
+870908|FVC|fvc_percent|47.1683436181052|%|84
+871158|Demographic|Gender|M||0.0
+871158|Demographic|Age|52||0.0
+871158|Vitals|height|158.0|cm|0
+871158|Vitals|height|158.0|cm|26
+871158|FVC|fvc_percent|91.0685663785558|%|0
+871158|FVC|fvc_percent|104.078361575492|%|26
+871158|FVC|fvc_percent|95.5821687938195|%|55
+871158|FVC|fvc_percent|94.5201446961104|%|87
+871670|Demographic|Gender|F||0.0
+871670|Demographic|Age|66||0.0
+871670|Vitals|height|170.0|cm|0
+871670|Vitals|height|170.0|cm|7
+871670|Vitals|BMI|0.00262629757785467||0
+871670|Vitals|BMI|0.00265743944636678||7
+871670|FVC|fvc_percent|96.4029678383108|%|0
+871670|FVC|fvc_percent|96.4029678383108|%|7
+871670|FVC|fvc_percent|90.3956612371104|%|43
+871670|FVC|fvc_percent|92.9702212090534|%|71
+871708|Demographic|Gender|M||0.0
+871708|Demographic|Age|55||0.0
+871708|Vitals|height|182.0|cm|0
+871708|Vitals|BMI|0.00262649438473614||0
+871708|FVC|fvc_percent|63.4231055232015|%|0
+871708|FVC|fvc_percent|66.8825476426489|%|32
+871708|FVC|fvc_percent|62.2699581500524|%|67
+872614|Demographic|Gender|M||0.0
+872614|Demographic|Age|48||0.0
+872614|Vitals|height|178.0|cm|0
+872614|Vitals|height|178.0|cm|5
+872614|FVC|fvc_percent|104.211891830523|%|0
+872614|FVC|fvc_percent|98.162137810399|%|5
+872614|FVC|fvc_percent|101.870051564669|%|33
+872614|FVC|fvc_percent|91.9172304347872|%|61
+877199|Demographic|Gender|M||0.0
+877199|Demographic|Age|44||0.0
+877199|Vitals|height|165.0|cm|0
+877199|Vitals|BMI|0.00330578512396694||0
+877635|Demographic|Gender|F||0.0
+877635|Demographic|Age|45||0.0
+877635|Vitals|height|170.0|cm|0
+877635|Vitals|height|170.0|cm|12
+877635|Vitals|BMI|0.00370242214532872||0
+877635|Vitals|BMI|0.00370242214532872||12
+877635|FVC|fvc_percent|63.9584316072828|%|12
+877635|FVC|fvc_percent|71.2328786610423|%|41
+877635|FVC|fvc_percent|75.2952271764664|%|0
+878023|Demographic|Gender|M||0.0
+878023|Demographic|Age|48||0.0
+878023|Vitals|height|176.0|cm|0
+878023|Vitals|BMI|0.00287319214876033||0
+878023|FVC|fvc_percent|90.2525264216503|%|70
+878023|FVC|fvc_percent|92.3380429684454|%|6
+878023|FVC|fvc_percent|90.5401838763806|%|0
+879129|Demographic|Gender|M||0.0
+879129|Demographic|Age|61||0.0
+879129|FVC|fvc_percent|82.4200913242009|%|0
+879129|FVC|fvc_percent|80.5936073059361|%|8
+879129|FVC|fvc_percent|61.1872146118722|%|36
+879129|FVC|fvc_percent|76.7123287671233|%|60
+880105|Demographic|Gender|M||0.0
+880105|Demographic|Age|39||0.0
+880105|Vitals|height|172.0|cm|0
+880105|Vitals|BMI|0.002940778799351||0
+880105|FVC|fvc_percent|109.527067311197|%|77
+880105|FVC|fvc_percent|108.588470162189|%|0
+880105|FVC|fvc_percent|105.772678715164|%|14
+880451|Demographic|Gender|M||0.0
+880451|Demographic|Age|33||0.0
+880451|Vitals|height|188.0|cm|0
+880451|Vitals|height|188.0|cm|0
+880451|Vitals|BMI|0.00297645993662291||0
+880451|Vitals|BMI|0.00297645993662291||0
+880451|FVC|fvc_percent|99.3042930653108|%|0
+880451|FVC|fvc_percent|102.903810707561|%|35
+880451|FVC|fvc_percent|99.3042930653108|%|0
+883722|Demographic|Gender|M||0.0
+883722|Demographic|Age|38||0.0
+883722|Vitals|height|177.0|cm|0
+883722|Vitals|BMI|0.00236202879121581||0
+883722|FVC|fvc_percent|98.8086893754601|%|0
+883722|FVC|fvc_percent|95.0229158361705|%|28
+883722|FVC|fvc_percent|97.1050912827798|%|63
+883722|FVC|fvc_percent|95.0229158361705|%|91
+884149|Demographic|Gender|M||0.0
+884149|Demographic|Age|66||0.0
+884149|FVC|fvc_percent|88.3585413569936|%|0
+884149|FVC|fvc_percent|84.6834515837381|%|3
+884559|Demographic|Gender|M||0.0
+884559|Demographic|Age|41||0.0
+884559|FamilyHx|family_ALS_hist|N||0.0
+884559|Vitals|height|178.0|cm|0
+884559|Vitals|height|178.0|cm|26
+884559|Vitals|BMI|0.00276795859108698||0
+884559|Vitals|BMI|0.00280898876404494||26
+884559|FVC|fvc_percent|83.4076897441534|%|0
+884559|FVC|fvc_percent|79.6250280777519|%|26
+884559|FVC|fvc_percent|81.3272258276326|%|61
+884559|FVC|fvc_percent|80.9489596609924|%|88
+885248|Demographic|Gender|M||0.0
+885248|Demographic|Age|48||0.0
+885248|FamilyHx|family_ALS_hist|N||0.0
+885248|Vitals|height|178.0|cm|0
+885248|Vitals|height|178.0|cm|14
+885248|FVC|fvc_percent|59.9120801347764|%|0
+885248|FVC|fvc_percent|61.0830002677036|%|14
+885248|FVC|fvc_percent|56.3993197359947|%|42
+885248|FVC|fvc_percent|53.4720194036766|%|70
+886799|Demographic|Gender|M||0.0
+886799|Demographic|Age|54||0.0
+886799|Vitals|height|168.0|cm|0
+886799|Vitals|height|168.0|cm|9
+886799|FVC|fvc_percent|78.7333365987599|%|0
+886799|FVC|fvc_percent|82.2068661545875|%|9
+886799|FVC|fvc_percent|74.3335324947115|%|37
+886799|FVC|fvc_percent|74.3335324947115|%|65
+886844|Demographic|Gender|M||0.0
+886844|Demographic|Age|40||0.0
+886844|FamilyHx|family_ALS_hist|N||0.0
+886844|Vitals|height|185.0|cm|0
+886844|FVC|fvc_percent|82.3226826056755|%|0
+886844|FVC|fvc_percent|84.0521507276435|%|28
+886844|FVC|fvc_percent|85.7816188496114|%|60
+886844|FVC|fvc_percent|80.4202676715107|%|84
+888702|Demographic|Gender|M||0.0
+888702|Demographic|Age|49||0.0
+888702|Vitals|height|175.0|cm|0
+888702|Vitals|BMI|0.0032130612244898||0
+888702|FVC|fvc_percent|86.460806027345|%|0
+888702|FVC|fvc_percent|79.4644034953196|%|75
+888702|FVC|fvc_percent|85.1351718633823|%|14
+892514|Demographic|Gender|M||0.0
+892514|Demographic|Age|46||0.0
+892514|Vitals|height|165.0|cm|0
+892514|Vitals|height|165.0|cm|7
+892514|FVC|fvc_percent|103.863910181438|%|0
+892514|FVC|fvc_percent|103.863910181438|%|7
+892514|FVC|fvc_percent|98.7973779774657|%|39
+892514|FVC|fvc_percent|105.706285528337|%|68
+892907|Demographic|Gender|M||0.0
+892907|Demographic|Age|50||0.0
+892907|Vitals|height|186.0|cm|0
+892907|FVC|fvc_percent|122.872298755796|%|0
+892907|FVC|fvc_percent|117.35194910155|%|27
+892907|FVC|fvc_percent|115.571191148567|%|91
+894007|Demographic|Gender|M||0.0
+894007|Demographic|Age|56||0.0
+894007|Vitals|height|181.0|cm|0
+894007|Vitals|BMI|0.00268612069228656||0
+894298|Demographic|Gender|M||0.0
+894298|Demographic|Age|57||0.0
+894298|FVC|fvc_percent|58.0216694572636|%|0
+894298|FVC|fvc_percent|65.1421902533555|%|20
+894298|FVC|fvc_percent|66.4816941654916|%|52
+894298|FVC|fvc_percent|66.9751956068049|%|81
+894737|Demographic|Gender|M||0.0
+894737|Demographic|Age|27||0.0
+894737|FVC|fvc_percent|80.16|%|0
+894737|FVC|fvc_percent|88.64|%|14
+894737|FVC|fvc_percent|79.04|%|43
+894737|FVC|fvc_percent|87.36|%|71
+895882|Demographic|Gender|M||0.0
+895882|Demographic|Age|59||0.0
+895882|Vitals|height|175.0|cm|0
+895882|FVC|fvc_percent|98.3283423758228|%|0
+895882|FVC|fvc_percent|85.7665717639336|%|58
+895882|FVC|fvc_percent|101.143911650901|%|86
+896336|Demographic|Gender|M||0.0
+896336|Demographic|Age|56||0.0
+896336|FamilyHx|family_ALS_hist|Y||0.0
+896336|Vitals|height|173.0|cm|0
+896336|FVC|fvc_percent|88.8972339195377|%|0
+896336|FVC|fvc_percent|88.2419717530546|%|28
+896336|FVC|fvc_percent|91.51828258547|%|55
+896336|FVC|fvc_percent|88.6788131973767|%|85
+896505|Demographic|Gender|M||0.0
+896505|Demographic|Age|49||0.0
+896505|Vitals|height|185.6|cm|0
+896505|Vitals|BMI|0.00310618868906064||0
+896505|FVC|fvc_percent|99.9835274927032|%|76
+896505|FVC|fvc_percent|99.6304783137036|%|13
+896505|FVC|fvc_percent|89.886320973313|%|0
+896567|Demographic|Gender|M||0.0
+896567|Demographic|Age|64||0.0
+896567|Vitals|height|176.0|cm|0
+896567|Vitals|BMI|0.00284090909090909||0
+896567|FVC|fvc_percent|90.7003008276787|%|0
+896567|FVC|fvc_percent|96.2308069757079|%|35
+896567|FVC|fvc_percent|93.3549437787327|%|70
+898120|Demographic|Gender|M||0.0
+898120|Demographic|Age|63||0.0
+898120|Vitals|height|179.0|cm|0
+898120|Vitals|height|179.0|cm|7
+898120|Vitals|BMI|0.00315221122936238||0
+898120|Vitals|BMI|0.00315221122936238||7
+898120|FVC|fvc_percent|98.2962930274199|%|43
+898120|FVC|fvc_percent|100.666664655869|%|0
+898483|Demographic|Gender|M||0.0
+898483|Demographic|Age|69||0.0
+898483|FVC|fvc_percent|107.025652877282|%|0
+898483|FVC|fvc_percent|102.95816963254|%|28
+898483|FVC|fvc_percent|106.008782066097|%|56
+898483|FVC|fvc_percent|98.6364686850012|%|82
+899122|Demographic|Gender|M||0.0
+899122|Demographic|Age|46||0.0
+899122|FVC|fvc_percent|82.15859030837|%|0
+899122|FVC|fvc_percent|85.2422907488987|%|20
+899122|FVC|fvc_percent|83.2599118942731|%|42
+899122|FVC|fvc_percent|81.4977973568282|%|83
+899409|Demographic|Gender|M||0.0
+899409|Demographic|Age|51||0.0
+899409|FamilyHx|family_ALS_hist|N||0.0
+899409|Vitals|height|180.0|cm|0
+899409|Vitals|BMI|0.00248148148148148||0
+899409|FVC|fvc_percent|109.273180828387|%|0
+899409|FVC|fvc_percent|108.500932200625|%|28
+899409|FVC|fvc_percent|107.342559258981|%|59
+899409|FVC|fvc_percent|106.763372788159|%|83
+900815|Demographic|Gender|M||0.0
+900815|Demographic|Age|47||0.0
+900815|FamilyHx|family_ALS_hist|N||0.0
+900815|Vitals|height|161.0|cm|0
+900815|Vitals|height|161.0|cm|29
+900815|FVC|fvc_percent|101.601279854143|%|0
+900815|FVC|fvc_percent|94.4842819899642|%|29
+900815|FVC|fvc_percent|96.2021780261454|%|57
+903574|Demographic|Gender|M||0.0
+903574|Demographic|Age|45||0.0
+903574|Vitals|height|178.0|cm|0
+903574|Vitals|BMI|0.00317194798636536||0
+903574|FVC|fvc_percent|96.9733113361947|%|0
+903574|FVC|fvc_percent|97.7429407912439|%|27
+903574|FVC|fvc_percent|92.1631272421374|%|55
+903574|FVC|fvc_percent|97.5505334274816|%|87
+905009|Demographic|Gender|M||0.0
+905009|Demographic|Age|61||0.0
+905009|Vitals|height|165.0|cm|0
+905009|Vitals|height|165.0|cm|14
+905009|FVC|fvc_percent|90.8145774233175|%|0
+905009|FVC|fvc_percent|90.5594802957239|%|14
+905009|FVC|fvc_percent|92.0900630612854|%|42
+905009|FVC|fvc_percent|93.1104515716598|%|72
+906746|Demographic|Gender|M||0.0
+906746|Demographic|Age|55||0.0
+906746|FVC|fvc_percent|85.713520271477|%|0
+906746|FVC|fvc_percent|78.5175924272191|%|15
+912743|Demographic|Gender|M||0.0
+912743|Demographic|Age|38||0.0
+912743|FVC|fvc_percent|90.1821862348178|%|0
+912743|FVC|fvc_percent|86.7206477732794|%|14
+912963|Demographic|Gender|M||0.0
+912963|Demographic|Age|47||0.0
+912963|Vitals|height|178.0|cm|0
+912963|Vitals|height|178.0|cm|18
+912963|FVC|fvc_percent|88.9477509801984|%|0
+912963|FVC|fvc_percent|91.4724688027805|%|18
+912963|FVC|fvc_percent|89.7245872333006|%|46
+912963|FVC|fvc_percent|85.0635697146876|%|74
+914106|Demographic|Gender|M||0.0
+914106|Demographic|Age|47||0.0
+914106|Vitals|height|185.0|cm|0
+914106|Vitals|height|185.0|cm|6
+914106|Vitals|BMI|0.00246895544192841||0
+914106|Vitals|BMI|0.00248356464572681||6
+914106|FVC|fvc_percent|73.6290131035634|%|0
+914106|FVC|fvc_percent|68.2935773714211|%|6
+914106|FVC|fvc_percent|57.4448580493985|%|41
+914106|FVC|fvc_percent|53.1765094636847|%|76
+916271|Demographic|Gender|M||0.0
+916271|Demographic|Age|55||0.0
+916271|Vitals|height|183.0|cm|0
+916271|Vitals|height|183.0|cm|7
+916271|FVC|fvc_percent|90.1124044679984|%|0
+916271|FVC|fvc_percent|84.0416740617332|%|7
+916271|FVC|fvc_percent|87.0770392648658|%|42
+916271|FVC|fvc_percent|86.1284876388869|%|70
+916630|Demographic|Gender|F||0.0
+916630|Demographic|Age|36||0.0
+916630|FVC|fvc_percent|101.459346768589|%|0
+916630|FVC|fvc_percent|87.8387769284225|%|7
+916630|FVC|fvc_percent|107.296733842946|%|35
+916630|FVC|fvc_percent|107.018763029882|%|60
+916630|FVC|fvc_percent|103.405142460042|%|91
+917744|Demographic|Gender|M||0.0
+917744|Demographic|Age|49||0.0
+917744|Vitals|height|173.0|cm|0
+917744|FVC|fvc_percent|76.9141267690422|%|0
+917744|FVC|fvc_percent|68.7406909543484|%|35
+917744|FVC|fvc_percent|72.5130459457455|%|67
+918151|Demographic|Gender|F||0.0
+918151|Demographic|Age|53||0.0
+918151|Vitals|height|173.0|cm|0
+918151|Vitals|height|173.0|cm|0
+918151|Vitals|BMI|0.00319422633566106||0
+918151|Vitals|BMI|0.00319422633566106||0
+918151|FVC|fvc_percent|80.260710695228|%|0
+918151|FVC|fvc_percent|76.6294225253874|%|28
+918151|FVC|fvc_percent|80.260710695228|%|0
+918169|Demographic|Gender|M||0.0
+918169|Demographic|Age|50||0.0
+918169|Vitals|height|177.0|cm|9
+918169|Vitals|height|177.0|cm|0
+918169|Vitals|BMI|0.00270675731750136||9
+918169|Vitals|BMI|0.002725908902295||0
+918169|FVC|fvc_percent|88.1872995751688|%|43
+918169|FVC|fvc_percent|89.0386678648857|%|0
+922021|Demographic|Gender|M||0.0
+922021|Demographic|Age|62||0.0
+922021|Vitals|height|161.0|cm|0
+922021|Vitals|height|161.0|cm|21
+922021|FVC|fvc_percent|86.1563527844946|%|0
+922021|FVC|fvc_percent|82.3149867367783|%|21
+922021|FVC|fvc_percent|82.5893700259009|%|49
+922021|FVC|fvc_percent|81.7662201585331|%|76
+923156|Demographic|Gender|M||0.0
+923156|Demographic|Age|54||0.0
+923156|Vitals|height|183.0|cm|0
+923156|Vitals|height|183.0|cm|12
+923156|Vitals|BMI|0.00283675236644868||12
+923156|FVC|fvc_percent|74.5300543274284|%|0
+923156|FVC|fvc_percent|78.6810953279434|%|12
+923156|FVC|fvc_percent|72.0771664634877|%|40
+923156|FVC|fvc_percent|69.2469112358638|%|73
+923751|Demographic|Gender|M||0.0
+923751|Demographic|Age|67||0.0
+923751|Vitals|height|179.0|cm|0
+923751|Vitals|height|179.0|cm|16
+923751|FVC|fvc_percent|91.4385318272243|%|0
+923751|FVC|fvc_percent|83.6380883538118|%|16
+923751|FVC|fvc_percent|86.0215571929101|%|44
+923751|FVC|fvc_percent|84.9381622660472|%|79
+923897|Demographic|Gender|M||0.0
+923897|Demographic|Age|49||0.0
+923897|FVC|fvc_percent|86.3859649122807|%|42
+923897|FVC|fvc_percent|83.2982456140351|%|52
+930228|Demographic|Gender|F||0.0
+930228|Demographic|Age|57||0.0
+930228|Vitals|height|160.0|cm|0
+930228|Vitals|BMI|0.00342578125||0
+930228|FVC|fvc_percent|95.9844185787937|%|65
+930228|FVC|fvc_percent|106.52343974506|%|7
+930228|FVC|fvc_percent|105.050243237948|%|0
+930332|Demographic|Gender|M||0.0
+930332|Demographic|Age|47||0.0
+930332|FVC|fvc_percent|113.755180108384|%|0
+930332|FVC|fvc_percent|108.989480395282|%|18
+930332|FVC|fvc_percent|113.340771437679|%|44
+930332|FVC|fvc_percent|108.989480395282|%|72
+931962|Demographic|Gender|M||0.0
+931962|Demographic|Age|64||0.0
+931962|Vitals|height|182.88|cm|0
+931962|Vitals|BMI|0.00265479890527682||0
+931962|FVC|fvc_percent|94.241541961992|%|7
+931962|FVC|fvc_percent|86.4466007117825|%|0
+931962|FVC|fvc_percent|96.8398557120618|%|63
+933979|Demographic|Gender|M||0.0
+933979|Demographic|Age|58||0.0
+933979|Vitals|height|178.0|cm|0
+933979|Vitals|BMI|0.00285317510415352||0
+933979|FVC|fvc_percent|131.257557525358|%|0
+933979|FVC|fvc_percent|136.004293096244|%|35
+933979|FVC|fvc_percent|133.940495021946|%|91
+934561|Demographic|Gender|M||0.0
+934561|Demographic|Age|44||0.0
+934561|FVC|fvc_percent|62.0820770086111|%|0
+934561|FVC|fvc_percent|84.1875307077655|%|20
+937548|Demographic|Gender|M||0.0
+937548|Demographic|Age|43||0.0
+937548|Vitals|height|175.0|cm|0
+937548|Vitals|height|175.0|cm|11
+937548|FVC|fvc_percent|95.1257656757105|%|0
+937548|FVC|fvc_percent|95.9184803896748|%|11
+937548|FVC|fvc_percent|94.5312296402373|%|46
+937548|FVC|fvc_percent|90.567656070416|%|69
+938648|Demographic|Gender|M||0.0
+938648|Demographic|Age|50||0.0
+938648|Vitals|height|179.0|cm|0
+938648|Vitals|height|179.0|cm|18
+938648|FVC|fvc_percent|66.3516652814476|%|0
+938648|FVC|fvc_percent|76.4698077877094|%|18
+938648|FVC|fvc_percent|69.8540992259228|%|53
+938648|FVC|fvc_percent|71.9944755253243|%|78
+941016|Demographic|Gender|M||0.0
+941016|Demographic|Age|45||0.0
+941016|FamilyHx|family_ALS_hist|N||0.0
+941016|Vitals|height|189.0|cm|0
+941016|Vitals|height|189.0|cm|7
+941016|Vitals|BMI|0.00237955264410291||0
+941016|Vitals|BMI|0.00235155790711346||7
+941016|FVC|fvc_percent|107.565125532149|%|0
+941016|FVC|fvc_percent|106.388631971641|%|7
+941016|FVC|fvc_percent|97.4808950135097|%|35
+941016|FVC|fvc_percent|105.884420445709|%|63
+941016|FVC|fvc_percent|99.3296706085935|%|91
+942845|Demographic|Gender|M||0.0
+942845|Demographic|Age|64||0.0
+942845|FamilyHx|family_ALS_hist|Y||0.0
+942845|Vitals|height|178.0|cm|0
+942845|Vitals|height|178.0|cm|21
+942845|Vitals|BMI|0.00284055043555107||0
+942845|Vitals|BMI|0.00284055043555107||21
+942845|FVC|fvc_percent|92.4260648656269|%|0
+942845|FVC|fvc_percent|103.818114721158|%|21
+942845|FVC|fvc_percent|97.3697846142534|%|49
+942845|FVC|fvc_percent|91.3513431811428|%|77
+943579|Demographic|Gender|M||0.0
+943579|Demographic|Age|49||0.0
+943579|Vitals|height|173.0|cm|0
+943579|FVC|fvc_percent|62.0342820807534|%|0
+943579|FVC|fvc_percent|55.5374484844583|%|36
+943579|FVC|fvc_percent|53.0225451568602|%|64
+944364|Demographic|Gender|M||0.0
+944364|Demographic|Age|55||0.0
+944364|Vitals|height|188.0|cm|0
+944364|FVC|fvc_percent|90.4396804824483|%|0
+944364|FVC|fvc_percent|92.398020020454|%|32
+944364|FVC|fvc_percent|87.057094007711|%|63
+944364|FVC|fvc_percent|82.7843531975166|%|88
+944875|Demographic|Gender|M||0.0
+944875|Demographic|Age|59||0.0
+944875|FVC|fvc_percent|79.7647643855079|%|0
+944875|FVC|fvc_percent|84.6596732180914|%|12
+945413|Demographic|Gender|M||0.0
+945413|Demographic|Age|54||0.0
+945413|Vitals|height|173.0|cm|0
+945413|FVC|fvc_percent|82.8260921809801|%|0
+945413|FVC|fvc_percent|82.1790133358162|%|29
+945413|FVC|fvc_percent|76.7866896261169|%|60
+945413|FVC|fvc_percent|71.3943659164177|%|91
+946259|Demographic|Gender|M||0.0
+946259|Demographic|Age|55||0.0
+946259|Vitals|height|180.0|cm|0
+946259|FVC|fvc_percent|72.4125391683765|%|0
+946259|FVC|fvc_percent|73.7937047655935|%|36
+946259|FVC|fvc_percent|69.0582798608496|%|63
+946259|FVC|fvc_percent|67.8744236346636|%|84
+946458|Demographic|Gender|M||0.0
+946458|Demographic|Age|59||0.0
+946458|FamilyHx|family_ALS_hist|N||0.0
+946458|Vitals|height|183.0|cm|0
+946458|Vitals|height|183.0|cm|14
+946458|FVC|fvc_percent|61.1521011595995|%|0
+946458|FVC|fvc_percent|67.7526454117468|%|14
+946458|FVC|fvc_percent|65.0347742490979|%|48
+946458|FVC|fvc_percent|64.6465069401481|%|83
+947006|Demographic|Gender|M||0.0
+947006|Demographic|Age|41||0.0
+947006|Vitals|height|169.0|cm|0
+947006|Vitals|BMI|0.00269248275620602||0
+947006|FVC|fvc_percent|122.208008734162|%|0
+947006|FVC|fvc_percent|112.006296700701|%|33
+947006|FVC|fvc_percent|119.657580725797|%|63
+952141|Demographic|Gender|M||0.0
+952141|Demographic|Age|57||0.0
+952141|FVC|fvc_percent|94.594030473805|%|0
+952141|FVC|fvc_percent|94.3644333124609|%|8
+952141|FVC|fvc_percent|96.6604049259027|%|36
+952141|FVC|fvc_percent|92.068461699019|%|64
+952281|Demographic|Gender|M||0.0
+952281|Demographic|Age|62||0.0
+952281|Vitals|height|180.0|cm|0
+952281|Vitals|BMI|0.00290123456790123||0
+952281|FVC|fvc_percent|69.8126745321278|%|74
+952281|FVC|fvc_percent|84.521634260595|%|7
+952281|FVC|fvc_percent|79.1795742597089|%|0
+954776|Demographic|Gender|M||0.0
+954776|Demographic|Age|61||0.0
+954776|Vitals|height|173.0|cm|0
+954776|Vitals|BMI|0.00294029202445788||0
+954776|FVC|fvc_percent|68.1724867072528|%|77
+954776|FVC|fvc_percent|72.5114944291343|%|18
+954776|FVC|fvc_percent|72.3446095167542|%|0
+957518|Demographic|Gender|M||0.0
+957518|Demographic|Age|55||0.0
+957518|FVC|fvc_percent|81.4519142845784|%|0
+957518|FVC|fvc_percent|80.3097841211784|%|11
+957826|Demographic|Gender|M||0.0
+957826|Demographic|Age|64||0.0
+957826|Vitals|height|168.0|cm|0
+957826|Vitals|height|168.0|cm|21
+957826|Vitals|BMI|0.00414540816326531||0
+957826|Vitals|BMI|0.00418083900226757||21
+957826|FVC|fvc_percent|64.631174293438|%|0
+957826|FVC|fvc_percent|56.8953966753045|%|21
+957826|FVC|fvc_percent|66.6275040013434|%|48
+957826|FVC|fvc_percent|73.1155755520361|%|84
+959075|Demographic|Gender|M||0.0
+959075|Demographic|Age|73||0.0
+959075|Vitals|height|178.0|cm|0
+959075|Vitals|height|178.0|cm|7
+959075|Vitals|BMI|0.00277742709253882||0
+959075|Vitals|BMI|0.00279320792829188||7
+959075|FVC|fvc_percent|87.4406030560232|%|7
+959075|FVC|fvc_percent|94.8065199621704|%|43
+959075|FVC|fvc_percent|100.984390286904|%|0
+960182|Demographic|Gender|M||0.0
+960182|Demographic|Age|42||0.0
+960182|Vitals|height|182.0|cm|0
+960182|Vitals|BMI|0.00238497765970293||0
+961157|Demographic|Gender|M||0.0
+961157|Demographic|Age|52||0.0
+961157|FVC|fvc_percent|107.329165768485|%|0
+961157|FVC|fvc_percent|107.04893295969|%|2
+961157|FVC|fvc_percent|106.768700150895|%|30
+961157|FVC|fvc_percent|109.29079543005|%|58
+961157|FVC|fvc_percent|107.60939857728|%|86
+961242|Demographic|Gender|M||0.0
+961242|Demographic|Age|59||0.0
+961242|Vitals|height|173.0|cm|0
+961242|Vitals|BMI|0.00240235223361957||0
+961242|FVC|fvc_percent|77.3355639045158|%|71
+961242|FVC|fvc_percent|82.0057770778693|%|14
+961242|FVC|fvc_percent|80.5809662792191|%|0
+961318|Demographic|Gender|M||0.0
+961318|Demographic|Age|36||0.0
+961318|Vitals|height|178.0|cm|0
+961318|FVC|fvc_percent|68.3043972396055|%|0
+961318|FVC|fvc_percent|64.592201737453|%|35
+961318|FVC|fvc_percent|58.4670791589014|%|63
+961318|FVC|fvc_percent|54.5692738816413|%|91
+962644|Demographic|Gender|M||0.0
+962644|Demographic|Age|56||0.0
+962644|Vitals|height|175.0|cm|14
+962644|Vitals|height|175.0|cm|0
+962644|Vitals|BMI|0.00309551020408163||14
+962644|Vitals|BMI|0.00309551020408163||0
+962644|FVC|fvc_percent|113.725484353529|%|14
+962644|FVC|fvc_percent|126.001699277349|%|49
+962644|FVC|fvc_percent|123.10315545221|%|0
+964249|Demographic|Gender|M||0.0
+964249|Demographic|Age|47||0.0
+964249|FVC|fvc_percent|99.1247264770241|%|0
+964249|FVC|fvc_percent|99.781181619256|%|14
+964249|FVC|fvc_percent|98.6870897155361|%|34
+964249|FVC|fvc_percent|87.089715536105|%|78
+964440|Demographic|Gender|M||0.0
+964440|Demographic|Age|45||0.0
+964440|Vitals|height|174.0|cm|0
+964440|FVC|fvc_percent|85.3120092811685|%|0
+964440|FVC|fvc_percent|82.8803130546269|%|21
+964440|FVC|fvc_percent|75.3825830227902|%|49
+964440|FVC|fvc_percent|81.8671062935678|%|84
+967047|Demographic|Gender|M||0.0
+967047|Demographic|Age|62||0.0
+967047|FVC|fvc_percent|92.9100529100529|%|0
+967047|FVC|fvc_percent|104.338624338624|%|8
+967047|FVC|fvc_percent|104.126984126984|%|35
+967047|FVC|fvc_percent|99.047619047619|%|60
+968752|Demographic|Gender|M||0.0
+968752|Demographic|Age|26||0.0
+968752|Vitals|height|185.0|cm|3
+968752|Vitals|BMI|0.00210372534696859||3
+973533|Demographic|Gender|M||0.0
+973533|Demographic|Age|64||0.0
+973533|Vitals|height|175.26|cm|0
+973533|Vitals|BMI|0.00295935788342906||0
+974249|Demographic|Gender|F||0.0
+974249|Demographic|Age|59||0.0
+974249|FVC|fvc_percent|134.851663170512|%|0
+974249|FVC|fvc_percent|128.378783338328|%|7
+974249|FVC|fvc_percent|129.457596643692|%|35
+974249|FVC|fvc_percent|141.324543002697|%|64
+974249|FVC|fvc_percent|117.950254719808|%|91
+976459|Demographic|Gender|M||0.0
+976459|Demographic|Age|65||0.0
+976459|Vitals|height|179.0|cm|0
+976459|FVC|fvc_percent|72.147327438225|%|0
+976459|FVC|fvc_percent|71.0800592808548|%|33
+976459|FVC|fvc_percent|72.147327438225|%|61
+976459|FVC|fvc_percent|69.5858838605366|%|90
+976969|Demographic|Gender|M||0.0
+976969|Demographic|Age|48||0.0
+976969|FamilyHx|family_ALS_hist|N||0.0
+976969|Vitals|height|170.0|cm|0
+976969|Vitals|height|170.0|cm|25
+976969|Vitals|BMI|0.00295155709342561||0
+976969|Vitals|BMI|0.00295155709342561||25
+976969|FVC|fvc_percent|79.9099796707275|%|0
+976969|FVC|fvc_percent|77.5213661479611|%|25
+976969|FVC|fvc_percent|76.2184860446341|%|49
+976969|FVC|fvc_percent|76.0013393607462|%|84
+977020|Demographic|Gender|F||0.0
+977020|Demographic|Age|55||0.0
+977020|Vitals|height|165.0|cm|9
+977020|Vitals|height|168.0|cm|0
+977020|Vitals|BMI|0.00393021120293848||9
+977020|Vitals|BMI|0.00379109977324263||0
+977020|FVC|fvc_percent|82.0852489247294|%|0
+977182|Demographic|Gender|M||0.0
+977182|Demographic|Age|54||0.0
+977182|FVC|fvc_percent|82.0143884892086|%|0
+977182|FVC|fvc_percent|81.6032887975334|%|12
+977182|FVC|fvc_percent|88.1808838643371|%|41
+977182|FVC|fvc_percent|85.0976361767729|%|69
+977771|Demographic|Gender|M||0.0
+977771|Demographic|Age|59||0.0
+977771|FamilyHx|family_ALS_hist|N||0.0
+977771|Vitals|height|185.0|cm|0
+977771|Vitals|height|185.0|cm|16
+977771|FVC|fvc_percent|89.253711332886|%|0
+977771|FVC|fvc_percent|90.9555829472842|%|16
+977771|FVC|fvc_percent|87.1736460263993|%|50
+977771|FVC|fvc_percent|88.3082271026647|%|84
+981462|Demographic|Gender|M||0.0
+981462|Demographic|Age|67||0.0
+981462|Vitals|height|184.0|cm|0
+981462|Vitals|BMI|0.00273215973534972||0
+981462|FVC|fvc_percent|94.277258945101|%|0
+981462|FVC|fvc_percent|92.0565954581714|%|29
+981462|FVC|fvc_percent|90.8453244653008|%|59
+981462|FVC|fvc_percent|90.8453244653008|%|91
+981748|Demographic|Gender|M||0.0
+981748|Demographic|Age|71||0.0
+981748|Vitals|height|174.0|cm|0
+981748|Vitals|BMI|0.00320385784119435||0
+981748|FVC|fvc_percent|105.551401827443|%|0
+981748|FVC|fvc_percent|100.479137666399|%|32
+981748|FVC|fvc_percent|78.0162535246318|%|60
+981748|FVC|fvc_percent|108.208302102276|%|88
+983366|Demographic|Gender|M||0.0
+983366|Demographic|Age|51||0.0
+983366|Vitals|height|183.0|cm|0
+983366|Vitals|BMI|0.00280091970497775||0
+983366|FVC|fvc_percent|69.4819827255232|%|0
+983366|FVC|fvc_percent|84.5302196259708|%|31
+983366|FVC|fvc_percent|73.9407195849151|%|59
+983366|FVC|fvc_percent|75.4269652047124|%|86
+983807|Demographic|Gender|M||0.0
+983807|Demographic|Age|56||0.0
+983807|Vitals|height|179.4|cm|0
+983807|Vitals|BMI|0.00247635808200008||0
+983815|Demographic|Gender|F||0.0
+983815|Demographic|Age|56||0.0
+983815|Vitals|height|166.0|cm|0
+983815|FVC|fvc_percent|104.316131687118|%|0
+983815|FVC|fvc_percent|105.99413916734|%|30
+983815|FVC|fvc_percent|105.4348033406|%|58
+983815|FVC|fvc_percent|108.790818301043|%|86
+987479|Demographic|Gender|M||0.0
+987479|Demographic|Age|38||0.0
+987479|Vitals|height|176.0|cm|0
+987479|Vitals|height|176.0|cm|13
+987479|Vitals|BMI|0.00297004132231405||0
+987479|Vitals|BMI|0.00293775826446281||13
+987479|FVC|fvc_percent|92.0046093082535|%|0
+987479|FVC|fvc_percent|95.4547821573131|%|13
+987479|FVC|fvc_percent|93.1546669246067|%|43
+987479|FVC|fvc_percent|93.7296957327833|%|75
+990402|Demographic|Gender|M||0.0
+990402|Demographic|Age|55||0.0
+990402|Vitals|height|177.5|cm|0
+990402|Vitals|BMI|0.00291688157111684||0
+991361|Demographic|Gender|F||0.0
+991361|Demographic|Age|51||0.0
+991361|Vitals|height|170.0|cm|0
+991361|Vitals|BMI|0.00260207612456747||0
+991361|FVC|fvc_percent|91.7051126462484|%|73
+991361|FVC|fvc_percent|99.6586386124329|%|0
+991361|FVC|fvc_percent|96.68804457687|%|9
+992188|Demographic|Gender|M||0.0
+992188|Demographic|Age|61||0.0
+992188|FVC|fvc_percent|87.7653415669626|%|0
+992188|FVC|fvc_percent|86.8390582786569|%|7
+992188|FVC|fvc_percent|90.0810497877267|%|35
+992188|FVC|fvc_percent|84.2917792358163|%|63
+992188|FVC|fvc_percent|84.2917792358163|%|91
+992192|Demographic|Gender|M||0.0
+992192|Demographic|Age|36||0.0
+992192|Vitals|height|175.0|cm|0
+992192|FVC|fvc_percent|108.665736007577|%|0
+992192|FVC|fvc_percent|105.390350347774|%|34
+992192|FVC|fvc_percent|104.427001624302|%|70
+993170|Demographic|Gender|F||0.0
+993170|Demographic|Age|48||0.0
+993170|Vitals|height|165.0|cm|0
+993170|Vitals|height|165.0|cm|14
+993170|FVC|fvc_percent|87.6894855773463|%|0
+993170|FVC|fvc_percent|88.7720718190419|%|14
+993170|FVC|fvc_percent|86.0656062148029|%|42
+993170|FVC|fvc_percent|82.8178474897159|%|70
+993568|Demographic|Gender|M||0.0
+993568|Demographic|Age|58||0.0
+993568|Vitals|height|177.0|cm|0
+993568|Vitals|BMI|0.002298190175237||0
+993568|FVC|fvc_percent|101.094244044696|%|77
+993568|FVC|fvc_percent|105.386679004134|%|0
+993568|FVC|fvc_percent|108.050948978958|%|14
+994973|Demographic|Gender|M||0.0
+994973|Demographic|Age|60||0.0
+994973|Vitals|height|170.0|cm|0
+994973|Vitals|BMI|0.00304498269896194||0
+994973|FVC|fvc_percent|85.5955976190822|%|0
+994973|FVC|fvc_percent|75.7462411807221|%|34
+994973|FVC|fvc_percent|75.9807496673497|%|70
+996401|Demographic|Gender|M||0.0
+996401|Demographic|Age|41||0.0
+996401|FamilyHx|family_ALS_hist|N||0.0
+996401|Vitals|height|175.0|cm|0
+996401|Vitals|height|175.0|cm|11
+996401|Vitals|BMI|0.00245551020408163||0
+996401|Vitals|BMI|0.00246530612244898||11
+996401|FVC|fvc_percent|111.397879334092|%|0
+996401|FVC|fvc_percent|109.82612795019|%|11
+996401|FVC|fvc_percent|108.057907643299|%|39
+996401|FVC|fvc_percent|137.528246091472|%|56
+996401|FVC|fvc_percent|108.450845489275|%|91
+996611|Demographic|Gender|M||0.0
+996611|Demographic|Age|62||0.0
+996611|Vitals|height|182.0|cm|0
+996611|Vitals|BMI|0.00223402970655718||0
+997136|Demographic|Gender|M||0.0
+997136|Demographic|Age|33||0.0
+997136|Vitals|height|177.0|cm|0
+997136|Vitals|height|177.0|cm|21
+997136|Vitals|BMI|0.00217051294327939||0
+997136|Vitals|BMI|0.00217051294327939||21
+997136|FVC|fvc_percent|85.7637531414974|%|0
+997136|FVC|fvc_percent|82.042982940131|%|21
+997136|FVC|fvc_percent|83.1592140005409|%|49
+997136|FVC|fvc_percent|85.9497916515658|%|87
+998908|Demographic|Gender|M||0.0
+998908|Demographic|Age|37||0.0
+998908|Vitals|height|175.0|cm|0
+998908|Vitals|height|175.0|cm|5
+998908|FVC|fvc_percent|88.9536660658104|%|0
+998908|FVC|fvc_percent|85.666247972074|%|5
+998908|FVC|fvc_percent|81.6053197386348|%|35
+998908|FVC|fvc_percent|84.6993602974456|%|68
+999166|Demographic|Gender|M||0.0
+999166|Demographic|Age|60||0.0
+999166|Vitals|height|178.0|cm|0
+999166|Vitals|BMI|0.00268274207802045||0
+999166|FVC|fvc_percent|78.1061810988355|%|0
+999166|FVC|fvc_percent|71.7632806507715|%|18
+999482|Demographic|Gender|M||0.0
+999482|Demographic|Age|48||0.0
+999482|Vitals|height|182.0|cm|0
+999482|Vitals|height|182.0|cm|14
+999482|FVC|fvc_percent|79.1822886955537|%|0
+999482|FVC|fvc_percent|81.4075520780985|%|14
+999482|FVC|fvc_percent|81.5929906933106|%|49
+999482|FVC|fvc_percent|72.6919371631313|%|80
+752997|Demographic|Gender|F||0.0
+752997|Demographic|Age|26||0.0
+752997|Demographic|Race|White||0.0
+752997|Vitals|pulse|67.0|# per minute|0
+752997|Vitals|pulse|74.0|# per minute|21
+752997|Vitals|pulse|80.0|# per minute|51
+752997|Vitals|pulse|72.0|# per minute|79
+752997|Vitals|height|165.0|cm|0
+752997|Vitals|height|165.0|cm|21
+754593|Demographic|Gender|M||0.0
+754593|Demographic|Age|30||0.0
+754593|Demographic|Race|White||0.0
+754593|Vitals|pulse|72.0|# per minute|0
+754593|Vitals|pulse|72.0|# per minute|3
+754593|Vitals|pulse|92.0|# per minute|31
+754593|Vitals|pulse|68.0|# per minute|59
+754593|Vitals|pulse|76.0|# per minute|87
+754593|Vitals|height|180.0|cm|0
+754593|Vitals|height|180.0|cm|3
+754593|Vitals|BMI|0.00159876543209877||0
+754593|Vitals|BMI|0.00162654320987654||3
+756127|Demographic|Gender|F||0.0
+756127|Demographic|Age|57||0.0
+756127|Demographic|Race|White||0.0
+756127|Vitals|pulse|88.0|# per minute|0
+756127|Vitals|pulse|88.0|# per minute|0
+756127|Vitals|pulse|80.0|# per minute|28
+756127|Vitals|height|160.0|cm|0
+756127|Vitals|height|160.0|cm|0
+756127|Vitals|BMI|0.00253515625||0
+756127|Vitals|BMI|0.00253515625||0
+757875|Demographic|Gender|M||0.0
+757875|Demographic|Age|55||0.0
+757875|Demographic|Race|White||0.0
+757875|Vitals|pulse|62.0|# per minute|0
+757875|Vitals|height|175.0|cm|0
+757875|Vitals|BMI|0.00265795918367347||0
+757989|Demographic|Gender|M||0.0
+757989|Demographic|Age|54||0.0
+757989|Demographic|Race|White||0.0
+757989|Vitals|pulse|78.0|# per minute|0
+757989|Vitals|pulse|84.0|# per minute|34
+757989|Vitals|pulse|76.0|# per minute|64
+757989|Vitals|height|191.0|cm|0
+757989|Vitals|BMI|0.00224774540171596||0
+763048|Demographic|Gender|M||0.0
+763048|Demographic|Age|57||0.0
+763048|Demographic|Race|White||0.0
+763048|Vitals|pulse|80.0|# per minute|0
+763048|Vitals|pulse|92.0|# per minute|29
+763048|Vitals|pulse|76.0|# per minute|58
+763048|Vitals|pulse|88.0|# per minute|90
+763048|Vitals|height|167.0|cm|0
+763048|Vitals|BMI|0.00265337588296461||0
+765708|Demographic|Gender|F||0.0
+765708|Demographic|Age|60||0.0
+765708|Demographic|Race|White||0.0
+765708|Vitals|pulse|82.0|# per minute|0
+765708|Vitals|pulse|85.0|# per minute|35
+765708|Vitals|pulse|90.0|# per minute|71
+765708|Vitals|height|152.4|cm|0
+765708|Vitals|BMI|0.00322825851985037||0
+768857|Demographic|Gender|F||0.0
+768857|Demographic|Age|51||0.0
+768857|Demographic|Race|White||0.0
+768857|Vitals|pulse|84.0|# per minute|0
+768857|Vitals|pulse|80.0|# per minute|30
+768857|Vitals|pulse|80.0|# per minute|71
+768857|Vitals|height|160.0|cm|0
+768857|Vitals|BMI|0.00219140625||0
+768977|Demographic|Gender|M||0.0
+768977|Demographic|Age|39||0.0
+768977|Demographic|Race|White||0.0
+768977|Vitals|pulse|80.0|# per minute|0
+768977|Vitals|pulse|72.0|# per minute|21
+768977|Vitals|pulse|96.0|# per minute|37
+768977|Vitals|pulse|72.0|# per minute|49
+768977|Vitals|pulse|88.0|# per minute|63
+769336|Demographic|Gender|M||0.0
+769336|Demographic|Age|46||0.0
+769336|Demographic|Race|White||0.0
+769336|Vitals|pulse|78.0|# per minute|0
+769336|Vitals|pulse|72.0|# per minute|28
+769336|Vitals|pulse|78.0|# per minute|56
+769336|Vitals|pulse|78.0|# per minute|84
+769336|Vitals|height|180.0|cm|0
+769336|Vitals|BMI|0.00259259259259259||0
+770594|Demographic|Gender|M||0.0
+770594|Demographic|Age|37||0.0
+770594|Demographic|Race|White||0.0
+770594|Vitals|pulse|60.0|# per minute|0
+770594|Vitals|pulse|72.0|# per minute|14
+770594|Vitals|pulse|72.0|# per minute|28
+770594|Vitals|pulse|68.0|# per minute|42
+770594|Vitals|pulse|84.0|# per minute|59
+770979|Demographic|Gender|F||0.0
+770979|Demographic|Age|52||0.0
+770979|Demographic|Race|White||0.0
+770979|Vitals|pulse|64.0|# per minute|0
+770979|Vitals|pulse|64.0|# per minute|7
+770979|Vitals|pulse|64.0|# per minute|63
+770979|Vitals|height|172.2|cm|0
+770979|Vitals|BMI|0.00221530214306623||0
+772711|Demographic|Gender|M||0.0
+772711|Demographic|Age|29||0.0
+772711|Demographic|Race|White||0.0
+774792|Demographic|Gender|F||0.0
+774792|Demographic|Age|34||0.0
+774792|Demographic|Race|Unknown||0.0
+774792|Vitals|pulse|60.0|# per minute|0
+774792|Vitals|pulse|68.0|# per minute|17
+774792|Vitals|pulse|68.0|# per minute|33
+774792|Vitals|pulse|64.0|# per minute|47
+774792|Vitals|pulse|60.0|# per minute|61
+774869|Demographic|Gender|F||0.0
+774869|Demographic|Age|49||0.0
+774869|Demographic|Race|White||0.0
+774869|Vitals|pulse|81.0|# per minute|0
+774869|Vitals|pulse|81.0|# per minute|38
+774869|Vitals|pulse|77.0|# per minute|63
+774869|Vitals|height|159.0|cm|0
+774869|Vitals|BMI|0.00233376844270401||0
+775454|Demographic|Gender|F||0.0
+775454|Demographic|Age|26||0.0
+775454|Demographic|Race|White||0.0
+775454|Vitals|pulse|78.0|# per minute|0
+775454|Vitals|pulse|86.0|# per minute|14
+775454|Vitals|pulse|80.0|# per minute|43
+775454|Vitals|height|165.0|cm|0
+775454|Vitals|BMI|0.00235078053259871||0
+775977|Demographic|Gender|M||0.0
+775977|Demographic|Age|62||0.0
+775977|Demographic|Race|White||0.0
+775977|Vitals|pulse|62.0|# per minute|0
+775977|Vitals|pulse|72.0|# per minute|10
+775977|Vitals|pulse|62.0|# per minute|42
+775977|Vitals|height|177.8|cm|0
+775977|Vitals|BMI|0.00256225002245923||0
+776607|Demographic|Gender|M||0.0
+776607|Demographic|Age|51||0.0
+776607|Demographic|Race|White||0.0
+777709|Demographic|Gender|M||0.0
+777709|Demographic|Age|36||0.0
+777709|Demographic|Race|White||0.0
+777709|Vitals|pulse|68.0|# per minute|0
+777709|Vitals|pulse|76.0|# per minute|28
+777709|Vitals|pulse|76.0|# per minute|56
+777709|Vitals|pulse|87.0|# per minute|87
+777709|Vitals|height|177.0|cm|0
+777967|Demographic|Gender|M||0.0
+777967|Demographic|Age|49||0.0
+777967|Demographic|Race|White||0.0
+777967|Vitals|pulse|74.0|# per minute|0
+777967|Vitals|pulse|75.0|# per minute|39
+777967|Vitals|pulse|90.0|# per minute|13
+777967|Vitals|height|180.0|cm|0
+777967|Vitals|height|180.0|cm|13
+777967|Vitals|BMI|0.00280864197530864||0
+777967|Vitals|BMI|0.00283333333333333||13
+785600|Demographic|Gender|M||0.0
+785600|Demographic|Age|47||0.0
+785600|Demographic|Race|White||0.0
+790656|Demographic|Gender|F||0.0
+790656|Demographic|Age|51||0.0
+790656|Demographic|Race|White||0.0
+790656|Vitals|pulse|80.0|# per minute|0
+790656|Vitals|pulse|72.0|# per minute|32
+790656|Vitals|pulse|84.0|# per minute|61
+790656|Vitals|pulse|80.0|# per minute|89
+790656|Vitals|height|167.0|cm|0
+790656|Vitals|BMI|0.00250636451647603||0
+790739|Demographic|Gender|M||0.0
+790739|Demographic|Age|32||0.0
+790739|Demographic|Race|White||0.0
+790739|Vitals|pulse|75.0|# per minute|0
+790739|Vitals|pulse|78.0|# per minute|27
+790739|Vitals|pulse|75.0|# per minute|52
+790739|Vitals|pulse|66.0|# per minute|80
+790739|Vitals|height|164.0|cm|27
+791439|Demographic|Gender|F||0.0
+791439|Demographic|Age|49||0.0
+791439|Demographic|Race|White||0.0
+791439|Vitals|pulse|72.0|# per minute|0
+791439|Vitals|pulse|73.0|# per minute|35
+791439|Vitals|pulse|70.0|# per minute|63
+791439|Vitals|pulse|60.0|# per minute|91
+791439|Vitals|height|160.0|cm|0
+791439|Vitals|BMI|0.002734375||0
+795583|Demographic|Gender|F||0.0
+795583|Demographic|Age|61||0.0
+795583|Demographic|Race|White||0.0
+795583|Vitals|pulse|89.0|# per minute|0
+795583|Vitals|pulse|80.0|# per minute|35
+795583|Vitals|pulse|76.0|# per minute|63
+795583|Vitals|pulse|81.0|# per minute|91
+795583|Vitals|height|173.0|cm|0
+795583|Vitals|BMI|0.00286010224197267||0
+796363|Demographic|Gender|F||0.0
+796363|Demographic|Age|63||0.0
+796363|Demographic|Race|White||0.0
+796363|Vitals|pulse|64.0|# per minute|0
+796363|Vitals|pulse|82.0|# per minute|36
+796363|Vitals|pulse|88.0|# per minute|63
+796363|Vitals|pulse|69.0|# per minute|91
+796363|Vitals|height|167.0|cm|0
+796363|Vitals|height|167.0|cm|0
+797356|Demographic|Gender|F||0.0
+797356|Demographic|Age|34||0.0
+797356|Demographic|Race|White||0.0
+797356|Vitals|pulse|79.0|# per minute|0
+797356|Vitals|pulse|88.0|# per minute|28
+797356|Vitals|pulse|81.0|# per minute|70
+797356|Vitals|height|158.0|cm|0
+797356|Vitals|BMI|0.00249158788655664||0
+797765|Demographic|Gender|M||0.0
+797765|Demographic|Age|32||0.0
+797765|Demographic|Race|White||0.0
+797765|Vitals|pulse|82.0|# per minute|0
+797765|Vitals|pulse|90.0|# per minute|6
+797765|Vitals|pulse|78.0|# per minute|35
+797765|Vitals|pulse|90.0|# per minute|91
+797765|Vitals|height|183.0|cm|0
+797765|Vitals|height|183.0|cm|6
+797765|Vitals|BMI|0.00225447161754606||0
+797765|Vitals|BMI|0.00225447161754606||6
+797816|Demographic|Gender|M||0.0
+797816|Demographic|Age|68||0.0
+797816|Demographic|Race|Asian||0.0
+798063|Demographic|Gender|F||0.0
+798063|Demographic|Age|60||0.0
+798063|Demographic|Race|White||0.0
+798423|Demographic|Gender|M||0.0
+798423|Demographic|Age|56||0.0
+798423|Demographic|Race|White||0.0
+798476|Demographic|Gender|M||0.0
+798476|Demographic|Age|30||0.0
+798476|Demographic|Race|White||0.0
+798476|Vitals|pulse|72.0|# per minute|0
+798476|Vitals|pulse|72.0|# per minute|28
+798476|Vitals|pulse|60.0|# per minute|64
+798476|Vitals|height|193.0|cm|0
+798476|Vitals|BMI|0.0024161722462348||0
+803528|Demographic|Gender|M||0.0
+803528|Demographic|Age|69||0.0
+803528|Demographic|Race|White||0.0
+803528|Vitals|pulse|53.0|# per minute|0
+803528|Vitals|pulse|62.0|# per minute|9
+803528|Vitals|pulse|56.0|# per minute|39
+803528|Vitals|height|170.0|cm|0
+803528|Vitals|BMI|0.00231833910034602||0
+803718|Demographic|Gender|M||0.0
+803718|Demographic|Age|49||0.0
+803718|Demographic|Race|White||0.0
+803718|Vitals|pulse|52.0|# per minute|0
+803718|Vitals|pulse|56.0|# per minute|7
+803718|Vitals|pulse|61.0|# per minute|34
+803718|Vitals|pulse|50.0|# per minute|91
+803718|Vitals|height|180.0|cm|0
+803718|Vitals|BMI|0.00197530864197531||0
+803920|Demographic|Gender|M||0.0
+803920|Demographic|Age|31||0.0
+803920|Demographic|Race|White||0.0
+803920|Vitals|pulse|72.0|# per minute|73
+803920|Vitals|pulse|80.0|# per minute|14
+803920|Vitals|pulse|64.0|# per minute|0
+803920|Vitals|height|167.5|cm|0
+803920|Vitals|BMI|0.00215638226776565||0
+807517|Demographic|Gender|F||0.0
+807517|Demographic|Age|46||0.0
+807517|Demographic|Race|White||0.0
+807517|Vitals|pulse|72.0|# per minute|0
+807517|Vitals|pulse|62.0|# per minute|7
+807517|Vitals|pulse|76.0|# per minute|35
+807517|Vitals|pulse|60.0|# per minute|63
+807517|Vitals|pulse|60.0|# per minute|91
+807517|Vitals|height|161.0|cm|0
+807517|Vitals|height|161.0|cm|7
+807895|Demographic|Gender|M||0.0
+807895|Demographic|Age|61||0.0
+807895|Demographic|Race|White||0.0
+807895|Vitals|pulse|80.0|# per minute|0
+807895|Vitals|pulse|76.0|# per minute|13
+807895|Vitals|pulse|84.0|# per minute|27
+807895|Vitals|pulse|88.0|# per minute|41
+807895|Vitals|pulse|63.0|# per minute|55
+808377|Demographic|Gender|M||0.0
+808377|Demographic|Age|48||0.0
+808377|Demographic|Race|White||0.0
+808377|Vitals|pulse|100.0|# per minute|0
+808377|Vitals|pulse|100.0|# per minute|38
+808377|Vitals|pulse|84.0|# per minute|73
+808377|Vitals|height|185.0|cm|0
+808377|Vitals|BMI|0.00230825420014609||0
+809464|Demographic|Gender|M||0.0
+809464|Demographic|Age|51||0.0
+809464|Demographic|Race|White||0.0
+809464|Vitals|pulse|72.0|# per minute|0
+809464|Vitals|pulse|90.0|# per minute|28
+809464|Vitals|pulse|90.0|# per minute|56
+809464|Vitals|pulse|80.0|# per minute|84
+809464|Vitals|height|190.0|cm|0
+809464|Vitals|height|190.0|cm|28
+809464|Vitals|BMI|0.00235457063711911||0
+809464|Vitals|BMI|0.00240997229916897||28
+810570|Demographic|Gender|M||0.0
+810570|Demographic|Age|42||0.0
+810570|Demographic|Race|White||0.0
+810570|Vitals|pulse|88.0|# per minute|0
+810570|Vitals|pulse|86.0|# per minute|42
+810570|Vitals|pulse|80.0|# per minute|63
+810570|Vitals|pulse|83.0|# per minute|90
+810570|Vitals|height|172.0|cm|0
+810570|Vitals|BMI|0.0021295294753921||0
+810840|Demographic|Gender|M||0.0
+810840|Demographic|Age|40||0.0
+810840|Demographic|Race|White||0.0
+810840|Vitals|pulse|86.0|# per minute|0
+810840|Vitals|pulse|84.0|# per minute|7
+810840|Vitals|pulse|78.0|# per minute|41
+810840|Vitals|pulse|76.0|# per minute|71
+810840|Vitals|height|177.0|cm|0
+810840|Vitals|height|177.0|cm|7
+810840|Vitals|BMI|0.00191515847936417||0
+810840|Vitals|BMI|0.00191515847936417||7
+811387|Demographic|Gender|F||0.0
+811387|Demographic|Age|43||0.0
+811387|Demographic|Race|White||0.0
+811387|Vitals|pulse|102.0|# per minute|0
+811387|Vitals|pulse|92.0|# per minute|25
+811387|Vitals|pulse|96.0|# per minute|60
+811387|Vitals|pulse|100.0|# per minute|91
+811387|Vitals|height|157.0|cm|0
+811387|Vitals|BMI|0.00227189744005842||0
+812886|Demographic|Gender|F||0.0
+812886|Demographic|Age|41||0.0
+812886|Demographic|Race|White||0.0
+812886|Vitals|pulse|72.0|# per minute|0
+812886|Vitals|pulse|68.0|# per minute|32
+812886|Vitals|pulse|92.0|# per minute|61
+812886|Vitals|pulse|80.0|# per minute|91
+812886|Vitals|height|167.0|cm|0
+812886|Vitals|BMI|0.00197210369679802||0
+814102|Demographic|Gender|M||0.0
+814102|Demographic|Age|61||0.0
+814102|Demographic|Race|White||0.0
+814102|Vitals|pulse|68.0|# per minute|0
+814102|Vitals|pulse|60.0|# per minute|34
+814102|Vitals|pulse|68.0|# per minute|67
+814102|Vitals|height|181.0|cm|0
+814102|Vitals|BMI|0.00225878330942279||0
+814145|Demographic|Gender|F||0.0
+814145|Demographic|Age|54||0.0
+814145|Demographic|Race|White||0.0
+814145|Vitals|pulse|84.0|# per minute|0
+814145|Vitals|pulse|84.0|# per minute|32
+814145|Vitals|pulse|90.0|# per minute|60
+814145|Vitals|height|165.0|cm|0
+814145|Vitals|height|165.0|cm|32
+814548|Demographic|Gender|M||0.0
+814548|Demographic|Age|38||0.0
+814548|Demographic|Race|White||0.0
+814548|Vitals|pulse|80.0|# per minute|0
+814548|Vitals|pulse|72.0|# per minute|49
+814548|Vitals|pulse|72.0|# per minute|14
+814548|Vitals|height|178.0|cm|0
+814548|Vitals|height|178.0|cm|14
+814548|Vitals|BMI|0.00250915288473678||0
+814548|Vitals|BMI|0.00255649539199596||14
+816562|Demographic|Gender|M||0.0
+816562|Demographic|Age|42||0.0
+816562|Demographic|Race|White||0.0
+816562|Vitals|pulse|71.0|# per minute|0
+816562|Vitals|pulse|66.0|# per minute|21
+816562|Vitals|pulse|77.0|# per minute|53
+816562|Vitals|pulse|68.0|# per minute|88
+816562|Vitals|height|180.0|cm|0
+816562|Vitals|height|180.0|cm|21
+816562|Vitals|BMI|0.00261111111111111||0
+816562|Vitals|BMI|0.00261111111111111||21
+818619|Demographic|Gender|F||0.0
+818619|Demographic|Age|61||0.0
+818619|Demographic|Race|White||0.0
+820771|Demographic|Gender|M||0.0
+820771|Demographic|Age|39||0.0
+820771|Demographic|Race|White||0.0
+820771|Vitals|pulse|80.0|# per minute|0
+820771|Vitals|pulse|88.0|# per minute|27
+820771|Vitals|pulse|86.0|# per minute|56
+820771|Vitals|pulse|88.0|# per minute|84
+820771|Vitals|height|168.0|cm|0
+821152|Demographic|Gender|M||0.0
+821152|Demographic|Age|46||0.0
+821152|Demographic|Race|White||0.0
+821152|Vitals|pulse|66.0|# per minute|0
+821152|Vitals|pulse|84.0|# per minute|40
+821152|Vitals|pulse|78.0|# per minute|68
+821152|Vitals|height|180.0|cm|0
+821152|Vitals|BMI|0.00261111111111111||0
+821361|Demographic|Gender|M||0.0
+821361|Demographic|Age|49||0.0
+821361|Demographic|Race|White||0.0
+821361|Vitals|pulse|64.0|# per minute|0
+821361|Vitals|pulse|80.0|# per minute|30
+821361|Vitals|pulse|68.0|# per minute|63
+821361|Vitals|height|171.0|cm|0
+821361|Vitals|BMI|0.00201771485243323||0
+821392|Demographic|Gender|M||0.0
+821392|Demographic|Age|45||0.0
+821392|Demographic|Race|White||0.0
+821392|Vitals|pulse|86.0|# per minute|0
+821392|Vitals|pulse|80.0|# per minute|3
+821392|Vitals|pulse|92.0|# per minute|32
+821392|Vitals|pulse|80.0|# per minute|60
+821392|Vitals|pulse|72.0|# per minute|88
+821392|Vitals|height|175.0|cm|0
+821392|Vitals|height|175.0|cm|3
+821392|Vitals|BMI|0.00354612244897959||0
+821392|Vitals|BMI|0.00356244897959184||3
+822855|Demographic|Gender|F||0.0
+822855|Demographic|Age|62||0.0
+822855|Demographic|Race|White||0.0
+823882|Demographic|Gender|M||0.0
+823882|Demographic|Age|50||0.0
+823882|Demographic|Race|White||0.0
+825682|Demographic|Gender|M||0.0
+825682|Demographic|Age|54||0.0
+825682|Demographic|Race|White||0.0
+825682|Vitals|pulse|70.0|# per minute|0
+825682|Vitals|pulse|72.0|# per minute|22
+825682|Vitals|pulse|72.0|# per minute|37
+825682|Vitals|pulse|60.0|# per minute|52
+825682|Vitals|pulse|76.0|# per minute|63
+826369|Demographic|Gender|F||0.0
+826369|Demographic|Age|46||0.0
+826369|Demographic|Race|Other||0.0
+826369|Vitals|pulse|80.0|# per minute|0
+826369|Vitals|pulse|80.0|# per minute|28
+826369|Vitals|pulse|75.0|# per minute|62
+826369|Vitals|pulse|74.0|# per minute|91
+826369|Vitals|height|173.0|cm|0
+826397|Demographic|Gender|M||0.0
+826397|Demographic|Age|64||0.0
+826397|Demographic|Race|White||0.0
+826397|Vitals|pulse|64.0|# per minute|0
+826397|Vitals|pulse|72.0|# per minute|28
+826397|Vitals|pulse|88.0|# per minute|59
+826397|Vitals|height|173.0|cm|0
+826593|Demographic|Gender|F||0.0
+826593|Demographic|Age|45||0.0
+826593|Demographic|Race|White||0.0
+826593|Vitals|pulse|72.0|# per minute|0
+826593|Vitals|pulse|85.0|# per minute|7
+826593|Vitals|pulse|72.0|# per minute|14
+826593|Vitals|pulse|75.0|# per minute|32
+826593|Vitals|pulse|60.0|# per minute|41
+826593|Vitals|pulse|72.0|# per minute|60
+826593|Vitals|pulse|76.0|# per minute|89
+826593|Vitals|height|168.0|cm|0
+826593|Vitals|BMI|0.00230300453514739||0
+828507|Demographic|Gender|M||0.0
+828507|Demographic|Age|65||0.0
+828507|Demographic|Race|White||0.0
+828507|Vitals|pulse|66.0|# per minute|0
+828507|Vitals|pulse|74.0|# per minute|90
+828507|Vitals|pulse|76.0|# per minute|62
+828507|Vitals|pulse|76.0|# per minute|41
+828507|Vitals|pulse|64.0|# per minute|6
+828507|Vitals|height|154.0|cm|0
+828507|Vitals|height|154.0|cm|90
+828507|Vitals|height|154.0|cm|62
+828507|Vitals|height|154.0|cm|41
+828507|Vitals|height|154.0|cm|6
+828507|Vitals|BMI|0.00322988699612076||0
+828507|Vitals|BMI|0.00320458762017204||90
+828507|Vitals|BMI|0.00325518637206949||62
+828507|Vitals|BMI|0.00322567043346264||41
+828507|Vitals|BMI|0.00328470231067634||6
+829680|Demographic|Gender|M||0.0
+829680|Demographic|Age|64||0.0
+829680|Demographic|Race|Unknown||0.0
+829680|Vitals|pulse|74.0|# per minute|0
+829680|Vitals|pulse|68.0|# per minute|65
+829680|Vitals|pulse|68.0|# per minute|9
+829680|Vitals|height|183.0|cm|0
+829680|Vitals|BMI|0.00306667861088716||0
+829741|Demographic|Gender|M||0.0
+829741|Demographic|Age|45||0.0
+829741|Demographic|Race|White||0.0
+829741|Vitals|pulse|100.0|# per minute|0
+829741|Vitals|pulse|100.0|# per minute|31
+829741|Vitals|pulse|88.0|# per minute|63
+829741|Vitals|pulse|108.0|# per minute|91
+829741|Vitals|height|194.0|cm|0
+829741|Vitals|BMI|0.00257731958762887||0
+833061|Demographic|Gender|F||0.0
+833061|Demographic|Age|49||0.0
+833061|Demographic|Race|White||0.0
+833061|Vitals|pulse|72.0|# per minute|0
+833061|Vitals|pulse|78.0|# per minute|21
+833061|Vitals|pulse|80.0|# per minute|32
+833061|Vitals|pulse|90.0|# per minute|49
+833061|Vitals|pulse|70.0|# per minute|61
+833061|Vitals|pulse|70.0|# per minute|90
+833061|Vitals|height|164.0|cm|0
+833061|Vitals|BMI|0.00297441998810232||0
+835446|Demographic|Gender|F||0.0
+835446|Demographic|Age|45||0.0
+835446|Demographic|Race|Asian||0.0
+835446|Vitals|pulse|80.0|# per minute|0
+835446|Vitals|pulse|78.0|# per minute|14
+835446|Vitals|pulse|80.0|# per minute|27
+835446|Vitals|pulse|78.0|# per minute|41
+835446|Vitals|pulse|74.0|# per minute|55
+836590|Demographic|Gender|F||0.0
+836590|Demographic|Age|63||0.0
+836590|Demographic|Race|White||0.0
+836590|Vitals|pulse|82.0|# per minute|0
+836590|Vitals|pulse|70.0|# per minute|30
+836590|Vitals|pulse|74.0|# per minute|63
+836590|Vitals|pulse|68.0|# per minute|90
+836590|Vitals|height|168.0|cm|0
+836590|Vitals|BMI|0.00224277210884354||0
+839412|Demographic|Gender|M||0.0
+839412|Demographic|Age|50||0.0
+839412|Demographic|Race|White||0.0
+839412|Vitals|pulse|68.0|# per minute|0
+839412|Vitals|pulse|83.0|# per minute|35
+839412|Vitals|pulse|81.0|# per minute|63
+839412|Vitals|pulse|82.0|# per minute|91
+839412|Vitals|height|177.0|cm|0
+839412|Vitals|BMI|0.00251524146956494||0
+839661|Demographic|Gender|F||0.0
+839661|Demographic|Age|55||0.0
+839661|Demographic|Race|White||0.0
+839661|Vitals|pulse|84.0|# per minute|71
+839661|Vitals|pulse|80.0|# per minute|6
+839661|Vitals|pulse|84.0|# per minute|0
+839661|Vitals|height|173.0|cm|0
+839661|Vitals|BMI|0.00218851281365899||0
+842177|Demographic|Gender|F||0.0
+842177|Demographic|Age|64||0.0
+842177|Demographic|Race|White||0.0
+843799|Demographic|Gender|M||0.0
+843799|Demographic|Age|42||0.0
+843799|Demographic|Race|White||0.0
+843799|Vitals|pulse|94.0|# per minute|0
+843799|Vitals|pulse|95.0|# per minute|35
+843799|Vitals|pulse|88.0|# per minute|70
+843799|Vitals|height|179.0|cm|0
+844156|Demographic|Gender|M||0.0
+844156|Demographic|Age|35||0.0
+844156|Demographic|Race|White||0.0
+844156|Vitals|pulse|74.0|# per minute|0
+844156|Vitals|pulse|84.0|# per minute|34
+844156|Vitals|pulse|80.0|# per minute|69
+844156|Vitals|height|184.0|cm|0
+844156|Vitals|BMI|0.00262878071833648||0
+845587|Demographic|Gender|F||0.0
+845587|Demographic|Age|55||0.0
+845587|Demographic|Race|White||0.0
+852032|Demographic|Gender|F||0.0
+852032|Demographic|Age|57||0.0
+852032|Demographic|Race|White||0.0
+852032|Vitals|pulse|75.0|# per minute|0
+852032|Vitals|pulse|73.0|# per minute|36
+852032|Vitals|pulse|81.0|# per minute|70
+852032|Vitals|pulse|73.0|# per minute|87
+852032|Vitals|height|158.0|cm|0
+852032|Vitals|BMI|0.00231132831277039||0
+853169|Demographic|Gender|F||0.0
+853169|Demographic|Age|35||0.0
+853169|Demographic|Race|White||0.0
+853169|Vitals|pulse|80.0|# per minute|0
+853169|Vitals|pulse|68.0|# per minute|7
+853169|Vitals|pulse|59.0|# per minute|35
+853169|Vitals|pulse|76.0|# per minute|91
+853169|Vitals|height|173.0|cm|0
+853169|Vitals|BMI|0.00374218984931003||0
+854385|Demographic|Gender|M||0.0
+854385|Demographic|Age|51||0.0
+854385|Demographic|Race|White||0.0
+856023|Demographic|Gender|M||0.0
+856023|Demographic|Age|35||0.0
+856023|Demographic|Race|White||0.0
+856023|Vitals|pulse|80.0|# per minute|0
+856023|Vitals|pulse|92.0|# per minute|29
+856023|Vitals|pulse|84.0|# per minute|57
+856023|Vitals|pulse|96.0|# per minute|85
+856023|Vitals|height|173.0|cm|0
+856023|Vitals|BMI|0.00284005479635136||0
+856496|Demographic|Gender|F||0.0
+856496|Demographic|Age|37||0.0
+856496|Demographic|Race|White||0.0
+856496|Vitals|pulse|68.0|# per minute|0
+856496|Vitals|pulse|78.0|# per minute|28
+856496|Vitals|pulse|74.0|# per minute|54
+856496|Vitals|pulse|92.0|# per minute|84
+856496|Vitals|height|172.0|cm|0
+856496|Vitals|BMI|0.00229853975121687||0
+857903|Demographic|Gender|F||0.0
+857903|Demographic|Age|61||0.0
+857903|Demographic|Race|White||0.0
+857903|Vitals|pulse|84.0|# per minute|0
+857903|Vitals|pulse|76.0|# per minute|29
+857903|Vitals|pulse|78.0|# per minute|64
+857903|Vitals|pulse|76.0|# per minute|91
+857903|Vitals|height|163.0|cm|0
+858419|Demographic|Gender|F||0.0
+858419|Demographic|Age|54||0.0
+858419|Demographic|Race|White||0.0
+858419|Vitals|pulse|72.0|# per minute|0
+858419|Vitals|pulse|60.0|# per minute|51
+858419|Vitals|pulse|73.0|# per minute|77
+858419|Vitals|height|154.0|cm|0
+858419|Vitals|BMI|0.00306544105245404||0
+862216|Demographic|Gender|M||0.0
+862216|Demographic|Age|58||0.0
+862216|Demographic|Race|White||0.0
+862216|Vitals|pulse|92.0|# per minute|8
+862216|Vitals|pulse|88.0|# per minute|35
+862216|Vitals|pulse|88.0|# per minute|64
+862216|Vitals|height|180.0|cm|0
+862216|Vitals|height|180.0|cm|8
+862491|Demographic|Gender|M||0.0
+862491|Demographic|Age|41||0.0
+862491|Demographic|Race|White||0.0
+862491|Vitals|pulse|84.0|# per minute|0
+862491|Vitals|pulse|72.0|# per minute|28
+862491|Vitals|pulse|96.0|# per minute|56
+862491|Vitals|pulse|62.0|# per minute|84
+862491|Vitals|height|167.0|cm|0
+863237|Demographic|Gender|F||0.0
+863237|Demographic|Age|50||0.0
+863237|Demographic|Race|White||0.0
+863237|Vitals|pulse|68.0|# per minute|0
+863237|Vitals|pulse|72.0|# per minute|29
+863237|Vitals|pulse|80.0|# per minute|63
+863237|Vitals|pulse|100.0|# per minute|91
+863237|Vitals|height|169.0|cm|0
+863237|Vitals|BMI|0.00217079233920381||0
+864347|Demographic|Gender|F||0.0
+864347|Demographic|Age|45||0.0
+864347|Demographic|Race|White||0.0
+864347|Vitals|pulse|64.0|# per minute|72
+864347|Vitals|pulse|80.0|# per minute|9
+864347|Vitals|pulse|76.0|# per minute|0
+864347|Vitals|height|154.0|cm|0
+864347|Vitals|BMI|0.00271546635182999||0
+866003|Demographic|Gender|M||0.0
+866003|Demographic|Age|32||0.0
+866003|Demographic|Race|White||0.0
+866003|Vitals|pulse|76.0|# per minute|0
+866003|Vitals|pulse|88.0|# per minute|28
+866003|Vitals|pulse|102.0|# per minute|58
+866003|Vitals|pulse|92.0|# per minute|77
+866003|Vitals|height|180.0|cm|0
+866003|Vitals|BMI|0.00209876543209877||0
+866415|Demographic|Gender|M||0.0
+866415|Demographic|Age|45||0.0
+866415|Demographic|Race|White||0.0
+866415|Vitals|pulse|68.0|# per minute|0
+866415|Vitals|pulse|72.0|# per minute|31
+866415|Vitals|pulse|72.0|# per minute|64
+866415|Vitals|height|157.0|cm|0
+866415|Vitals|BMI|0.00223132784291452||0
+866712|Demographic|Gender|M||0.0
+866712|Demographic|Age|56||0.0
+866712|Demographic|Race|White||0.0
+866712|Vitals|pulse|52.0|# per minute|0
+866712|Vitals|pulse|72.0|# per minute|35
+866712|Vitals|height|181.0|cm|0
+866712|Vitals|BMI|0.0029913616800464||0
+869547|Demographic|Gender|M||0.0
+869547|Demographic|Age|49||0.0
+869547|Demographic|Race|White||0.0
+869547|Vitals|pulse|64.0|# per minute|0
+869547|Vitals|pulse|80.0|# per minute|38
+869547|Vitals|pulse|96.0|# per minute|71
+869547|Vitals|height|170.0|cm|0
+870588|Demographic|Gender|F||0.0
+870588|Demographic|Age|62||0.0
+870588|Demographic|Race|White||0.0
+872246|Demographic|Gender|M||0.0
+872246|Demographic|Age|63||0.0
+872246|Demographic|Race|White||0.0
+872246|Vitals|pulse|72.0|# per minute|0
+872246|Vitals|pulse|88.0|# per minute|28
+872246|Vitals|pulse|76.0|# per minute|66
+872246|Vitals|height|178.0|cm|0
+872246|Vitals|BMI|0.00235765686150739||0
+875451|Demographic|Gender|M||0.0
+875451|Demographic|Age|50||0.0
+875451|Demographic|Race|White||0.0
+875451|Vitals|pulse|84.0|# per minute|0
+875451|Vitals|pulse|84.0|# per minute|26
+875451|Vitals|pulse|78.0|# per minute|57
+875451|Vitals|pulse|72.0|# per minute|84
+875451|Vitals|height|173.0|cm|0
+875451|Vitals|BMI|0.00263958034013833||0
+878709|Demographic|Gender|F||0.0
+878709|Demographic|Age|51||0.0
+878709|Demographic|Race|White||0.0
+878709|Vitals|pulse|72.0|# per minute|0
+878709|Vitals|pulse|80.0|# per minute|29
+878709|Vitals|pulse|60.0|# per minute|64
+878709|Vitals|pulse|64.0|# per minute|91
+878709|Vitals|height|167.0|cm|0
+885729|Demographic|Gender|F||0.0
+885729|Demographic|Age|47||0.0
+885729|Demographic|Race|White||0.0
+885729|Vitals|pulse|88.0|# per minute|71
+885729|Vitals|pulse|79.0|# per minute|12
+885729|Vitals|pulse|68.0|# per minute|0
+885729|Vitals|height|178.0|cm|0
+885729|Vitals|BMI|0.00214619366241636||0
+888741|Demographic|Gender|M||0.0
+888741|Demographic|Age|58||0.0
+888741|Demographic|Race|White||0.0
+890231|Demographic|Gender|M||0.0
+890231|Demographic|Age|46||0.0
+890231|Demographic|Race|White||0.0
+890231|Vitals|pulse|75.0|# per minute|0
+890231|Vitals|pulse|76.0|# per minute|37
+890231|Vitals|pulse|76.0|# per minute|69
+890231|Vitals|height|179.0|cm|0
+890231|Vitals|height|179.0|cm|9
+890231|Vitals|BMI|0.00277769108329952||0
+891160|Demographic|Gender|F||0.0
+891160|Demographic|Age|65||0.0
+891160|Demographic|Race|White||0.0
+891160|Vitals|pulse|72.0|# per minute|0
+891160|Vitals|pulse|72.0|# per minute|16
+891160|Vitals|pulse|80.0|# per minute|51
+891160|Vitals|height|152.4|cm|0
+891160|Vitals|BMI|0.00246074152148304||0
+891888|Demographic|Gender|M||0.0
+891888|Demographic|Age|35||0.0
+891888|Demographic|Race|White||0.0
+891888|Vitals|pulse|103.0|# per minute|0
+891888|Vitals|pulse|93.0|# per minute|9
+891888|Vitals|pulse|88.0|# per minute|23
+891888|Vitals|pulse|86.0|# per minute|37
+891888|Vitals|pulse|101.0|# per minute|56
+892367|Demographic|Gender|F||0.0
+892367|Demographic|Age|61||0.0
+892367|Demographic|Race|White||0.0
+892367|Vitals|pulse|56.0|# per minute|0
+892367|Vitals|pulse|54.0|# per minute|30
+892367|Vitals|pulse|54.0|# per minute|58
+892367|Vitals|pulse|62.0|# per minute|91
+892367|Vitals|height|152.0|cm|0
+892367|Vitals|BMI|0.00239785318559557||0
+893122|Demographic|Gender|M||0.0
+893122|Demographic|Age|61||0.0
+893122|Demographic|Race|White||0.0
+893122|Vitals|pulse|65.0|# per minute|0
+893122|Vitals|pulse|80.0|# per minute|29
+893122|Vitals|pulse|70.0|# per minute|57
+893122|Vitals|pulse|70.0|# per minute|85
+893122|Vitals|height|168.0|cm|0
+893122|Vitals|BMI|0.00216128117913832||0
+893145|Demographic|Gender|M||0.0
+893145|Demographic|Age|35||0.0
+893145|Demographic|Race|Unknown||0.0
+893897|Demographic|Gender|F||0.0
+893897|Demographic|Age|44||0.0
+893897|Demographic|Race|White||0.0
+893897|Vitals|pulse|58.0|# per minute|9
+893897|Vitals|pulse|80.0|# per minute|42
+893897|Vitals|pulse|80.0|# per minute|73
+893897|Vitals|height|152.0|cm|0
+893897|Vitals|height|152.0|cm|9
+893897|Vitals|BMI|0.00194771468144044||9
+895592|Demographic|Gender|F||0.0
+895592|Demographic|Age|46||0.0
+895592|Demographic|Race|White||0.0
+895592|Vitals|pulse|69.0|# per minute|0
+895592|Vitals|pulse|74.0|# per minute|15
+895592|Vitals|pulse|80.0|# per minute|29
+895592|Vitals|pulse|64.0|# per minute|43
+895592|Vitals|pulse|65.0|# per minute|57
+896127|Demographic|Gender|F||0.0
+896127|Demographic|Age|38||0.0
+896127|Demographic|Race|White||0.0
+896127|Vitals|pulse|70.0|# per minute|0
+896127|Vitals|pulse|77.0|# per minute|14
+896127|Vitals|pulse|80.0|# per minute|42
+896127|Vitals|pulse|90.0|# per minute|70
+896127|Vitals|height|167.0|cm|0
+896127|Vitals|height|167.0|cm|14
+897247|Demographic|Gender|M||0.0
+897247|Demographic|Age|52||0.0
+897247|Demographic|Race|White||0.0
+897247|Vitals|pulse|72.0|# per minute|0
+897247|Vitals|pulse|80.0|# per minute|33
+897247|Vitals|pulse|72.0|# per minute|66
+897247|Vitals|height|166.0|cm|0
+897247|Vitals|BMI|0.00283059950645957||0
+898137|Demographic|Gender|M||0.0
+898137|Demographic|Age|47||0.0
+898137|Demographic|Race|White||0.0
+898137|Vitals|pulse|88.0|# per minute|0
+898137|Vitals|pulse|100.0|# per minute|14
+898137|Vitals|pulse|110.0|# per minute|49
+898137|Vitals|pulse|100.0|# per minute|75
+898137|Vitals|height|178.0|cm|0
+898137|Vitals|height|178.0|cm|14
+898137|Vitals|BMI|0.00260068173210453||0
+898137|Vitals|BMI|0.00261330640070698||14
+900061|Demographic|Gender|M||0.0
+900061|Demographic|Age|57||0.0
+900061|Demographic|Race|White||0.0
+900061|Vitals|pulse|82.0|# per minute|0
+900061|Vitals|pulse|75.0|# per minute|34
+900061|Vitals|pulse|78.0|# per minute|62
+900061|Vitals|height|178.0|cm|0
+900267|Demographic|Gender|F||0.0
+900267|Demographic|Age|40||0.0
+900267|Demographic|Race|White||0.0
+900267|Vitals|pulse|75.0|# per minute|0
+900267|Vitals|pulse|74.0|# per minute|7
+900267|Vitals|pulse|78.0|# per minute|37
+900267|Vitals|pulse|89.0|# per minute|67
+900267|Vitals|height|170.0|cm|0
+900267|Vitals|height|170.0|cm|7
+900267|Vitals|BMI|0.00193425605536332||0
+900512|Demographic|Gender|F||0.0
+900512|Demographic|Age|38||0.0
+900512|Demographic|Race|White||0.0
+900512|Vitals|pulse|80.0|# per minute|0
+900512|Vitals|pulse|72.0|# per minute|27
+900512|Vitals|pulse|96.0|# per minute|62
+900512|Vitals|pulse|100.0|# per minute|89
+900512|Vitals|height|152.0|cm|0
+900988|Demographic|Gender|M||0.0
+900988|Demographic|Age|29||0.0
+900988|Demographic|Race|White||0.0
+900988|Vitals|pulse|68.0|# per minute|0
+900988|Vitals|pulse|88.0|# per minute|30
+900988|Vitals|pulse|96.0|# per minute|58
+900988|Vitals|pulse|80.0|# per minute|91
+900988|Vitals|height|188.0|cm|0
+900988|Vitals|BMI|0.00224932095971028||0
+901931|Demographic|Gender|M||0.0
+901931|Demographic|Age|48||0.0
+901931|Demographic|Race|White||0.0
+901931|Vitals|pulse|60.0|# per minute|0
+901931|Vitals|pulse|82.0|# per minute|28
+901931|Vitals|pulse|82.0|# per minute|56
+901931|Vitals|pulse|96.0|# per minute|87
+901931|Vitals|height|170.0|cm|0
+901931|Vitals|BMI|0.0027681660899654||0
+902526|Demographic|Gender|M||0.0
+902526|Demographic|Age|43||0.0
+902526|Demographic|Race|Black||0.0
+902526|Vitals|pulse|80.0|# per minute|0
+902526|Vitals|pulse|78.0|# per minute|18
+902526|Vitals|pulse|66.0|# per minute|46
+902526|Vitals|pulse|80.0|# per minute|75
+902526|Vitals|height|173.0|cm|0
+902526|Vitals|height|173.0|cm|18
+908806|Demographic|Gender|M||0.0
+908806|Demographic|Age|63||0.0
+908806|Demographic|Race|White||0.0
+908806|Vitals|pulse|84.0|# per minute|0
+908806|Vitals|pulse|78.0|# per minute|8
+908806|Vitals|pulse|82.0|# per minute|39
+908806|Vitals|pulse|64.0|# per minute|71
+908806|Vitals|height|177.0|cm|0
+908806|Vitals|height|177.0|cm|8
+908806|Vitals|BMI|0.00185770372498324||0
+908806|Vitals|BMI|0.00182578441699384||8
+909223|Demographic|Gender|F||0.0
+909223|Demographic|Age|66||0.0
+909223|Demographic|Race|White||0.0
+909223|Vitals|pulse|82.0|# per minute|0
+909223|Vitals|pulse|84.0|# per minute|12
+909223|Vitals|pulse|76.0|# per minute|28
+909223|Vitals|pulse|80.0|# per minute|41
+909223|Vitals|pulse|78.0|# per minute|55
+910122|Demographic|Gender|M||0.0
+910122|Demographic|Age|46||0.0
+910122|Demographic|Race|White||0.0
+910122|Vitals|pulse|78.0|# per minute|0
+910122|Vitals|pulse|72.0|# per minute|12
+910122|Vitals|pulse|84.0|# per minute|42
+910122|Vitals|pulse|78.0|# per minute|71
+910122|Vitals|height|183.0|cm|0
+910122|Vitals|height|183.0|cm|12
+910122|Vitals|BMI|0.00259786795664248||0
+910122|Vitals|BMI|0.00262772850786826||12
+912873|Demographic|Gender|M||0.0
+912873|Demographic|Age|54||0.0
+912873|Demographic|Race|White||0.0
+912873|Vitals|pulse|80.0|# per minute|0
+912873|Vitals|pulse|90.0|# per minute|31
+912873|Vitals|pulse|90.0|# per minute|63
+912873|Vitals|height|173.0|cm|0
+912873|Vitals|height|173.0|cm|3
+912873|Vitals|BMI|0.00223863142771225||0
+914141|Demographic|Gender|M||0.0
+914141|Demographic|Age|33||0.0
+914141|Demographic|Race|White||0.0
+914141|Vitals|pulse|76.0|# per minute|0
+914141|Vitals|pulse|88.0|# per minute|12
+914141|Vitals|pulse|100.0|# per minute|26
+914141|Vitals|pulse|72.0|# per minute|42
+914141|Vitals|pulse|100.0|# per minute|56
+914607|Demographic|Gender|F||0.0
+914607|Demographic|Age|54||0.0
+914607|Demographic|Race|White||0.0
+914607|Vitals|pulse|60.0|# per minute|77
+914607|Vitals|pulse|72.0|# per minute|14
+914607|Vitals|pulse|80.0|# per minute|0
+914607|Vitals|height|154.0|cm|0
+914607|Vitals|BMI|0.00239500758981278||0
+915543|Demographic|Gender|F||0.0
+915543|Demographic|Age|34||0.0
+915543|Demographic|Race|White||0.0
+915543|Vitals|pulse|80.0|# per minute|0
+915543|Vitals|pulse|90.0|# per minute|38
+915543|Vitals|pulse|80.0|# per minute|74
+915543|Vitals|height|160.0|cm|0
+915543|Vitals|BMI|0.002265625||0
+915816|Demographic|Gender|M||0.0
+915816|Demographic|Age|37||0.0
+915816|Demographic|Race|White||0.0
+915816|Vitals|pulse|88.0|# per minute|0
+915816|Vitals|pulse|96.0|# per minute|32
+915816|Vitals|pulse|96.0|# per minute|67
+915816|Vitals|height|168.0|cm|0
+915816|Vitals|BMI|0.00186366213151927||0
+915943|Demographic|Gender|F||0.0
+915943|Demographic|Age|50||0.0
+915943|Demographic|Race|White||0.0
+915943|Vitals|pulse|62.0|# per minute|0
+915943|Vitals|pulse|88.0|# per minute|7
+915943|Vitals|pulse|72.0|# per minute|34
+915943|Vitals|pulse|80.0|# per minute|68
+915943|Vitals|height|153.0|cm|0
+915943|Vitals|height|153.0|cm|7
+915943|Vitals|BMI|0.00192233756247597||0
+915943|Vitals|BMI|0.0018796189499765||7
+916339|Demographic|Gender|M||0.0
+916339|Demographic|Age|57||0.0
+916339|Demographic|Race|White||0.0
+916339|Vitals|pulse|65.0|# per minute|0
+916339|Vitals|pulse|71.0|# per minute|28
+916339|Vitals|pulse|62.0|# per minute|56
+916339|Vitals|pulse|60.0|# per minute|84
+916339|Vitals|height|172.0|cm|0
+916339|Vitals|BMI|0.002940778799351||0
+917010|Demographic|Gender|M||0.0
+917010|Demographic|Age|66||0.0
+917010|Demographic|Race|White||0.0
+917010|Vitals|pulse|84.0|# per minute|90
+917010|Vitals|pulse|90.0|# per minute|21
+917010|Vitals|pulse|94.0|# per minute|0
+917010|Vitals|height|170.0|cm|0
+917010|Vitals|BMI|0.00198961937716263||0
+917600|Demographic|Gender|F||0.0
+917600|Demographic|Age|53||0.0
+917600|Demographic|Race|White||0.0
+917600|Vitals|pulse|82.0|# per minute|0
+917600|Vitals|pulse|75.0|# per minute|35
+917600|Vitals|pulse|84.0|# per minute|49
+917600|Vitals|pulse|75.0|# per minute|63
+917600|Vitals|pulse|70.0|# per minute|75
+918550|Demographic|Gender|M||0.0
+918550|Demographic|Age|46||0.0
+918550|Demographic|Race|White||0.0
+918550|Vitals|pulse|66.0|# per minute|0
+918550|Vitals|pulse|64.0|# per minute|7
+918550|Vitals|pulse|72.0|# per minute|24
+918550|Vitals|pulse|72.0|# per minute|35
+918550|Vitals|pulse|72.0|# per minute|49
+921972|Demographic|Gender|M||0.0
+921972|Demographic|Age|32||0.0
+921972|Demographic|Race|Unknown||0.0
+921972|Vitals|pulse|60.0|# per minute|0
+921972|Vitals|pulse|72.0|# per minute|70
+921972|Vitals|pulse|64.0|# per minute|14
+921972|Vitals|height|175.0|cm|0
+921972|Vitals|height|175.0|cm|14
+921972|Vitals|BMI|0.00269714285714286||0
+921972|Vitals|BMI|0.00269714285714286||14
+922857|Demographic|Gender|F||0.0
+922857|Demographic|Age|38||0.0
+922857|Demographic|Race|White||0.0
+922857|Vitals|pulse|90.0|# per minute|0
+922857|Vitals|pulse|84.0|# per minute|33
+922857|Vitals|pulse|90.0|# per minute|59
+922857|Vitals|height|172.0|cm|0
+922857|Vitals|BMI|0.00218023255813953||0
+927733|Demographic|Gender|M||0.0
+927733|Demographic|Age|32||0.0
+927733|Demographic|Race|White||0.0
+927733|Vitals|pulse|68.0|# per minute|0
+927733|Vitals|pulse|68.0|# per minute|36
+927733|Vitals|pulse|76.0|# per minute|72
+927733|Vitals|height|168.0|cm|0
+927733|Vitals|BMI|0.00201955782312925||0
+928371|Demographic|Gender|M||0.0
+928371|Demographic|Age|47||0.0
+928371|Demographic|Race|White||0.0
+928371|Vitals|pulse|84.0|# per minute|87
+928371|Vitals|pulse|92.0|# per minute|30
+928371|Vitals|pulse|100.0|# per minute|0
+928371|Vitals|pulse|100.0|# per minute|0
+928371|Vitals|height|175.0|cm|0
+928371|Vitals|height|175.0|cm|0
+928371|Vitals|BMI|0.00249795918367347||0
+928371|Vitals|BMI|0.00249795918367347||0
+928565|Demographic|Gender|M||0.0
+928565|Demographic|Age|51||0.0
+928565|Demographic|Race|White||0.0
+928565|Vitals|pulse|84.0|# per minute|0
+928565|Vitals|pulse|87.0|# per minute|32
+928565|Vitals|pulse|82.0|# per minute|62
+928565|Vitals|height|169.0|cm|0
+928565|Vitals|BMI|0.00243338818668814||0
+929381|Demographic|Gender|M||0.0
+929381|Demographic|Age|55||0.0
+929381|Demographic|Race|White||0.0
+929381|Vitals|pulse|72.0|# per minute|0
+929381|Vitals|pulse|72.0|# per minute|26
+929381|Vitals|pulse|68.0|# per minute|62
+929381|Vitals|height|174.0|cm|0
+929381|Vitals|BMI|0.00247720967102656||0
+930251|Demographic|Gender|F||0.0
+930251|Demographic|Age|44||0.0
+930251|Demographic|Race|White||0.0
+930251|Vitals|pulse|80.0|# per minute|0
+930251|Vitals|height|163.0|cm|0
+930251|Vitals|BMI|0.00244646016033723||0
+932310|Demographic|Gender|F||0.0
+932310|Demographic|Age|45||0.0
+932310|Demographic|Race|White||0.0
+932310|Vitals|pulse|72.0|# per minute|0
+932310|Vitals|pulse|84.0|# per minute|37
+932310|Vitals|pulse|84.0|# per minute|72
+932310|Vitals|height|150.0|cm|0
+932310|Vitals|BMI|0.00186666666666667||0
+933732|Demographic|Gender|F||0.0
+933732|Demographic|Age|65||0.0
+933732|Demographic|Race|White||0.0
+933732|Vitals|pulse|104.0|# per minute|0
+933732|Vitals|pulse|80.0|# per minute|29
+933732|Vitals|pulse|86.0|# per minute|58
+933732|Vitals|pulse|86.0|# per minute|90
+933732|Vitals|height|163.0|cm|0
+933732|Vitals|BMI|0.00250668071813015||0
+934213|Demographic|Gender|M||0.0
+934213|Demographic|Age|47||0.0
+934213|Demographic|Race|White||0.0
+934213|Vitals|pulse|72.0|# per minute|0
+934213|Vitals|pulse|76.0|# per minute|32
+934213|Vitals|pulse|80.0|# per minute|63
+934213|Vitals|height|178.0|cm|0
+939990|Demographic|Gender|M||0.0
+939990|Demographic|Age|43||0.0
+939990|Demographic|Race|White||0.0
+939990|Vitals|pulse|88.0|# per minute|0
+939990|Vitals|pulse|92.0|# per minute|29
+939990|Vitals|pulse|88.0|# per minute|0
+939990|Vitals|height|187.0|cm|0
+939990|Vitals|height|187.0|cm|0
+939990|Vitals|BMI|0.00252223397866682||0
+939990|Vitals|BMI|0.00252223397866682||0
+940152|Demographic|Gender|M||0.0
+940152|Demographic|Age|54||0.0
+940152|Demographic|Race|White||0.0
+940152|Vitals|pulse|76.0|# per minute|75
+940152|Vitals|pulse|84.0|# per minute|12
+940152|Vitals|pulse|84.0|# per minute|0
+940152|Vitals|height|163.0|cm|0
+940152|Vitals|BMI|0.00276261808875005||0
+942050|Demographic|Gender|F||0.0
+942050|Demographic|Age|59||0.0
+942050|Demographic|Race|White||0.0
+942050|Vitals|pulse|92.0|# per minute|0
+942050|Vitals|pulse|72.0|# per minute|26
+942050|Vitals|pulse|64.0|# per minute|54
+942050|Vitals|pulse|68.0|# per minute|82
+942050|Vitals|height|155.0|cm|0
+942050|Vitals|BMI|0.00224765868886576||0
+944021|Demographic|Gender|F||0.0
+944021|Demographic|Age|50||0.0
+944021|Demographic|Race|White||0.0
+944021|Vitals|pulse|79.0|# per minute|0
+944021|Vitals|pulse|64.0|# per minute|28
+944021|Vitals|pulse|64.0|# per minute|56
+944021|Vitals|pulse|76.0|# per minute|91
+944021|Vitals|height|156.0|cm|0
+944386|Demographic|Gender|F||0.0
+944386|Demographic|Age|52||0.0
+944386|Demographic|Race|White||0.0
+944386|Vitals|pulse|81.0|# per minute|0
+944386|Vitals|pulse|86.0|# per minute|50
+944386|Vitals|pulse|80.0|# per minute|14
+944386|Vitals|height|160.0|cm|0
+944386|Vitals|BMI|0.00193359375||0
+946111|Demographic|Gender|F||0.0
+946111|Demographic|Age|48||0.0
+946111|Demographic|Race|White||0.0
+946111|Vitals|pulse|108.0|# per minute|0
+946111|Vitals|pulse|96.0|# per minute|35
+946111|Vitals|pulse|109.0|# per minute|63
+946111|Vitals|pulse|106.0|# per minute|91
+946111|Vitals|height|163.0|cm|0
+947716|Demographic|Gender|F||0.0
+947716|Demographic|Age|67||0.0
+947716|Demographic|Race|White||0.0
+947716|Vitals|pulse|61.0|# per minute|0
+947716|Vitals|pulse|74.0|# per minute|23
+947716|Vitals|pulse|75.0|# per minute|64
+947716|Vitals|height|170.18|cm|0
+947716|Vitals|BMI|0.00275651915973023||0
+948739|Demographic|Gender|M||0.0
+948739|Demographic|Age|56||0.0
+948739|Demographic|Race|White||0.0
+948739|Vitals|pulse|72.0|# per minute|0
+948739|Vitals|pulse|72.0|# per minute|14
+948739|Vitals|pulse|75.0|# per minute|42
+948739|Vitals|pulse|74.0|# per minute|66
+948739|Vitals|height|178.0|cm|0
+948739|Vitals|height|178.0|cm|14
+948739|Vitals|BMI|0.00265118040651433||0
+948739|Vitals|BMI|0.00261961873500821||14
+949033|Demographic|Gender|M||0.0
+949033|Demographic|Age|70||0.0
+949033|Demographic|Race|White||0.0
+949033|Vitals|pulse|68.0|# per minute|0
+949033|Vitals|pulse|67.0|# per minute|35
+949033|Vitals|pulse|78.0|# per minute|63
+949033|Vitals|pulse|79.0|# per minute|91
+949033|Vitals|height|177.0|cm|0
+949033|Vitals|BMI|0.00275144434868652||0
+950193|Demographic|Gender|F||0.0
+950193|Demographic|Age|37||0.0
+950193|Demographic|Race|White||0.0
+950193|Vitals|pulse|72.0|# per minute|0
+950193|Vitals|pulse|68.0|# per minute|28
+950193|Vitals|pulse|68.0|# per minute|58
+950193|Vitals|pulse|80.0|# per minute|90
+950193|Vitals|height|165.0|cm|0
+952296|Demographic|Gender|M||0.0
+952296|Demographic|Age|41||0.0
+952296|Demographic|Race|White||0.0
+952296|Vitals|pulse|78.0|# per minute|0
+952296|Vitals|pulse|100.0|# per minute|29
+952296|Vitals|pulse|94.0|# per minute|57
+952296|Vitals|height|167.0|cm|0
+952296|Vitals|BMI|0.00221592742658396||0
+952909|Demographic|Gender|F||0.0
+952909|Demographic|Age|60||0.0
+952909|Demographic|Race|White||0.0
+955461|Demographic|Gender|M||0.0
+955461|Demographic|Age|39||0.0
+955461|Demographic|Race|White||0.0
+955461|Vitals|pulse|84.0|# per minute|0
+955461|Vitals|pulse|84.0|# per minute|30
+955461|Vitals|pulse|78.0|# per minute|63
+955461|Vitals|height|176.0|cm|0
+955461|Vitals|BMI|0.00225981404958678||0
+955599|Demographic|Gender|M||0.0
+955599|Demographic|Age|60||0.0
+955599|Demographic|Race|White||0.0
+955599|Vitals|pulse|68.0|# per minute|0
+955599|Vitals|pulse|71.0|# per minute|12
+955599|Vitals|pulse|63.0|# per minute|40
+955599|Vitals|height|172.0|cm|0
+955599|Vitals|BMI|0.00256219578150352||0
+957375|Demographic|Gender|M||0.0
+957375|Demographic|Age|30||0.0
+957375|Demographic|Race|White||0.0
+957375|Vitals|pulse|64.0|# per minute|0
+957375|Vitals|pulse|64.0|# per minute|29
+957375|Vitals|pulse|62.0|# per minute|64
+957375|Vitals|height|167.0|cm|0
+957375|Vitals|BMI|0.00229481157445588||0
+958488|Demographic|Gender|M||0.0
+958488|Demographic|Age|52||0.0
+958488|Demographic|Race|White||0.0
+958488|Vitals|pulse|96.0|# per minute|0
+958488|Vitals|pulse|75.0|# per minute|7
+958488|Vitals|pulse|88.0|# per minute|21
+958488|Vitals|pulse|94.0|# per minute|35
+958488|Vitals|pulse|96.0|# per minute|50
+959911|Demographic|Gender|F||0.0
+959911|Demographic|Age|32||0.0
+959911|Demographic|Race|White||0.0
+959911|Vitals|pulse|105.0|# per minute|70
+959911|Vitals|pulse|120.0|# per minute|0
+959911|Vitals|pulse|105.0|# per minute|8
+959911|Vitals|height|170.2|cm|0
+959911|Vitals|BMI|0.00170877974484984||0
+962460|Demographic|Gender|M||0.0
+962460|Demographic|Age|60||0.0
+962460|Demographic|Race|White||0.0
+962460|Vitals|pulse|72.0|# per minute|0
+962460|Vitals|pulse|72.0|# per minute|28
+962460|Vitals|pulse|72.0|# per minute|56
+962460|Vitals|pulse|65.0|# per minute|84
+962460|Vitals|height|172.0|cm|0
+962460|Vitals|BMI|0.00278528934559221||0
+966574|Demographic|Gender|M||0.0
+966574|Demographic|Age|39||0.0
+966574|Demographic|Race|White||0.0
+966574|Vitals|pulse|84.0|# per minute|0
+966574|Vitals|pulse|80.0|# per minute|28
+966574|Vitals|pulse|70.0|# per minute|63
+966574|Vitals|height|183.0|cm|0
+967516|Demographic|Gender|M||0.0
+967516|Demographic|Age|52||0.0
+967516|Demographic|Race|White||0.0
+968720|Demographic|Gender|F||0.0
+968720|Demographic|Age|43||0.0
+968720|Demographic|Race|White||0.0
+968720|Vitals|pulse|75.0|# per minute|0
+968720|Vitals|pulse|80.0|# per minute|11
+968720|Vitals|pulse|76.0|# per minute|39
+968720|Vitals|height|162.56|cm|0
+968720|Vitals|BMI|0.00191902135952709||0
+970679|Demographic|Gender|M||0.0
+970679|Demographic|Age|56||0.0
+970679|Demographic|Race|White||0.0
+972062|Demographic|Gender|F||0.0
+972062|Demographic|Age|43||0.0
+972062|Demographic|Race|White||0.0
+972062|Vitals|pulse|90.0|# per minute|0
+972062|Vitals|pulse|80.0|# per minute|28
+972062|Vitals|pulse|84.0|# per minute|62
+972062|Vitals|pulse|84.0|# per minute|89
+972062|Vitals|height|166.0|cm|0
+972062|Vitals|BMI|0.0029902743504137||0
+977354|Demographic|Gender|M||0.0
+977354|Demographic|Age|29||0.0
+977354|Demographic|Race|White||0.0
+977354|Vitals|pulse|84.0|# per minute|14
+977354|Vitals|pulse|80.0|# per minute|79
+977354|Vitals|pulse|88.0|# per minute|0
+977354|Vitals|height|178.0|cm|0
+977354|Vitals|BMI|0.00296048478727433||0
+979048|Demographic|Gender|F||0.0
+979048|Demographic|Age|54||0.0
+979048|Demographic|Race|Unknown||0.0
+979048|Vitals|pulse|82.0|# per minute|0
+979048|Vitals|pulse|80.0|# per minute|8
+979048|Vitals|pulse|80.0|# per minute|21
+979048|Vitals|pulse|60.0|# per minute|35
+979048|Vitals|pulse|72.0|# per minute|49
+979694|Demographic|Gender|M||0.0
+979694|Demographic|Age|55||0.0
+979694|Demographic|Race|White||0.0
+980938|Demographic|Gender|M||0.0
+980938|Demographic|Age|39||0.0
+980938|Demographic|Race|White||0.0
+980938|Vitals|pulse|74.0|# per minute|0
+980938|Vitals|pulse|88.0|# per minute|15
+980938|Vitals|pulse|78.0|# per minute|30
+980938|Vitals|pulse|84.0|# per minute|44
+980938|Vitals|pulse|80.0|# per minute|60
+989785|Demographic|Gender|M||0.0
+989785|Demographic|Age|36||0.0
+989785|Demographic|Race|White||0.0
+989785|Vitals|pulse|80.0|# per minute|34
+989785|Vitals|pulse|72.0|# per minute|8
+989785|Vitals|pulse|84.0|# per minute|0
+989785|Vitals|height|175.0|cm|8
+989785|Vitals|height|175.0|cm|0
+989785|Vitals|BMI|0.00228571428571429||8
+989785|Vitals|BMI|0.00233142857142857||0
+990061|Demographic|Gender|F||0.0
+990061|Demographic|Age|41||0.0
+990061|Demographic|Race|White||0.0
+990774|Demographic|Gender|M||0.0
+990774|Demographic|Age|35||0.0
+990774|Demographic|Race|Black||0.0
+990774|Vitals|pulse|60.0|# per minute|0
+990774|Vitals|pulse|60.0|# per minute|8
+990774|Vitals|pulse|64.0|# per minute|36
+990774|Vitals|pulse|60.0|# per minute|71
+990774|Vitals|height|183.0|cm|0
+990774|Vitals|height|183.0|cm|8
+991582|Demographic|Gender|F||0.0
+991582|Demographic|Age|57||0.0
+991582|Demographic|Race|White||0.0
+991582|Vitals|pulse|86.0|# per minute|0
+991582|Vitals|pulse|88.0|# per minute|91
+991582|Vitals|pulse|62.0|# per minute|35
+991582|Vitals|pulse|84.0|# per minute|5
+991582|Vitals|height|168.0|cm|0
+991582|Vitals|height|168.0|cm|5
+991582|Vitals|BMI|0.00310019841269841||0
+991582|Vitals|BMI|0.00310019841269841||5
+993584|Demographic|Gender|M||0.0
+993584|Demographic|Age|48||0.0
+993584|Demographic|Race|White||0.0
+993584|Vitals|pulse|64.0|# per minute|0
+993584|Vitals|pulse|60.0|# per minute|67
+993584|Vitals|height|181.0|cm|0
+993584|Vitals|height|181.0|cm|0
+993584|Vitals|BMI|0.00250297609963066||0
+994853|Demographic|Gender|M||0.0
+994853|Demographic|Age|43||0.0
+994853|Demographic|Race|White||0.0
+994853|Vitals|pulse|64.0|# per minute|0
+994853|Vitals|pulse|67.0|# per minute|16
+994853|Vitals|pulse|64.0|# per minute|48
+994853|Vitals|height|175.0|cm|0
+994853|Vitals|BMI|0.00280816326530612||0
+750094|Demographic|Gender|F||0.0
+750094|Demographic|Age|64||0.0
+750094|Demographic|Race|White||0.0
+750094|Vitals|height|158.0|cm|0
+750094|Vitals|height|158.0|cm|8
+750148|Demographic|Gender|F||0.0
+750148|Demographic|Age|67||0.0
+750148|Demographic|Race|White||0.0
+750148|Vitals|height|160.0|cm|0
+750148|Vitals|BMI|0.0022421875||0
+751103|Demographic|Gender|F||0.0
+751103|Demographic|Age|67||0.0
+751103|Demographic|Race|White||0.0
+751103|Vitals|height|148.0|cm|0
+751103|Vitals|BMI|0.0037527392257122||0
+753073|Demographic|Gender|M||0.0
+753073|Demographic|Age|73||0.0
+753073|Demographic|Race|White||0.0
+753073|FamilyHx|family_ALS_hist|N||0.0
+753073|Vitals|height|173.0|cm|0
+753073|Vitals|height|173.0|cm|5
+753073|Vitals|BMI|0.0022920912827024||0
+753073|Vitals|BMI|0.00226202011427044||5
+753161|Demographic|Gender|F||0.0
+753161|Demographic|Age|73||0.0
+753161|Demographic|Race|White||0.0
+753161|Vitals|height|152.0|cm|0
+753161|Vitals|BMI|0.00289993074792244||0
+753431|Demographic|Gender|F||0.0
+753431|Demographic|Age|63||0.0
+753431|Demographic|Race|White||0.0
+753431|Vitals|height|169.0|cm|0
+753431|Vitals|BMI|0.00224081789853296||0
+753549|Demographic|Gender|M||0.0
+753549|Demographic|Age|72||0.0
+753549|Demographic|Race|White||0.0
+753549|Vitals|height|174.0|cm|0
+753549|Vitals|BMI|0.00191570881226054||0
+754271|Demographic|Gender|M||0.0
+754271|Demographic|Age|60||0.0
+754271|Demographic|Race|White||0.0
+754271|Vitals|height|174.0|cm|0
+754271|Vitals|BMI|0.00219976218787158||0
+757776|Demographic|Gender|M||0.0
+757776|Demographic|Age|59||0.0
+757776|Demographic|Race|Hispanic||0.0
+757776|Vitals|height|169.0|cm|0
+757776|Vitals|BMI|0.0031161373901474||0
+758625|Demographic|Gender|F||0.0
+758625|Demographic|Age|62||0.0
+758625|Demographic|Race|White||0.0
+758625|FamilyHx|family_ALS_hist|N||0.0
+758625|Vitals|height|162.0|cm|0
+758625|Vitals|height|162.0|cm|14
+758902|Demographic|Gender|F||0.0
+758902|Demographic|Age|67||0.0
+758902|Demographic|Race|White||0.0
+758902|Vitals|height|165.0|cm|0
+759989|Demographic|Gender|F||0.0
+759989|Demographic|Age|58||0.0
+759989|Demographic|Race|White||0.0
+759989|FamilyHx|family_ALS_hist|Y||0.0
+759989|Vitals|height|154.0|cm|0
+759989|Vitals|BMI|0.00252993759487266||0
+766563|Demographic|Gender|M||0.0
+766563|Demographic|Age|67||0.0
+766563|Demographic|Race|White||0.0
+766563|Vitals|height|165.0|cm|0
+766563|Vitals|BMI|0.00290174471992654||0
+767840|Demographic|Gender|M||0.0
+767840|Demographic|Age|59||0.0
+767840|Demographic|Race|White||0.0
+767840|Vitals|height|185.0|cm|0
+767840|Vitals|BMI|0.00213878743608473||0
+770673|Demographic|Gender|M||0.0
+770673|Demographic|Age|72||0.0
+770673|Demographic|Race|White||0.0
+770673|Vitals|height|166.0|cm|0
+770673|Vitals|BMI|0.00308099869356946||0
+770938|Demographic|Gender|F||0.0
+770938|Demographic|Age|54||0.0
+770938|Demographic|Race|White||0.0
+770943|Demographic|Gender|F||0.0
+770943|Demographic|Age|62||0.0
+770943|Demographic|Race|White||0.0
+770943|FamilyHx|family_ALS_hist|N||0.0
+770943|Vitals|height|163.0|cm|0
+770943|Vitals|height|163.0|cm|14
+770943|Vitals|BMI|0.00217170386540705||0
+770943|Vitals|BMI|0.00215664872595882||14
+774266|Demographic|Gender|F||0.0
+774266|Demographic|Age|71||0.0
+774266|Demographic|Race|White||0.0
+774266|Vitals|height|178.0|cm|0
+774266|Vitals|height|178.0|cm|9
+774266|Vitals|BMI|0.00258174472920086||0
+774266|Vitals|BMI|0.00258174472920086||9
+774471|Demographic|Gender|F||0.0
+774471|Demographic|Age|66||0.0
+774471|Demographic|Race|White||0.0
+774471|Vitals|height|155.0|cm|0
+774471|Vitals|BMI|0.00237252861602497||0
+774718|Demographic|Gender|F||0.0
+774718|Demographic|Age|57||0.0
+774718|Demographic|Race|White||0.0
+778774|Demographic|Gender|F||0.0
+778774|Demographic|Age|62||0.0
+778774|Demographic|Race|White||0.0
+778774|Vitals|height|163.0|cm|0
+778774|Vitals|BMI|0.00237118446309609||0
+779483|Demographic|Gender|M||0.0
+779483|Demographic|Age|73||0.0
+779483|Demographic|Race|White||0.0
+779483|Vitals|height|168.0|cm|0
+779483|Vitals|height|168.0|cm|14
+779543|Demographic|Gender|M||0.0
+779543|Demographic|Age|61||0.0
+779543|Demographic|Race|White||0.0
+779543|Vitals|height|165.0|cm|0
+779543|Vitals|BMI|0.00235078053259871||0
+780480|Demographic|Gender|M||0.0
+780480|Demographic|Age|54||0.0
+780480|Demographic|Race|White||0.0
+782768|Demographic|Gender|F||0.0
+782768|Demographic|Age|53||0.0
+782768|Demographic|Race|White||0.0
+782768|Vitals|height|157.48|cm|0
+782768|Vitals|BMI|0.00242891685783372||0
+786433|Demographic|Gender|F||0.0
+786433|Demographic|Age|51||0.0
+786433|Demographic|Race|Hispanic||0.0
+786433|Vitals|height|157.0|cm|0
+786433|Vitals|height|157.0|cm|17
+788905|Demographic|Gender|F||0.0
+788905|Demographic|Age|61||0.0
+788905|Demographic|Race|White||0.0
+788905|Vitals|height|154.0|cm|0
+788905|Vitals|height|154.0|cm|7
+788905|Vitals|BMI|0.00223477820880418||0
+788905|Vitals|BMI|0.00223477820880418||7
+789293|Demographic|Gender|M||0.0
+789293|Demographic|Age|64||0.0
+789293|Demographic|Race|White||0.0
+789293|Vitals|height|169.0|cm|0
+789730|Demographic|Gender|F||0.0
+789730|Demographic|Age|70||0.0
+789730|Demographic|Race|White||0.0
+789730|FamilyHx|family_ALS_hist|N||0.0
+789730|Vitals|height|160.0|cm|0
+789730|Vitals|height|160.0|cm|11
+789730|Vitals|BMI|0.0024296875||0
+789730|Vitals|BMI|0.00239453125||11
+791750|Demographic|Gender|F||0.0
+791750|Demographic|Age|61||0.0
+791750|Demographic|Race|Unknown||0.0
+791750|Vitals|height|166.0|cm|0
+791750|Vitals|BMI|0.00235883292204964||0
+793356|Demographic|Gender|M||0.0
+793356|Demographic|Age|64||0.0
+793356|Demographic|Race|White||0.0
+793356|Vitals|height|167.8|cm|0
+793356|Vitals|BMI|0.00226177073847776||0
+796473|Demographic|Gender|F||0.0
+796473|Demographic|Age|67||0.0
+796473|Demographic|Race|White||0.0
+796473|FamilyHx|family_ALS_hist|N||0.0
+796473|Vitals|height|167.0|cm|0
+797596|Demographic|Gender|M||0.0
+797596|Demographic|Age|65||0.0
+797596|Demographic|Race|Asian||0.0
+797596|Vitals|height|163.0|cm|0
+797596|Vitals|BMI|0.00210395573789002||0
+799325|Demographic|Gender|M||0.0
+799325|Demographic|Age|70||0.0
+799325|Demographic|Race|White||0.0
+799325|Vitals|height|170.0|cm|0
+799325|Vitals|BMI|0.0027681660899654||0
+799966|Demographic|Gender|M||0.0
+799966|Demographic|Age|69||0.0
+799966|Demographic|Race|White||0.0
+799966|Vitals|height|173.0|cm|0
+799966|Vitals|BMI|0.00203815697149922||0
+799997|Demographic|Gender|F||0.0
+799997|Demographic|Age|55||0.0
+799997|Demographic|Race|White||0.0
+802478|Demographic|Gender|F||0.0
+802478|Demographic|Age|78||0.0
+802478|Demographic|Race|White||0.0
+803150|Demographic|Gender|F||0.0
+803150|Demographic|Age|69||0.0
+803150|Demographic|Race|White||0.0
+803150|FamilyHx|family_ALS_hist|Y||0.0
+803150|Vitals|height|162.0|cm|0
+803150|Vitals|height|162.0|cm|8
+803587|Demographic|Gender|F||0.0
+803587|Demographic|Age|55||0.0
+803587|Demographic|Race|White||0.0
+803587|Vitals|height|172.0|cm|0
+803587|Vitals|BMI|0.00351541373715522||0
+804077|Demographic|Gender|F||0.0
+804077|Demographic|Age|69||0.0
+804077|Demographic|Race|White||0.0
+804077|Vitals|height|167.0|cm|0
+804077|Vitals|BMI|0.00246692244254007||0
+805148|Demographic|Gender|M||0.0
+805148|Demographic|Age|69||0.0
+805148|Demographic|Race|White||0.0
+805148|Vitals|height|171.0|cm|0
+805148|Vitals|BMI|0.00305735097978865||0
+806619|Demographic|Gender|F||0.0
+806619|Demographic|Age|60||0.0
+806619|Demographic|Race|White||0.0
+806619|Vitals|height|155.0|cm|0
+806619|Vitals|BMI|0.0023309053069719||0
+808143|Demographic|Gender|M||0.0
+808143|Demographic|Age|67||0.0
+808143|Demographic|Race|White||0.0
+808143|Vitals|height|174.19|cm|0
+808143|Vitals|BMI|0.00274865107559051||0
+809632|Demographic|Gender|F||0.0
+809632|Demographic|Age|65||0.0
+809632|Demographic|Race|White||0.0
+809632|Vitals|height|160.0|cm|0
+809632|Vitals|height|160.0|cm|6
+809632|Vitals|BMI|0.0036875||0
+809632|Vitals|BMI|0.003640625||6
+810698|Demographic|Gender|M||0.0
+810698|Demographic|Age|52||0.0
+810698|Demographic|Race|White||0.0
+810704|Demographic|Gender|F||0.0
+810704|Demographic|Age|51||0.0
+810704|Demographic|Race|White||0.0
+810704|Vitals|height|152.0|cm|0
+810811|Demographic|Gender|M||0.0
+810811|Demographic|Age|63||0.0
+810811|Demographic|Race|White||0.0
+810811|Vitals|height|160.0|cm|0
+810811|Vitals|BMI|0.0022890625||0
+810971|Demographic|Gender|F||0.0
+810971|Demographic|Age|59||0.0
+810971|Demographic|Race|White||0.0
+810971|Vitals|height|165.0|cm|0
+810971|Vitals|BMI|0.0026078971533517||0
+811431|Demographic|Gender|M||0.0
+811431|Demographic|Age|71||0.0
+811431|Demographic|Race|White||0.0
+811431|Vitals|height|165.0|cm|0
+811431|Vitals|BMI|0.00246097337006428||0
+812015|Demographic|Gender|F||0.0
+812015|Demographic|Age|61||0.0
+812015|Demographic|Race|White||0.0
+812015|Vitals|height|159.0|cm|0
+812307|Demographic|Gender|F||0.0
+812307|Demographic|Age|79||0.0
+812307|Demographic|Race|White||0.0
+812307|Vitals|height|164.0|cm|0
+812307|Vitals|height|164.0|cm|5
+812307|Vitals|BMI|0.00202632361689471||0
+812307|Vitals|BMI|0.00204863176680547||5
+814332|Demographic|Gender|F||0.0
+814332|Demographic|Age|58||0.0
+814332|Demographic|Race|White||0.0
+814332|Vitals|height|152.0|cm|0
+814332|Vitals|height|152.0|cm|21
+814332|Vitals|BMI|0.0040685595567867||21
+815291|Demographic|Gender|F||0.0
+815291|Demographic|Age|69||0.0
+815291|Demographic|Race|White||0.0
+815291|Vitals|height|165.0|cm|0
+815291|Vitals|height|165.0|cm|20
+819117|Demographic|Gender|F||0.0
+819117|Demographic|Age|65||0.0
+819117|Demographic|Race|White||0.0
+819117|Vitals|height|173.0|cm|0
+819117|Vitals|height|173.0|cm|11
+819864|Demographic|Gender|F||0.0
+819864|Demographic|Age|57||0.0
+819864|Demographic|Race|White||0.0
+819864|Vitals|height|165.0|cm|0
+821486|Demographic|Gender|F||0.0
+821486|Demographic|Age|59||0.0
+821486|Demographic|Race|White||0.0
+825003|Demographic|Gender|M||0.0
+825003|Demographic|Age|71||0.0
+825003|Demographic|Race|White||0.0
+825003|Vitals|height|184.0|cm|0
+825003|Vitals|height|184.0|cm|6
+825003|Vitals|BMI|0.00253426275992439||0
+825003|Vitals|BMI|0.00253426275992439||6
+826149|Demographic|Gender|M||0.0
+826149|Demographic|Age|60||0.0
+826149|Demographic|Race|White||0.0
+826149|FamilyHx|family_ALS_hist|N||0.0
+826149|Vitals|height|183.0|cm|0
+826149|Vitals|height|183.0|cm|13
+826959|Demographic|Gender|F||0.0
+826959|Demographic|Age|67||0.0
+826959|Demographic|Race|White||0.0
+827520|Demographic|Gender|F||0.0
+827520|Demographic|Age|53||0.0
+827520|Demographic|Race|White||0.0
+827520|FamilyHx|family_ALS_hist|N||0.0
+827520|Vitals|height|157.0|cm|0
+827772|Demographic|Gender|F||0.0
+827772|Demographic|Age|61||0.0
+827772|Demographic|Race|White||0.0
+828633|Demographic|Gender|F||0.0
+828633|Demographic|Age|55||0.0
+828633|Demographic|Race|White||0.0
+828633|FamilyHx|family_ALS_hist|N||0.0
+828633|Vitals|height|153.0|cm|0
+828633|Vitals|BMI|0.00292195309496348||0
+829256|Demographic|Gender|F||0.0
+829256|Demographic|Age|71||0.0
+829256|Demographic|Race|White||0.0
+829256|Vitals|height|160.0|cm|0
+830528|Demographic|Gender|M||0.0
+830528|Demographic|Age|64||0.0
+830528|Demographic|Race|White||0.0
+830528|Vitals|height|181.0|cm|0
+830528|Vitals|height|181.0|cm|28
+830814|Demographic|Gender|F||0.0
+830814|Demographic|Age|72||0.0
+830814|Demographic|Race|White||0.0
+830814|FamilyHx|family_ALS_hist|N||0.0
+830814|Vitals|height|160.0|cm|0
+830814|Vitals|BMI|0.002265625||0
+831726|Demographic|Gender|M||0.0
+831726|Demographic|Age|68||0.0
+831726|Demographic|Race|White||0.0
+831726|FamilyHx|family_ALS_hist|N||0.0
+831726|Vitals|height|170.0|cm|0
+831726|Vitals|height|170.0|cm|21
+831726|Vitals|BMI|0.00207612456747405||0
+831726|Vitals|BMI|0.00201384083044983||21
+833974|Demographic|Gender|M||0.0
+833974|Demographic|Age|63||0.0
+833974|Demographic|Race|White||0.0
+833974|Vitals|height|160.0|cm|0
+833974|Vitals|BMI|0.0024609375||0
+834426|Demographic|Gender|F||0.0
+834426|Demographic|Age|49||0.0
+834426|Demographic|Race|White||0.0
+834426|Vitals|height|164.0|cm|0
+834426|Vitals|BMI|0.00271415823914337||0
+837623|Demographic|Gender|F||0.0
+837623|Demographic|Age|63||0.0
+837623|Demographic|Race|White||0.0
+837667|Demographic|Gender|F||0.0
+837667|Demographic|Age|65||0.0
+837667|Demographic|Race|White||0.0
+837686|Demographic|Gender|F||0.0
+837686|Demographic|Age|66||0.0
+837686|Demographic|Race|White||0.0
+839734|Demographic|Gender|M||0.0
+839734|Demographic|Age|67||0.0
+839734|Demographic|Race|White||0.0
+839734|Vitals|height|170.0|cm|0
+839734|Vitals|BMI|0.00242214532871972||0
+840358|Demographic|Gender|M||0.0
+840358|Demographic|Age|61||0.0
+840358|Demographic|Race|White||0.0
+840358|Vitals|height|169.0|cm|0
+840358|Vitals|height|169.0|cm|3
+840358|Vitals|BMI|0.00213577955953923||0
+841955|Demographic|Gender|F||0.0
+841955|Demographic|Age|66||0.0
+841955|Demographic|Race|White||0.0
+841955|Vitals|height|165.0|cm|0
+841955|Vitals|BMI|0.00251974288337925||0
+845775|Demographic|Gender|M||0.0
+845775|Demographic|Age|63||0.0
+845775|Demographic|Race|White||0.0
+845775|Vitals|height|170.2|cm|0
+845775|Vitals|BMI|0.0029273640881468||0
+847031|Demographic|Gender|F||0.0
+847031|Demographic|Age|57||0.0
+847031|Demographic|Race|White||0.0
+847031|Vitals|height|168.0|cm|0
+847031|Vitals|height|168.0|cm|28
+847448|Demographic|Gender|M||0.0
+847448|Demographic|Age|67||0.0
+847448|Demographic|Race|White||0.0
+847448|Vitals|height|164.0|cm|0
+847448|Vitals|height|164.0|cm|13
+847448|Vitals|BMI|0.00229030339083879||0
+847448|Vitals|BMI|0.00230145746579417||13
+847599|Demographic|Gender|M||0.0
+847599|Demographic|Age|50||0.0
+847599|Demographic|Race|White||0.0
+847599|Vitals|height|174.0|cm|0
+847599|Vitals|BMI|0.00227903289734443||0
+847663|Demographic|Gender|F||0.0
+847663|Demographic|Age|72||0.0
+847663|Demographic|Race|White||0.0
+847663|FamilyHx|family_ALS_hist|N||0.0
+847663|Vitals|height|155.0|cm|0
+847663|Vitals|height|155.0|cm|7
+849991|Demographic|Gender|F||0.0
+849991|Demographic|Age|64||0.0
+849991|Demographic|Race|Other||0.0
+849991|Vitals|height|170.0|cm|0
+849991|Vitals|height|170.0|cm|12
+852515|Demographic|Gender|M||0.0
+852515|Demographic|Age|67||0.0
+852515|Demographic|Race|White||0.0
+852515|Vitals|height|177.0|cm|0
+852515|Vitals|BMI|0.00222158383606243||0
+853005|Demographic|Gender|F||0.0
+853005|Demographic|Age|66||0.0
+853005|Demographic|Race|White||0.0
+853005|FamilyHx|family_ALS_hist|N||0.0
+853005|Vitals|height|157.0|cm|0
+854836|Demographic|Gender|F||0.0
+854836|Demographic|Age|53||0.0
+854836|Demographic|Race|White||0.0
+854836|FamilyHx|family_ALS_hist|N||0.0
+854836|Vitals|height|157.0|cm|0
+854836|Vitals|BMI|0.00239360623149012||0
+855218|Demographic|Gender|F||0.0
+855218|Demographic|Age|76||0.0
+855218|Demographic|Race|White||0.0
+855218|Vitals|height|158.0|cm|0
+855218|Vitals|BMI|0.00236340330075308||0
+859434|Demographic|Gender|M||0.0
+859434|Demographic|Age|60||0.0
+859434|Demographic|Race|White||0.0
+859434|Vitals|height|167.0|cm|0
+859434|Vitals|BMI|0.00250995015956112||0
+862697|Demographic|Gender|F||0.0
+862697|Demographic|Age|70||0.0
+862697|Demographic|Race|White||0.0
+863694|Demographic|Gender|F||0.0
+863694|Demographic|Age|63||0.0
+863694|Demographic|Race|White||0.0
+863694|FamilyHx|family_ALS_hist|N||0.0
+863694|Vitals|height|162.0|cm|0
+863694|Vitals|height|162.0|cm|16
+863694|Vitals|BMI|0.002030940405426||0
+863694|Vitals|BMI|0.00201188843164152||16
+865240|Demographic|Gender|M||0.0
+865240|Demographic|Age|64||0.0
+865240|Demographic|Race|White||0.0
+865240|Vitals|height|184.0|cm|0
+865240|Vitals|height|184.0|cm|14
+865240|Vitals|BMI|0.00248109640831758||0
+865240|Vitals|BMI|0.00251063327032136||14
+865379|Demographic|Gender|F||0.0
+865379|Demographic|Age|67||0.0
+865379|Demographic|Race|White||0.0
+865379|Vitals|height|163.6|cm|0
+865379|Vitals|BMI|0.00304876226230116||0
+866787|Demographic|Gender|F||0.0
+866787|Demographic|Age|74||0.0
+866787|Demographic|Race|White||0.0
+866787|FamilyHx|family_ALS_hist|N||0.0
+866787|Vitals|height|160.0|cm|0
+866787|Vitals|height|160.0|cm|14
+867897|Demographic|Gender|M||0.0
+867897|Demographic|Age|67||0.0
+867897|Demographic|Race|White||0.0
+867897|Vitals|height|175.0|cm|0
+867897|Vitals|BMI|0.00256326530612245||0
+869689|Demographic|Gender|M||0.0
+869689|Demographic|Age|60||0.0
+869689|Demographic|Race|White||0.0
+869792|Demographic|Gender|M||0.0
+869792|Demographic|Age|51||0.0
+869792|Demographic|Race|White||0.0
+869792|Vitals|height|167.0|cm|0
+869792|Vitals|BMI|0.00261751945211374||0
+870162|Demographic|Gender|M||0.0
+870162|Demographic|Age|64||0.0
+870162|Demographic|Race|White||0.0
+870162|FamilyHx|family_ALS_hist|Y||0.0
+870162|Vitals|height|185.0|cm|0
+870162|Vitals|height|185.0|cm|26
+870162|Vitals|BMI|0.00198100803506209||0
+870162|Vitals|BMI|0.00196932067202337||26
+871363|Demographic|Gender|M||0.0
+871363|Demographic|Age|74||0.0
+871363|Demographic|Race|White||0.0
+871363|Vitals|height|168.0|cm|0
+871363|Vitals|height|168.0|cm|8
+871458|Demographic|Gender|M||0.0
+871458|Demographic|Age|78||0.0
+871458|Demographic|Race|White||0.0
+871458|Vitals|height|175.0|cm|0
+871458|Vitals|BMI|0.00241632653061225||0
+872279|Demographic|Gender|F||0.0
+872279|Demographic|Age|58||0.0
+872279|Demographic|Race|White||0.0
+872279|Vitals|height|157.0|cm|0
+872653|Demographic|Gender|F||0.0
+872653|Demographic|Age|65||0.0
+872653|Demographic|Race|White||0.0
+872653|Vitals|height|165.0|cm|0
+872653|Vitals|BMI|0.0019247015610652||0
+872882|Demographic|Gender|M||0.0
+872882|Demographic|Age|71||0.0
+872882|Demographic|Race|White||0.0
+872882|Vitals|height|184.4|cm|0
+872882|Vitals|BMI|0.0022262505822954||0
+874060|Demographic|Gender|M||0.0
+874060|Demographic|Age|68||0.0
+874060|Demographic|Race|White||0.0
+874060|FamilyHx|family_ALS_hist|N||0.0
+874060|Vitals|height|175.0|cm|0
+874060|Vitals|height|175.0|cm|0
+874150|Demographic|Gender|F||0.0
+874150|Demographic|Age|62||0.0
+874150|Demographic|Race|White||0.0
+874150|FamilyHx|family_ALS_hist|Y||0.0
+874150|Vitals|height|158.0|cm|0
+874150|Vitals|BMI|0.00180259573786252||0
+875469|Demographic|Gender|F||0.0
+875469|Demographic|Age|64||0.0
+875469|Demographic|Race|White||0.0
+875536|Demographic|Gender|F||0.0
+875536|Demographic|Age|61||0.0
+875536|Demographic|Race|White||0.0
+875536|Vitals|height|164.0|cm|0
+875536|Vitals|height|164.0|cm|13
+876631|Demographic|Gender|M||0.0
+876631|Demographic|Age|65||0.0
+876631|Demographic|Race|White||0.0
+876631|Vitals|height|168.0|cm|0
+876631|Vitals|BMI|0.00239866780045351||0
+878533|Demographic|Gender|M||0.0
+878533|Demographic|Age|52||0.0
+878533|Demographic|Race|Unknown||0.0
+878533|Vitals|height|184.8|cm|0
+878533|Vitals|BMI|0.0021902700474129||0
+880906|Demographic|Gender|M||0.0
+880906|Demographic|Age|52||0.0
+880906|Demographic|Race|White||0.0
+880906|Vitals|height|156.0|cm|0
+880906|Vitals|BMI|0.002465483234714||0
+881135|Demographic|Gender|M||0.0
+881135|Demographic|Age|67||0.0
+881135|Demographic|Race|White||0.0
+881135|Vitals|height|172.0|cm|0
+881135|Vitals|BMI|0.00189291508923743||0
+882196|Demographic|Gender|M||0.0
+882196|Demographic|Age|77||0.0
+882196|Demographic|Race|White||0.0
+882196|Vitals|height|176.0|cm|0
+882196|Vitals|BMI|0.00258264462809917||0
+882318|Demographic|Gender|M||0.0
+882318|Demographic|Age|75||0.0
+882318|Demographic|Race|White||0.0
+882318|Vitals|height|168.0|cm|7
+882318|Vitals|BMI|0.00244472789115646||7
+883388|Demographic|Gender|F||0.0
+883388|Demographic|Age|48||0.0
+883388|Demographic|Race|White||0.0
+883657|Demographic|Gender|M||0.0
+883657|Demographic|Age|69||0.0
+883657|Demographic|Race|White||0.0
+884033|Demographic|Gender|F||0.0
+884033|Demographic|Age|73||0.0
+884033|Demographic|Race|White||0.0
+884033|Vitals|height|163.0|cm|0
+884956|Demographic|Gender|M||0.0
+884956|Demographic|Age|68||0.0
+884956|Demographic|Race|White||0.0
+884956|Vitals|height|180.0|cm|0
+884956|Vitals|height|180.0|cm|29
+885038|Demographic|Gender|M||0.0
+885038|Demographic|Age|60||0.0
+885038|Demographic|Race|White||0.0
+885038|Vitals|height|182.0|cm|0
+885038|Vitals|height|182.0|cm|28
+885038|Vitals|BMI|0.00265668397536529||0
+885038|Vitals|BMI|0.00264158918005072||28
+885968|Demographic|Gender|M||0.0
+885968|Demographic|Age|77||0.0
+885968|Demographic|Race|White||0.0
+885968|Vitals|height|183.0|cm|0
+885968|Vitals|BMI|0.0023291229956105||0
+886625|Demographic|Gender|M||0.0
+886625|Demographic|Age|56||0.0
+886625|Demographic|Race|White||0.0
+886625|Vitals|height|173.0|cm|0
+887169|Demographic|Gender|M||0.0
+887169|Demographic|Age|66||0.0
+887169|Demographic|Race|White||0.0
+887169|Vitals|height|183.0|cm|0
+887169|Vitals|height|183.0|cm|0
+887169|Vitals|BMI|0.00206037803457852||0
+887980|Demographic|Gender|M||0.0
+887980|Demographic|Age|62||0.0
+887980|Demographic|Race|White||0.0
+887980|Vitals|height|170.18|cm|0
+887980|Vitals|BMI|0.00261383904367274||0
+888006|Demographic|Gender|M||0.0
+888006|Demographic|Age|62||0.0
+888006|Demographic|Race|White||0.0
+888356|Demographic|Gender|F||0.0
+888356|Demographic|Age|62||0.0
+888356|Demographic|Race|White||0.0
+888356|Vitals|height|156.0|cm|0
+888356|Vitals|BMI|0.0028353057199211||0
+888429|Demographic|Gender|M||0.0
+888429|Demographic|Age|51||0.0
+888429|Demographic|Race|White||0.0
+888429|Vitals|height|173.0|cm|0
+888429|Vitals|BMI|0.00241237595643022||0
+889310|Demographic|Gender|F||0.0
+889310|Demographic|Age|73||0.0
+889310|Demographic|Race|White||0.0
+889310|Vitals|height|169.0|cm|0
+889310|Vitals|height|169.0|cm|7
+889310|Vitals|BMI|0.0023458562375267||0
+889310|Vitals|BMI|0.0023458562375267||7
+895629|Demographic|Gender|F||0.0
+895629|Demographic|Age|71||0.0
+895629|Demographic|Race|White||0.0
+895629|FamilyHx|family_ALS_hist|N||0.0
+895629|Vitals|height|158.0|cm|0
+895629|Vitals|BMI|0.00206697644608236||0
+896339|Demographic|Gender|F||0.0
+896339|Demographic|Age|74||0.0
+896339|Demographic|Race|White||0.0
+896339|FamilyHx|family_ALS_hist|N||0.0
+896339|Vitals|height|157.0|cm|0
+896339|Vitals|height|157.0|cm|6
+897161|Demographic|Gender|M||0.0
+897161|Demographic|Age|75||0.0
+897161|Demographic|Race|White||0.0
+897161|Vitals|height|170.0|cm|0
+897602|Demographic|Gender|M||0.0
+897602|Demographic|Age|68||0.0
+897602|Demographic|Race|White||0.0
+897602|FamilyHx|family_ALS_hist|N||0.0
+897602|Vitals|height|171.0|cm|0
+897602|Vitals|BMI|0.00242809753428405||0
+900124|Demographic|Gender|F||0.0
+900124|Demographic|Age|63||0.0
+900124|Demographic|Race|White||0.0
+900124|Vitals|height|156.0|cm|0
+900124|Vitals|BMI|0.00213675213675214||0
+900546|Demographic|Gender|M||0.0
+900546|Demographic|Age|54||0.0
+900546|Demographic|Race|White||0.0
+900546|Vitals|height|170.0|cm|0
+900546|Vitals|BMI|0.00242214532871972||0
+901143|Demographic|Gender|M||0.0
+901143|Demographic|Age|71||0.0
+901143|Demographic|Race|White||0.0
+901143|Vitals|height|190.0|cm|0
+901166|Demographic|Gender|M||0.0
+901166|Demographic|Age|65||0.0
+901166|Demographic|Race|White||0.0
+901166|FamilyHx|family_ALS_hist|Y||0.0
+901166|Vitals|height|176.0|cm|0
+901166|Vitals|BMI|0.00264721074380165||0
+901878|Demographic|Gender|M||0.0
+901878|Demographic|Age|71||0.0
+901878|Demographic|Race|White||0.0
+901878|Vitals|height|169.0|cm|0
+901878|Vitals|BMI|0.00227583067819754||0
+903079|Demographic|Gender|F||0.0
+903079|Demographic|Age|66||0.0
+903079|Demographic|Race|White||0.0
+903079|Vitals|height|150.0|cm|0
+903079|Vitals|BMI|0.00231111111111111||0
+903524|Demographic|Gender|M||0.0
+903524|Demographic|Age|65||0.0
+903524|Demographic|Race|White||0.0
+903524|Vitals|height|185.0|cm|0
+903962|Demographic|Gender|M||0.0
+903962|Demographic|Age|50||0.0
+903962|Demographic|Race|White||0.0
+904466|Demographic|Gender|F||0.0
+904466|Demographic|Age|72||0.0
+904466|Demographic|Race|White||0.0
+904466|Vitals|height|163.0|cm|0
+904466|Vitals|height|163.0|cm|21
+904466|Vitals|BMI|0.00236742067823403||0
+904466|Vitals|BMI|0.00235989310850992||21
+904513|Demographic|Gender|F||0.0
+904513|Demographic|Age|75||0.0
+904513|Demographic|Race|White||0.0
+904544|Demographic|Gender|M||0.0
+904544|Demographic|Age|69||0.0
+904544|Demographic|Race|White||0.0
+904544|FamilyHx|family_ALS_hist|N||0.0
+904544|Vitals|height|168.0|cm|0
+904544|Vitals|height|168.0|cm|7
+904544|Vitals|BMI|0.00249787414965986||0
+904544|Vitals|BMI|0.00240929705215419||7
+905543|Demographic|Gender|F||0.0
+905543|Demographic|Age|53||0.0
+905543|Demographic|Race|White||0.0
+905543|FamilyHx|family_ALS_hist|N||0.0
+905543|Vitals|height|167.0|cm|0
+905543|Vitals|BMI|0.00225178385743483||0
+905600|Demographic|Gender|M||0.0
+905600|Demographic|Age|66||0.0
+905600|Demographic|Race|White||0.0
+905600|FamilyHx|family_ALS_hist|N||0.0
+905600|Vitals|height|174.0|cm|0
+905600|Vitals|BMI|0.00284053375611045||0
+907023|Demographic|Gender|M||0.0
+907023|Demographic|Age|68||0.0
+907023|Demographic|Race|White||0.0
+907023|Vitals|height|176.0|cm|0
+907023|Vitals|BMI|0.00232438016528926||0
+907183|Demographic|Gender|M||0.0
+907183|Demographic|Age|68||0.0
+907183|Demographic|Race|White||0.0
+908163|Demographic|Gender|F||0.0
+908163|Demographic|Age|63||0.0
+908163|Demographic|Race|White||0.0
+908256|Demographic|Gender|M||0.0
+908256|Demographic|Age|75||0.0
+908256|Demographic|Race|White||0.0
+908256|Vitals|height|170.0|cm|0
+908256|Vitals|height|170.0|cm|69
+908256|Vitals|BMI|0.00233217993079585||69
+908363|Demographic|Gender|F||0.0
+908363|Demographic|Age|60||0.0
+908363|Demographic|Race|White||0.0
+908363|Vitals|height|163.0|cm|0
+908363|Vitals|BMI|0.0022206330686138||0
+909938|Demographic|Gender|F||0.0
+909938|Demographic|Age|63||0.0
+909938|Demographic|Race|White||0.0
+909938|FamilyHx|family_ALS_hist|N||0.0
+909938|Vitals|height|169.0|cm|0
+909938|Vitals|height|169.0|cm|9
+912332|Demographic|Gender|M||0.0
+912332|Demographic|Age|66||0.0
+912332|Demographic|Race|White||0.0
+912332|FamilyHx|family_ALS_hist|N||0.0
+912332|Vitals|height|186.0|cm|0
+914025|Demographic|Gender|F||0.0
+914025|Demographic|Age|59||0.0
+914025|Demographic|Race|White||0.0
+914025|Vitals|height|145.0|cm|0
+914025|Vitals|BMI|0.00229250891795482||0
+917958|Demographic|Gender|M||0.0
+917958|Demographic|Age|75||0.0
+917958|Demographic|Race|White||0.0
+917958|Vitals|height|178.0|cm|0
+917958|Vitals|BMI|0.00261961873500821||0
+918145|Demographic|Gender|M||0.0
+918145|Demographic|Age|60||0.0
+918145|Demographic|Race|White||0.0
+918145|Vitals|height|178.0|cm|0
+918145|Vitals|BMI|0.00246181037747759||0
+919337|Demographic|Gender|M||0.0
+919337|Demographic|Age|71||0.0
+919337|Demographic|Race|White||0.0
+919337|Vitals|height|163.0|cm|0
+919337|Vitals|BMI|0.00267228725206067||0
+920261|Demographic|Gender|M||0.0
+920261|Demographic|Age|64||0.0
+920261|Demographic|Race|White||0.0
+920261|FamilyHx|family_ALS_hist|N||0.0
+920261|Vitals|height|166.0|cm|0
+920261|Vitals|BMI|0.00289592103353172||0
+921652|Demographic|Gender|M||0.0
+921652|Demographic|Age|72||0.0
+921652|Demographic|Race|White||0.0
+921652|FamilyHx|family_ALS_hist|N||0.0
+921652|Vitals|height|160.0|cm|0
+921652|Vitals|height|160.0|cm|49
+924020|Demographic|Gender|F||0.0
+924020|Demographic|Age|53||0.0
+924020|Demographic|Race|White||0.0
+924020|Vitals|height|154.0|cm|0
+924020|Vitals|BMI|0.00185528756957328||0
+925803|Demographic|Gender|F||0.0
+925803|Demographic|Age|57||0.0
+925803|Demographic|Race|White||0.0
+927139|Demographic|Gender|F||0.0
+927139|Demographic|Age|73||0.0
+927139|Demographic|Race|White||0.0
+927139|Vitals|height|158.0|cm|0
+927139|Vitals|BMI|0.00256369171607114||0
+928060|Demographic|Gender|F||0.0
+928060|Demographic|Age|63||0.0
+928060|Demographic|Race|Asian||0.0
+933971|Demographic|Gender|M||0.0
+933971|Demographic|Age|69||0.0
+933971|Demographic|Race|White||0.0
+933971|FamilyHx|family_ALS_hist|N||0.0
+933971|Vitals|height|167.0|cm|0
+936119|Demographic|Gender|F||0.0
+936119|Demographic|Age|54||0.0
+936119|Demographic|Race|White||0.0
+936119|Vitals|height|164.0|cm|0
+936119|Vitals|height|164.0|cm|0
+936119|Vitals|BMI|0.00241671624033314||0
+936788|Demographic|Gender|F||0.0
+936788|Demographic|Age|61||0.0
+936788|Demographic|Race|White||0.0
+936788|Vitals|height|156.0|cm|0
+936788|Vitals|BMI|0.00250657462195924||0
+938690|Demographic|Gender|F||0.0
+938690|Demographic|Age|61||0.0
+938690|Demographic|Race|White||0.0
+938690|Vitals|height|162.0|cm|0
+938690|Vitals|BMI|0.00272062185642433||0
+939942|Demographic|Gender|M||0.0
+939942|Demographic|Age|69||0.0
+939942|Demographic|Race|White||0.0
+939942|Vitals|height|183.0|cm|0
+939942|Vitals|BMI|0.00221565290095255||0
+939946|Demographic|Gender|F||0.0
+939946|Demographic|Age|68||0.0
+939946|Demographic|Race|White||0.0
+940767|Demographic|Gender|F||0.0
+940767|Demographic|Age|56||0.0
+940767|Demographic|Race|White||0.0
+940767|FamilyHx|family_ALS_hist|N||0.0
+940767|Vitals|height|157.0|cm|0
+940767|Vitals|BMI|0.00198791026005112||0
+940788|Demographic|Gender|M||0.0
+940788|Demographic|Age|58||0.0
+940788|Demographic|Race|White||0.0
+940788|Vitals|height|170.0|cm|0
+940788|Vitals|height|170.0|cm|19
+942786|Demographic|Gender|M||0.0
+942786|Demographic|Age|69||0.0
+942786|Demographic|Race|White||0.0
+943985|Demographic|Gender|F||0.0
+943985|Demographic|Age|71||0.0
+943985|Demographic|Race|White||0.0
+943985|Vitals|height|160.0|cm|0
+943985|Vitals|height|160.0|cm|27
+943985|Vitals|BMI|0.00203125||0
+943985|Vitals|BMI|0.00203125||27
+944426|Demographic|Gender|M||0.0
+944426|Demographic|Age|67||0.0
+944426|Demographic|Race|White||0.0
+944426|FamilyHx|family_ALS_hist|N||0.0
+944426|Vitals|height|170.0|cm|0
+944426|Vitals|height|170.0|cm|7
+945307|Demographic|Gender|M||0.0
+945307|Demographic|Age|62||0.0
+945307|Demographic|Race|White||0.0
+945307|Vitals|height|175.0|cm|0
+945307|Vitals|height|175.0|cm|9
+945678|Demographic|Gender|M||0.0
+945678|Demographic|Age|65||0.0
+945678|Demographic|Race|White||0.0
+945678|Vitals|height|180.0|cm|0
+945678|Vitals|BMI|0.00209567901234568||0
+946618|Demographic|Gender|M||0.0
+946618|Demographic|Age|74||0.0
+946618|Demographic|Race|White||0.0
+946618|Vitals|height|152.0|cm|0
+946618|Vitals|BMI|0.00259695290858726||0
+949077|Demographic|Gender|M||0.0
+949077|Demographic|Age|57||0.0
+949077|Demographic|Race|White||0.0
+949077|Vitals|height|171.0|cm|0
+949286|Demographic|Gender|M||0.0
+949286|Demographic|Age|58||0.0
+949286|Demographic|Race|White||0.0
+949286|Vitals|height|165.0|cm|0
+949286|Vitals|BMI|0.00246097337006428||0
+950590|Demographic|Gender|F||0.0
+950590|Demographic|Age|60||0.0
+950590|Demographic|Race|White||0.0
+950590|Vitals|height|167.0|cm|14
+950590|Vitals|height|167.0|cm|0
+950590|Vitals|BMI|0.00244540858402955||14
+950590|Vitals|BMI|0.00244182294094446||0
+951425|Demographic|Gender|F||0.0
+951425|Demographic|Age|63||0.0
+951425|Demographic|Race|White||0.0
+951425|Vitals|height|166.0|cm|0
+951425|Vitals|BMI|0.00263100595151691||0
+951478|Demographic|Gender|F||0.0
+951478|Demographic|Age|71||0.0
+951478|Demographic|Race|White||0.0
+951478|FamilyHx|family_ALS_hist|N||0.0
+951478|Vitals|height|157.0|cm|0
+951478|Vitals|BMI|0.00251531502292182||0
+951817|Demographic|Gender|F||0.0
+951817|Demographic|Age|67||0.0
+951817|Demographic|Race|White||0.0
+951817|Vitals|height|166.0|cm|0
+951817|Vitals|BMI|0.00261286108288576||0
+951846|Demographic|Gender|M||0.0
+951846|Demographic|Age|70||0.0
+951846|Demographic|Race|White||0.0
+951846|FamilyHx|family_ALS_hist|N||0.0
+951846|Vitals|height|182.0|cm|0
+951846|Vitals|BMI|0.00260838063035865||0
+952816|Demographic|Gender|M||0.0
+952816|Demographic|Age|71||0.0
+952816|Demographic|Race|White||0.0
+952816|Vitals|height|170.0|cm|0
+952816|Vitals|BMI|0.00235294117647059||0
+953747|Demographic|Gender|M||0.0
+953747|Demographic|Age|58||0.0
+953747|Demographic|Race|White||0.0
+953747|Vitals|height|163.0|cm|0
+953747|Vitals|BMI|0.00270992510068125||0
+955372|Demographic|Gender|F||0.0
+955372|Demographic|Age|66||0.0
+955372|Demographic|Race|White||0.0
+955372|FamilyHx|family_ALS_hist|Y||0.0
+955372|Vitals|height|158.0|cm|0
+955372|Vitals|height|158.0|cm|15
+955372|Vitals|BMI|0.00236740906905945||0
+955372|Vitals|BMI|0.00225925332478769||15
+957434|Demographic|Gender|M||0.0
+957434|Demographic|Age|59||0.0
+957434|Demographic|Race|White||0.0
+957434|Vitals|height|170.0|cm|0
+959084|Demographic|Gender|F||0.0
+959084|Demographic|Age|62||0.0
+959084|Demographic|Race|White||0.0
+959084|FamilyHx|family_ALS_hist|N||0.0
+959084|Vitals|height|163.0|cm|0
+960033|Demographic|Gender|M||0.0
+960033|Demographic|Age|60||0.0
+960033|Demographic|Race|White||0.0
+960033|Vitals|height|173.0|cm|0
+960033|Vitals|height|173.0|cm|3
+960033|Vitals|BMI|0.00357512780246584||0
+960033|Vitals|BMI|0.00357512780246584||3
+964309|Demographic|Gender|F||0.0
+964309|Demographic|Age|67||0.0
+964309|Demographic|Race|White||0.0
+964309|Vitals|height|159.0|cm|0
+965608|Demographic|Gender|F||0.0
+965608|Demographic|Age|71||0.0
+965608|Demographic|Race|White||0.0
+965608|Vitals|height|170.0|cm|0
+965608|Vitals|BMI|0.00256055363321799||0
+966473|Demographic|Gender|M||0.0
+966473|Demographic|Age|57||0.0
+966473|Demographic|Race|White||0.0
+966473|Vitals|height|165.0|cm|0
+967766|Demographic|Gender|F||0.0
+967766|Demographic|Age|71||0.0
+967766|Demographic|Race|White||0.0
+967766|Vitals|height|160.0|cm|0
+967766|Vitals|BMI|0.0024609375||0
+969026|Demographic|Gender|M||0.0
+969026|Demographic|Age|62||0.0
+969026|Demographic|Race|White||0.0
+969956|Demographic|Gender|F||0.0
+969956|Demographic|Age|64||0.0
+969956|Demographic|Race|White||0.0
+969956|Vitals|height|152.0|cm|0
+969956|Vitals|height|152.0|cm|13
+970647|Demographic|Gender|F||0.0
+970647|Demographic|Age|66||0.0
+970647|Demographic|Race|White||0.0
+970647|Vitals|height|163.0|cm|0
+970647|Vitals|height|163.0|cm|0
+970647|Vitals|BMI|0.00383529677443637||0
+970647|Vitals|BMI|0.00383529677443637||0
+972167|Demographic|Gender|M||0.0
+972167|Demographic|Age|71||0.0
+972167|Demographic|Race|White||0.0
+972167|Vitals|height|171.0|cm|0
+972167|Vitals|BMI|0.00270168598885127||0
+974182|Demographic|Gender|F||0.0
+974182|Demographic|Age|60||0.0
+974182|Demographic|Race|White||0.0
+974182|Vitals|height|153.0|cm|0
+974182|Vitals|BMI|0.00224272715622197||0
+976499|Demographic|Gender|M||0.0
+976499|Demographic|Age|68||0.0
+976499|Demographic|Race|White||0.0
+976499|Vitals|height|175.0|cm|0
+976499|Vitals|BMI|0.00236734693877551||0
+977875|Demographic|Gender|F||0.0
+977875|Demographic|Age|64||0.0
+977875|Demographic|Race|White||0.0
+977875|Vitals|height|158.0|cm|0
+977875|Vitals|BMI|0.00200288415318058||0
+978220|Demographic|Gender|M||0.0
+978220|Demographic|Age|67||0.0
+978220|Demographic|Race|White||0.0
+978220|Vitals|height|183.0|cm|0
+978220|Vitals|height|183.0|cm|7
+978220|Vitals|BMI|0.00242467675953298||0
+978220|Vitals|BMI|0.00241273253904267||7
+979257|Demographic|Gender|F||0.0
+979257|Demographic|Age|70||0.0
+979257|Demographic|Race|White||0.0
+979257|Vitals|height|158.0|cm|0
+979257|Vitals|BMI|0.0024034609838167||0
+979982|Demographic|Gender|F||0.0
+979982|Demographic|Age|78||0.0
+979982|Demographic|Race|White||0.0
+979982|Vitals|height|159.0|cm|0
+979982|Vitals|BMI|0.00245243463470591||0
+980454|Demographic|Gender|M||0.0
+980454|Demographic|Age|56||0.0
+980454|Demographic|Race|Asian||0.0
+980454|FamilyHx|family_ALS_hist|Y||0.0
+980454|Vitals|height|170.0|cm|0
+980454|Vitals|height|170.0|cm|14
+980984|Demographic|Gender|F||0.0
+980984|Demographic|Age|74||0.0
+980984|Demographic|Race|Unknown||0.0
+980984|Vitals|height|173.0|cm|0
+980984|Vitals|BMI|0.0019379197433927||0
+982255|Demographic|Gender|M||0.0
+982255|Demographic|Age|62||0.0
+982255|Demographic|Race|White||0.0
+982255|Vitals|height|172.0|cm|1
+983398|Demographic|Gender|F||0.0
+983398|Demographic|Age|54||0.0
+983398|Demographic|Race|White||0.0
+983618|Demographic|Gender|F||0.0
+983618|Demographic|Age|70||0.0
+983618|Demographic|Race|White||0.0
+983618|Vitals|height|152.0|cm|0
+984464|Demographic|Gender|M||0.0
+984464|Demographic|Age|74||0.0
+984464|Demographic|Race|White||0.0
+984464|Vitals|height|175.0|cm|0
+984464|Vitals|height|175.0|cm|10
+984584|Demographic|Gender|F||0.0
+984584|Demographic|Age|69||0.0
+984584|Demographic|Race|White||0.0
+985868|Demographic|Gender|F||0.0
+985868|Demographic|Age|57||0.0
+985868|Demographic|Race|White||0.0
+985868|Vitals|height|166.0|cm|0
+985868|Vitals|BMI|0.00246770213383655||0
+987006|Demographic|Gender|F||0.0
+987006|Demographic|Age|64||0.0
+987006|Demographic|Race|White||0.0
+987006|Vitals|height|160.0|cm|0
+987006|Vitals|BMI|0.002109375||0
+987208|Demographic|Gender|M||0.0
+987208|Demographic|Age|57||0.0
+987208|Demographic|Race|White||0.0
+987344|Demographic|Gender|F||0.0
+987344|Demographic|Age|58||0.0
+987344|Demographic|Race|White||0.0
+987344|Vitals|height|158.0|cm|0
+987344|Vitals|BMI|0.00198285531164877||0
+988694|Demographic|Gender|F||0.0
+988694|Demographic|Age|54||0.0
+988694|Demographic|Race|White||0.0
+988694|Vitals|height|173.0|cm|0
+988694|Vitals|BMI|0.00217180660897457||0
+989490|Demographic|Gender|M||0.0
+989490|Demographic|Age|74||0.0
+989490|Demographic|Race|White||0.0
+989490|Vitals|height|167.6|cm|0
+989490|Vitals|BMI|0.00299397360461606||0
+989554|Demographic|Gender|F||0.0
+989554|Demographic|Age|72||0.0
+989554|Demographic|Race|White||0.0
+991169|Demographic|Gender|F||0.0
+991169|Demographic|Age|53||0.0
+991169|Demographic|Race|White||0.0
+991226|Demographic|Gender|M||0.0
+991226|Demographic|Age|74||0.0
+991226|Demographic|Race|White||0.0
+991226|Vitals|height|178.0|cm|0
+991226|Vitals|BMI|0.00252493372048984||0
+991446|Demographic|Gender|F||0.0
+991446|Demographic|Age|64||0.0
+991446|Demographic|Race|White||0.0
+991794|Demographic|Gender|F||0.0
+991794|Demographic|Age|69||0.0
+991794|Demographic|Race|White||0.0
+992110|Demographic|Gender|M||0.0
+992110|Demographic|Age|62||0.0
+992110|Demographic|Race|White||0.0
+992110|Vitals|height|164.0|cm|0
+992110|Vitals|BMI|0.00277736466389054||0
+993414|Demographic|Gender|M||0.0
+993414|Demographic|Age|66||0.0
+993414|Demographic|Race|White||0.0
+995401|Demographic|Gender|M||0.0
+995401|Demographic|Age|66||0.0
+995401|Demographic|Race|White||0.0
+995401|Vitals|height|168.0|cm|0
+995401|Vitals|height|168.0|cm|1
+995401|Vitals|BMI|0.00389739229024943||1
+995546|Demographic|Gender|F||0.0
+995546|Demographic|Age|47||0.0
+995546|Demographic|Race|White||0.0
+995546|FamilyHx|family_ALS_hist|N||0.0
+995546|Vitals|height|155.0|cm|0
+995546|Vitals|height|155.0|cm|4
+998047|Demographic|Gender|F||0.0
+998047|Demographic|Age|61||0.0
+998047|Demographic|Race|White||0.0
+998047|FamilyHx|family_ALS_hist|N||0.0
+998047|Vitals|height|156.0|cm|0
+998047|Vitals|BMI|0.00205456936226167||0

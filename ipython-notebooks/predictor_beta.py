@@ -1,101 +1,92 @@
 
 # coding: utf-8
 
-# In[1]:
+# # Used for predicting ALSFRS_slope
+# see https://www.synapse.org/#!Synapse:syn2873386/wiki/ .
+# We assumed data is vectorized + clustered + 6 features were selected
 
-# Used for predicting ALSFRS_slope (see https://www.synapse.org/#!Synapse:syn2873386/wiki/)
-# Assumed data is vectorized + clustered + 6 features were selected
-
-
-# In[2]:
+# In[23]:
 
 import pandas as pd
 import numpy as np
 import pickle
 from sklearn import linear_model
+from vectorizing_funcs import *
 
 
-# In[60]:
+# ## Revectorize the selected data
+# We now reload the metadata and the 6 attributes selected per cluster
 
-# proact_data = pd.read_csv('../train_data.csv', sep = '|', index_col=0)
-slope = pd.read_csv('../train_slope.csv', sep = '|', index_col=0)
-clusters = pd.read_csv('../train_kmeans_clusters.csv', sep = '|', index_col=0)
-vectorized = pd.read_csv('../train_data_vectorized.csv', sep='|', index_col=0)
-with open("../feature_groups.pickle", "rb") as input_file:
-    feature_groups = pickle.load(input_file)
-with open("../best_features_per_cluster.pickle", "rb") as input_file:
-    best_features_per_cluster = pickle.load(input_file)
+# In[24]:
 
-X = clusters.join(vectorized)
+all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
+train_data_means = pickle.load( open('../train_data_means.pickle', 'rb') )
+train_data_std = pickle.load( open('../train_data_std.pickle', 'rb') )
+best_features_per_cluster = pickle.load( open('../best_features_per_cluster.pickle', 'rb') )
+
+
+df = pd.read_csv('../train_data_selected.csv', sep='|', index_col=False)
+vectorized, _ = vectorize(df, all_feature_metadata)
+normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+print normalized.shape
+normalized.head()
+
+
+# In[25]:
+
+slope = pd.read_csv('../train_slope.csv', sep = '|', index_col="SubjectID")
+clusters = pd.read_csv('../train_kmeans_clusters.csv', sep = '|', index_col="SubjectID")
+
+X = clusters.join(normalized)
 Y = clusters.join(slope)
 
 print Y.shape, X.shape, clusters.shape
 
 
-# In[61]:
+# ## Train a prediction model per cluster
 
-#from vectorizer_beta import * 
+# In[26]:
+
 model_per_cluster = {}
 
-# def vectorize(clusters, seg_X, c):
-#     seg_vectorized_X = clusters[clusters['cluster'] == c]
-#     for feature_name in best_features_per_cluster[c]:
-#         seg_X_feature = func_per_feature[feature_name](seg_X, feature_name)
-#         seg_vectorized_X = pd.merge(seg_vectorized_X, seg_X_feature, left_on = 'SubjectID', right_index = True, how='left')
-#     return seg_vectorized_X
-
-clusters_vectorized = clusters.join(vectorized)
-for c in clusters.cluster.unique():
-    best_feature_groups = best_features_per_cluster[c]
-    best_features = list(reduce( lambda x,y: x|y, [ feature_groups[g] for g in best_feature_groups ]))
-    
-    X = clusters_vectorized[clusters_vectorized.cluster==c][best_features]
-    Y_data = Y[Y['cluster'] == c].ALSFRS_slope
+for c in clusters.cluster.unique():    
+    X_cluster = X[X.cluster==c]
+    Y_cluster = Y[Y.cluster == c].ALSFRS_slope
     regr = linear_model.LinearRegression()
-    regr.fit(X, Y_data)
+    regr.fit(X_cluster, Y_cluster)
 
-    print 'cluster: %d size: %s' % (c, Y.shape)
-    print 'Best feature groups: ', best_feature_groups
+    print 'cluster: %d size: %s' % (c, Y_cluster.shape)
     print "Mean square error (0 is perfect): %.2f" % np.mean(
-        (regr.predict(X) - Y_data) ** 2)
-    print('Explained variance score (1 is perfect): %.2f' % regr.score(X, Y_data))
+        (regr.predict(X_cluster) - Y_cluster) ** 2)
+    print('Explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
     print ""
-    model_per_cluster[c] = {"train_data_means": X.mean(), "model" : regr}
+    model_per_cluster[c] = {"train_data_means": X_cluster.mean(), "model" : regr}
     
     
 
 
-# In[73]:
+# ## Apply the model on both `train` and `test`
+
+# In[27]:
 
 def calc(x):
     c = x['cluster']
     model = model_per_cluster[c]['model']
-    best_feature_groups = best_features_per_cluster[c]
-    best_features = list(reduce( lambda x,y: x|y, [ feature_groups[g] for g in best_feature_groups ]))
-    x = x[best_features]
     pred = float(model.predict(x))
     return pd.Series({'SubjectID': int(x.name), 'prediction':pred, 'cluster': int(c), 'features_list': ";".join(best_features_per_cluster[c])})
 
 for t in ['train', 'test']:
-    vectorized_data = pd.read_csv('../' + t + '_data_vectorized.csv', sep = '|', index_col=0)
-    clusters = pd.read_csv('../' + t + '_kmeans_clusters.csv', sep = '|', index_col=0)
-    X = clusters.join(vectorized_data)
-    final = None
-    for c in clusters['cluster'].unique():
-        seg_X = X[X['cluster'] == c]
-        train_data_means = model_per_cluster[c]['train_data_means']
-        seg_vectorized_X = seg_X.fillna(train_data_means) 
-        pred_c = seg_X.apply(calc, axis = 1)
-        pred_c = pred_c.set_index('SubjectID')
-        if final is not None:
-            final = final.append(pred_c)
-        else:
-            final = pred_c
-    final.to_csv('../' + t + '_prediction.csv',sep='|', columns=['prediction', 'cluster', 'features_list'])
-    
-    print t, ' mean squared errors - ', np.mean((final['prediction'] - Y['ALSFRS_slope']) ** 2)    
+    df = pd.read_csv('../' + t + '_data_selected.csv', sep='|', index_col=False)
+    vectorized, _ = vectorize(df, all_feature_metadata)
+    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
 
-final.head()
+    clusters = pd.read_csv('../' + t + '_kmeans_clusters.csv', sep = '|', index_col=0)
+    X = clusters.join(normalized)
+    pred = X.apply(calc, axis = 1)
+    pred = pred.set_index('SubjectID')
+    pred.to_csv('../' + t + '_prediction.csv',sep='|')
+
+pred.head()
 
 
 # In[ ]:
