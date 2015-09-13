@@ -124,18 +124,14 @@ ts_funcs_to_features = [
         "features": [
             'ALSFRS_Total', 'weight', 'Albumin', 'Creatinine',
             'bp_diastolic', 'bp_systolic', 'pulse', 'respiratory_rate', 'temperature',
+            'mouth', 'respiratory', 'hands', 'fvc_percent'
         ]
     },
     {
         "funcs": ts_last_value,
         "features": [
-            'ALSFRS_Total', 'BMI', 'height', 'Age', 'onset_delta', 'Albumin', 'Creatinine',
-        ]
-    },
-    { 
-        "funcs": ts_pct_diff,
-        "features": [ 
-            'fvc_percent',
+            'ALSFRS_Total', 'BMI', 'Age', 'onset_delta', 'Albumin', 'Creatinine',
+            'mouth', 'respiratory', 'hands',
         ]
     },
     {

@@ -20,6 +20,12 @@ clustering_columns = [
         
 ]
 
+clustering_columns = [
+    'ALSFRS_Total_last',
+    'ALSFRS_Total_mean_slope',
+    ''
+]
+
 
 # ## Feature selection
 # We currently rank each feature family by regressing with it alone and comparing the regression score

@@ -10,6 +10,8 @@
 
 # In[1]:
 
+from IPython.display import display
+
 import pandas as pd
 import numpy as np
 import pickle
@@ -52,10 +54,15 @@ vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=Tru
 vectorized.head()
 
 
+# In[6]:
+
+vectorized.columns
+
+
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[6]:
+# In[7]:
 
 train_data_means = vectorized.mean()
 train_data_std = vectorized.std()            
@@ -70,7 +77,7 @@ normalized.head()
 
 # ## Pickle all metadata we will need to use later when applying vectorizer
 
-# In[7]:
+# In[8]:
 
 pickle.dump( all_feature_metadata, open('../all_feature_metadata.pickle', 'wb') )
 pickle.dump( train_data_means, open('../train_data_means.pickle', 'wb') )
@@ -80,7 +87,7 @@ pickle.dump( train_data_std, open('../train_data_std.pickle', 'wb') )
 # ## Apply model on `train`,  `test` 
 # 
 
-# In[8]:
+# In[9]:
 
 
 for t in ["train", "test"]:

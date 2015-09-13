@@ -4,7 +4,7 @@
 # ## Builds all our models x-validated
 # 
 
-# In[7]:
+# In[1]:
 
 from IPython.display import display
 
@@ -13,12 +13,13 @@ import numpy as np
 import pickle
 from sklearn.cluster import KMeans
 from StringIO import StringIO
+from sklearn import metrics
 
 from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[8]:
+# In[2]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
@@ -30,13 +31,22 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[9]:
+# In[3]:
 
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
 all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
 
 
-# In[10]:
+# In[4]:
+
+clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'White',
+       u'mouth_last', u'mouth_mean_slope',u'hands_last',
+       u'hands_mean_slope',u'onset_delta_last', u'ALSFRS_Total_last',
+       u'ALSFRS_Total_mean_slope',u'BMI_last', u'fvc_percent_mean_slope', 
+                     u'respiratory_last', u'respiratory_mean_slope']
+
+
+# In[5]:
 
 def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
                  clustering_columns, kmeans, best_features_per_cluster, model_per_cluster):
@@ -49,6 +59,8 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     for_clustering = normalized[clustering_columns]
     clusters = pd.DataFrame(index = for_clustering.index.astype(str))
     clusters['cluster'] = kmeans.predict(for_clustering)
+    print sorted([(metrics.adjusted_mutual_info_score(for_clustering[col], kmeans.labels_), col)                   for col in for_clustering.columns])[-5:]
+
     X = normalized.join(clusters)
     
     buf = filter_only_selected_features(test_data.set_index("SubjectID"), clusters,                                         best_features_per_cluster)    
@@ -62,7 +74,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[11]:
+# In[6]:
 
 from sklearn.cross_validation import KFold
 kf = KFold(df.SubjectID.unique().size, n_folds=2)
@@ -86,6 +98,8 @@ for train, test in kf:
     #Note we must convert to str to join with slope later
     clusters = pd.DataFrame(index = for_clustering.index.astype(str))
     clusters['cluster'] = kmeans.fit_predict(for_clustering)
+    print sorted([(metrics.adjusted_mutual_info_score(for_clustering[col], kmeans.labels_), col)                   for col in for_clustering.columns])[-5:]
+
     X = normalized.join(clusters)
     Y = slope.join(clusters)
 

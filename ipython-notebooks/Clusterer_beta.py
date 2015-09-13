@@ -96,7 +96,7 @@ for t in ['train', 'test']:
     res.to_csv('../' + t + '_kmeans_clusters.csv',sep='|')
 
 
-# In[8]:
+# In[7]:
 
 res.head()
 
