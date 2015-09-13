@@ -74,7 +74,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[6]:
+# In[ ]:
 
 from sklearn.cross_validation import KFold
 kf = KFold(df.SubjectID.unique().size, n_folds=2)
@@ -120,6 +120,11 @@ for train, test in kf:
     print "Train root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
         (res.prediction - res.ALSFRS_slope) ** 2))
 
+    pred = apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
+                 clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
+    res = pred.join(slope)
+    print "Test root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
+        (res.prediction - res.ALSFRS_slope) ** 2))
 
     fold += 1
 
