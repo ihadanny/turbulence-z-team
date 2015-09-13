@@ -120,7 +120,7 @@ def ts_last_boolean(ts_data, feature_metadata):
 
 ts_funcs_to_features = [ 
     { 
-        "funcs": [ ts_stats, ts_mean_slope, ts_pct_diff ],
+        "funcs": [ ts_stats, ts_mean_slope, ts_pct_diff, ts_last_value ],
         "features": [
             'ALSFRS_Total', 'weight', 'Albumin', 'Creatinine',
             'bp_diastolic', 'bp_systolic', 'pulse', 'respiratory_rate', 'temperature',
@@ -130,8 +130,7 @@ ts_funcs_to_features = [
     {
         "funcs": ts_last_value,
         "features": [
-            'ALSFRS_Total', 'BMI', 'Age', 'onset_delta', 'Albumin', 'Creatinine',
-            'mouth', 'respiratory', 'hands',
+            'BMI', 'Age', 'onset_delta',
         ]
     },
     {

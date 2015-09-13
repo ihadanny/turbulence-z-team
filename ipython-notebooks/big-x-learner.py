@@ -4,7 +4,7 @@
 # ## Builds all our models x-validated
 # 
 
-# In[1]:
+# In[22]:
 
 from IPython.display import display
 
@@ -14,12 +14,13 @@ import pickle
 from sklearn.cluster import KMeans
 from StringIO import StringIO
 from sklearn import metrics
+from sklearn.cross_validation import KFold
 
 from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[2]:
+# In[23]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
@@ -31,13 +32,13 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[3]:
+# In[24]:
 
-all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
-all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
+metadata = invert_func_to_features(ts_funcs_to_features, "ts")
+metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
 
 
-# In[4]:
+# In[25]:
 
 clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'White',
        u'mouth_last', u'mouth_mean_slope',u'hands_last',
@@ -46,7 +47,7 @@ clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'W
                      u'respiratory_last', u'respiratory_mean_slope']
 
 
-# In[5]:
+# In[26]:
 
 def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
                  clustering_columns, kmeans, best_features_per_cluster, model_per_cluster):
@@ -56,10 +57,12 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
     
     # Clustering
+    
+    print 
     for_clustering = normalized[clustering_columns]
     clusters = pd.DataFrame(index = for_clustering.index.astype(str))
     clusters['cluster'] = kmeans.predict(for_clustering)
-    print sorted([(metrics.adjusted_mutual_info_score(for_clustering[col], kmeans.labels_), col)                   for col in for_clustering.columns])[-5:]
+    print "cluster cnt: ", np.bincount(kmeans.labels_)
 
     X = normalized.join(clusters)
     
@@ -74,60 +77,72 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[6]:
+# In[29]:
 
-from sklearn.cross_validation import KFold
-kf = KFold(df.SubjectID.unique().size, n_folds=2)
-fold = 0
-for train, test in kf:
-    train_data = df[df.SubjectID.isin(df.SubjectID.unique()[train])]
-    test_data = df[df.SubjectID.isin(df.SubjectID.unique()[test])]
-    print "fold: %d" % fold
-    print "train_data: ", train_data.shape, train_data.SubjectID.unique().size,             train_data.SubjectID.min(), train_data.SubjectID.max()
+def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
+    kf = KFold(df.SubjectID.unique().size, n_folds=3)
+    fold, test_rmse, train_rmse = 0, 0.0, 0.0
+
+    for train, test in kf:
+        train_data = df[df.SubjectID.isin(df.SubjectID.unique()[train])]
+        test_data = df[df.SubjectID.isin(df.SubjectID.unique()[test])]
+        print
+        print "*"*30
+        print "fold: %d" % fold
+        print "train_data: ", train_data.shape, train_data.SubjectID.unique().size,                 train_data.SubjectID.min(), train_data.SubjectID.max()
+
+        # Vectorizing
+        all_feature_metadata = learn_to_dummies_model(train_data, all_feature_metadata)
+        vectorized, all_feature_metadata = vectorize(train_data, all_feature_metadata)
+        train_data_means = vectorized.mean()
+        train_data_std = vectorized.std()            
+        normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+
+        # Clustering
+        for_clustering = normalized[clustering_columns]
+        kmeans = KMeans(init='k-means++', n_clusters=my_n_clusters)
+        #Note we must convert to str to join with slope later
+        clusters = pd.DataFrame(index = for_clustering.index.astype(str))
+        clusters['cluster'] = kmeans.fit_predict(for_clustering)
+        print "cluster cnt: ", np.bincount(kmeans.labels_)
+
+        X = normalized.join(clusters)
+        Y = slope.join(clusters)
+
+        best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
+        print "best_features_per_cluster: ", best_features_per_cluster 
+        buf = filter_only_selected_features(train_data.set_index("SubjectID"), clusters,                                             best_features_per_cluster)
+
+        s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
+        s_vectorized, _ = vectorize(s_df, all_feature_metadata)
+        s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
+        s_X = s_normalized.join(clusters)
+
+        model_per_cluster = get_model_per_cluster(s_X, Y)
+
+        pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
+                     clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
+        res = pred.join(slope)
+        train_rmse += np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
+
+        pred = apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
+                     clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
+        res = pred.join(slope)
+        test_rmse += np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
+        
+        fold += 1
     
-    # Vectorizing
-    all_feature_metadata = learn_to_dummies_model(train_data, all_feature_metadata)
-    vectorized, all_feature_metadata = vectorize(train_data, all_feature_metadata)
-    train_data_means = vectorized.mean()
-    train_data_std = vectorized.std()            
-    normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-    
-    # Clustering
-    for_clustering = normalized[clustering_columns]
-    kmeans = KMeans(init='k-means++', n_clusters=3)
-    #Note we must convert to str to join with slope later
-    clusters = pd.DataFrame(index = for_clustering.index.astype(str))
-    clusters['cluster'] = kmeans.fit_predict(for_clustering)
-    print sorted([(metrics.adjusted_mutual_info_score(for_clustering[col], kmeans.labels_), col)                   for col in for_clustering.columns])[-5:]
+    print "Train RMS Error: ", train_rmse / kf.n_folds
+    print "Test RMS Error: ", test_rmse / kf.n_folds
 
-    X = normalized.join(clusters)
-    Y = slope.join(clusters)
 
-    best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
-    print "best_features_per_cluster: ", best_features_per_cluster 
-    buf = filter_only_selected_features(train_data.set_index("SubjectID"), clusters,                                         best_features_per_cluster)
-    
-    s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
-    s_vectorized, _ = vectorize(s_df, all_feature_metadata)
-    s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
-    s_X = s_normalized.join(clusters)
-    
-    model_per_cluster = get_model_per_cluster(s_X, Y)
 
-    pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
-                 clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
-    res = pred.join(slope)
-    print "Train root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
-        (res.prediction - res.ALSFRS_slope) ** 2))
+# In[32]:
 
-    pred = apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
-                 clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
-    res = pred.join(slope)
-    print "Test root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
-        (res.prediction - res.ALSFRS_slope) ** 2))
-
-    fold += 1
-
+for n_clusters in range(3, 7):
+    print "*"*60
+    print "*"*60
+    train_and_test(df, slope, metadata, n_clusters)
 
 
 # In[ ]:
