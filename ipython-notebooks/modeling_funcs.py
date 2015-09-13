@@ -3,7 +3,7 @@
 
 # ## Clustering hard-coded columns
 
-# In[9]:
+# In[1]:
 
 clustering_columns = [
     'ALSFRS_Total_last',
@@ -20,16 +20,11 @@ clustering_columns = [
         
 ]
 
-clustering_columns = [
-    'ALSFRS_Total_last',
-    'ALSFRS_Total_mean_slope',      
-]
-
 
 # ## Feature selection
 # We currently rank each feature family by regressing with it alone and comparing the regression score
 
-# In[13]:
+# In[2]:
 
 from sklearn import linear_model
 
@@ -51,7 +46,7 @@ def get_best_features_per_cluster(X, Y, all_feature_metadata):
     return best_features_per_cluster
 
 
-# In[2]:
+# In[3]:
 
 def filter_only_selected_features(df, clusters, best_features_per_cluster, debug=False): 
     j = df.join(clusters)
@@ -69,7 +64,7 @@ def filter_only_selected_features(df, clusters, best_features_per_cluster, debug
 # ## Prediction
 # We use simple linear regression
 
-# In[16]:
+# In[4]:
 
 from sklearn import linear_model
 import numpy as np
@@ -83,15 +78,15 @@ def get_model_per_cluster(X, Y):
         regr.fit(X_cluster, Y_cluster)
 
         print 'cluster: %d size: %s' % (c, Y_cluster.shape)
-        print "Mean square error (0 is perfect): %.2f" % np.mean(
-            (regr.predict(X_cluster) - Y_cluster) ** 2)
+        print "root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
+            (regr.predict(X_cluster) - Y_cluster) ** 2))
         print('Explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
         print ""
         model_per_cluster[c] = {"train_data_means": X_cluster.mean(), "model" : regr}
     return model_per_cluster
 
 
-# In[3]:
+# In[5]:
 
 import pandas as pd
 

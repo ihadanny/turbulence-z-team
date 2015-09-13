@@ -74,7 +74,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[7]:
+# In[6]:
 
 from sklearn.cross_validation import KFold
 kf = KFold(df.SubjectID.unique().size, n_folds=2)
