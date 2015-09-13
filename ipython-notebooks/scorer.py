@@ -1,18 +1,18 @@
 
 # coding: utf-8
 
-# In[10]:
+# In[1]:
 
 # Used by organizers to calculate score
 
 
-# In[4]:
+# In[2]:
 
 import pandas as pd
 import numpy as np
 
 
-# In[5]:
+# In[3]:
 
 for t in [('train_prediction', 'train_slope'), 
           ('test_prediction', 'test_slope'), 

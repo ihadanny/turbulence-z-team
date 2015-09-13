@@ -46,15 +46,16 @@ def get_best_features_per_cluster(X, Y, all_feature_metadata):
     return best_features_per_cluster
 
 
-# In[14]:
+# In[2]:
 
-def filter_only_selected_features(df, clusters, best_features_per_cluster): 
+def filter_only_selected_features(df, clusters, best_features_per_cluster, debug=False): 
     j = df.join(clusters)
     buf, is_first = "", True
     for c, features in best_features_per_cluster.iteritems():
         slice = j[j.cluster == c]
         selected = slice[slice.feature_name.isin(features)]
-        print c, slice.shape, selected.shape
+        if debug:
+            print c, slice.shape, " --> ", selected.shape
         buf += selected.to_csv(sep='|', header = is_first, columns=df.columns)
         is_first = False
     return buf
@@ -85,7 +86,7 @@ def get_model_per_cluster(X, Y):
     return model_per_cluster
 
 
-# In[18]:
+# In[3]:
 
 import pandas as pd
 
@@ -93,7 +94,7 @@ def apply_model(x, model_per_cluster):
     c = x['cluster']
     model = model_per_cluster[c]['model']
     pred = float(model.predict(x))
-    return pd.Series({'SubjectID': int(x.name), 'prediction':pred, 'cluster': int(c)})
+    return pd.Series({'prediction':pred, 'cluster': int(c)})
 
 
 # In[ ]:

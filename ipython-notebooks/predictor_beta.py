@@ -7,6 +7,8 @@
 
 # In[1]:
 
+from IPython.display import display
+
 import pandas as pd
 import numpy as np
 import pickle
@@ -26,7 +28,7 @@ train_data_std = pickle.load( open('../train_data_std.pickle', 'rb') )
 best_features_per_cluster = pickle.load( open('../best_features_per_cluster.pickle', 'rb') )
 
 
-df = pd.read_csv('../train_data_selected.csv', sep='|', index_col=False)
+df = pd.read_csv('../train_data_selected.csv', sep='|', index_col=False, dtype="unicode")
 vectorized, _ = vectorize(df, all_feature_metadata)
 normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
 print normalized.shape
@@ -38,10 +40,16 @@ normalized.head()
 slope = pd.read_csv('../train_slope.csv', sep = '|', index_col="SubjectID")
 clusters = pd.read_csv('../train_kmeans_clusters.csv', sep = '|', index_col="SubjectID")
 
+clusters.index = clusters.index.astype(str)
+slope.index = slope.index.astype(str)
+normalized.index = normalized.index.astype(str)
+
 X = normalized.join(clusters)
 Y = slope.join(clusters)
 
 print Y.shape, X.shape, clusters.shape
+display(X.head(3))
+display(Y.head(3))
 
 
 # ## Train a prediction model per cluster
@@ -49,7 +57,6 @@ print Y.shape, X.shape, clusters.shape
 # In[4]:
 
 model_per_cluster = get_model_per_cluster(X, Y)
-    
     
 
 
@@ -70,9 +77,12 @@ for t in ['train', 'test']:
     normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
     
     clusters = pd.read_csv('../' + t + '_kmeans_clusters.csv', sep = '|', index_col=0)
+
+    clusters.index = clusters.index.astype(str)
+    normalized.index = normalized.index.astype(str)
+
     X = normalized.join(clusters)
     pred = X.apply(apply_model, args=[model_per_cluster], axis = 1)
-    pred = pred.set_index('SubjectID')
     pred.to_csv('../' + t + '_prediction.csv',sep='|')
 
 pred.head()

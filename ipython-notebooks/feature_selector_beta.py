@@ -14,7 +14,7 @@ import pickle
 from sklearn import linear_model
 from IPython.display import display
 
-from modeling_functions import *
+from modeling_funcs import *
 
 
 # In[2]:
@@ -24,9 +24,10 @@ slope = pd.read_csv('../train_slope.csv', sep = '|', index_col=0)
 clusters = pd.read_csv('../train_kmeans_clusters.csv', sep = '|', index_col=0)
 all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
 
-X = clusters.join(vectorized_data)
-Y = clusters.join(slope)
-X.head()
+X = vectorized_data.join(clusters)
+Y = slope.join(clusters)
+display(X.head())
+display(Y.head())
 
 
 # In[3]:
@@ -44,7 +45,7 @@ with open("../best_features_per_cluster.pickle", "wb") as output_file:
 # #Apply the selector 
 # leave only the best features per cluster
 
-# In[6]:
+# In[5]:
 
 for t in ["train", "test"]:
     print t

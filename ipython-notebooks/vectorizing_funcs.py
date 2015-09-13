@@ -169,6 +169,17 @@ def invert_func_to_features(ftf, feature_type):
     return res
 
 
+# In[ ]:
+
+def learn_to_dummies_model(df, all_feature_metadata):
+    new_metadata = all_feature_metadata.copy()
+    for feature, fv in all_feature_metadata.iteritems():
+        if fv["feature_type"] == "dummy":
+            for func in fv["funcs"]:
+                new_metadata[feature]["derived_features"] = learn_scalar_feature_to_dummies(df, fv)
+    return new_metadata
+
+
 # ## Helper functions
 
 # In[13]:
@@ -191,11 +202,11 @@ def parse_feature_delta(fd):
 
 # ## Vectorize
 
-# In[14]:
+# In[1]:
 
 
 def vectorize(df, all_feature_metadata, debug=False):
-    vectorized = pd.DataFrame(index=df.SubjectID.unique())
+    vectorized = pd.DataFrame(index=df.SubjectID.unique().astype(str)) # SubjectID is always str for later joins
     df.loc[:,'feature_delta'] = df.feature_delta.apply(parse_feature_delta)
     pointintime_data = df[df.feature_delta < 92]
     pointintime_data = pointintime_data.drop_duplicates(subset = ['SubjectID', 'feature_name' ,'feature_delta'], take_last=True)

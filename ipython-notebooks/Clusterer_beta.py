@@ -7,7 +7,7 @@
 # * inspired by http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html)
 # 
 
-# In[8]:
+# In[1]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -20,12 +20,11 @@ import pickle
 
 from sklearn import metrics
 from sklearn.cluster import KMeans
-from sklearn.datasets import load_digits
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import scale
 
 from sklearn.externals import joblib
-from clustering_and_selection_functions import *
+from modeling_funcs import *
 
 
 plt.rcParams['figure.figsize'] = (15.0, 15.0)
@@ -33,7 +32,7 @@ plt.rcParams['figure.figsize'] = (15.0, 15.0)
 
 # ## Visualize results on PCA-reduced data
 
-# In[9]:
+# In[2]:
 
 
 def visualize_kmeans(kmeans, data, resolution = 100):
@@ -61,14 +60,14 @@ def visualize_kmeans(kmeans, data, resolution = 100):
 
 
 
-# In[10]:
+# In[3]:
 
 proact_train = pd.read_csv('../train_data_vectorized.csv', sep = '|', index_col = 'SubjectID', dtype='float')
 proact_train = proact_train[clustering_columns]
 proact_train.head()
 
 
-# In[11]:
+# In[4]:
 
 kmeans = KMeans(init='k-means++', n_clusters=3)
 kmeans.fit(proact_train)
@@ -79,27 +78,27 @@ print "Cluster cnt: ", np.bincount(kmeans.labels_)
 
 # ## Pickle the clustering model
 
-# In[12]:
+# In[5]:
 
 clustering_model = {"columns": clustering_columns, "model": kmeans}
 pickle.dump( clustering_model, open('../clustering_model.pickle', 'wb') )
 
 
-# In[13]:
+# In[6]:
 
 
 for t in ['train', 'test']:
     cur_data = pd.read_csv('../' + t + '_data_vectorized.csv', sep = '|', error_bad_lines=False, index_col="SubjectID")
     cur_data = cur_data[clustering_columns]
-    res = pd.DataFrame(index = cur_data.index)
+    res = pd.DataFrame(index = cur_data.index.astype(str)) # SubjectID is always str for later joins
     res['cluster'] = kmeans.predict(cur_data)
     print t, res.shape
     res.to_csv('../' + t + '_kmeans_clusters.csv',sep='|')
 
 
-# In[ ]:
+# In[8]:
 
-
+res.head()
 
 
 # In[ ]:
