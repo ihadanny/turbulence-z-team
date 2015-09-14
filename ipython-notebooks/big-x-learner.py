@@ -144,7 +144,7 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
 
 # In[7]:
 
-for n_clusters in range(3, 4):
+for n_clusters in range(3, 6):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, metadata, n_clusters)

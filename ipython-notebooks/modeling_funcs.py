@@ -24,14 +24,15 @@ clustering_columns = [
 # ## Feature selection
 # We currently rank each feature family by regressing with it alone and comparing the regression score
 
-# In[2]:
+# In[6]:
 
 from sklearn import linear_model
+import operator
 
 def get_best_features_per_cluster(X, Y, all_feature_metadata):
     best_features_per_cluster = {}
     for c in X['cluster'].unique():
-        seg_X, seg_Y = X[X['cluster'] == c], Y[Y['cluster'] == c]
+        seg_X, seg_Y = X[X['cluster'] == c], Y[Y['cluster'] == c].ALSFRS_slope
         seg_Y = seg_Y.fillna(seg_Y.mean())
 
         score_per_feature = {}
@@ -40,9 +41,9 @@ def get_best_features_per_cluster(X, Y, all_feature_metadata):
             regr = linear_model.LinearRegression()
             X_feature_fam = seg_X[list(fm["derived_features"])]
             regr.fit(X_feature_fam, seg_Y)
-            score_per_feature[feature] = regr.score(X_feature_fam, seg_Y)
-
-        best_features_per_cluster[c] = sorted(sorted(score_per_feature, key=score_per_feature.get)[:6])
+            score_per_feature[feature] = np.sqrt(np.mean((regr.predict(X_feature_fam) - seg_Y) ** 2))
+            regr.score(X_feature_fam, seg_Y)
+        best_features_per_cluster[c] = [k for k,v in sorted(score_per_feature.items(), key=operator.itemgetter(1))[:6]]
     return best_features_per_cluster
 
 
