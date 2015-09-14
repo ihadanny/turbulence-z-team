@@ -32,7 +32,7 @@ by_subject.sort(ascending=False)
 by_subject[:40]
 
 
-# In[98]:
+# In[99]:
 
 feature_values = df[df.form_name == 'Lab Test']
 feature_values = feature_values[~np.isnan(feature_values.feature_value.convert_objects(convert_numeric=True))]
@@ -43,7 +43,7 @@ by_subject.sort(ascending=False)
 by_subject[:30]
 
 
-# In[56]:
+# In[100]:
 
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
 all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
@@ -51,7 +51,7 @@ all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
 
 
-# In[57]:
+# In[101]:
 
 vectorized.describe().transpose()
 

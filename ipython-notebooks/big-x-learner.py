@@ -78,7 +78,9 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[6]:
+# In[12]:
+
+from datetime import datetime
 
 def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
     kf = KFold(df.SubjectID.unique().size, n_folds=3)
@@ -90,6 +92,7 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
         print
         print "*"*30
         print "fold: %d" % fold
+        tick = datetime.now()
 
         # Vectorizing
         all_feature_metadata = learn_to_dummies_model(train_data, all_feature_metadata)
@@ -137,14 +140,19 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
 
         fold += 1
         print "fold RMS Error train, test: ", train_rmse / fold, test_rmse / fold
+
+        tock = datetime.now()   
+        diff = tock - tick 
+        print "minutes for fold: ", diff.seconds / 60
+
             
     print "X-validated RMS Error train, test: ", train_rmse / kf.n_folds, test_rmse / kf.n_folds
 
 
 
-# In[7]:
+# In[ ]:
 
-for n_clusters in range(3, 6):
+for n_clusters in range(2, 4):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, metadata, n_clusters)
