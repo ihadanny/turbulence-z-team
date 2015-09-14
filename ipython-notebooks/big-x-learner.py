@@ -72,9 +72,9 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[19]:
+# In[22]:
 
-def train_it(train_data):
+def train_it(train_data, my_n_clusters):
         global ts_funcs_to_features
         # Prepare metadata
         ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(train_data, ts_funcs_to_features)
@@ -115,7 +115,7 @@ def train_it(train_data):
         return all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster
 
 
-# In[20]:
+# In[23]:
 
 from datetime import datetime
 
@@ -131,7 +131,7 @@ def train_and_test(df, slope, my_n_clusters=3):
         print "fold: %d" % fold
         tick = datetime.now()
         
-        all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster = train_it(train_data)
+        all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster = train_it(train_data, my_n_clusters)
 
         input_for_model, pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
                      clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
@@ -158,7 +158,7 @@ def train_and_test(df, slope, my_n_clusters=3):
 
 
 
-# In[21]:
+# In[ ]:
 
 for n_clusters in range(2, 5):
     print "*"*60
