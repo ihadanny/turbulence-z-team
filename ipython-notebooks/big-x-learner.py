@@ -34,12 +34,6 @@ display(slope.head(2))
 
 # In[3]:
 
-metadata = invert_func_to_features(ts_funcs_to_features, "ts")
-metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
-
-
-# In[4]:
-
 clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'White',
        u'mouth_last', u'mouth_mean_slope',u'hands_last',
        u'hands_mean_slope',u'onset_delta_last', u'ALSFRS_Total_last',
@@ -47,7 +41,7 @@ clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'W
                      u'respiratory_last', u'respiratory_mean_slope']
 
 
-# In[5]:
+# In[4]:
 
 def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
                  clustering_columns, kmeans, best_features_per_cluster, model_per_cluster):
@@ -78,24 +72,17 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[12]:
+# In[19]:
 
-from datetime import datetime
-
-def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
-    kf = KFold(df.SubjectID.unique().size, n_folds=3)
-    fold, test_rmse, train_rmse = 0, 0.0, 0.0
-
-    for train, test in kf:
-        train_data = df[df.SubjectID.isin(df.SubjectID.unique()[train])]
-        test_data = df[df.SubjectID.isin(df.SubjectID.unique()[test])]
-        print
-        print "*"*30
-        print "fold: %d" % fold
-        tick = datetime.now()
-
-        # Vectorizing
+def train_it(train_data):
+        global ts_funcs_to_features
+        # Prepare metadata
+        ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(train_data, ts_funcs_to_features)
+        all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
+        all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
         all_feature_metadata = learn_to_dummies_model(train_data, all_feature_metadata)
+        
+        # Vectorizing
         vectorized, all_feature_metadata = vectorize(train_data, all_feature_metadata)
         train_data_means = vectorized.mean()
         train_data_std = vectorized.std()            
@@ -106,7 +93,7 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
         # Clustering
         for_clustering = normalized[clustering_columns]
         kmeans = KMeans(init='k-means++', n_clusters=my_n_clusters)
-        #Note we must convert to str to join with slope later
+        # Note we must convert to str to join with slope later
         clusters = pd.DataFrame(index = for_clustering.index.astype(str))
         clusters['cluster'] = kmeans.fit_predict(for_clustering)
         print "train cluster cnt: ", np.bincount(clusters.cluster)
@@ -122,8 +109,29 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
         s_vectorized, _ = vectorize(s_df, all_feature_metadata)
         s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
         s_X = s_normalized.join(clusters)
-
+        
         model_per_cluster = get_model_per_cluster(s_X, Y)
+        
+        return all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster
+
+
+# In[20]:
+
+from datetime import datetime
+
+def train_and_test(df, slope, my_n_clusters=3):
+    kf = KFold(df.SubjectID.unique().size, n_folds=3)
+    fold, test_rmse, train_rmse = 0, 0.0, 0.0
+
+    for train, test in kf:
+        train_data = df[df.SubjectID.isin(df.SubjectID.unique()[train])]
+        test_data = df[df.SubjectID.isin(df.SubjectID.unique()[test])]
+        print
+        print "*"*30
+        print "fold: %d" % fold
+        tick = datetime.now()
+        
+        all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster = train_it(train_data)
 
         input_for_model, pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
                      clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
@@ -150,12 +158,12 @@ def train_and_test(df, slope, all_feature_metadata, my_n_clusters=3):
 
 
 
-# In[ ]:
+# In[21]:
 
-for n_clusters in range(2, 4):
+for n_clusters in range(2, 5):
     print "*"*60
     print "*"*60
-    train_and_test(df, slope, metadata, n_clusters)
+    train_and_test(df, slope, n_clusters)
 
 
 # In[ ]:
