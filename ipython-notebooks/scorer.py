@@ -12,9 +12,9 @@ import pandas as pd
 import numpy as np
 
 
-# In[3]:
+# In[4]:
 
-for t in [('train_prediction', 'train_slope'), 
+for t in [('all_prediction', 'all_slope'), 
           ('test_prediction', 'test_slope'), 
          ]: 
     f = '../' + t[0] + ".csv"

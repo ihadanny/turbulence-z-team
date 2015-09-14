@@ -1,6 +1,3 @@
-cluster: 2
-60879|Demographic|Race|Unknown||0.0
-60879|Vitals|BMI|0.00198347107438017||0.0
-60879|Vitals|height|165|cm|0.0
-60879|Demographic|Gender|F||0.0
-60879|Demographic|Age|59||0.0
+cluster: 0
+60879|Lab Test|Creatinine|51|umol/L|174.0
+60879|Lab Test|Creatinine|63|umol/L|0.0

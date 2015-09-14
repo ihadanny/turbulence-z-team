@@ -23,17 +23,17 @@ p8
 tp9
 Rp10
 (lp11
-S'ALT(SGPT)'
+S'onset_delta'
 p12
-aS'Age'
+aS'ALSFRS_Total'
 p13
-aS'Gender'
+aS'hands'
 p14
-aS'Neutrophils'
+aS'fvc_percent'
 p15
-aS'Protein'
+aS'mouth'
 p16
-aS'Race'
+aS'Creatinine'
 p17
 asg1
 (g5
@@ -42,32 +42,12 @@ p18
 tp19
 Rp20
 (lp21
-S'Absolute Band Neutrophil Count'
-p22
-aS'Absolute Monocyte Count'
-p23
-aS'Absolute Neutrophil Count'
-p24
-ag13
-aS'Albumin'
-p25
-aS'Bilirubin (Total)'
-p26
-asg1
-(g5
-S'\x02\x00\x00\x00\x00\x00\x00\x00'
-p27
-tp28
-Rp29
-(lp30
-S'BMI'
-p31
-ag14
+g12
 ag15
-aS'Potassium'
-p32
-aS'if_use_Riluzole'
-p33
-aS'respiratory_rate'
-p34
+ag16
+ag13
+aS'respiratory'
+p22
+aS'weight'
+p23
 as.

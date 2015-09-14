@@ -21,8 +21,8 @@ else:
     models_folder, input_file, output_file= "../", "../60879.txt", "../selected_60879.txt"
 
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
-train_data_means = pickle.load( open(models_folder + '/train_data_means.pickle', 'rb') )
-train_data_std = pickle.load( open(models_folder + '/train_data_std.pickle', 'rb') )
+train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )
+train_data_std = pickle.load( open(models_folder + '/all_data_std.pickle', 'rb') )
 clustering_model = pickle.load( open(models_folder + '/clustering_model.pickle', 'rb') )
 best_features_per_cluster = pickle.load( open(models_folder + '/best_features_per_cluster.pickle', 'rb') )
    

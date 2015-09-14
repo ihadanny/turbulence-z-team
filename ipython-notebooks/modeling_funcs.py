@@ -5,20 +5,11 @@
 
 # In[1]:
 
-clustering_columns = [
-    'ALSFRS_Total_last',
-    'ALSFRS_Total_mean_slope',
-    'weight_mean', 
-    'weight_pct_diff',
-    'Age_last',
-    
-    'onset_delta_last',
-    'Albumin_last',
-    'Creatinine_last',
-    'fvc_percent_pct_diff',
-    'bp_systolic_mean',
-        
-]
+clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'White',
+       u'mouth_last', u'mouth_mean_slope',u'hands_last',
+       u'hands_mean_slope',u'onset_delta_last', u'ALSFRS_Total_last',
+       u'ALSFRS_Total_mean_slope',u'BMI_last', u'fvc_percent_mean_slope', 
+                     u'respiratory_last', u'respiratory_mean_slope']
 
 
 # ## Feature selection

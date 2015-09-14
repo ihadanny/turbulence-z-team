@@ -17,11 +17,11 @@ from IPython.display import display
 from modeling_funcs import *
 
 
-# In[7]:
+# In[24]:
 
-vectorized_data = pd.read_csv('../train_data_vectorized.csv', sep='|', index_col=0)
-slope = pd.read_csv('../train_slope.csv', sep = '|', index_col=0)
-clusters = pd.read_csv('../train_kmeans_clusters.csv', sep = '|', index_col=0)
+vectorized_data = pd.read_csv('../all_data_vectorized.csv', sep='|', index_col=0)
+slope = pd.read_csv('../all_slope.csv', sep = '|', index_col=0)
+clusters = pd.read_csv('../all_kmeans_clusters.csv', sep = '|', index_col=0)
 all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
 
 everybody = vectorized_data.join(clusters).join(slope)
@@ -29,18 +29,13 @@ Y = everybody[['cluster', 'ALSFRS_slope']]
 X = everybody.drop('ALSFRS_slope', 1)
 
 
-# In[23]:
+# In[25]:
 
 best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
 best_features_per_cluster
 
 
-# In[10]:
-
-score_per_feature
-
-
-# In[11]:
+# In[26]:
 
 with open("../best_features_per_cluster.pickle", "wb") as output_file:
     pickle.dump(best_features_per_cluster, output_file)
@@ -49,9 +44,9 @@ with open("../best_features_per_cluster.pickle", "wb") as output_file:
 # #Apply the selector 
 # leave only the best features per cluster
 
-# In[12]:
+# In[27]:
 
-for t in ["train", "test"]:
+for t in ["all", "test"]:
     print t
     df = pd.read_csv('../' + t + '_data.csv', sep = '|', index_col="SubjectID", dtype='unicode')
     print "df", df.shape
