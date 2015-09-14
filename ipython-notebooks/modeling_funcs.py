@@ -15,7 +15,7 @@ clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'W
 # ## Feature selection
 # We currently rank each feature family by regressing with it alone and comparing the regression score
 
-# In[6]:
+# In[7]:
 
 from sklearn import linear_model
 import operator
@@ -35,6 +35,28 @@ def get_best_features_per_cluster(X, Y, all_feature_metadata):
             score_per_feature[feature] = np.sqrt(np.mean((regr.predict(X_feature_fam) - seg_Y) ** 2))
             regr.score(X_feature_fam, seg_Y)
         best_features_per_cluster[c] = [k for k,v in sorted(score_per_feature.items(), key=operator.itemgetter(1))[:6]]
+    return best_features_per_cluster
+
+def stepwise_best_features_per_cluster(X, Y, all_feature_metadata):
+    best_features_per_cluster = {}
+    for c in X['cluster'].unique():
+        seg_X, seg_Y = X[X['cluster'] == c], Y[Y['cluster'] == c].ALSFRS_slope
+        seg_Y = seg_Y.fillna(seg_Y.mean())
+        
+        selected_fams = set()
+        selected_derived = set()
+        for i in range(6):
+            score_per_family = {}
+            for family, fm in all_feature_metadata.iteritems():
+                if family not in selected_fams:
+                    regr = linear_model.LinearRegression()
+                    X_feature_fam = seg_X[list(selected_derived) + list(fm["derived_features"])]
+                    regr.fit(X_feature_fam, seg_Y)
+                    score_per_family[family] = np.sqrt(np.mean((regr.predict(X_feature_fam) - seg_Y) ** 2))
+            best_fam = sorted(score_per_family.items(), key=operator.itemgetter(1))[0][0]
+            selected_fams.add(best_fam)
+            selected_derived.update(all_feature_metadata[best_fam]["derived_features"])
+        best_features_per_cluster[c] = list(selected_fams)                          
     return best_features_per_cluster
 
 

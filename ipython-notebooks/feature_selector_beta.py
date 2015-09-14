@@ -29,12 +29,7 @@ Y = everybody[['cluster', 'ALSFRS_slope']]
 X = everybody.drop('ALSFRS_slope', 1)
 
 
-# In[ ]:
-
-
-
-
-# In[3]:
+# In[4]:
 
 best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
 best_features_per_cluster

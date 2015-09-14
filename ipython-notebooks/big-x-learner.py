@@ -38,7 +38,7 @@ clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'W
        u'mouth_last', u'mouth_mean_slope',u'hands_last',
        u'hands_mean_slope',u'onset_delta_last', u'ALSFRS_Total_last',
        u'ALSFRS_Total_mean_slope',u'BMI_last', u'fvc_percent_mean_slope', 
-                     u'respiratory_last', u'respiratory_mean_slope']
+                     u'respiratory_last', u'respiratory_mean_slope', u'family_ALS_hist_last']
 
 
 # In[4]:
@@ -101,7 +101,7 @@ def train_it(train_data, my_n_clusters):
         X = normalized.join(clusters)
         Y = slope.join(clusters)
 
-        best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
+        best_features_per_cluster = stepwise_best_features_per_cluster(X, Y, all_feature_metadata)
         print "best_features_per_cluster: ", best_features_per_cluster 
         buf = filter_only_selected_features(train_data.set_index("SubjectID"), clusters,                                             best_features_per_cluster)
 
@@ -158,9 +158,9 @@ def train_and_test(df, slope, my_n_clusters=3):
 
 
 
-# In[ ]:
+# In[7]:
 
-for n_clusters in range(2, 4):
+for n_clusters in range(2, 5):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)
