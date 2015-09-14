@@ -5,7 +5,7 @@
 # see https://www.synapse.org/#!Synapse:syn2873386/wiki/ .
 # We assumed data is vectorized + clustered + 6 features were selected
 
-# In[11]:
+# In[8]:
 
 from IPython.display import display
 
@@ -20,7 +20,7 @@ from modeling_funcs import *
 # ## Revectorize the selected data
 # We now reload the metadata and the 6 attributes selected per cluster
 
-# In[12]:
+# In[9]:
 
 all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open('../all_data_means.pickle', 'rb') )
@@ -35,12 +35,12 @@ print normalized.shape
 normalized.head()
 
 
-# In[13]:
+# In[10]:
 
 normalized.describe().T.sort("std", ascending=False)
 
 
-# In[14]:
+# In[11]:
 
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
 clusters = pd.read_csv('../all_kmeans_clusters.csv', sep = '|', index_col="SubjectID")
@@ -58,7 +58,7 @@ display(Y.head(3))
 
 # ## Train a prediction model per cluster
 
-# In[17]:
+# In[12]:
 
 from sklearn import linear_model
 import numpy as np
@@ -83,7 +83,7 @@ model_per_cluster = get_model_per_cluster(X, Y)
     
 
 
-# In[18]:
+# In[13]:
 
 with open("../model_per_cluster.pickle", "wb") as output_file:
     pickle.dump(model_per_cluster, output_file)
@@ -91,7 +91,7 @@ with open("../model_per_cluster.pickle", "wb") as output_file:
 
 # ## Apply the model on both `train` and `test`
 
-# In[22]:
+# In[14]:
 
 
 for t in ['all', 'test']:

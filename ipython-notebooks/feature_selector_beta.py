@@ -4,7 +4,7 @@
 # ## Used for selecting the 6 best features per cluster
 # * We're using mean squared error of each variable vs. the ALSFRS_score, and take the best 6. 
 
-# In[1]:
+# In[6]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -17,7 +17,7 @@ from IPython.display import display
 from modeling_funcs import *
 
 
-# In[2]:
+# In[7]:
 
 vectorized_data = pd.read_csv('../all_data_vectorized.csv', sep='|', index_col=0)
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col=0)
@@ -29,13 +29,13 @@ Y = everybody[['cluster', 'ALSFRS_slope']]
 X = everybody.drop('ALSFRS_slope', 1)
 
 
-# In[4]:
+# In[8]:
 
-best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
+best_features_per_cluster = stepwise_best_features_per_cluster(X, Y, all_feature_metadata)
 best_features_per_cluster
 
 
-# In[4]:
+# In[9]:
 
 with open("../best_features_per_cluster.pickle", "wb") as output_file:
     pickle.dump(best_features_per_cluster, output_file)
@@ -44,7 +44,7 @@ with open("../best_features_per_cluster.pickle", "wb") as output_file:
 # #Apply the selector 
 # leave only the best features per cluster
 
-# In[5]:
+# In[10]:
 
 for t in ["all", "test"]:
     print t
