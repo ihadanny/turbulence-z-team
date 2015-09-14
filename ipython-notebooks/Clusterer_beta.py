@@ -7,7 +7,7 @@
 # * inspired by http://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html)
 # 
 
-# In[15]:
+# In[22]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -32,7 +32,7 @@ plt.rcParams['figure.figsize'] = (15.0, 15.0)
 
 # ## Visualize results on PCA-reduced data
 
-# In[16]:
+# In[23]:
 
 
 def visualize_kmeans(kmeans, data, resolution = 100):

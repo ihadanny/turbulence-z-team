@@ -21,7 +21,7 @@ from vectorizing_funcs import *
 
 # In[2]:
 
-df = pd.read_csv('../train_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
+df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
 
 
@@ -30,9 +30,9 @@ df.head()
 # 
 # There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[3]:
+# In[5]:
 
-
+ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)    
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
 all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
 
@@ -40,21 +40,21 @@ all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "du
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[4]:
+# In[6]:
 
 all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 
 # ##Vectorize `train` data 
 
-# In[5]:
+# In[7]:
 
 
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
 vectorized.head()
 
 
-# In[11]:
+# In[8]:
 
 vectorized.describe().transpose().sort("count", ascending=True)
 
@@ -67,7 +67,7 @@ vectorized.describe().transpose().sort("count", ascending=True)
 train_data_means = vectorized.mean()
 train_data_std = vectorized.std()            
 normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-normalized.describe().T.sort("std", ascending=False)
+normalized.describe().T.sort("std", ascending=True)
 
 
 # In[ ]:
@@ -77,7 +77,7 @@ normalized.describe().T.sort("std", ascending=False)
 
 # ## Pickle all metadata we will need to use later when applying vectorizer
 
-# In[8]:
+# In[11]:
 
 pickle.dump( all_feature_metadata, open('../all_feature_metadata.pickle', 'wb') )
 pickle.dump( train_data_means, open('../train_data_means.pickle', 'wb') )
@@ -87,10 +87,10 @@ pickle.dump( train_data_std, open('../train_data_std.pickle', 'wb') )
 # ## Apply model on `train`,  `test` 
 # 
 
-# In[9]:
+# In[13]:
 
 
-for t in ["train", "test"]:
+for t in ["all", "test"]:
     df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
     vectorized, _ = vectorize(df, all_feature_metadata)
     normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
