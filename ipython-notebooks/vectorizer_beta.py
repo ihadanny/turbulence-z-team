@@ -54,20 +54,20 @@ vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=Tru
 vectorized.head()
 
 
-# In[6]:
+# In[11]:
 
-vectorized.columns
+vectorized.describe().transpose().sort("count", ascending=True)
 
 
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[7]:
+# In[10]:
 
 train_data_means = vectorized.mean()
 train_data_std = vectorized.std()            
 normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-normalized.head()
+normalized.describe().T.sort("std", ascending=False)
 
 
 # In[ ]:

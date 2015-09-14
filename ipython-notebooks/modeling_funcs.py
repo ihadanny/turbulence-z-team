@@ -78,10 +78,9 @@ def get_model_per_cluster(X, Y):
         regr.fit(X_cluster, Y_cluster)
 
         print 'cluster: %d size: %s' % (c, Y_cluster.shape)
-        print "root mean square error (0 is perfect): %.2f" % np.sqrt(np.mean(
+        print "\t RMS error (0 is perfect): %.2f" % np.sqrt(np.mean(
             (regr.predict(X_cluster) - Y_cluster) ** 2))
-        print('Explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
-        print ""
+        print('\t explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
         model_per_cluster[c] = {"train_data_means": X_cluster.mean(), "model" : regr}
     return model_per_cluster
 

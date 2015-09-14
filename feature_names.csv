@@ -35,6 +35,12 @@ Vitals|respiratory_rate
 Vitals|temperature
 Vitals|weight
 FVC|fvc_normal
+FVC|fvc1
+FVC|fvc_percent1
+FVC|fvc2
+FVC|fvc_percent2
+FVC|fvc3
+FVC|fvc_percent3
 FVC|fvc
 FVC|fvc_percent
 Lab Test|Protein
@@ -76,6 +82,20 @@ Lab Test|Urine Ph
 Adverse Event|Gastrointestinal signs and symptoms
 Adverse Event|Gastrointestinal motility and defaecation conditions
 Adverse Event|Respiratory disorders NEC
+Concomitant Medication|AMITRIPTYLINE
+Concomitant Medication|ATENOLOL
+Concomitant Medication|BACLOFEN
+Concomitant Medication|CALCIUM
+Concomitant Medication|CREATINE
+Concomitant Medication|ESTROGEN
+Concomitant Medication|IMODIUM
+Concomitant Medication|MAGNESIUM
+Concomitant Medication|MULTIVITAMIN
+Concomitant Medication|PROVERA
+Concomitant Medication|ULTRACAL
+Concomitant Medication|VITAMIN B12
+Concomitant Medication|VITAMIN C
+Concomitant Medication|VITAMIN E
 Riluzole|if_use_Riluzole
 Treatment|treatment_group
 Vitals|height
@@ -99,54 +119,145 @@ Adverse Event|Headaches
 Adverse Event|Viral infectious disorders
 Adverse Event|Injuries NEC
 Adverse Event|Infections - pathogen unspecified
+Concomitant Medication|ALLEGRA
+Concomitant Medication|ELAVIL
+Concomitant Medication|ESTRACE
+Concomitant Medication|ESTRADIOL
+Concomitant Medication|IBUPROFEN
+Concomitant Medication|LOTENSIN
+Concomitant Medication|PREMARIN
+Concomitant Medication|PRILOSEC
+Concomitant Medication|PROZAC
+Concomitant Medication|RILUTEK
+Concomitant Medication|ROBINUL
+Concomitant Medication|SYNTHROID
+Concomitant Medication|VANCENASE
+Concomitant Medication|ZITHROMYCIN
+Concomitant Medication|ZOLOFT
 Adverse Event|Muscle disorders
 Adverse Event|Reproductive tract disorders NEC
 Adverse Event|Movement disorders (incl parkinsonism)
+Concomitant Medication|ALPRAZOLAM
+Concomitant Medication|ASPIRIN
+Concomitant Medication|AUGMENTIN
+Concomitant Medication|BIAXIN
+Concomitant Medication|CEFTIN
+Concomitant Medication|CORTISONE
+Concomitant Medication|FLUMIDIN
+Concomitant Medication|GUIATUSS
+Concomitant Medication|LORABID
 Lab Test|Urine Albumin
 Adverse Event|General system disorders NEC
 Adverse Event|Bone and joint injuries
 Adverse Event|Urolithiases
+Concomitant Medication|CELEXA
+Concomitant Medication|CIPRO
+Concomitant Medication|PERCOCET
+Concomitant Medication|PREVACID
+Concomitant Medication|RILUZOLE
 Adverse Event|Skin appendage conditions
 Adverse Event|Lipid analyses
 Adverse Event|Renal and urinary tract investigations and urinalyses
 Adverse Event|Sleep disorders and disturbances
+Concomitant Medication|BETACAROTENE
+Concomitant Medication|NEURONTIN
+Concomitant Medication|NORVASC
+Concomitant Medication|PAXIL
+Concomitant Medication|SERZONE
 Adverse Event|Neurological disorders NEC
 Adverse Event|Bacterial infectious disorders
+Concomitant Medication|AMOXICILLIN
+Concomitant Medication|CAROTENOIDS NOS
+Concomitant Medication|COPPER
+Concomitant Medication|GUAIFENESIN
+Concomitant Medication|PENICILLIN V POTASSIUM
+Concomitant Medication|SUDAFED
+Concomitant Medication|ZINC
+Concomitant Medication|ZITHROMAX
 Adverse Event|Joint disorders
 Adverse Event|Male reproductive tract infections and inflammations
 Adverse Event|Neuromuscular disorders
 Adverse Event|Cranial nerve disorders (excl neoplasms)
 Adverse Event|Physical examination topics
+Concomitant Medication|BACTRIM DS
+Concomitant Medication|BENTYL
+Concomitant Medication|DOXYCYCLINE
+Concomitant Medication|FENTANYL
+Concomitant Medication|FLAGYL
+Concomitant Medication|GAVISCON
+Concomitant Medication|GLUCAGON
+Concomitant Medication|HEPARIN
+Concomitant Medication|MEPRON
+Concomitant Medication|MYLICON
+Concomitant Medication|PROPULSID
+Concomitant Medication|TABAS
+Concomitant Medication|TRANXENE
+Concomitant Medication|TYLENOL
+Concomitant Medication|VERSED
+Concomitant Medication|VITAMIN A
+Concomitant Medication|ZANTAC
 Lab Test|Urine WBCs
 Adverse Event|Administration site reactions
+Concomitant Medication|ACETAMINOPHEN
+Concomitant Medication|CORICIDIN
+Concomitant Medication|DIPHENHYDRAMINE
+Concomitant Medication|PSEUDOEPHEDRINE HYDROCHLORIDE
+Concomitant Medication|ROBITUSSIN DM
 Lab Test|Beta HCG
 Adverse Event|Allergic conditions
 Adverse Event|Fungal infectious disorders
 Adverse Event|Cardiac arrhythmias
+Concomitant Medication|SELENIUM SULFIDE
+Concomitant Medication|VACCINE, INFLUENZA
 Lab Test|Stool Occult Blood
 Lab Test|H. Pylori Antibody
 Adverse Event|Procedural and device related injuries and complications NEC
-Concomitant Medication|BACLOFEN
-Concomitant Medication|CALCIUM
 Concomitant Medication|COENZYME Q10
-Concomitant Medication|CREATINE
 Concomitant Medication|DARVOCET
 Concomitant Medication|DITROPAN
-Concomitant Medication|VITAMIN E
 Adverse Event|Vascular hypertensive disorders
 Adverse Event|Appetite and general nutritional disorders
+Concomitant Medication|AMILORIDE
+Concomitant Medication|HYDROCHLOROTHIAZIDE
+Concomitant Medication|LORAZEPAM
+Concomitant Medication|OTILONIUM
+Concomitant Medication|SERTRALINE
+Concomitant Medication|THIETHYLPERAZINE MALEATE
 Adverse Event|Lipid metabolism disorders
+Concomitant Medication|ACCUPRIL
+Concomitant Medication|CENTRUM
+Concomitant Medication|EXCEDRIN P.M.
+Concomitant Medication|FUROSEMIDE
+Concomitant Medication|GUAIFENESIN DM
+Concomitant Medication|QUININE
 Lab Test|Band Neutrophils
 Adverse Event|Musculoskeletal and connective tissue disorders NEC
+Concomitant Medication|ARELIX
+Concomitant Medication|CODIPRONT
+Concomitant Medication|EUTHYROX
+Concomitant Medication|GINKGO BILOBA
+Concomitant Medication|LACTOCUR
+Concomitant Medication|LIORESAL
+Concomitant Medication|MUCOSOLVAN
+Concomitant Medication|NOVALGIN
+Concomitant Medication|OSPUR D3
+Concomitant Medication|TRAMAL
+Concomitant Medication|VOLTAREN
+Concomitant Medication|WOBENZYM
 FamilyHx|family_ALS_hist
+Concomitant Medication|AMITRIPTYLINE HCL
+Concomitant Medication|BROMHEXINE
+Concomitant Medication|LACTULOSE
+Concomitant Medication|NITRAZEPAM
+Concomitant Medication|ACETYLSALICYLIC ACID
+Concomitant Medication|CLARITHROMYCIN
+Concomitant Medication|CLOXACILLIN SODIUM
+Concomitant Medication|GLYBURIDE
+Concomitant Medication|INDOMETHACIN
 Concomitant Medication|B12
 Concomitant Medication|GINSENG
 Concomitant Medication|POTASSIUM
-Concomitant Medication|BETACAROTENE
 Concomitant Medication|FOLIC ACID
-Concomitant Medication|MULTIVITAMIN
-Concomitant Medication|RILUTEK
-Concomitant Medication|VITAMIN C
 SVC|svc_normal
 SVC|svc
 SVC|svc_percent
@@ -156,7 +267,6 @@ Lab Test|Urine Leukesterase
 Lab Test|Urine Ketones
 Lab Test|Segmented Neutrophils
 Lab Test|Lithium
-Concomitant Medication|AMITRIPTYLINE
 Concomitant Medication|BIFITERAL
 Concomitant Medication|CITALOPRAM
 Concomitant Medication|COD LIVER OIL
@@ -164,13 +274,30 @@ Concomitant Medication|COTRIM
 Concomitant Medication|GABAPENTIN
 Concomitant Medication|HALOPERIDOL
 Concomitant Medication|L-POLAMIDON
-Concomitant Medication|MAGNESIUM
 Adverse Event|Anxiety disorders and symptoms
 Adverse Event|Vascular disorders NEC
 Adverse Event|Metabolic, nutritional and blood gas investigations
 Adverse Event|Hepatobiliary investigations
 Adverse Event|Enzyme investigations NEC
+Concomitant Medication|AGIOLAX
+Concomitant Medication|CLAMOXYL
+Concomitant Medication|DAFLON
+Concomitant Medication|HEXAPNEUMINE
+Concomitant Medication|HUMEX
+Concomitant Medication|MUCOMYST
+Concomitant Medication|NORMACOL LAVEMENT
+Concomitant Medication|PREPULSID
+Concomitant Medication|ROCEPHINE
+Concomitant Medication|SOLUDECADRON
+Concomitant Medication|SPAGULAX
+Concomitant Medication|TRANSIPEG
+Concomitant Medication|XANAX
 Adverse Event|Peripheral neuropathies
+Concomitant Medication|FIBERCON
+Concomitant Medication|PRINZIDE
+Concomitant Medication|SAL-TROPINE
+Concomitant Medication|VITAMIN B
+Concomitant Medication|ZESTRIL
 Lab Test|Amylase
 Lab Test|Free T4
 Lab Test|Thyroid Stimulating Hormone
@@ -181,18 +308,55 @@ Lab Test|Uric Acid
 Lab Test|International Normalized Ratio (clotting)
 Lab Test|Urine Casts
 Lab Test|RBC Morphology: Anisocytosis
+Concomitant Medication|ARTANE
+Concomitant Medication|COLACE
+Concomitant Medication|DILANTIN
+Concomitant Medication|DULCOLAX
+Concomitant Medication|ENSURE PLUS
+Concomitant Medication|GLYCOPYRROLATE
+Concomitant Medication|LECITHIN
+Concomitant Medication|PNEUMOVAX
+Concomitant Medication|QUININE SULFATE
+Concomitant Medication|TYLENOL W/CODEINE NO. 3
+Concomitant Medication|ZANAFLEX
 Adverse Event|Thyroid gland disorders
+Concomitant Medication|DAYPRO
+Concomitant Medication|ECOTRIN
+Concomitant Medication|LEVOXYL
+Concomitant Medication|LUVOX
+Concomitant Medication|MOTRIN
+Concomitant Medication|VASOTEC
+Concomitant Medication|VITAMIN B COMPLEX
 Adverse Event|Bronchial disorders (excl neoplasms)
 Adverse Event|Urinary tract signs and symptoms
 Adverse Event|Arteriosclerosis, stenosis, vascular insufficiency and necrosis
 Adverse Event|Inner ear and VIIIth cranial nerve disorders
+Concomitant Medication|ACIDAL
+Concomitant Medication|ALPHA LIPOIC ACID
+Concomitant Medication|CASTOR OIL
+Concomitant Medication|CHAMOMILE
+Concomitant Medication|FLAXSEED OIL
+Concomitant Medication|GRAPE SEED EXTRACT
+Concomitant Medication|LOPID
+Concomitant Medication|LUGOL'S SOLUTION
+Concomitant Medication|MELATONIN
+Concomitant Medication|MSM
+Concomitant Medication|N ACETYL CYSTEIN
+Concomitant Medication|NASACORT
+Concomitant Medication|NIACIN
+Concomitant Medication|PANCREATIN
+Concomitant Medication|PHOSPHATIDYL SERINE
+Concomitant Medication|SINGULAIR
+Concomitant Medication|THREONINE
+Concomitant Medication|THYROID
+Concomitant Medication|VANCERIL
+Concomitant Medication|ZOVIRAX
 Adverse Event|Cardiac and vascular investigations (excl enzyme tests)
 Concomitant Medication|AMLODIPINE
 Concomitant Medication|AZITHROMYCIN
 Concomitant Medication|CARAFATE
 Concomitant Medication|COFSOLIN WITH ANTIHISTAMINE.
 Concomitant Medication|COMBIVENT
-Concomitant Medication|LORAZEPAM
 Concomitant Medication|MAALOX
 Concomitant Medication|NASAL DECONGESTANT
 Concomitant Medication|OMEPRAZOLE
@@ -203,20 +367,32 @@ Concomitant Medication|RESTORIL
 Concomitant Medication|TAMIFLU
 Concomitant Medication|ZYRTEC
 Concomitant Medication|FLONASE
-Concomitant Medication|TYLENOL
 Lab Test|Salivary Amylase
 Lab Test|Pancreatic Amylase
 Concomitant Medication|ESCITALOPRAM
 Concomitant Medication|PREGABALIN
-Concomitant Medication|RILUZOLE
 Concomitant Medication|TIZANIDINE
 Concomitant Medication|TOCOPHERYL ACETATE-D-ALPHA
 Adverse Event|Vision disorders
 Adverse Event|Menstrual cycle and uterine bleeding disorders
+Concomitant Medication|EX-LAX
+Concomitant Medication|ORAL CONTRACEPTIVE NOS
+Concomitant Medication|VICODIN
 Adverse Event|Mood disorders and disturbances NEC
 Adverse Event|Glucose metabolism disorders (incl diabetes mellitus)
+Concomitant Medication|ADVIL
+Concomitant Medication|ALBUTEROL
+Concomitant Medication|TRAZODONE
 Adverse Event|Personality disorders and disturbances in behaviour
 Adverse Event|Hepatic and hepatobiliary disorders
+Concomitant Medication|CELECTOL
+Concomitant Medication|CELESTENE
+Concomitant Medication|ETIOVEN
+Concomitant Medication|IMPORTAL
+Concomitant Medication|LASILIX
+Concomitant Medication|LYSANXIA
+Concomitant Medication|NETROMYCINE
+Concomitant Medication|SURBRONC
 Lab Test|Albumin/globulin ratio
 Lab Test|ALPHA2-GLOBULIN
 Lab Test|ALPHA1-GLOBULIN
@@ -242,17 +418,41 @@ Adverse Event|Body temperature conditions
 Adverse Event|Decreased and nonspecific blood pressure disorders and shock
 Adverse Event|Eye disorders NEC
 Adverse Event|Dental and gingival conditions
+Concomitant Medication|ASCORBIC ACID
+Concomitant Medication|CEFADROXIL
+Concomitant Medication|CYANOCOBALAMIN
+Concomitant Medication|DIPYRIDAMOLE
+Concomitant Medication|ENDAL
+Concomitant Medication|MEPIVACAINE
+Concomitant Medication|METOCLOPRAMIDE
+Concomitant Medication|MICONAZOLE
+Concomitant Medication|NAPROXEN
+Concomitant Medication|NORGESIC
+Concomitant Medication|OCTOCAINE WITH EPINEPHRINE
+Concomitant Medication|PARACETAMOL
+Concomitant Medication|PHENERGAN WITH CODEINE
+Concomitant Medication|POLY-HISTINE
+Concomitant Medication|PSYLLIUM HYDROPHILIC MUCILLOID
+Concomitant Medication|PYRIDOXINE
+Concomitant Medication|RANITIDINE
+Concomitant Medication|TEARS PLUS
+Concomitant Medication|TOCOPHEROL
 Adverse Event|Gastrointestinal therapeutic procedures
 Adverse Event|White blood cell disorders
+Concomitant Medication|ASA
+Concomitant Medication|BEE POLLEN
+Concomitant Medication|BECONASE
+Concomitant Medication|GELATIN
+Concomitant Medication|MAXAIR
+Concomitant Medication|PAMELOR
+Concomitant Medication|RIBOSE
+Concomitant Medication|VITAMIN D
 Concomitant Medication|ALDALIX
-Concomitant Medication|ALPRAZOLAM
-Concomitant Medication|AMOXICILLIN
 Concomitant Medication|BETAMETHASONE
 Concomitant Medication|CALCIUM CHLORIDE DIHYDRATE
 Concomitant Medication|CARBOCISTEINE
 Concomitant Medication|CEFUROXIME AXETIL
 Concomitant Medication|CELECOXIB
-Concomitant Medication|CLARITHROMYCIN
 Concomitant Medication|CORTIVAZOL
 Concomitant Medication|D-ALPHA TOCOPHEROL
 Concomitant Medication|DEXTROMETHORPHAN
@@ -271,7 +471,6 @@ Concomitant Medication|MACROGOL
 Concomitant Medication|MOXIFLOXACINE
 Concomitant Medication|NAPHAZOLINE
 Concomitant Medication|NIFLUGEL
-Concomitant Medication|PARACETAMOL
 Concomitant Medication|PREDNISOLONE
 Concomitant Medication|RHINADVIL
 Concomitant Medication|SALBUTAMOL
@@ -281,58 +480,198 @@ Concomitant Medication|THIOCOLCHICOSIDE
 Concomitant Medication|TRAMADOL
 Concomitant Medication|TRIMEBUTINE
 Concomitant Medication|TROSPIUM
-Concomitant Medication|VACCINE, INFLUENZA
 Concomitant Medication|VENLAFAXINE
 Concomitant Medication|BENADRYL
-Concomitant Medication|CELEXA
 Concomitant Medication|CHLORTRIMETON
 Concomitant Medication|GLUCOPHAGE
 Concomitant Medication|HYDROCORTISONE/IODOQUINOL
 Concomitant Medication|LACTATED RINGERS
 Concomitant Medication|LIPITOR
 Concomitant Medication|NIZORAL
-Concomitant Medication|ZANAFLEX
 Adverse Event|Coronary artery disorders
 Adverse Event|Prostatic disorders (excl infections and inflammations)
+Concomitant Medication|AMBROXOL
+Concomitant Medication|BERODUAL
+Concomitant Medication|CAPTOPRIL
+Concomitant Medication|CHLORAL HYDRATE
+Concomitant Medication|DECORTIN-H
+Concomitant Medication|LASIX
+Concomitant Medication|LOPIRIN
+Concomitant Medication|LOSARTAN
+Concomitant Medication|MARCUMAR
+Concomitant Medication|NOVODIGAL
+Concomitant Medication|PULMICORT
+Concomitant Medication|ZOPICLONE
+Concomitant Medication|ACETYLSALICYLATE CALCIUM
+Concomitant Medication|SULFAMETHOXAZOLE W/TRIMETHOPRIM
+Concomitant Medication|TOCOPHEROL ACETATE
 Adverse Event|Thoracic disorders (excl lung and pleura)
+Concomitant Medication|CEFTAZIDIME
+Concomitant Medication|CIPROFLOXACIN
+Concomitant Medication|CLARITIN
+Concomitant Medication|CLONAZEPAM
+Concomitant Medication|DALMANE
+Concomitant Medication|DOCUSATE
+Concomitant Medication|FISH OIL
+Concomitant Medication|GAS X
+Concomitant Medication|METAMUCIL
+Concomitant Medication|NEUROTIN
+Concomitant Medication|OXYCODONE/APAP
+Concomitant Medication|SORBITOL
 Adverse Event|Respiratory and pulmonary investigations (excl blood gases)
 Adverse Event|Central nervous system vascular disorders
 Adverse Event|Mental impairment disorders
 Adverse Event|Ocular sensory symptoms NEC
+Concomitant Medication|ANCEF
+Concomitant Medication|ATIVAN
+Concomitant Medication|ATROVENT
+Concomitant Medication|BETHANECHOL
+Concomitant Medication|BISACODYL
+Concomitant Medication|CEFOTAXIME
+Concomitant Medication|CEFTAZIN
+Concomitant Medication|CISAPRIDE
+Concomitant Medication|ENALAPRIL
+Concomitant Medication|ENSURE
+Concomitant Medication|FLEET
+Concomitant Medication|FLUVOXAMINE
+Concomitant Medication|GLYCERIN
+Concomitant Medication|ISOPTO TEARS
+Concomitant Medication|JEVITY
+Concomitant Medication|KEFLEX
+Concomitant Medication|METRONIDAZOLE
+Concomitant Medication|MILK OF MAGNESIA
+Concomitant Medication|MORPHINE
+Concomitant Medication|NORFLOXACINE
+Concomitant Medication|NORMAL SALINE
+Concomitant Medication|OTRIVIN
+Concomitant Medication|OXYGEN
+Concomitant Medication|PENICILLIN
+Concomitant Medication|PENICILLIN G POTASSIUM
+Concomitant Medication|PYRIDIUM
+Concomitant Medication|SEPTRA DS
+Concomitant Medication|SERAX
+Concomitant Medication|SODIUM CHLORIDE
+Concomitant Medication|SOLUCORTEF
+Concomitant Medication|SOLUMEDROL
+Concomitant Medication|TERAZOSIN
+Concomitant Medication|URECHOLINE
+Concomitant Medication|VENTOLIN
+Concomitant Medication|FEXOFENADINE
+Concomitant Medication|TIZANIDINE HYDROCHLORIDE
+Concomitant Medication|ANAFRANIL
+Concomitant Medication|LEXOMIL
+Concomitant Medication|VAXIGRIP
+Concomitant Medication|ATARAX
+Concomitant Medication|ATROPINE
+Concomitant Medication|DETURGYLONE
+Concomitant Medication|DOGMATIL
+Concomitant Medication|HEXAQUINE
+Concomitant Medication|ROCEPHIN IM.
+Concomitant Medication|STILNOX
+Concomitant Medication|ACETYLSALICYLIC ACID W/ALUMINIUM HYDROXIDE/CODEINE/PARACETAMOL
+Concomitant Medication|CLEXANE
+Concomitant Medication|DIURETICS
+Concomitant Medication|JODID
+Concomitant Medication|BACTRIM
+Concomitant Medication|TUMS
+Concomitant Medication|ULTRAM
+Concomitant Medication|VIOXX
+Concomitant Medication|AFRIN
+Concomitant Medication|AZMACORT
+Concomitant Medication|DURATUSS
+Concomitant Medication|SELENIUM
 Adverse Event|Injuries by physical agents
+Concomitant Medication|ACEBUTOLOL
+Concomitant Medication|BLUE ICE
+Concomitant Medication|CEPHALEXIN
+Concomitant Medication|VOLMAX
 Lab Test|URINE MICROSCOPIC
 Adverse Event|Gastrointestinal vascular conditions
+Concomitant Medication|DIAZEPAM
+Concomitant Medication|LOPERAMIDE
+Concomitant Medication|NEFAZODONE HCL
+Concomitant Medication|OXYCODONE AND ACETAMINOPHEN
 Adverse Event|Gastrointestinal investigations
+Concomitant Medication|ANTAGEL
+Concomitant Medication|CARDURA
+Concomitant Medication|CHLORTALIDONE
+Concomitant Medication|EMCOR
+Concomitant Medication|RENNIES
+Concomitant Medication|RHINOCORT
 Adverse Event|Cardiac valve disorders
+Concomitant Medication|TRIFLUSAL
+Concomitant Medication|CODEINE W/PROMETHAZINE
+Concomitant Medication|ECHINACEA
+Concomitant Medication|SUCCIN
+Concomitant Medication|TUSSIN
+Concomitant Medication|TYLENOL PM
+Concomitant Medication|VITAMIN C WITH BIOFLAVONOIDS
+Concomitant Medication|DIORALYTE
 Adverse Event|Head and neck therapeutic procedures
+Concomitant Medication|HYTIN
+Concomitant Medication|IMODIUM AD
+Concomitant Medication|REMERON
+Concomitant Medication|RITALIN
+Concomitant Medication|WELLBUTRIN
 Concomitant Medication|B COMPLEX WITH B-12
 Concomitant Medication|CALCIUM VITAMIN D
-Concomitant Medication|GINKGO BILOBA
 Concomitant Medication|GLUCOSAMINE & CHONDROITIN
 Concomitant Medication|LISINOPRIL
 Concomitant Medication|MESTINON
 Concomitant Medication|PREMPRO
-Concomitant Medication|PROZAC
 Concomitant Medication|TRINALIN
-Concomitant Medication|GRAPE SEED EXTRACT
 Concomitant Medication|CORAL CALCIUM
 Concomitant Medication|ENDURA
-Concomitant Medication|FLAXSEED OIL
 Concomitant Medication|HYZAAR
 Concomitant Medication|OMEGA 3
-Concomitant Medication|PAXIL
-Concomitant Medication|PREMARIN
-Concomitant Medication|ROBINUL
 Adverse Event|Renal disorders (excl nephropathies)
 Adverse Event|Tendon, ligament and cartilage disorders
+Concomitant Medication|KEFTAB
+Concomitant Medication|PROCARDIA
+Concomitant Medication|TYLENOL SINUS
 Adverse Event|Cutaneous neoplasms benign
-Concomitant Medication|ALPHA LIPOIC ACID
-Concomitant Medication|ATENOLOL
-Concomitant Medication|COLACE
+Concomitant Medication|FUROSEMID
+Concomitant Medication|KREON
+Concomitant Medication|METOPROLOL
+Concomitant Medication|PHENYTOIN
+Concomitant Medication|TRIDIN
+Concomitant Medication|VALSARTAN AND HYDROCHLOROTHIAZIDE
 Concomitant Medication|PERI-COLACE
-Concomitant Medication|ZOLOFT
+Concomitant Medication|LODINE
+Concomitant Medication|MAGNESIUM CALCIUM
+Concomitant Medication|MIDRIN
+Concomitant Medication|PRIMATENE
+Concomitant Medication|TERAZOL 3
+Concomitant Medication|BETAINE CITRATE
+Concomitant Medication|CANTABILINE
+Concomitant Medication|DIBENCOZAN
+Concomitant Medication|EUPHYTOSE
+Concomitant Medication|ISKEDYL
+Concomitant Medication|LEGALON
+Concomitant Medication|MAXEPA
+Concomitant Medication|RENUTRYL
+Concomitant Medication|SERC
+Concomitant Medication|TENORMINE
+Concomitant Medication|TOCO
+Concomitant Medication|VOGALENE
 Adverse Event|Deliria (incl confusion)
+Concomitant Medication|NORETHIN
+Concomitant Medication|BETNOVATE
+Concomitant Medication|BINOVUM
+Concomitant Medication|CITIRIZINE
+Concomitant Medication|LOSEC
+Concomitant Medication|MINERALS
+Concomitant Medication|MINI-PILL
+Concomitant Medication|SENNA
+Concomitant Medication|UBIQUINONE
+Concomitant Medication|ZIRTEK
 Adverse Event|Sexual dysfunctions, disturbances and gender identity disorders
+Concomitant Medication|INNOHEP
+Concomitant Medication|LIMPTAR N
+Concomitant Medication|NOVADRAL
+Concomitant Medication|SEROXAT
+Concomitant Medication|SPONDYVIT
+Concomitant Medication|VIAGRA
 Concomitant Medication|CEFAZOLIN
 Concomitant Medication|CETOPROFENO
 Concomitant Medication|DEXAMETHASONE
@@ -345,82 +684,99 @@ Concomitant Medication|METHYLPREDNISOLONE
 Concomitant Medication|NETILMICIN
 Concomitant Medication|NORFLOXACIN
 Concomitant Medication|OXATOMIDE
-Concomitant Medication|OXYGEN
 Concomitant Medication|TEICOPLANIN
 Concomitant Medication|TICLOPIDINE
 Concomitant Medication|VANCOMYCIN
-Concomitant Medication|FENTANYL
 Concomitant Medication|LEVOFLOXACIN
+Concomitant Medication|DIOVENOR
+Concomitant Medication|FLODIL
+Concomitant Medication|ACTIFED
+Concomitant Medication|ANTIOXIDANT
+Concomitant Medication|GUAIFED
+Concomitant Medication|LACTINEX
+Concomitant Medication|MEDROXYPROGESTERONE
+Concomitant Medication|NOW BRANCHED CHAIN AMINO ACIDS
+Concomitant Medication|TAVIST -D
+Concomitant Medication|TYLENOL EXTRA STRENGTH
+Concomitant Medication|ZYRTEK
+Concomitant Medication|NIMODIPINE
 Concomitant Medication|MICARDIS
+Concomitant Medication|AMOXICILLIN TRIHYDRATE
+Concomitant Medication|LEVAQUIN
+Concomitant Medication|TOLTERODINE TARTRATE
+Concomitant Medication|VERAPAMIL
+Concomitant Medication|VITAMIN B1
+Concomitant Medication|VITAMIN B6
 Concomitant Medication|AMARYL
 Concomitant Medication|AMBIEN
-Concomitant Medication|AUGMENTIN
-Concomitant Medication|CEPHALEXIN
 Concomitant Medication|COMPAZINE
 Concomitant Medication|DEMEROL
 Concomitant Medication|DOXEPIN
 Concomitant Medication|DURAGESIC
-Concomitant Medication|ELAVIL
 Concomitant Medication|LIDOCAINE
 Concomitant Medication|MILK OF MAGNESIUM
 Concomitant Medication|MARINOL
-Concomitant Medication|METAMUCIL
 Concomitant Medication|MORPHINE SULFATE
-Concomitant Medication|PERCOCET
-Concomitant Medication|SENNA
 Concomitant Medication|SCOPOLAMINE
-Concomitant Medication|TYLENOL W/CODEINE NO. 3
-Concomitant Medication|VERSED
 Concomitant Medication|Z-PAK
 Concomitant Medication|CITRUCEL
 Concomitant Medication|DICYCLOMINE
 Concomitant Medication|DIOVAN
 Concomitant Medication|FOSAMAX
-Concomitant Medication|IMODIUM AD
-Concomitant Medication|PRILOSEC
 Concomitant Medication|ROBITUSSIN-DM
-Concomitant Medication|TYLENOL SINUS
-Concomitant Medication|VITAMIN A
 Concomitant Medication|CITRACAL + D
 Concomitant Medication|MYLANTA
 Adverse Event|Breast disorders
 Adverse Event|Pleural disorders
+Concomitant Medication|ASPEGIC
+Concomitant Medication|CELESTAMINE
+Concomitant Medication|JUSTOR
+Concomitant Medication|OFLOCET
+Concomitant Medication|VISCERALGINE
 Adverse Event|Cornification and dystrophic skin disorders
 Adverse Event|Ocular infections, irritations and inflammations
 Adverse Event|Hearing disorders
+Concomitant Medication|CODEINE
+Concomitant Medication|HYDROCODONE
+Concomitant Medication|HYDROXYZINE
+Concomitant Medication|MECLIZINE
+Concomitant Medication|SENOKOT
 Concomitant Medication|DILTIAZEM HYDROCHLORIDE
 Concomitant Medication|EZETIMIBE W/SIMVASTATIN
 Concomitant Medication|LITHIUM ACETYLSALICYLATE
 Concomitant Medication|NICORANDIL
-Concomitant Medication|TOCOPHEROL
 Adverse Event|Water, electrolyte and mineral investigations
 Adverse Event|Suicidal and self-injurious behaviours NEC
 Adverse Event|Lower respiratory tract disorders (excl obstruction and infection)
-Concomitant Medication|ADVIL
 Concomitant Medication|AERIUS
-Concomitant Medication|ASA
-Concomitant Medication|ATIVAN
 Concomitant Medication|BENEFIBER
 Concomitant Medication|BOTOX
 Concomitant Medication|COTAZYM
 Concomitant Medication|COVERSYL
 Concomitant Medication|DOMPERIDONE
-Concomitant Medication|GLYCOPYRROLATE
 Concomitant Medication|INDAPAMIDE
 Concomitant Medication|LORATADINE
 Concomitant Medication|LORATINE
-Concomitant Medication|METOCLOPRAMIDE
 Concomitant Medication|MOI-STIR
-Concomitant Medication|NORMAL SALINE
 Concomitant Medication|OMNIPAQUE
 Concomitant Medication|ONDANSETRON
-Concomitant Medication|PNEUMOVAX
-Concomitant Medication|SELENIUM
 Concomitant Medication|TORADOL
-Concomitant Medication|VITAMIN D
 Concomitant Medication|ZYOCAINE
 Concomitant Medication|PROVIGIL
 Adverse Event|Synovial and bursal disorders
+Concomitant Medication|ZYBAN
+Concomitant Medication|BUPROPION
+Concomitant Medication|CLINDAMYCIN
+Concomitant Medication|CLONIDINE
+Concomitant Medication|CONTAC C
+Concomitant Medication|MIDAZOLAM
+Concomitant Medication|NAPROSYN
+Concomitant Medication|NASOCORT
+Concomitant Medication|NOVO-FAMOTIDINE
+Concomitant Medication|OFLOXACIN
+Concomitant Medication|PEPCID
+Concomitant Medication|REACTINE
+Concomitant Medication|TAMSULOSIN
 Concomitant Medication|AFLAMIN
 Concomitant Medication|BETASERC
 Concomitant Medication|CATAFLAM
@@ -428,49 +784,174 @@ Concomitant Medication|CHINOTAL
 Concomitant Medication|CITAPRAM
 Concomitant Medication|DICLOFENAC
 Concomitant Medication|FAMOTIDINE
-Concomitant Medication|GLYCERIN
 Concomitant Medication|MEPROBAMATE
 Concomitant Medication|MILGAMMA
-Concomitant Medication|ACETYLSALICYLIC ACID
+Concomitant Medication|BAKING SODA
+Concomitant Medication|HYDROCORTISONE
+Concomitant Medication|HYDROGEN PEROXIDE
+Concomitant Medication|CO-DYDRAMOL
+Concomitant Medication|FRUSEMIDE
+Concomitant Medication|HYOSCINE
+Concomitant Medication|HYOSCINE HYDROBROMIDE
+Concomitant Medication|LACRI-LUBE
+Concomitant Medication|POLYACRYLIC ACID
+Concomitant Medication|PREDSOL
+Concomitant Medication|CARDENE
+Concomitant Medication|CORN STARCH
+Concomitant Medication|EQUATE TUSSIN DM
+Concomitant Medication|GEMFIBROZIL
+Concomitant Medication|MACROBID
+Concomitant Medication|PEPTO BISMOL
+Concomitant Medication|PINDOLOL
+Concomitant Medication|PNEUMOCOCCAL VACCINE
+Concomitant Medication|PRINIVIL
+Concomitant Medication|PROMETH VC
+Concomitant Medication|SMZ-TMP
+Concomitant Medication|TYLENOL MAXIMUM STRENGTH SINUS
+Concomitant Medication|ACIPHEX
+Concomitant Medication|LIBRAX
+Concomitant Medication|PROFEN
 Concomitant Medication|RAMIPRIL
-Concomitant Medication|VITAMIN B12
 Adverse Event|Haematology investigations (incl blood groups)
+Concomitant Medication|PROMETHAZINE
+Concomitant Medication|TOPROL
 Adverse Event|Skin vascular abnormalities
+Concomitant Medication|IRON SULFATE
 Concomitant Medication|B COMPLEX
-Concomitant Medication|LOTENSIN
 Concomitant Medication|METROGEL
 Adverse Event|Bile duct disorders
+Concomitant Medication|CARBAMAZEPINE
+Concomitant Medication|CLIMARA
+Concomitant Medication|DEPOMEDRONE
+Concomitant Medication|ESTRADERM
+Concomitant Medication|EVENING PRIMROSE OIL
+Concomitant Medication|FLIXONASE
+Concomitant Medication|FLUCLOXACILLIN
+Concomitant Medication|LIGNOCAINE
+Concomitant Medication|PROGYNOVA
+Concomitant Medication|TEMAZEPAM
+Concomitant Medication|XYLOCAINE
 Adverse Event|Vascular haemorrhagic disorders
-Concomitant Medication|ENALAPRIL
+Concomitant Medication|ACETYLCYSTEIN
+Concomitant Medication|BELLADONNA ALKALOIDS
+Concomitant Medication|HYOSCYAMINE
+Concomitant Medication|TAVOR
+Concomitant Medication|VOMEX A
 Concomitant Medication|NEBIVOLOL
 Concomitant Medication|PAROXETINE
 Concomitant Medication|SIMVASTATIN
 Concomitant Medication|SOLIFENACIN
-Concomitant Medication|CIPROFLOXACIN
+Concomitant Medication|ASCRIPTIN
+Concomitant Medication|ERYTHROMYCIN
+Concomitant Medication|HUMULIN N
+Concomitant Medication|NORTRIPTYLINE
 Adverse Event|Spleen, lymphatic and reticuloendothelial system disorders
 Adverse Event|Bone, calcium, magnesium and phosphorus metabolism disorders
+Concomitant Medication|BUSPAR
+Concomitant Medication|CIMETIDINE
+Concomitant Medication|EXOMUC
+Concomitant Medication|LOCABIOTAL
+Concomitant Medication|MAG 2
+Concomitant Medication|PIPRAM
+Concomitant Medication|PROFENID
+Concomitant Medication|VALIUM
 Adverse Event|Electrolyte and fluid balance conditions
+Concomitant Medication|SOLUPRED
 Adverse Event|Disturbances in thinking and perception
 Adverse Event|Procedural related injuries and complications NEC
+Concomitant Medication|ARTHROTEC
+Concomitant Medication|DEVIL'S CLAW
+Concomitant Medication|DICETEL
+Concomitant Medication|DIMENHYDRINATE
+Concomitant Medication|ENTROPHEN
+Concomitant Medication|FUCIDIN
+Concomitant Medication|NATURE'S REMEDY
+Concomitant Medication|OPC 3
+Concomitant Medication|VICKS NYQUIL
 Concomitant Medication|HOMEOPATHIC PREPARATION
 Concomitant Medication|KERATIN
 Concomitant Medication|VITAMIN B KOMPLEX
-Concomitant Medication|ZINC
+Concomitant Medication|ALUPENT
+Concomitant Medication|VACCINE, PNEUMOCOCCAL
 Adverse Event|Tissue disorders NEC
+Concomitant Medication|FERROUS SULFATE
+Concomitant Medication|OXYBUTYNIN
+Concomitant Medication|SINEMET
+Concomitant Medication|TRIPLE ANTIBIOTIC
 Adverse Event|Cardiac disorder signs and symptoms
 Adverse Event|Pulmonary vascular disorders
 Adverse Event|Anaemias nonhaemolytic and marrow depression
+Concomitant Medication|AGRAM
+Concomitant Medication|AZANTAC
+Concomitant Medication|CEFAPEROS
+Concomitant Medication|DAZEN
+Concomitant Medication|DIMETANE
+Concomitant Medication|INFLACED
+Concomitant Medication|MUCOLATOR
+Concomitant Medication|PNEUMOREL
+Concomitant Medication|TANAKAN
+Concomitant Medication|UTEPLEX
+Concomitant Medication|VADILEX
+Concomitant Medication|VECTRINE
+Concomitant Medication|CALCIUM MAGNESIUM ZINC
+Concomitant Medication|LEMSIP
+Concomitant Medication|LIGNOCAINE INJECTION
+Concomitant Medication|QUININE SULPHATE
+Concomitant Medication|CITANEST
+Concomitant Medication|EVISTA
+Concomitant Medication|METHENAMINE MANDELATE W/SODIUM PHOSPHATE MONOBASIC (MONOHYDRATE)
+Concomitant Medication|NITROGLYCERIN
+Concomitant Medication|SULAR
+Concomitant Medication|TROVAN
+Concomitant Medication|UROCIT K
+Concomitant Medication|VALERIAN ROOT
+Concomitant Medication|VITAMIN B-COMPLEX
+Concomitant Medication|NUEDEXTA
+Concomitant Medication|DHEA
+Concomitant Medication|PREMPHASE
+Concomitant Medication|AMINO ACID
+Concomitant Medication|AMINOXIN
+Concomitant Medication|CEFALEXIN
+Concomitant Medication|IRON
+Concomitant Medication|NEOTRACIN
+Concomitant Medication|PETHIDINE
+Concomitant Medication|PROCHLORPERAZINE
+Concomitant Medication|PSEUDOEPHEDRINE
 Adverse Event|Spinal cord and nerve root disorders
+Concomitant Medication|BROMAZEPAM
+Concomitant Medication|BUDESONIDE
+Concomitant Medication|CEFUROXIME
+Concomitant Medication|FUROSEMIDA
+Concomitant Medication|ROXITHROMYCIN
+Concomitant Medication|TRIAMTERENE
 Concomitant Medication|DIMETAPP
 Concomitant Medication|OXACILIN
-Concomitant Medication|ATROPINE
+Concomitant Medication|DOLORMIN
+Concomitant Medication|NOVAMIN
 Adverse Event|Peritoneal and retroperitoneal conditions
+Concomitant Medication|DESYREL
+Concomitant Medication|DIABINESE
+Concomitant Medication|DOCUSATE SODIUM
+Concomitant Medication|HYTRIN
+Concomitant Medication|LEVBID
+Concomitant Medication|MAGNESIUM OXIDE
+Concomitant Medication|POTASSIUM GLUCONATE
+Concomitant Medication|PROPANOLOL
+Concomitant Medication|PROSCAR
+Concomitant Medication|SEPTRA
 Adverse Event|Bone disorders (excl congenital and fractures)
+Concomitant Medication|LOTREL
+Concomitant Medication|MYCITRACIN PLUS
+Concomitant Medication|ROBITUSSIN
+Concomitant Medication|ST. JOHN'S WORT
+Concomitant Medication|VANTIN
 Concomitant Medication|AMILORIDE W/HYDROCHLOROTHIAZIDE
 Concomitant Medication|ENALAPRIL MALEATE
 Concomitant Medication|ZOLPIDEM
 Adverse Event|Gastrointestinal ulceration and perforation
 Adverse Event|Abdominal hernias and other abdominal wall conditions
+Concomitant Medication|BREWERS YEAST
+Concomitant Medication|PANTOLOC
 Adverse Event|Gastrointestinal stenosis and obstruction
 Concomitant Medication|DEXTROMETHORPHAN HYDROBROMIDE
 Concomitant Medication|FESOTERODINE
@@ -480,87 +961,379 @@ Concomitant Medication|MEBEVERINEHYDROCHLORIDE
 Concomitant Medication|NATRIUMKLORID
 Concomitant Medication|NATRIUMPICOSULFAT
 Concomitant Medication|SACCHAROMYCES BOULARDII
+Concomitant Medication|FLOMAX
+Concomitant Medication|TENORMIN
+Concomitant Medication|MEDINITE
+Concomitant Medication|ALLOPURINOL
 Concomitant Medication|ANTIBIOTIC
 Concomitant Medication|CINITAPRIDE
 Concomitant Medication|DEXKETOPROFEN
 Concomitant Medication|HALAZEPAM
 Concomitant Medication|PANTOPRAZOLE
 Concomitant Medication|RABEPRAZOLE
-Concomitant Medication|SERTRALINE
 Concomitant Medication|SIMETICONE
 Concomitant Medication|TICLOPIDIN
-Concomitant Medication|BREWERS YEAST
+Concomitant Medication|CLOMIPRAMINE
+Concomitant Medication|MOPROL
+Concomitant Medication|OMEPRAZOL
+Concomitant Medication|ZOLTUM
+Concomitant Medication|NOVOPROTECT
+Concomitant Medication|SOTAHEXAL
+Concomitant Medication|ALMAGATE
+Concomitant Medication|BISOPROLOL
+Concomitant Medication|NIFEDIPINE
+Concomitant Medication|PERINDOPRIL
+Concomitant Medication|VALSARTAN
 Concomitant Medication|CELEBREX
-Concomitant Medication|ESTRADIOL
 Concomitant Medication|HYDROCODONE/APAP
 Concomitant Medication|LEXAPRO
-Concomitant Medication|LOTREL
-Concomitant Medication|MEDROXYPROGESTERONE
 Concomitant Medication|NEXIUM
-Concomitant Medication|QUININE SULFATE
-Concomitant Medication|SYNTHROID
-Concomitant Medication|VALIUM
-Concomitant Medication|XANAX
+Concomitant Medication|COGENTIN
+Concomitant Medication|GRAVOL
+Concomitant Medication|LEVOTHYROXINE
+Concomitant Medication|TICLID
+Concomitant Medication|TRANSDERM V
+Concomitant Medication|TYLENOL NO.2
+Concomitant Medication|ANEXATE
+Concomitant Medication|CARBOMIX
+Concomitant Medication|CITRATE DE BETAINE
+Concomitant Medication|FRAXIPARINE
+Concomitant Medication|HEPT-A-MYL
+Concomitant Medication|VITAMIN B1 AND B6
 Adverse Event|Embolism and thrombosis
 Concomitant Medication|COUMADIN
-Concomitant Medication|CYANOCOBALAMIN
 Concomitant Medication|LIVER INJECTION
 Concomitant Medication|MINOCYCLINE
 Concomitant Medication|NALTREXONE
-Concomitant Medication|NEURONTIN
 Concomitant Medication|THIAMINE
 Lab Test|Urine Yeast
+Concomitant Medication|DIONAEA MUSCIPULA
+Concomitant Medication|FLUOXETINE
+Concomitant Medication|IPRATROPIUM
+Concomitant Medication|MAGNESIUM SULFATE
+Concomitant Medication|PYRIDOSTIGMINE
+Concomitant Medication|THYMUS EXTRACT
 Adverse Event|Myocardial disorders
+Concomitant Medication|CEFTRIAXONE
+Concomitant Medication|HEXAVITAMIN
+Concomitant Medication|PLENDIL
+Concomitant Medication|SULCRATE
+Concomitant Medication|TETANUS TOXOID
 Adverse Event|Changes in physical activity
+Concomitant Medication|DEPO MEDROL
+Concomitant Medication|DIPHENHYDRAMINE HYDROCHLORIDE
+Concomitant Medication|NIASPAN
+Concomitant Medication|PROMETH WITH CODEINE
+Concomitant Medication|PROVENTIL
+Concomitant Medication|SEREVENT
+Concomitant Medication|THEOPHYLLINE
+Concomitant Medication|CEFACLOR
+Concomitant Medication|CEFZIL
+Concomitant Medication|DOCUSATE CALCIUM
+Concomitant Medication|ENTERIC ASPIRIN
+Concomitant Medication|LOPRESSOR
+Concomitant Medication|UNASYN
+Concomitant Medication|CLAVULANIC ACID
+Concomitant Medication|DIGOXIN
+Concomitant Medication|EPRAZINONE
+Concomitant Medication|MOLSIDOMINE
+Concomitant Medication|NADROPARINE
+Concomitant Medication|NORMACOL PLUS
+Concomitant Medication|SOTALOL
+Concomitant Medication|GAS RELIEF
+Concomitant Medication|ISORDIL
+Concomitant Medication|LAMISIL
+Concomitant Medication|NITROQUICK
+Concomitant Medication|CETIRIZINE DIHCL
+Concomitant Medication|NAPROXEN SODIUM
+Concomitant Medication|ANTIBIOTICS
+Concomitant Medication|HEPARIN CALCIUM
+Concomitant Medication|MOVICOL
+Concomitant Medication|SAROTEN
 Adverse Event|Psychiatric disorders NEC
+Concomitant Medication|EFFEXOR
+Concomitant Medication|FLUCONAZOLE
+Concomitant Medication|HYDROMORPHONE HYDROCHLORIDE
+Concomitant Medication|KETOROLAC
+Concomitant Medication|LOTRIMIN
+Concomitant Medication|MYCELEX
+Concomitant Medication|SINAREST
+Concomitant Medication|ZYPREXA
+Concomitant Medication|ALEVE
+Concomitant Medication|CHLORASEPTIC
+Concomitant Medication|COZAAR
+Concomitant Medication|HUMIBID LA
+Concomitant Medication|KYO-DOPHILUS
+Concomitant Medication|LIPOIC ACID
+Concomitant Medication|LORTAB
+Concomitant Medication|MANGANESE
+Concomitant Medication|PIPERACILLIN
+Concomitant Medication|VANCENASE AQ
 Adverse Event|Miscellaneous and site unspecified neoplasms malignant and unspecified
+Concomitant Medication|ALUMINUM ACETATE
+Concomitant Medication|BECLOMETASONE DIPROPIONATE
+Concomitant Medication|COTRIMOXAZOLE
+Concomitant Medication|COVERA
+Concomitant Medication|FLUOROURACIL
+Concomitant Medication|HYDROPHILIC
+Concomitant Medication|LOVENOX
+Concomitant Medication|NOVOCAINE
+Concomitant Medication|POTASSIUM CHLORIDE
+Concomitant Medication|SLOW-K
+Concomitant Medication|TRETINOIN
+Concomitant Medication|VICKS VAPORUB
+Concomitant Medication|VITAMIN K
+Concomitant Medication|WARFARIN
 Adverse Event|Musculoskeletal and connective tissue deformities (incl intervertebral disc disorders)
+Concomitant Medication|ALDACTONE
+Concomitant Medication|BETA CAROTENE
+Concomitant Medication|ISOSOURCE
+Concomitant Medication|VALTREX
+Concomitant Medication|EMETROL
+Concomitant Medication|HYDROCODONE BITARTRATE AND ACETAMINOPHEN
+Concomitant Medication|OXYMETAZOLINE
+Concomitant Medication|NADOLOL
+Concomitant Medication|STEMETIL
+Concomitant Medication|BROMELAINS
+Concomitant Medication|DONNATAL
+Concomitant Medication|L-TYROSINE
+Concomitant Medication|PIMA
+Concomitant Medication|POTASSIUM ACETATE
+Concomitant Medication|SAW PALMETTO
+Concomitant Medication|ACICLOVIR
+Concomitant Medication|CLENBUTEROL
+Concomitant Medication|CO-DIOVAN
+Concomitant Medication|DIGITOXIN
+Concomitant Medication|ISOSORBID DINITRATE
+Concomitant Medication|THERMO-MENTHONEURIN
 Adverse Event|Aural disorders NEC
+Concomitant Medication|CONTRACEPTIVES
+Concomitant Medication|DIFLUCAN
+Concomitant Medication|ENTEX LA
+Concomitant Medication|FLOXIN
+Concomitant Medication|NASONEX
+Concomitant Medication|PHENAZOPYRIDINE
+Concomitant Medication|TRIPHASIL-28
 Lab Test|Anion Gap
+Concomitant Medication|ALLERNIX
+Concomitant Medication|ALTACE
+Concomitant Medication|AMANTADINE
+Concomitant Medication|CELESTODERM
+Concomitant Medication|CENTRUM SELECT
+Concomitant Medication|GARLIC
+Concomitant Medication|MENTHOL
+Concomitant Medication|NOVAMOXIN
+Concomitant Medication|PANECTYL
+Concomitant Medication|SENNOSIDE
+Concomitant Medication|UREMOL HC
 Adverse Event|Ocular haemorrhages and vascular disorders NEC
+Concomitant Medication|CECLOR
+Concomitant Medication|CLAVULIN
+Concomitant Medication|EPHEDRINE
+Concomitant Medication|FOLATE
+Concomitant Medication|HYLAZINE
+Concomitant Medication|MOTILIUM
+Concomitant Medication|NOVO-TRIMEL
+Concomitant Medication|NYSTATIN
+Concomitant Medication|PHOSPHATE
+Concomitant Medication|PROPOFOL
+Concomitant Medication|THIAZIDE
+Concomitant Medication|TINZAPARIN
+Concomitant Medication|B-KOMPLEX
+Concomitant Medication|DYAZIDE
+Concomitant Medication|GLUTATHIONE
 Adverse Event|Rickettsial infectious disorders
+Concomitant Medication|BISEPTINE
+Concomitant Medication|BRISTOPEN
+Concomitant Medication|DOLKO
+Concomitant Medication|ESBERIVEN
+Concomitant Medication|GIVALEX
+Concomitant Medication|IMUDON
+Concomitant Medication|LIPANTHYL
+Concomitant Medication|NIFLURIL
+Concomitant Medication|OESTRODOSE
+Concomitant Medication|ORACILLINE
+Concomitant Medication|PEFLACINE
+Concomitant Medication|ROVAMYCIN
+Concomitant Medication|TERALITHE
+Concomitant Medication|TETANUS VACCINE
+Concomitant Medication|ULTRA-LEVURE
+Concomitant Medication|TETRACYCLINE
+Concomitant Medication|CALCIUM PLUS
+Concomitant Medication|CILOXAN
+Concomitant Medication|CLOTRIMAZOLE
+Concomitant Medication|CONTAC
+Concomitant Medication|DONATUSSIN
+Concomitant Medication|KLONOPIN
+Concomitant Medication|CERVOXAN
+Concomitant Medication|MYOLASTAN
+Concomitant Medication|VASTAREL
 Adverse Event|Uterine, pelvic and broad ligament disorders
+Concomitant Medication|DEMADEX
+Concomitant Medication|INDERAL
 Lab Test|Basophillic Stippling
 Lab Test|RBC Morphology: Macrocytosis
 Lab Test|Polychromasia
 Lab Test|Hepatitis A Antibody
 Lab Test|Hepatitis B Antibody
+Concomitant Medication|ALOE VERA
+Concomitant Medication|GLUCOSAMINE SULPHATE
+Concomitant Medication|STRESS B
+Concomitant Medication|VITAMIN E+C
+Concomitant Medication|GINKOR FORT
+Concomitant Medication|NUREFLEX
+Concomitant Medication|SMECTA
+Concomitant Medication|ADENOSINE
+Concomitant Medication|ANUSOL
+Concomitant Medication|FLUTICASONE
+Concomitant Medication|L-THYROXIN
+Concomitant Medication|LEVSIN
+Concomitant Medication|NORMO TEARS
+Concomitant Medication|NOVO-PRAMINE
+Concomitant Medication|NOVOLEXIN
+Concomitant Medication|SILVER NITRATE
+Concomitant Medication|IMOVANE
+Concomitant Medication|INHIBACE
+Concomitant Medication|HYDROMORPHONE
+Concomitant Medication|NABUMETONE
+Concomitant Medication|NICOTINIC ACID
+Concomitant Medication|POLYCARBOPHIL
+Concomitant Medication|PROPACET
 Concomitant Medication|BRUFEN
-Concomitant Medication|ASPIRIN
 Concomitant Medication|LACTIN
 Concomitant Medication|LAVESTRA
 Concomitant Medication|TAVANIC
-Concomitant Medication|CLEXANE
+Concomitant Medication|CYCRIN
+Concomitant Medication|PHENYLPROPANOLAMINE
+Concomitant Medication|ATROPINIUM SULFURICUM STREULI
+Concomitant Medication|CAROTABEN
+Concomitant Medication|ITROP
+Concomitant Medication|L-THYROXINE
+Concomitant Medication|MAGNESIUM VERLA
+Concomitant Medication|PRESOMEN
+Concomitant Medication|CALCIUM CITRATE
+Concomitant Medication|DETROL
+Concomitant Medication|SALINE
+Concomitant Medication|TEGRETOL
 Concomitant Medication|ACTONEL
 Concomitant Medication|ADVAIR
-Concomitant Medication|HYDROCHLOROTHIAZIDE
 Concomitant Medication|NASACORT AQ
 Concomitant Medication|PEPCID AC
-Concomitant Medication|TUMS
-Concomitant Medication|WELLBUTRIN
+Concomitant Medication|PIRITON
+Concomitant Medication|ZIMOVANE
+Concomitant Medication|HAWTHORN
+Concomitant Medication|HYDROMET
+Concomitant Medication|TYLENOL WITH CODEINE
+Concomitant Medication|BETOPTIC
+Concomitant Medication|MONOPRIL
+Concomitant Medication|OXYCONTIN
+Concomitant Medication|RANITIDINE HYDROCHLORIDE
+Concomitant Medication|SOAP ENEMA
+Adverse Event|Ectoparasitic disorders
+Concomitant Medication|BENZYL BENZOATE
+Concomitant Medication|BLISTEZE
+Concomitant Medication|CO CODAMOL
+Concomitant Medication|PERMETHRIN
+Concomitant Medication|SIMPLE LINCTUS
+Concomitant Medication|DEANXIT
+Concomitant Medication|SULFAMETHOXAZOL
+Concomitant Medication|TRIMETHOPRIM
+Concomitant Medication|CHRONADALATE
+Concomitant Medication|DEBRIDAT
+Concomitant Medication|DOLIPRANE
+Concomitant Medication|FRAGMIN
+Concomitant Medication|GELOX
+Concomitant Medication|LAROXYL
+Concomitant Medication|MOGADON
+Concomitant Medication|SPASFON
+Concomitant Medication|ZOCOR
+Lab Test|RBC Distribution Width
+Lab Test|Lactic Acid
+Concomitant Medication|ACETAZOLAMIDE
+Concomitant Medication|BROMHEXINE HYDROCHLORIDE
+Concomitant Medication|CEFAZOLINE
+Concomitant Medication|LORMETAZEPAM
+Concomitant Medication|NIFUROXAZIDE
+Concomitant Medication|RHINOSPRAY
+Concomitant Medication|YELLOW FEVER VACCINE
+Concomitant Medication|DYTIDE H
+Concomitant Medication|SIRDALUD
 Adverse Event|Menopause and related conditions
 Adverse Event|Gastrointestinal inflammatory conditions
 Adverse Event|Vulvovaginal disorders (excl infections and inflammations)
+Concomitant Medication|AYGESTIN
+Concomitant Medication|BACITRACIN
+Concomitant Medication|DEXTROPROPOXYPHENE HYDROCHLORIDE
+Concomitant Medication|ISOCET
+Concomitant Medication|LUPRON
+Concomitant Medication|RELAFEN
 Adverse Event|Sexual function and fertility disorders
+Concomitant Medication|PRAZEPAM
+Concomitant Medication|TITANOREINE
+Concomitant Medication|VEINAMITOL
+Concomitant Medication|MIROTON
+Concomitant Medication|LITHIUM CARBONATE
+Concomitant Medication|OLANZAPINE
+Concomitant Medication|THYROXINE
+Concomitant Medication|TRIMETHOPRIM SULFAMETHOXAZOLE
 Adverse Event|Vascular inflammations
 Concomitant Medication|DEROXAT
 Concomitant Medication|RIVOTRIL
 Concomitant Medication|SEROPRAM
 Concomitant Medication|STABLON
-Concomitant Medication|VAXIGRIP
-Concomitant Medication|CEFAZOLINE
+Concomitant Medication|OXYBUTYNIN CHLORIDE
+Concomitant Medication|LYSINE
+Concomitant Medication|SPIROPENT
 Concomitant Medication|FLUMAZENIL
-Concomitant Medication|MIDAZOLAM
 Concomitant Medication|PETHIDINE HYDROCHLORIDE
 Concomitant Medication|THIAMINE HYDROCHLORIDE
+Concomitant Medication|GLICLAZIDE
+Concomitant Medication|MAXZIDE
+Concomitant Medication|TAVIST
+Concomitant Medication|UNIVASC
 Concomitant Medication|CALCIUM/VITAMIN D
-Concomitant Medication|LEVSIN
 Adverse Event|Anterior eye structural change, deposit and degeneration
+Concomitant Medication|CENTRUM SILVER
+Concomitant Medication|COUGH SUPPRESSANTS, EXCL. COMBINATIONS WITH EXPECTORANTS
+Concomitant Medication|DIGEL
+Concomitant Medication|LANOXIN
+Concomitant Medication|PROTRIPTYLINE
 Adverse Event|Purine and pyrimidine metabolism disorders
+Concomitant Medication|REVITALOSE
+Concomitant Medication|RINOMAR
+Concomitant Medication|TEVAX
+Concomitant Medication|REZULIN
+Concomitant Medication|ROXANOL
+Concomitant Medication|TESTOSTERONE
+Concomitant Medication|TYLENOL COLD
+Concomitant Medication|B-100
+Concomitant Medication|AMBROXOL HYDROCHLORIDE
+Concomitant Medication|AZITHROMYCINE
+Concomitant Medication|BUMETANIDE
+Concomitant Medication|BUPRENORPHINE
+Concomitant Medication|BUTAMIRATE CITRATE
+Concomitant Medication|CEFUROXIM
+Concomitant Medication|CETIRIZINE
+Concomitant Medication|CIPROFLOXACINE
+Concomitant Medication|IPRATROPIUM BROMIDE
+Concomitant Medication|KETOCONAZOL
+Concomitant Medication|MESNA
+Concomitant Medication|SOFRASOLONE
+Concomitant Medication|TIAPRIDE
+Concomitant Medication|AMINOSIDINE
+Concomitant Medication|INTETRIX
+Concomitant Medication|KAOLOGEAIS
+Concomitant Medication|CEFALOJECT
+Concomitant Medication|CIFLOX
+Concomitant Medication|DAKTARIN
+Concomitant Medication|FLIXOTIDE
+Concomitant Medication|MORPHINE HYDROCHLORIDE
+Concomitant Medication|MOSCONTIN
+Concomitant Medication|ZINNAT
+Concomitant Medication|EXCEDRIN
 Adverse Event|Therapeutic and nontherapeutic effects (excl toxicity)
 Concomitant Medication|CIPRAMIL
 Concomitant Medication|EAR DROPS RX
-Concomitant Medication|FLUVOXAMINE
 Concomitant Medication|VIVEO
 Concomitant Medication|ACETYL L CARNITINE
 Concomitant Medication|BCAA
@@ -570,190 +1343,548 @@ Concomitant Medication|INOSINE
 Concomitant Medication|INOSITOL
 Concomitant Medication|L-GLUTAMINE
 Concomitant Medication|NADH
-Concomitant Medication|NIACIN
 Concomitant Medication|SAM-E
 Concomitant Medication|SERINE
 Concomitant Medication|VINPOCETIN
+Concomitant Medication|ANTIVERT
+Concomitant Medication|CLAFORAN
+Concomitant Medication|LEVOTHYROX
+Concomitant Medication|PEVARYL
+Concomitant Medication|POLYSILANE
 Adverse Event|Tongue conditions
 Adverse Event|Endocrine investigations (incl sex hormones)
-Concomitant Medication|ANTIBIOTICS
+Concomitant Medication|BECLOMETASONE
+Concomitant Medication|MULTIVITAMINS WITH IRON
+Concomitant Medication|MULTIVITAMIN WITH MINERALS
+Concomitant Medication|PANADEINE CO
 Concomitant Medication|BETAISODONA
-Concomitant Medication|CORTISONE
 Concomitant Medication|FURO
-Concomitant Medication|IBUPROFEN
 Concomitant Medication|LACTOSE
 Concomitant Medication|LAXOBERAL
-Concomitant Medication|NOVALGIN
 Concomitant Medication|REMERGIL
-Concomitant Medication|TAVOR
 Concomitant Medication|TEMGESIC
 Adverse Event|Glaucoma and ocular hypertension
+Concomitant Medication|CARTEOL
+Concomitant Medication|FLEMOXINE
+Concomitant Medication|PRIMPERAN
+Concomitant Medication|RHINOFLUIMUCIL
+Concomitant Medication|AXID
+Concomitant Medication|BAYCOL
+Concomitant Medication|CATAPRES-TTS-2
+Concomitant Medication|CATAPRESS
+Concomitant Medication|DIFLUNISAL
+Concomitant Medication|OSCAL
+Concomitant Medication|BC
+Concomitant Medication|BLACK COHOSH
+Concomitant Medication|FLEXALL
+Concomitant Medication|ICY HOT ARTHRITIS
+Concomitant Medication|REFRESH TEARS
 Concomitant Medication|DECADRON
 Concomitant Medication|HUMIBID
-Concomitant Medication|QUININE
+Concomitant Medication|CLODRONATE DISODIUM
+Concomitant Medication|DOXYTAB
+Concomitant Medication|TAMOXIFEN
+Concomitant Medication|GUAIFENESIN/DEXTROMETHORPHAN
+Concomitant Medication|TRIAMCINOLONE
+Concomitant Medication|CARNITINE
+Concomitant Medication|DANTRIUM
 Lab Test|Bilirubin (Indirect)
+Concomitant Medication|RYNATAN
+Concomitant Medication|CROMOLYN SODIUM
+Concomitant Medication|ZALEPLON
+Concomitant Medication|ELOBACT
+Concomitant Medication|OBSTINOL M
 Adverse Event|Protein and chemistry analyses NEC
+Concomitant Medication|APRANAX
+Concomitant Medication|NEURIPLEGE
+Concomitant Medication|TOPALGIC
+Concomitant Medication|DUONEB
+Concomitant Medication|ELDEPRYL
 Adverse Event|Ocular neuromuscular disorders
-Concomitant Medication|FLOMAX
+Concomitant Medication|COENZYME
 Concomitant Medication|PLAVEX
 Concomitant Medication|ZETIA
+Concomitant Medication|DRIXORAL
+Concomitant Medication|ISOCAL HN
+Concomitant Medication|STRESSTAB
 Adverse Event|Gastrointestinal haemorrhages NEC
-Concomitant Medication|DEANXIT
+Concomitant Medication|ALKA-SELTZER PLUS COLD
+Concomitant Medication|DECONGESTANT
+Concomitant Medication|DOANS
+Concomitant Medication|MUCO-FEN
+Concomitant Medication|NASALCROM
+Concomitant Medication|NYQUIL
+Concomitant Medication|ONE A DAY MULTI VITAMIN & MINERALS
+Concomitant Medication|OVRAL
+Concomitant Medication|ROLAIDS
+Concomitant Medication|SENOKOT-S
+Concomitant Medication|PYROXYLINE
 Concomitant Medication|KEFZOL
 Concomitant Medication|LYSOMUCIL
-Concomitant Medication|MORPHINE
 Concomitant Medication|PERFUSALGAN
 Concomitant Medication|SERLAIN
 Adverse Event|Reproductive organ and breast investigations (excl hormone analyses)
 Adverse Event|Neurological, special senses and psychiatric investigations
 Adverse Event|Eye therapeutic procedures
+Concomitant Medication|BACITRACIN OPHTHALMIC
+Concomitant Medication|DIAMOX
+Concomitant Medication|ECONOPRED
+Concomitant Medication|FENESIN
+Concomitant Medication|GENTAMICIN
+Concomitant Medication|PROTEIN
+Concomitant Medication|SUDAFED 12 HOUR
+Concomitant Medication|VISINE
+Concomitant Medication|ASCRIPTIN A/D
+Concomitant Medication|CHONDROITIN SULFATE
+Concomitant Medication|CLOBETASOL PROPIONATE
+Concomitant Medication|GLUCOSAMINE HCL
+Concomitant Medication|MAGNESIUM PLUS
+Concomitant Medication|MINOCYCLINE HYDROCHLORIDE
+Concomitant Medication|NALDECON
 Adverse Event|Testicular and epididymal disorders
+Concomitant Medication|CLARITIN-D
+Concomitant Medication|PROBANTHINE
+Concomitant Medication|LAXATIVE
+Concomitant Medication|CALCITONINE
+Concomitant Medication|LOVASTATINE
+Concomitant Medication|OVYSMEN
+Concomitant Medication|ALBUTEROL SULFATE
+Concomitant Medication|ENTEX
+Concomitant Medication|GENACOL
+Concomitant Medication|SINE-AID
 Lab Test|CO2 Fraction
 Lab Test|Base Excess
 Lab Test|Plasma Ph
 Lab Test|Arterial O2 Fraction
 Lab Test|Saturated O2 Fraction
-Adverse Event|Gastrointestinal conditions NEC
-Adverse Event|Bone and joint therapeutic procedures
-Adverse Event|Pericardial disorders
+Concomitant Medication|FORTISIP
+Concomitant Medication|ACETAMINOPHEN PM
+Concomitant Medication|TAVIST SINUS
+Concomitant Medication|ZINC SULFATE
+Concomitant Medication|CREATINE MONOHYDRATE
+Concomitant Medication|FAMVIR
 Concomitant Medication|SHARK LIVER OIL
-Concomitant Medication|VITAMIN B COMPLEX
-Concomitant Medication|ACIPHEX
-Concomitant Medication|EFFEXOR
-Concomitant Medication|LAROXYL
+Concomitant Medication|CHLOROQUINE
+Concomitant Medication|FLUTAB
+Concomitant Medication|PROGUANIL
+Concomitant Medication|TIBOLONE
+Concomitant Medication|AMPICILLIN
+Concomitant Medication|CONTAC COLD
+Concomitant Medication|CORDARONE
+Concomitant Medication|DISOPYRAMIDE PHOSPHATE
+Concomitant Medication|NITRO-DUR
+Concomitant Medication|NORPACE
+Concomitant Medication|CLOXACILLIN
+Adverse Event|Gastrointestinal conditions NEC
+Concomitant Medication|SILDENAFIL CITRATE
+Adverse Event|Bone and joint therapeutic procedures
+Concomitant Medication|CLOXIQUINE
+Concomitant Medication|DIHYDROERGOTOXIN
+Concomitant Medication|DIPYRIDAMOL
+Concomitant Medication|FLUPREDNIDENE
+Concomitant Medication|SULFADIAZIN
+Concomitant Medication|TOLPROPAMINE
+Concomitant Medication|ALDACTAZINE
+Concomitant Medication|DEPAKINE
+Concomitant Medication|EQUANIL
+Concomitant Medication|HALDOL
+Concomitant Medication|LOXEN
+Concomitant Medication|MOPRAL
+Concomitant Medication|NOROXINE
+Concomitant Medication|PRODAFALGAN
+Concomitant Medication|SOFRAMYCIN
+Concomitant Medication|TERCIAN
+Concomitant Medication|TERNEURINE
+Concomitant Medication|ULCAR
+Concomitant Medication|OSMOLITE
+Concomitant Medication|ANTIPHLOGISTINE
+Concomitant Medication|BENTYLOL
+Concomitant Medication|DIOVOL PLUS
+Concomitant Medication|IMURAN
+Concomitant Medication|MACRODANTIN
+Concomitant Medication|MAGNESIUM CITRATE
+Concomitant Medication|ROBAXACET
+Concomitant Medication|ROBAXISAL-C
+Concomitant Medication|SUPRAX
+Adverse Event|Pericardial disorders
+Concomitant Medication|AZOPT
+Concomitant Medication|HYDROCODONE BITARTRATE
+Concomitant Medication|OXYCODONE
+Concomitant Medication|PROPOXYPHENE NAPSYLATE
+Concomitant Medication|ROFECOXIB
+Concomitant Medication|SLO-MAG
+Concomitant Medication|TIMOLOL
+Concomitant Medication|PRAVACHOL
+Concomitant Medication|UNIPHYL
+Concomitant Medication|ALENDRONATE
+Concomitant Medication|DOTHIEPIN
+Concomitant Medication|FERROUS SULPHATE
+Concomitant Medication|PANADOL
+Concomitant Medication|PAROVEN
+Concomitant Medication|SANDO K
+Concomitant Medication|TIMODINE
+Concomitant Medication|CALCIUM MAGNESIUM
+Concomitant Medication|PROTEIN SUPPLEMENTS
+Concomitant Medication|PYRENOL
+Concomitant Medication|ULTRAMIN
 Adverse Event|Ocular structural change, deposit and degeneration NEC
 Adverse Event|Ovarian and fallopian tube disorders
-Concomitant Medication|ALBUTEROL
+Concomitant Medication|ALFA-KETOGLUTARIC ACID
+Concomitant Medication|L-LYSINE HCL
+Concomitant Medication|PHOSPHATIDYL CHOLINE
+Concomitant Medication|PROCAINE
+Concomitant Medication|TERBUTALINE
+Concomitant Medication|TERFENADINE
+Concomitant Medication|CETIRIZINE HCL
+Concomitant Medication|FLUOXETINE HCL
+Concomitant Medication|GUAIFENESIN AC
+Concomitant Medication|SALICYL
+Concomitant Medication|SOY ISOFLAVONES
 Concomitant Medication|TEQUIN
-Concomitant Medication|ACETYLCYSTEIN
+Concomitant Medication|CAPOTEN
+Concomitant Medication|IMDUR
+Concomitant Medication|KAOPECTATE
+Concomitant Medication|NAFTIN
+Concomitant Medication|NITROSTAT
+Concomitant Medication|PHENERGAN
+Concomitant Medication|FLURAZEPAM
+Concomitant Medication|HYDROCHLOROTHIAZIDE W/TRIAMTERENE
+Concomitant Medication|GLYCEROL
+Concomitant Medication|MAGNESIUM HYDROXIDE
+Concomitant Medication|METHYLCELLULOSE
+Concomitant Medication|APTIN
+Concomitant Medication|BRONCHICUM
+Concomitant Medication|BUSCOPAN
+Concomitant Medication|COTRIM FORTE
+Concomitant Medication|ISOCILLIN
+Concomitant Medication|NERVOREGIN
+Concomitant Medication|PROPULSIN
+Concomitant Medication|DIURIL
+Concomitant Medication|MYDRIACYL
+Concomitant Medication|RESERPINE
 Adverse Event|Platelet disorders
-Concomitant Medication|ALEVE
+Concomitant Medication|MEVACOR
 Concomitant Medication|B-12
-Concomitant Medication|MOTRIN
-Concomitant Medication|ZITHROMAX
 Concomitant Medication|ANACIN
 Concomitant Medication|IRBESARTAN AND HYDROCHLOROTHIAZIDE
 Concomitant Medication|THIORIDAZINE
 Concomitant Medication|AMOXICILLIN W/CLAVULANIC ACID
-Concomitant Medication|NADROPARINE
 Concomitant Medication|WARFARIN SODIUM
-Concomitant Medication|LOVENOX
+Concomitant Medication|CHLOR-TRIMETON
+Concomitant Medication|TAGAMET
 Concomitant Medication|GOLDEN SEAL
 Concomitant Medication|MEPERIDINE
 Concomitant Medication|SUPER C
-Concomitant Medication|TETRACYCLINE
-Concomitant Medication|ULTRAM
 Concomitant Medication|DIFFERIN
 Concomitant Medication|EBASTINE
 Concomitant Medication|DILTIAZEM
+Concomitant Medication|BRETHINE
+Concomitant Medication|BUFFERED ASPIRIN
+Concomitant Medication|CLINORIL
+Concomitant Medication|COLCHICINE
+Concomitant Medication|K-LOR
+Concomitant Medication|LORCET
+Concomitant Medication|PROBENECID
+Concomitant Medication|QUINIDEX
+Concomitant Medication|QUINIDINE SULFATE
+Concomitant Medication|ZAROXOLYN
+Concomitant Medication|B COMPOUND
+Concomitant Medication|CAT'S CLAW
+Concomitant Medication|LOVASTATIN
 Adverse Event|Chemical injury and poisoning
-Concomitant Medication|CALCIUM MAGNESIUM
-Concomitant Medication|KLONOPIN
 Concomitant Medication|L-CARNITINE
-Concomitant Medication|FISH OIL
 Concomitant Medication|TAURINE
 Concomitant Medication|WHEY PROTEIN
 Concomitant Medication|BILBERRY
-Concomitant Medication|CENTRUM
-Concomitant Medication|LIPOIC ACID
 Concomitant Medication|OLIVE LEAVES EXTRACT
-Concomitant Medication|ENSURE PLUS
 Concomitant Medication|ONE SOURCE
-Concomitant Medication|PEPCID
-Concomitant Medication|LACTULOSE
-Concomitant Medication|MELATONIN
-Concomitant Medication|NORVASC
-Concomitant Medication|TYLENOL PM
-Concomitant Medication|UNIVASC
+Concomitant Medication|POTASSIUM CITRATE
+Concomitant Medication|VIVIMED
+Concomitant Medication|BIOSTIM
+Concomitant Medication|DIANTALVIC
+Concomitant Medication|MIOREL
+Concomitant Medication|XENID
+Concomitant Medication|CHLORAL
+Concomitant Medication|EFFERALGAN
+Concomitant Medication|FORLAX
+Concomitant Medication|HYPNOVEL
+Concomitant Medication|SULFARLEM
+Concomitant Medication|TEMESTA
+Concomitant Medication|THERALENE
 Adverse Event|Mycobacterial infectious disorders
-Concomitant Medication|ALOE VERA
+Concomitant Medication|ALKA SELTZER PLUS
+Concomitant Medication|CONJUGATED ESTROGENS
+Concomitant Medication|ETHAMBUTOL
+Concomitant Medication|GATIFLOXACIN
+Concomitant Medication|MIRTAZAPINE
+Concomitant Medication|OXYIR
+Concomitant Medication|PROCTOFOAM
+Concomitant Medication|PROPOXYPHENE N/APAP
+Concomitant Medication|SINE-OFF
+Concomitant Medication|TYLENOL ALLERGY SINUS
+Concomitant Medication|COLD EEZE
+Concomitant Medication|DIOSCOREA VILLOSA
+Concomitant Medication|SPECTAZOLE
+Concomitant Medication|TRIMETHOBENZAMIDE
+Concomitant Medication|EXCEDRIN EXTRA STRENGTH
+Concomitant Medication|GINSENG NOS W/HERBAL POLLEN NOS/ROYAL JELLY
 Concomitant Medication|FOLSAEURE
 Concomitant Medication|KALINOR
-Concomitant Medication|LIORESAL
 Concomitant Medication|MADOPAR
-Concomitant Medication|VITAMIN B
-Concomitant Medication|BERODUAL
-Concomitant Medication|CILOXAN
+Concomitant Medication|MECLOZINE HYDROCHLORIDE
 Concomitant Medication|LIMPTAR
 Concomitant Medication|MYDOCALM
 Concomitant Medication|OTOBACID
 Concomitant Medication|PANTOZOL
-Concomitant Medication|THEOPHYLLINE
 Concomitant Medication|TRIAMGALEN
 Concomitant Medication|VOLTAREN RESINAT
 Concomitant Medication|ZOP
+Concomitant Medication|CLIMENE
+Concomitant Medication|DIDRONEL
+Concomitant Medication|EUPHYLLINE
+Concomitant Medication|NARCOZEP
+Concomitant Medication|BENZONATATE
+Concomitant Medication|CEPHRADINE
+Concomitant Medication|SURFAK
+Concomitant Medication|ZOSYN
+Concomitant Medication|ACROMICINA
+Concomitant Medication|TERRAMICINA
+Concomitant Medication|CRANBERRY
+Concomitant Medication|DILAUDID
+Concomitant Medication|DUPHALAC
+Concomitant Medication|TALACEN
 Concomitant Medication|TRIMOX
-Concomitant Medication|ZANTAC
+Concomitant Medication|ATORVASTATIN
+Concomitant Medication|FLECAINIDE
+Concomitant Medication|PRAVASTATINE
+Concomitant Medication|DOPAMINE
+Concomitant Medication|FORTUM
+Concomitant Medication|GARDENAL
+Concomitant Medication|OSSOPAN
+Concomitant Medication|STEROGYL
+Concomitant Medication|SULFARLEM S 25
+Concomitant Medication|TOBRAMYCIN
+Concomitant Medication|VITAMIN B1, B6 & B12
+Concomitant Medication|NEOMYCIN
+Concomitant Medication|BIAFINE
+Concomitant Medication|ROBITUSSIN WITH CODEINE
+Concomitant Medication|VIROX
+Concomitant Medication|DRISTAN SINUS
+Concomitant Medication|SINUTAB
+Concomitant Medication|ULTRADOL
+Concomitant Medication|IRBESARTAN
+Concomitant Medication|IRBESARTAN HYDROCHLOROTHIAZIDE
 Adverse Event|External ear disorders (excl congenital)
+Concomitant Medication|OXAZEPAM
+Concomitant Medication|PRO-BANTHINE
+Concomitant Medication|AVANDIA
+Concomitant Medication|DIABETA
+Concomitant Medication|INSULIN
+Concomitant Medication|OCTACOSANOL
+Concomitant Medication|ALKA SELTZER
+Concomitant Medication|CAL-MAG
+Concomitant Medication|UNISOM
 Adverse Event|Manic and bipolar mood disorders and disturbances
-Concomitant Medication|HEPARIN
-Concomitant Medication|MAGNESIUM VERLA
-Concomitant Medication|TAMSULOSIN
-Concomitant Medication|CARNITINE
+Concomitant Medication|EUVEGAL-DRAGEES
+Concomitant Medication|IMIPRAMINE
+Concomitant Medication|IMIPRAMINE HCL
+Concomitant Medication|IMIPRAMINE HYDROCHLORIDE
+Concomitant Medication|METRONIDAZOL
+Concomitant Medication|PHENYLEPHRIN
+Concomitant Medication|THOMAPYRINE
+Concomitant Medication|DIABETASE
+Concomitant Medication|EUNOVA
+Concomitant Medication|GASTROZEPIN
+Concomitant Medication|SOMAGEROL
+Concomitant Medication|CO-DANTHRUSATE
+Concomitant Medication|GTN
+Concomitant Medication|MEDICATED SHAMPOOS
 Concomitant Medication|CURCUMIN
-Concomitant Medication|DHEA
 Concomitant Medication|OMEGA-3 FATTY ACIDS
 Concomitant Medication|PANTOPRAZOLE SODIUM
-Concomitant Medication|SAL-TROPINE
-Concomitant Medication|TYLENOL WITH CODEINE
 Concomitant Medication|LERCANIDIPINE HYDROCHLORIDE
 Concomitant Medication|PERINDOPRIL ERBUMINE
+Concomitant Medication|MEGAVIT
+Concomitant Medication|METHYLCOBALAMIN
+Concomitant Medication|METHYLSULFONYLMETHANE
+Concomitant Medication|TEA, GREEN
+Concomitant Medication|ANESTHETICS, GENERAL
+Concomitant Medication|DANDRUFF PLUS
+Concomitant Medication|HYDROCODONE/ACETAMINOPHEN
+Concomitant Medication|SOMA
+Concomitant Medication|VICOPROFEN
+Concomitant Medication|CONTAC COLD/FLU
+Concomitant Medication|KELP
+Concomitant Medication|SUPEROXIDE DISMUTASE
 Concomitant Medication|CITRACAL
 Concomitant Medication|LUTEIN
 Concomitant Medication|MIACALCIN
-Concomitant Medication|TYLENOL EXTRA STRENGTH
+Concomitant Medication|LOPERAMIDE HYDROCHLORIDE
+Concomitant Medication|TRIAMCINOLONE ACETONIDE
+Concomitant Medication|BISOLVON
+Concomitant Medication|CORSODYL
+Concomitant Medication|DAGRAVIT
+Concomitant Medication|TRYPTIZOL
+Concomitant Medication|DIGEST
+Concomitant Medication|BETADINE
+Concomitant Medication|BENAZEPRIL HCL
+Concomitant Medication|MOEXIPRIL HYDROCHLORIDE
+Concomitant Medication|TRIAZOLAM
 Adverse Event|Sleep disturbances (incl subtypes)
-Concomitant Medication|ACETAMINOPHEN
-Concomitant Medication|CIPROFLOXACINE
 Concomitant Medication|CAL D VITA
-Lab Test|RBC Distribution Width
-Concomitant Medication|ACICLOVIR
-Concomitant Medication|TEGRETOL
-Concomitant Medication|CIPRO
-Concomitant Medication|DANTRIUM
-Concomitant Medication|LEVAQUIN
+Concomitant Medication|CHLORELLA VULGARIS
+Concomitant Medication|MAGNESIUM W/POTASSIUM
+Concomitant Medication|SPIRULINA
+Concomitant Medication|ARNICA
+Concomitant Medication|FLUNITRAZEPAM
+Concomitant Medication|AGAROL
+Concomitant Medication|CALPLEX
+Concomitant Medication|GLUCOSAMINE
 Concomitant Medication|PERIDIUM
 Concomitant Medication|V CON
-Concomitant Medication|BIAXIN
-Concomitant Medication|GUAIFENESIN
+Concomitant Medication|CORTANCYL
+Concomitant Medication|DENORAL
+Concomitant Medication|HYDROCORTANCYL
+Concomitant Medication|KETODERM
+Concomitant Medication|NAXY
+Concomitant Medication|TIMOPTOL
+Concomitant Medication|ZECLAR
+Concomitant Medication|ANUSOL HC
+Concomitant Medication|BOOST
+Concomitant Medication|CHLORPHENIRAMINE
+Concomitant Medication|ZIAC
+Concomitant Medication|DIPROSONE
+Concomitant Medication|SEPTIVON
+Concomitant Medication|SERMION
 Concomitant Medication|TIMOPTIC
 Adverse Event|Anal and rectal conditions NEC
+Concomitant Medication|FLOVENT
+Concomitant Medication|MOMETASONE FUROATE
+Concomitant Medication|PROBIOTIC
+Concomitant Medication|RETIN A
+Concomitant Medication|ZIRTEC
+Concomitant Medication|DIMERCAPTOSUCCINIC ACID
+Concomitant Medication|JUNIPER
+Concomitant Medication|LEGAPAS
+Concomitant Medication|VITAMIN B COMPOUND
+Concomitant Medication|CALCIUM LACTATE
+Concomitant Medication|CILEST
+Concomitant Medication|MEBENDAZOLE
+Concomitant Medication|PSEUDOEPHEDRINE W/TRIPROLIDINE
 Concomitant Medication|ALFUZOSINE HCL
 Concomitant Medication|CLOPIDOGREL HYDROGEN SULFATE
 Concomitant Medication|FLUVASTATIN SODIUM
 Concomitant Medication|TADALAFIL
 Concomitant Medication|TIANEPTINE SODIUM
 Concomitant Medication|TRIMETAZIDINE
-Concomitant Medication|KEFLEX
+Concomitant Medication|FIORICET
+Concomitant Medication|ARICEPT
+Concomitant Medication|VISINE A
+Concomitant Medication|DRISTAN
+Concomitant Medication|SERTRALINE HYDROCHLORIDE
+Concomitant Medication|CHROMIUM PICOLINATE
+Concomitant Medication|DEHYDROEPIANDROSTERONE
 Adverse Event|Nervous system neoplasms malignant and unspecified NEC
+Concomitant Medication|ADALAT
+Concomitant Medication|ADANCOR
+Concomitant Medication|CATALGINE
+Concomitant Medication|FLOXYFRAL
+Concomitant Medication|HUMORYL
+Concomitant Medication|NATISPRAY
+Concomitant Medication|NOROXIN
+Concomitant Medication|PHYSIOSTAT
+Concomitant Medication|RISORDAN
+Concomitant Medication|SECTRAL
+Concomitant Medication|ACERCOMP
+Concomitant Medication|DOXAZOSIN MESILATE
+Concomitant Medication|LEVOTHYROXINE SODIUM
+Concomitant Medication|LORZAAR PLUS
+Concomitant Medication|METOCLOPRAMID
+Concomitant Medication|MOXONIDIN
+Concomitant Medication|VERAPAMIL HYDROCHLORIDE
+Concomitant Medication|MINERAL OIL
+Concomitant Medication|PHAZYME
+Concomitant Medication|PHILLIPS
+Concomitant Medication|SIMETHICONE
 Adverse Event|Angioedema and urticaria
 Concomitant Medication|CALTRATE
-Concomitant Medication|CLARITIN
-Concomitant Medication|FIBERCON
 Concomitant Medication|ORTHO TRI-CYCLEN
-Concomitant Medication|SENOKOT
-Concomitant Medication|AFRIN
-Concomitant Medication|LOPRESSOR
-Concomitant Medication|METOPROLOL
+Concomitant Medication|PYCNOGENOL
+Concomitant Medication|TRIHEXYPHENIDYL
 Concomitant Medication|MONOPRIL-HCT
-Concomitant Medication|NEUROTIN
-Concomitant Medication|VASOTEC
-Concomitant Medication|WARFARIN
-Concomitant Medication|MSM
-Concomitant Medication|TOCO
+Concomitant Medication|HYPERIUM
+Concomitant Medication|KETUM
+Concomitant Medication|ODRIK
+Concomitant Medication|SOFRAMYCINE
+Concomitant Medication|SOLU-MEDROL
+Concomitant Medication|UTROGESTAN
+Concomitant Medication|PREPARATION H
+Concomitant Medication|AMBROTOSE
+Concomitant Medication|GRAPE SEED
+Concomitant Medication|CICATRIN
+Concomitant Medication|CO-FLUAMPICIL
+Concomitant Medication|FLOXAPEN
+Concomitant Medication|SPORANOX
+Concomitant Medication|DARVOCET-N
+Concomitant Medication|DARVON
+Concomitant Medication|NICODERM
+Concomitant Medication|ANTABUSE
+Concomitant Medication|DEPAKOTE
+Concomitant Medication|LEVOQUIN
+Concomitant Medication|METHYLPREDNISOLONE ACETATE
+Concomitant Medication|ACETYLSALICYLZUUR
+Concomitant Medication|PREZAL
+Concomitant Medication|SELOKEEN
+Concomitant Medication|AUXINA E
+Concomitant Medication|CIPROTERONA + ETINILESTRADIOL
+Concomitant Medication|KETOROLACO
+Concomitant Medication|L CARNITINE
+Concomitant Medication|NABUMETONA
+Concomitant Medication|SUMATRIPTAN
+Concomitant Medication|ASTELIN
+Concomitant Medication|PROVENTIL HFA
+Concomitant Medication|SODIUM BICARBONATE
+Concomitant Medication|HYOSCYAMINE SULFATE
+Concomitant Medication|GLANDOSANE
+Concomitant Medication|PANZYTRAT
+Concomitant Medication|PYRIDOSTIGMINE BROMIDE
+Concomitant Medication|TEBONIN
+Concomitant Medication|TROMCARDIN
+Concomitant Medication|AMOXICILLIN CLAVULANIC ACID
+Concomitant Medication|INFLUENZA VIRUS VACCINE POLYVAL.
+Concomitant Medication|MONISTAT
+Concomitant Medication|SOYA LECITHIN
 Adverse Event|Lymphatic vessel disorders
 Adverse Event|Respiratory tract therapeutic procedures
 Concomitant Medication|FLUOXETIN
-Concomitant Medication|LEVOTHYROXINE
 Concomitant Medication|TOLPERISONE
-Concomitant Medication|CODEINE
 Concomitant Medication|SORMODREN
 Concomitant Medication|UNACID
+Concomitant Medication|ALOE
+Concomitant Medication|ARMOUR THYROID
+Concomitant Medication|CALAMINE
+Concomitant Medication|DMPS
+Concomitant Medication|KAVA
+Concomitant Medication|MAGNESIUM TARTRATE
+Concomitant Medication|ROXICET
+Concomitant Medication|VITAPLEX
+Concomitant Medication|WILD CHERRY BARK
+Concomitant Medication|CHILDREN'S DIMETAPP COLD & ALLERGY
+Concomitant Medication|DIMETAPP ALLERGY
+Concomitant Medication|APAP CODEINE
+Concomitant Medication|CIPROHEPTADINA
+Concomitant Medication|DANTROLENE
+Concomitant Medication|LOBELINA
 Adverse Event|Gallbladder disorders
+Concomitant Medication|PERCODAN
 Concomitant Medication|DESOWEN
-Concomitant Medication|PSEUDOEPHEDRINE
-Concomitant Medication|ROLAIDS
-Concomitant Medication|CLONAZEPAM
+Concomitant Medication|AVOMINE
+Concomitant Medication|DAYQUIL
+Concomitant Medication|OCCUFLOXIN
+Concomitant Medication|VEXOL
+Concomitant Medication|ADVIL COLD & SINUS
+Concomitant Medication|HERBAL PREPARATION
+Concomitant Medication|FIORINAL WITH CODEINE
 Concomitant Medication|CYCLO 3 FORT
 Concomitant Medication|GLIMEPIRIDE
 Concomitant Medication|IDEOS
@@ -761,111 +1892,298 @@ Concomitant Medication|METFORMIN EMBONATE
 Concomitant Medication|PHOLCODINE
 Concomitant Medication|TROSPIUM CHLORIDE
 Concomitant Medication|SCOPODERM
-Concomitant Medication|IMODIUM
-Concomitant Medication|ZESTRIL
+Concomitant Medication|ARTOTEC
+Concomitant Medication|DIAMICRON
+Concomitant Medication|ELISOR
+Concomitant Medication|GLUCOR
+Concomitant Medication|LODALES
+Concomitant Medication|TILCOTIL
+Concomitant Medication|CONJUGATED LINOLEIC ACID
+Concomitant Medication|ACENOCUMAROL
+Concomitant Medication|LOPERAMIDA
+Concomitant Medication|NICERGOLINE
+Concomitant Medication|PHENOBARBITAL
+Concomitant Medication|FEMATRIX
+Concomitant Medication|CEFPODOXIME
+Concomitant Medication|CEPHALEX
+Concomitant Medication|GUAIFEN-C
+Concomitant Medication|HYDROCODEINE
+Concomitant Medication|PHRENILIN
+Concomitant Medication|CALCIUM GLUCONATE
+Concomitant Medication|DEXTROSE W/POTASSIUM CHLORIDE
+Concomitant Medication|ENEMAS
+Concomitant Medication|ETOMIDATE
+Concomitant Medication|NEUTRA-PHOS
+Concomitant Medication|VECURONIUM
+Concomitant Medication|CORICIDIN D
+Concomitant Medication|K-DUR
+Concomitant Medication|LOTRISONE
+Concomitant Medication|ORGANIDIN NR
+Concomitant Medication|RELIVE
+Concomitant Medication|ANALGESICS
+Concomitant Medication|BELLADONNA EXTRACT
+Concomitant Medication|FLUCONAZOL
+Concomitant Medication|LEVOMEPROMAZINE
 Concomitant Medication|ATP
 Concomitant Medication|BIOTENE
 Concomitant Medication|CHLORPROMAZINE
-Concomitant Medication|NUEDEXTA
-Concomitant Medication|GARLIC
-Concomitant Medication|HYDROXYZINE
 Concomitant Medication|LIDOCAINE HYDROCHLORIDE
-Concomitant Medication|NORTRIPTYLINE
-Concomitant Medication|GRAPE SEED
 Concomitant Medication|PHENYLEPHRINE HYDROCHLORIDE
-Concomitant Medication|PROPOXYPHENE N/APAP
 Concomitant Medication|SKELAXIN
-Concomitant Medication|TRIAMCINOLONE
-Concomitant Medication|VALTREX
-Concomitant Medication|DOLIPRANE
-Concomitant Medication|FRAGMIN
+Concomitant Medication|ACETAMINOPHEN W/OXYCODONE
+Concomitant Medication|GINKO
+Concomitant Medication|MEDROXYPROGESTERONE ACETATE
+Concomitant Medication|PROPOXYPHENE AND ACETAMINOPHEN
+Concomitant Medication|URIMAX
+Concomitant Medication|DICYCLOMINE HYDROCHLORIDE
+Concomitant Medication|MYOFLEX
+Concomitant Medication|DUPHASTON
+Concomitant Medication|EFFERALGAN CODEINE
+Concomitant Medication|FELDENE
+Concomitant Medication|PARALYOC
+Concomitant Medication|CYCLOBENZAPRINE
+Concomitant Medication|MICONAZOLE NITRATE
 Concomitant Medication|TORENTAL
+Concomitant Medication|YPSILOHEEL
+Concomitant Medication|AURUM
+Concomitant Medication|GLONOINUM
+Concomitant Medication|L-THREONINE
+Concomitant Medication|MAGNESIOCARD
+Concomitant Medication|SALVIA
+Concomitant Medication|SULFUR
+Concomitant Medication|THERAFLU
+Concomitant Medication|BECLOVENT
+Concomitant Medication|FLAVOXATE
+Concomitant Medication|FLUTAMIDE
+Concomitant Medication|METAMIZOL
+Concomitant Medication|MORPHIN
+Concomitant Medication|PIROXICAM
+Concomitant Medication|AKATINOL
+Concomitant Medication|CEFOTIAM
 Concomitant Medication|COLESTID
-Concomitant Medication|DRIXORAL
-Concomitant Medication|ZOCOR
-Concomitant Medication|ARMOUR THYROID
+Concomitant Medication|HISTINEX DM
+Concomitant Medication|L-LYSINE
+Concomitant Medication|DAPSONE
 Concomitant Medication|LOMOTIL
 Concomitant Medication|ULTRACET
-Concomitant Medication|VICODIN
-Concomitant Medication|EQUANIL
-Concomitant Medication|HEXAQUINE
-Concomitant Medication|VITAMIN B1
 Concomitant Medication|COMTREX
-Concomitant Medication|EX-LAX
 Concomitant Medication|METHADONE
-Concomitant Medication|ROBITUSSIN
-Concomitant Medication|TETANUS VACCINE
-Concomitant Medication|BISOLVON
-Concomitant Medication|HYDROCORTISONE
+Concomitant Medication|ALKA-SELTZER PLUS COLD & SINUS
+Concomitant Medication|COLLAGEN
+Concomitant Medication|LOCAL ANESTHETICS
+Concomitant Medication|SKULLCAP
+Concomitant Medication|VALRIAN
+Concomitant Medication|ZINACEF
+Concomitant Medication|PRAXILENE
+Concomitant Medication|ZESTORETIC
 Concomitant Medication|MECLOZINE
+Concomitant Medication|HYDROCORTISONE ACETATE
+Concomitant Medication|NICOTINE
+Concomitant Medication|PSYLLIUM HUSK
 Concomitant Medication|INDOCID
+Concomitant Medication|L-CARBOCYSTEINE
+Concomitant Medication|ORAMORPH
+Concomitant Medication|IMMUNOGLOBULIN
 Lab Test|Urine Hyaline Cast
-Concomitant Medication|AMILORIDE
+Concomitant Medication|TOTOLIN
+Concomitant Medication|LEGATRIN
+Concomitant Medication|EMPRACET
+Concomitant Medication|ROYAL JELLY
+Concomitant Medication|ALBURON
+Concomitant Medication|ALMIDE
+Concomitant Medication|ALVITYL
+Concomitant Medication|AUXITRANS
+Concomitant Medication|EDUCTYL
+Concomitant Medication|MODOPAR
+Concomitant Medication|PARAPSYLLIUM
+Lab Test|Creatine Kinase MM
+Lab Test|Creatine Kinase MB
+Concomitant Medication|DIPROBASE
+Concomitant Medication|TYLEX
+Concomitant Medication|VOLTAROL
+Concomitant Medication|CALOMEL
 Concomitant Medication|QUAMATEL
-Concomitant Medication|FORLAX
+Concomitant Medication|CITRICAL
+Concomitant Medication|CITRUS BIOFLAVONID
+Concomitant Medication|L GLUTATHION
+Concomitant Medication|L-CYSTEINE
+Concomitant Medication|LYCOPENE
+Concomitant Medication|ZEAXANTHIN
+Concomitant Medication|EMBELINE
+Concomitant Medication|LO/OVRAL-28
 Lab Test|Urine Renal Epithelial Cells
+Concomitant Medication|DILAZEP
+Concomitant Medication|LACTOBACILLUS ACIDOPHILUS
+Concomitant Medication|PARAFFIN SOFT
+Concomitant Medication|VITAMINS NOS
+Concomitant Medication|ALFATIL
+Concomitant Medication|BLOOD, WHOLE
+Concomitant Medication|GLUCOSE
+Concomitant Medication|PANTOPRAZOL
+Concomitant Medication|PLASMA
+Concomitant Medication|PREVISCAN
+Concomitant Medication|SINTROM
+Concomitant Medication|CYLERT
+Concomitant Medication|DEXTROMETHORPHAN POLISTIREX
+Concomitant Medication|QUINIDINE
 Concomitant Medication|ALGOPYRIN
 Concomitant Medication|FLUVAL
 Concomitant Medication|TEPERIN
 Adverse Event|Complications associated with device
+Concomitant Medication|ASTRAGALUS PROPINQUUS ROOT
+Concomitant Medication|CILAZAPRIL
+Concomitant Medication|SOFRACORT
+Concomitant Medication|TIGER BALM
+Concomitant Medication|CLIDINIUM
+Concomitant Medication|TRENTAL
 Concomitant Medication|ATACAND
 Concomitant Medication|BELOC
-Concomitant Medication|COTRIM FORTE
-Concomitant Medication|DIAZEPAM
 Concomitant Medication|EMSER SALZ
 Concomitant Medication|ENGYSTOL
 Concomitant Medication|HORMEEL
 Concomitant Medication|MCP
-Concomitant Medication|MIRTAZAPINE
-Concomitant Medication|OMEPRAZOL
-Concomitant Medication|PULMICORT
-Concomitant Medication|STILNOX
 Concomitant Medication|TOGAL ASS
 Concomitant Medication|UVALYSAT
-Concomitant Medication|VOLTAREN
+Concomitant Medication|BENYLIN FOUR FLU
+Concomitant Medication|CECLOR CD
+Concomitant Medication|TROVAFLOXACIN
 Concomitant Medication|BUSCAPINE
 Concomitant Medication|DIAZEPAM W/SULPIRIDE
 Concomitant Medication|LITHIUM
-Concomitant Medication|ALBUTEROL SULFATE
-Concomitant Medication|SUDAFED
 Lab Test|Immunofixation
+Concomitant Medication|BACTROBAN
+Concomitant Medication|CYPROHEPTADINE
 Adverse Event|Dementia and amnestic conditions
+Concomitant Medication|CORTAID
+Concomitant Medication|DOXIDAN
+Concomitant Medication|FLUZONE
+Concomitant Medication|LOZOL
+Concomitant Medication|BIOFLAVONOID
+Concomitant Medication|FORTAZ
+Concomitant Medication|HEPARITIN SULFATE
+Concomitant Medication|INSULIN REGULAR
+Concomitant Medication|MICRONASE
+Concomitant Medication|NPH INSULIN
+Concomitant Medication|PERIACTIN
+Concomitant Medication|TESSALON PERLE
+Concomitant Medication|CLEOCIN
+Concomitant Medication|GINKO BILOBA
+Concomitant Medication|MULTIPLE VITAMINS
+Concomitant Medication|GLIBENCLAMIDE
 Concomitant Medication|CONCOR
 Concomitant Medication|DYTIDE
 Concomitant Medication|FEVARIN
 Concomitant Medication|LINOLA-FETT
 Concomitant Medication|MYKOSERT
 Concomitant Medication|POSTERISAN
-Concomitant Medication|ST. JOHN'S WORT
 Concomitant Medication|ULTRACAIN
 Concomitant Medication|VIVINOX
 Concomitant Medication|VIVINOX SLEEP
-Concomitant Medication|ZOPICLONE
-Concomitant Medication|DYTIDE H
-Concomitant Medication|SAROTEN
-Concomitant Medication|TRIAMTERENE
+Concomitant Medication|ORTHO NOVUM
+Concomitant Medication|PROPRANOLOL
+Concomitant Medication|BEDELIX
+Concomitant Medication|MOBIC
+Concomitant Medication|OESTROGEL
+Concomitant Medication|SURGESTONE
 Lab Test|Mean Platelet Volume
+Concomitant Medication|MODANE
+Concomitant Medication|SARGENOR
+Concomitant Medication|SKENAN
+Concomitant Medication|TRANSACALM
+Concomitant Medication|DIKALIUMKLORAZEPAT
+Concomitant Medication|METHIONINE
+Concomitant Medication|MONO-EMBOLEX
+Concomitant Medication|ORELOX
+Concomitant Medication|PASPERTIN
+Concomitant Medication|SUMMAVIT
+Concomitant Medication|TILIDINE
 Adverse Event|Diverticular disorders
-Concomitant Medication|EUTHYROX
+Concomitant Medication|ACIDOPHILUS
+Concomitant Medication|CANDICIDIN
+Concomitant Medication|NATRIUM
+Concomitant Medication|GLIPIZIDE
+Concomitant Medication|GOODYS
+Concomitant Medication|YOHIMBINE
+Concomitant Medication|BIOPLEX
+Concomitant Medication|CHLOROPHYLL
+Concomitant Medication|CHLORTAB
+Concomitant Medication|ENTEX PSE
+Concomitant Medication|KENALOG
+Concomitant Medication|ADVIL CHILDRENS
+Concomitant Medication|ARTIFICIAL TEARS
+Concomitant Medication|GENTEAL
+Concomitant Medication|LO/OVRAL
+Concomitant Medication|CHELATED ZINC
+Concomitant Medication|FLUNISOLIDE
+Concomitant Medication|HYDROCODONE/PSEUDOEPHEDRINE/GUAIFENESIN
+Concomitant Medication|LIQUIBID
+Concomitant Medication|MOTRIN IB SINUS
+Concomitant Medication|NEOSPORINE
+Concomitant Medication|OCEAN NASAL
+Concomitant Medication|WATER
+Concomitant Medication|DIAZEMULS
+Concomitant Medication|MODULON
+Concomitant Medication|TRUSOPT
+Concomitant Medication|DIGESTIVE ENZYMES
+Concomitant Medication|IMMUNOCAL
+Concomitant Medication|TRANSFER FACTOR
+Concomitant Medication|JARSIN
+Concomitant Medication|LEVOCARNITINE
 Concomitant Medication|GINKOBIL
 Concomitant Medication|LEFAX
 Concomitant Medication|SELEN
 Concomitant Medication|VERTIGOHEEL
 Adverse Event|Middle ear disorders (excl congenital)
+Concomitant Medication|POLYMYCIN
 Adverse Event|Reproductive tract and breast disorders congenital
+Concomitant Medication|STOOL SOFTENER
 Adverse Event|Ancillary infectious topics
+Concomitant Medication|BECLOMETHASONE DIPROPIONATE
+Concomitant Medication|CEFUROXIME SODIUM
+Concomitant Medication|CISAPRIDE MONOHYDRATE
+Concomitant Medication|POTASSIUM IODIDE
+Concomitant Medication|CORRECTOL
+Concomitant Medication|NOVOFLUPAM
+Concomitant Medication|VITAMIN B3
+Concomitant Medication|PAMINE
+Concomitant Medication|AZITROMICIN
+Concomitant Medication|CARVEDILOL
+Concomitant Medication|CERIVASTATINE
 Concomitant Medication|CLARINEX
 Concomitant Medication|ELIDEL
 Concomitant Medication|LESCOL XL
-Concomitant Medication|NASONEX
 Concomitant Medication|OXYTROL
-Concomitant Medication|PROVERA
-Concomitant Medication|DARVON
-Concomitant Medication|RANITIDINE
-Concomitant Medication|PNEUMOCOCCAL VACCINE
+Concomitant Medication|ALCOHOL
+Concomitant Medication|CORGARD
+Concomitant Medication|MS CONTIN
+Concomitant Medication|NEOSPORIN
+Concomitant Medication|SOLUCORT
+Concomitant Medication|SURVECTOR
+Concomitant Medication|ATROPINE SULFATE
+Concomitant Medication|CEFIXIM
+Concomitant Medication|DIPHENYLPYRALINE
+Concomitant Medication|MODURETIK
+Concomitant Medication|URION
+Concomitant Medication|MYLANTA GAS
+Concomitant Medication|HURRICAINE
+Concomitant Medication|TAGAMET HB
+Concomitant Medication|THICK & EASY
+Concomitant Medication|PRAVACOL
+Concomitant Medication|FLUCTIN
+Concomitant Medication|JOHANNISKRAUT-KAPSELN
+Concomitant Medication|REGENERESEN
 Adverse Event|Red blood cell disorders
+Concomitant Medication|MEGA MEN
+Concomitant Medication|TETRACYCLINE HYDROCHLORIDE
+Concomitant Medication|MAGNESPASMYL
+Concomitant Medication|NOCTRAN
+Concomitant Medication|DUROGESIC
+Concomitant Medication|FLEXERIL
+Concomitant Medication|ZINC OXIDE
 Adverse Event|Venous varices
+Concomitant Medication|VOSOL HC
 Adverse Event|Respiratory and mediastinal neoplasms malignant and unspecified
+Concomitant Medication|CISPLATIN
 Concomitant Medication|BISOPROLOL FUMARATE W/HYDROCHLOROTHIAZIDE
 Concomitant Medication|BUSPIRONE HYDROCHLORIDE
 Concomitant Medication|ERGOCALCIFEROL
@@ -874,465 +2192,2181 @@ Concomitant Medication|RISEDRONIC ACID
 Concomitant Medication|SIMVASTATINE
 Concomitant Medication|TIANEPTINE
 Concomitant Medication|TRAMADOL HYDROCHLORIDE
+Concomitant Medication|PANMIST LA
+Concomitant Medication|ALKA SELTZER PLUS COLD
+Concomitant Medication|IMPROVE
+Concomitant Medication|LEDERCILLIN VK
+Concomitant Medication|PROPRANOLOL HYDROCHLORIDE
+Concomitant Medication|VITAMIN C + E
+Concomitant Medication|URBANYL
+Concomitant Medication|LOTRONEX
+Concomitant Medication|VITAMIN A + D
+Concomitant Medication|AMLODIPINE BESYLATE
+Concomitant Medication|XYLOMETAZOLINE HYDROCHLORIDE
 Concomitant Medication|ACIDUM ARSENICOSUM ANHYDRICUM
-Concomitant Medication|AURUM
 Concomitant Medication|SEDATIF PC
+Concomitant Medication|PANOTILE
 Adverse Event|Urethral disorders (excl calculi)
+Concomitant Medication|FUNGIZONE
+Concomitant Medication|CARDIZEM
+Concomitant Medication|COREG
+Concomitant Medication|REFLEX
 Lab Test|Urine Clarity
 Lab Test|Urine Bilirubin
-Concomitant Medication|ALLEGRA
-Concomitant Medication|ATARAX
-Concomitant Medication|DEPO MEDROL
-Concomitant Medication|DIGOXIN
+Concomitant Medication|ESTRACE VAGINAL
+Concomitant Medication|LANACANE
+Concomitant Medication|LIDEX
+Concomitant Medication|VAGIFEM
 Concomitant Medication|HYDROXYZINE HCL
 Concomitant Medication|MYSOLINE
-Concomitant Medication|PREVACID
-Concomitant Medication|QUINIDINE SULFATE
 Adverse Event|Skin and subcutaneous tissue disorders NEC
+Concomitant Medication|CARBIDOPA W/LEVODOPA
 Concomitant Medication|METOPROLOL TARTRATE
-Concomitant Medication|PERINDOPRIL
+Concomitant Medication|NORDAZ
 Concomitant Medication|COLOSTRUM
-Concomitant Medication|DOCUSATE
-Concomitant Medication|GLUCOSAMINE
-Concomitant Medication|PREPARATION H
 Concomitant Medication|PROCTOSOL HC
-Concomitant Medication|REMERON
+Concomitant Medication|BECLOMETHASONE
+Concomitant Medication|BENZTROPINE
+Concomitant Medication|PSYLLIUM
+Concomitant Medication|SSKI
+Concomitant Medication|SUCRALFATE
+Concomitant Medication|TIMENTIN
+Concomitant Medication|CEDROL
+Concomitant Medication|CLEBOPRIDE
+Concomitant Medication|PENTOXIFYLLINE
+Concomitant Medication|HEPARIN SODIUM
+Concomitant Medication|ORGANIDIN
+Concomitant Medication|SUPREX
+Concomitant Medication|THEODUR
 Adverse Event|Parathyroid gland disorders
+Concomitant Medication|BRONCHODUAL
+Concomitant Medication|CAPTOLANE
+Concomitant Medication|DECONTRACTYL
+Concomitant Medication|EURELIX
+Concomitant Medication|HOMEOPLASMINE
+Concomitant Medication|ICAZ
+Concomitant Medication|SERESTA
+Concomitant Medication|SYNALAR
+Concomitant Medication|TERSIGAT
+Concomitant Medication|TRIVASTAL
+Concomitant Medication|COLTRAMYL
+Concomitant Medication|DAFALGAN
+Concomitant Medication|DAONIL
+Concomitant Medication|PERMIXON
+Concomitant Medication|SPASMINE
+Concomitant Medication|NYOLOL
+Concomitant Medication|TANGANIL
+Concomitant Medication|ANUSOL PLUS
+Concomitant Medication|DESIPRAMINE
+Concomitant Medication|MIN-OVRAL
+Concomitant Medication|NILSTAT
+Concomitant Medication|TUMS ULTRA
+Concomitant Medication|HEXOMEDINE
+Concomitant Medication|ISOPTIN
+Concomitant Medication|GENATROPINE
+Concomitant Medication|PYOSTACINE
+Concomitant Medication|GLUCOTROL
+Concomitant Medication|ATHYMIL
+Concomitant Medication|TINSET
+Concomitant Medication|EPHYNAL
+Concomitant Medication|HALCION
+Concomitant Medication|QUINTEX
+Concomitant Medication|AGYRAX
+Concomitant Medication|FENOFIBRATE
+Concomitant Medication|FRAZOLINE
+Concomitant Medication|MAXILASE
+Concomitant Medication|MONURIL
+Concomitant Medication|OROMEDINE
+Concomitant Medication|PANOS
+Concomitant Medication|SPASFON LYOC
+Concomitant Medication|TRIAMINIC
 Concomitant Medication|DICODID
+Concomitant Medication|SOMINEX
+Concomitant Medication|PROVENTOL
+Concomitant Medication|MIRAPEX
+Concomitant Medication|THERAGRAN
+Concomitant Medication|CENTURY SENIOR
+Concomitant Medication|ELOCON
+Concomitant Medication|NOLVADEX
+Concomitant Medication|ACETAMINOPHEN AND CODEINE
+Concomitant Medication|BENAZEPRIL HYDROCHLORIDE
+Concomitant Medication|CITALOPRAM HYDROBROMIDE
+Concomitant Medication|SULFAMETHOXAZOLE
+Concomitant Medication|SULPHAMETHOXAZOLE
+Concomitant Medication|TRIAMINIC COUGH
+Concomitant Medication|BENZHEXOL
+Concomitant Medication|DMSA
+Concomitant Medication|FLUVIRIN
+Concomitant Medication|PNEUMOVAX II
+Concomitant Medication|PREMPAK C
+Concomitant Medication|VIBRAMYCIN
+Concomitant Medication|DIMETHYL SULFOXIDE
+Concomitant Medication|LORACARBEF
+Concomitant Medication|PSEUDOPHED
+Concomitant Medication|ADVIL COLD
+Concomitant Medication|FEXOFENADINE HCL
+Concomitant Medication|FLUOXETINE HYDROCHLORIDE
+Concomitant Medication|GELONIDA
+Concomitant Medication|METHYLPHENIDATE HYDROCHLORIDE
+Concomitant Medication|OXYCODONE HCL
+Concomitant Medication|SUMATRIPTAN SUCCINATE
+Concomitant Medication|ALTIM
+Concomitant Medication|AQUAPHOR
+Concomitant Medication|FURORESE
+Concomitant Medication|GLIBENHEXAL
+Concomitant Medication|GLUCOBAY
+Concomitant Medication|NEURIUM
+Concomitant Medication|SAROTEN RETARD
+Concomitant Medication|OCUVITE
+Concomitant Medication|VEETIDS
+Concomitant Medication|DIAMORPHINE
 Adverse Event|Eye disorders congenital
+Concomitant Medication|LACTULOSA
+Concomitant Medication|NITROFURAL
+Concomitant Medication|PREDNISOLON
+Concomitant Medication|RIVANOL
+Concomitant Medication|VITASPRINT
 Adverse Event|Lifestyle issues
-Concomitant Medication|BEE POLLEN
-Concomitant Medication|SIMETHICONE
+Concomitant Medication|CARDIZEM CD
+Concomitant Medication|CHROMAGEN
+Concomitant Medication|CYSTEINE
+Concomitant Medication|DEDROGYL
+Concomitant Medication|OSTRAM
+Concomitant Medication|XATRAL
+Concomitant Medication|DUSPATALIN
+Concomitant Medication|CHONDROITIN
+Concomitant Medication|FIORINAL
+Concomitant Medication|PLAQUENIL
+Concomitant Medication|ORAL BALANCE
+Concomitant Medication|MYCOSTATIN
+Concomitant Medication|PROBALANCE
+Concomitant Medication|DEPO PROVERA
+Concomitant Medication|SMZ-TMP DS
+Concomitant Medication|ZYLORIC
+Concomitant Medication|ELTROXIN
 Concomitant Medication|AZITROMAX
-Concomitant Medication|BETA CAROTENE
 Concomitant Medication|BETA GLUCAN
 Concomitant Medication|CETIRIZIN
 Concomitant Medication|DICLOCIL
 Concomitant Medication|TRIOBE
-Concomitant Medication|ATORVASTATIN
+Concomitant Medication|CO AMOXICLAV
+Concomitant Medication|CODEINE LINCTUS
 Concomitant Medication|CORENITEC
-Concomitant Medication|VERAPAMIL HYDROCHLORIDE
+Concomitant Medication|DIPROSTENE
+Concomitant Medication|LACTEOL
+Concomitant Medication|SAVARINE
+Concomitant Medication|GUIATUSS AC
+Concomitant Medication|VITAMIN C WITH ROSE HIPS
+Concomitant Medication|CLORAD
+Concomitant Medication|FURADANTINE
+Concomitant Medication|HEXATRIONE
+Concomitant Medication|LIPANOR
+Concomitant Medication|MISOPROSTOL
+Concomitant Medication|PHOSPHALUGEL
+Concomitant Medication|PROPOFAN
+Concomitant Medication|TONIC
+Lab Test|Transferrin
+Lab Test|Iron
+Lab Test|Ferritin
+Adverse Event|Immunology and allergy investigations
+Concomitant Medication|CO TENIDONE
+Concomitant Medication|KARDEGIC
+Concomitant Medication|MIANSERINE
+Concomitant Medication|MUCICLAR
+Concomitant Medication|NICARDIPINE
+Concomitant Medication|DICLOFENAC COLESTYRAMINE
+Concomitant Medication|DIMETINDENE MALEATE
+Concomitant Medication|TELDANE
+Concomitant Medication|NODOZ
+Concomitant Medication|NOVAHISTINE DH
+Concomitant Medication|NAFTIDROFURYL
+Concomitant Medication|BUSPIRONE
+Concomitant Medication|GLUCERNA
+Concomitant Medication|GUAIFENEX
+Concomitant Medication|METFORMIN HYDROCHLORIDE
+Concomitant Medication|ADEPAL
+Concomitant Medication|BI-TILDIEM
+Concomitant Medication|CALCITAR
+Concomitant Medication|CALSYN
+Concomitant Medication|CORVASAL
+Concomitant Medication|GOMENOL
+Concomitant Medication|IKOREL
+Concomitant Medication|NALGESIC
+Concomitant Medication|RHINATHIOL
+Concomitant Medication|SILOMAT
+Concomitant Medication|ROBITUSSIN-DAC
+Concomitant Medication|CIPROXIN
+Concomitant Medication|OMNIC
+Concomitant Medication|SANDOSTATINE
+Concomitant Medication|ORNICETIL
+Concomitant Medication|TAZORAC
+Concomitant Medication|OMEGA III
 Concomitant Medication|CALCIUM + VITAMIN D
 Concomitant Medication|ACTOS
-Concomitant Medication|GLYBURIDE
 Concomitant Medication|TIAZAC
-Concomitant Medication|ALENDRONATE
+Concomitant Medication|CEFONICID
+Concomitant Medication|PICOSULFATE DE SODIUM
+Concomitant Medication|AVAFORTAN
+Concomitant Medication|BECOTIDE
+Concomitant Medication|CARBOSYLANE
+Concomitant Medication|OSTEOGEL
+Concomitant Medication|PRINCI B
+Concomitant Medication|RELVENE
+Concomitant Medication|SODIUM SULAMYD
+Concomitant Medication|TRIAZIDE
+Concomitant Medication|ZINCOFAX
+Concomitant Medication|SNAKE VENOM ANTISERUM
+Concomitant Medication|SEDARISTON
+Concomitant Medication|SPONDYLONAL
+Concomitant Medication|DETENSIEL
+Concomitant Medication|PROGESTERONE
+Concomitant Medication|EQUATE
 Lab Test|HDL
-Lab Test|Ferritin
 Lab Test|Folate
 Lab Test|LDL
 Lab Test|Magnesium
 Lab Test|Osmolality
 Lab Test|Vitamin B12
-Concomitant Medication|FLUCTIN
-Concomitant Medication|ATROVENT
-Concomitant Medication|N ACETYL CYSTEIN
-Concomitant Medication|PHENERGAN
+Concomitant Medication|CLAVUCID
+Concomitant Medication|DYTENZIDE
+Concomitant Medication|PENTAZOCINE
+Concomitant Medication|PROPACETAMOL HYDROCHLORIDE
+Concomitant Medication|SUCRALFAAT
+Concomitant Medication|ZOLPIDEM HEMITARTRATE
+Concomitant Medication|PILOCARPINE
+Concomitant Medication|BETAMETHASONE VALERATE
+Concomitant Medication|MEGAMAG
+Concomitant Medication|IMITREX
+Concomitant Medication|KENACORT
+Concomitant Medication|LACTITOL
+Concomitant Medication|VITAMIN D3
+Concomitant Medication|NOZINAN
+Concomitant Medication|OXYTETRACYCLIN
 Concomitant Medication|CALCIUM & MAGNESIUM PLUS
 Concomitant Medication|CARNOMAX
 Concomitant Medication|CORTEF
-Concomitant Medication|GLUTATHIONE
-Concomitant Medication|KYO-DOPHILUS
-Concomitant Medication|L-LYSINE
 Concomitant Medication|MAG GLYCINATE
+Concomitant Medication|ROBITUSSIN AC
 Lab Test|Urine Hemoglobin
-Concomitant Medication|LECITHIN
-Concomitant Medication|ROBITUSSIN DM
-Concomitant Medication|VITAMIN B6
-Adverse Event|Bladder and bladder neck disorders (excl calculi)
-Concomitant Medication|BISCODYL
-Concomitant Medication|CLOTRIMAZOLE
-Concomitant Medication|DILAUDID
-Concomitant Medication|FLEET
-Concomitant Medication|MAXERAN
-Concomitant Medication|MELOXICAM
-Concomitant Medication|MILK OF MAGNESIA
-Concomitant Medication|OXYBUTIN
-Concomitant Medication|OXYBUTYNIN
-Concomitant Medication|RELISTOR
-Concomitant Medication|TERAZOSIN
-Concomitant Medication|CENTRUM SILVER
+Concomitant Medication|NOVASEN
+Concomitant Medication|SIALOR
+Concomitant Medication|FLUVOXAMINE MALEATE
+Concomitant Medication|DIFRAREL
+Concomitant Medication|POLY-KARAYA
+Concomitant Medication|VALPROMIDE
+Concomitant Medication|CITRO-MAG
+Concomitant Medication|CORTISPORIN
+Concomitant Medication|DEXTROSE W/SODIUM CHLORIDE
+Concomitant Medication|DIXARIT
+Concomitant Medication|NITROFURANTOIN
+Concomitant Medication|PROVIODINE
+Concomitant Medication|NOVO-SPIROZINE
+Concomitant Medication|NOVOXAPAM
+Concomitant Medication|KETOPROFEN
+Concomitant Medication|DRAMAMINE
 Concomitant Medication|ESTRADIOL VALERATE
-Concomitant Medication|FLUOXETINE
-Concomitant Medication|CLAVULANIC ACID
-Concomitant Medication|BROMAZEPAM
 Concomitant Medication|FONDAPARINUX SODIUM
-Concomitant Medication|POTASSIUM CHLORIDE
 Adverse Event|Ear and labyrinthine disorders congenital
-Concomitant Medication|GEMFIBROZIL
+Concomitant Medication|CEFOTAN
+Concomitant Medication|DURACT
+Concomitant Medication|GINSANA
+Concomitant Medication|NAPHCON A
+Concomitant Medication|CYTOTEC
+Concomitant Medication|SPECIAFOLDINE
+Concomitant Medication|CYCLOBENZAPRINE HYDROCHLORIDE
 Concomitant Medication|PRANDIN
-Concomitant Medication|QUINIDINE
+Concomitant Medication|ANAPROX
+Concomitant Medication|DIOCTO-C
+Concomitant Medication|ENEMA
+Concomitant Medication|FLUOCINONIDE
+Concomitant Medication|NP-27
+Concomitant Medication|ORUDIS
 Lab Test|RBC Morphology: Microcytosis
 Lab Test|RBC Morphology: Schistocytes
 Lab Test|RBC Morphology: Elliptocytes
 Lab Test|RBC Morphology: Tear drop cells
 Lab Test|RBC Morphology: Target Cells
+Concomitant Medication|MEGACE
 Concomitant Medication|ALLEREX
-Concomitant Medication|ASTELIN
 Concomitant Medication|AZITHROMAX
 Concomitant Medication|ELECTROLYTE
 Concomitant Medication|GLUTAMATE
-Concomitant Medication|L-THREONINE
 Concomitant Medication|MUCINEX
-Concomitant Medication|PROBIOTIC
+Concomitant Medication|FENTANYL TRANSDERMAL SYSTEM
+Concomitant Medication|SECONAL
+Concomitant Medication|DROPERIDOL
+Concomitant Medication|HALOBETASOL
+Concomitant Medication|DIPROLENE AF
+Concomitant Medication|ACETIC ACID
+Concomitant Medication|ANADIN
+Concomitant Medication|PHOLCODINE LINCTUS
+Concomitant Medication|ACEDICONE
+Concomitant Medication|BEROTEC
+Concomitant Medication|CIPROFIBRATE
+Concomitant Medication|PNEUMOVAX 23
+Concomitant Medication|TUSSINOL
+Concomitant Medication|FLECAINIDE ACETATE
+Concomitant Medication|MAVIK
+Concomitant Medication|NYSTATIN W/TRIAMCINOLONE
+Concomitant Medication|PEPPERMINT OIL
+Concomitant Medication|BENADRYL LOTION N
+Concomitant Medication|NATURAL TEARS
+Concomitant Medication|SOY ISOFLAVONE
+Concomitant Medication|BELLADONNA HERB
+Concomitant Medication|BELLADONNA TINCTURE
+Concomitant Medication|CHILDRENS CHEWABLE VITAMINS
+Concomitant Medication|ENULOSE
+Concomitant Medication|ESTAZOLAM
+Concomitant Medication|CLOZAPINE
+Concomitant Medication|CREATININE
+Concomitant Medication|LEVOTHROID
+Concomitant Medication|PANTOTHENIC ACID
+Concomitant Medication|CALMAG
+Concomitant Medication|PROFLAVANOL C 100
 Lab Test|RBC Morphology: Spherocytes
+Concomitant Medication|PROPANTHELINE
+Concomitant Medication|ORTHO-NOVUM 7/7/7
+Concomitant Medication|HYDRALAZINE
+Concomitant Medication|THIAMINE CHLORIDE
+Concomitant Medication|XIPAMIDE
+Concomitant Medication|METAMIZOLE
+Concomitant Medication|PAROXETIN
+Concomitant Medication|TAFIL
+Concomitant Medication|TRIMIPRAMINE MESILATE
+Concomitant Medication|FLUMADINE
+Concomitant Medication|WHEAT GERM
+Concomitant Medication|ZINC CHELATE
+Concomitant Medication|MYOTONINE
+Concomitant Medication|NAPHAZOLINE HYDROCHLORIDE
+Concomitant Medication|SULFATRIM
 Adverse Event|Iron and trace metal metabolism disorders
 Concomitant Medication|PANDEMRIX
 Concomitant Medication|STANGYL
-Concomitant Medication|GAVISCON
-Concomitant Medication|MOPRAL
+Concomitant Medication|ERCEFURYL
+Concomitant Medication|FLUIMUCIL
+Concomitant Medication|FLUVIRINE
+Concomitant Medication|LITHOBID
+Concomitant Medication|METOCLOPRAMIDE HYDROCHLORIDE
+Concomitant Medication|AVLOCARDYL
+Concomitant Medication|PROTHIADEN
+Concomitant Medication|QUOTANE
+Concomitant Medication|SONDALIS HP
+Concomitant Medication|VASTEN
+Concomitant Medication|FOSINOPRIL
 Concomitant Medication|JAMYLENE
 Concomitant Medication|TRANSILANE
-Concomitant Medication|AZITHROMYCINE
+Concomitant Medication|MIRALAX
+Concomitant Medication|SUMYCIN
+Concomitant Medication|LOW-OGESTREL
+Concomitant Medication|OGEN
+Concomitant Medication|FERUS
+Concomitant Medication|TACHIPIRINA
+Concomitant Medication|CURAD SCAR THERAPY
+Concomitant Medication|ETODOLAC
+Concomitant Medication|HYDROXYCHLOROQUINE SULFATE
+Concomitant Medication|PAROXETINE HYDROCHLORIDE
+Concomitant Medication|ZOLPIDEM TARTRATE
+Concomitant Medication|BROMAZEPAN
+Concomitant Medication|TIBOLENE
+Concomitant Medication|CALCIUM BETA-HYDROXY BETA-METHYLBUTYRATE
+Concomitant Medication|PROPRANOLOL INDERAL LA
+Concomitant Medication|DESONIDE
+Concomitant Medication|SUDAFED COLD AND COUGH
+Concomitant Medication|TRIMEDIL
+Concomitant Medication|CLAVENTIN
+Concomitant Medication|NETROMICINE
+Concomitant Medication|NOCTAMIDE
+Concomitant Medication|TRIDESONIT
 Concomitant Medication|CARBOMERE
 Concomitant Medication|DIMETHOXANATE HYDROCHLORIDE
 Concomitant Medication|INFLUVAC
-Concomitant Medication|PYRIDOSTIGMINE BROMIDE
+Concomitant Medication|NEOSYNEPHRINE
+Concomitant Medication|LIQUID B
 Concomitant Medication|BENCIDAMINA
 Concomitant Medication|HYDROCORTISONE MICONAZOLE
-Concomitant Medication|METHYLSULFONYLMETHANE
-Adverse Event|Immunology and allergy investigations
+Concomitant Medication|COTYLENOL
+Concomitant Medication|DI-GESIC
+Concomitant Medication|PERDIEM
+Concomitant Medication|PHILLIPS LAXCAPS
+Concomitant Medication|THERAGRAN-M
+Concomitant Medication|ANTIHISTAMINES
+Concomitant Medication|NITROLINGUAL
+Concomitant Medication|B 12
+Concomitant Medication|DIRAHIST
+Concomitant Medication|BISOPROLOL FUMARATE
+Concomitant Medication|CHININE SULFATE
+Concomitant Medication|ELANTAN
+Concomitant Medication|DELTASONE
+Concomitant Medication|CEPACOL
+Concomitant Medication|NEOSPORIN OPHTHALMIC
+Concomitant Medication|FIBRE, DIETARY
+Concomitant Medication|LANOLIN
+Concomitant Medication|PHENOLPHTHALEIN
+Concomitant Medication|BISCODYL
+Concomitant Medication|MICROLAX
+Concomitant Medication|ACCOLATE
+Concomitant Medication|CHONDROITIN COMPLEX
+Concomitant Medication|ZYFLO
+Concomitant Medication|FLEXICAL
+Concomitant Medication|MONISTAT-7
+Concomitant Medication|OSCAL D
+Concomitant Medication|PRINCIPEN
+Concomitant Medication|NIVAQUINE
+Concomitant Medication|PALUDRINE
+Concomitant Medication|RINUTAN
+Concomitant Medication|LACTAID
+Concomitant Medication|CYPROTERONE ACETATE
+Concomitant Medication|ETHINYLOESTRADIOL
+Concomitant Medication|FLUOROMETHOLONE
+Concomitant Medication|CHIBRO-CADRON
+Concomitant Medication|RIFAMYCINE
 Adverse Event|Malignant and unspecified neoplasms gastrointestinal NEC
-Concomitant Medication|ASTRAGALUS PROPINQUUS ROOT
-Concomitant Medication|CHLORTAB
-Concomitant Medication|EQUATE
+Concomitant Medication|ASACOL
+Concomitant Medication|DYNACIRC
+Concomitant Medication|LESCOL
+Concomitant Medication|PROMETHAZINE W/CODEINE
+Concomitant Medication|TOLECTIN
+Concomitant Medication|CALVEPEN
+Concomitant Medication|FLUCLON
 Concomitant Medication|HC TUSSIVE
-Concomitant Medication|TYLENOL MAXIMUM STRENGTH SINUS
 Concomitant Medication|VICKS DAYQUIL
-Concomitant Medication|VICKS NYQUIL
 Concomitant Medication|FLEET PHOSPHO SODA
-Concomitant Medication|MECLIZINE
-Concomitant Medication|SURFAK
-Concomitant Medication|TRAZODONE
 Concomitant Medication|PRAMIPEXOLE
-Concomitant Medication|CLONIDINE
-Concomitant Medication|ATROPINE SULFATE
 Concomitant Medication|HYDROCHLOROTHIAZIDE W/VALSARTAN
 Concomitant Medication|MUPIROCINE
+Concomitant Medication|ANCOVERT
+Concomitant Medication|ASS-RATIOPHARM
 Concomitant Medication|BROMFED
-Concomitant Medication|HYDROCODONE
+Concomitant Medication|DEPO-MEDROL + LIDOCAINE
+Concomitant Medication|DEXAMETHASONE SODIUM PHOSPHATE
+Concomitant Medication|FONZYLANE
+Concomitant Medication|MIACALCIC
+Concomitant Medication|ROHYPNOL
+Concomitant Medication|VELITEN
+Concomitant Medication|DIOVAN HCT
+Concomitant Medication|FIBERSOURCE
+Concomitant Medication|MICROZIDE
+Concomitant Medication|VERELAN
 Adverse Event|Skin neoplasms malignant and unspecified
-Concomitant Medication|ASCORBIC ACID
-Concomitant Medication|CEFTRIAXONE
-Concomitant Medication|DANTROLENE
+Concomitant Medication|PHYTOBRONCHIN
+Concomitant Medication|DF118
+Concomitant Medication|MAXOLON
+Concomitant Medication|TYLENOL W/CODEINE NO. 4
+Concomitant Medication|AURALGAN
+Concomitant Medication|BIOZYME
+Concomitant Medication|METEX
+Concomitant Medication|SALMON OIL
+Concomitant Medication|CLOBAZAM
+Concomitant Medication|CLOBUTINOL
+Concomitant Medication|CLORAZEPIC ACID
+Concomitant Medication|BETAXOLOL
+Concomitant Medication|KERLONE
+Concomitant Medication|AMINO ACID COMPLEX
+Concomitant Medication|L-ASPARTIC ACID
+Concomitant Medication|VIROPTIC
+Concomitant Medication|A & D OINTMENT
+Concomitant Medication|CODAL-DH
+Concomitant Medication|GUAIFENEX PSE
+Concomitant Medication|HEPAVIT
+Concomitant Medication|SOLU MEDROL
+Concomitant Medication|BALMINIL
+Concomitant Medication|BALMINIL DM
+Concomitant Medication|CANESTEN
+Concomitant Medication|CELESTODERM GARAMYCIN
+Concomitant Medication|HUMULIN R
+Concomitant Medication|NITRODUR
+Concomitant Medication|NITRONG
+Concomitant Medication|MEBEVERINE
+Concomitant Medication|SERENOA REPENS
+Concomitant Medication|TERAZOSINE
+Concomitant Medication|ASPIRIN BUFFERED
+Concomitant Medication|EQUALACTIN
+Concomitant Medication|ALFALFA
+Concomitant Medication|INDOCIN
+Concomitant Medication|MYCELEX TROCHE
+Concomitant Medication|VISTARIL
 Adverse Event|Reproductive neoplasms female benign
 Adverse Event|Therapeutic procedures and supportive care NEC
+Adverse Event|Heart failures
+Concomitant Medication|AQUEOUS
+Concomitant Medication|BENDROFLUAZIDE
+Concomitant Medication|LOSARTAN POTASSIUM
+Concomitant Medication|LODINE XL
+Concomitant Medication|CEFAZOLIN SODIUM
+Concomitant Medication|PULMOCARE
+Adverse Event|Bladder and bladder neck disorders (excl calculi)
 Adverse Event|Microbiology and serology investigations
+Concomitant Medication|CALCIUM CITRATE W/MAGNESIUM
+Concomitant Medication|CHEMIX
+Concomitant Medication|DIPROLENE
+Concomitant Medication|ISONIAZID
+Concomitant Medication|ROSCAL
+Concomitant Medication|VITAMIN B5
+Concomitant Medication|BEANO
+Concomitant Medication|PATANOL
+Concomitant Medication|PROTUSS
+Concomitant Medication|DECOHISTINE DH
+Concomitant Medication|GYNE-LOTRIMIN
 Concomitant Medication|ALLEGRA-D
-Concomitant Medication|CLARITIN-D
 Concomitant Medication|PREVPAC
-Concomitant Medication|MAGNESIUM CITRATE
-Concomitant Medication|STOOL SOFTENER
-Concomitant Medication|DEPO PROVERA
-Concomitant Medication|GUAIFENEX
-Concomitant Medication|DULCOLAX
-Concomitant Medication|ONE A DAY MULTI VITAMIN & MINERALS
+Concomitant Medication|RULID
+Concomitant Medication|PHYTOBEC #1
+Concomitant Medication|TOPICORT
 Concomitant Medication|TRICOR
-Concomitant Medication|ZYPREXA
+Concomitant Medication|RAXAR
 Adverse Event|Endocrine neoplasms malignant and unspecified
+Concomitant Medication|TETANOL
+Concomitant Medication|SELECTOL
+Concomitant Medication|KELTICAN
+Concomitant Medication|PARACODIN
+Concomitant Medication|ESTREVA
+Concomitant Medication|ORGAMETRIL
+Concomitant Medication|SELEXID
 Concomitant Medication|ALLEGRA D
-Concomitant Medication|DIFLUCAN
-Concomitant Medication|IRON
-Concomitant Medication|NYQUIL
-Concomitant Medication|ROXICET
 Concomitant Medication|VICKS
+Concomitant Medication|JOSACINE
+Concomitant Medication|PIVALONE
+Concomitant Medication|DIMETAPP DM
+Concomitant Medication|SINEQUAN
+Concomitant Medication|KERATYL
+Concomitant Medication|SEGLOR
+Concomitant Medication|AMBROLOS
+Concomitant Medication|NIACINAMIDE
+Concomitant Medication|GARASONE
+Concomitant Medication|MEPIVACAINE HYDROCHLORIDE
+Concomitant Medication|ROBIDRINE
+Concomitant Medication|TANTUM
+Concomitant Medication|OXAPROZIN
+Concomitant Medication|PROSOM
+Concomitant Medication|PROTECTOR
 Concomitant Medication|ATEPADENE
-Concomitant Medication|ALLOPURINOL
 Concomitant Medication|COTAREG
-Concomitant Medication|DIANTALVIC
-Concomitant Medication|FLECAINIDE
-Concomitant Medication|FUNGIZONE
 Concomitant Medication|TETRAZEPAM
 Concomitant Medication|ZOPIDEM
 Concomitant Medication|CLOPIDOGREL
 Concomitant Medication|PRISTINAMYCINE
+Concomitant Medication|OROCAL D3
+Concomitant Medication|PRESTOLE
+Concomitant Medication|TRIFLUCAN
+Concomitant Medication|ALPHAGAN
+Concomitant Medication|LEVOBUNOLOL
+Concomitant Medication|XALATAN
+Concomitant Medication|ALLEREST
+Concomitant Medication|PRACTAZIN
+Concomitant Medication|VIVALAN
+Concomitant Medication|FRUMIL
 Concomitant Medication|DIOSMECTITE
-Concomitant Medication|DILANTIN
+Concomitant Medication|CALCIPARINE
+Concomitant Medication|RENNIE
+Concomitant Medication|TOCOPHERYL ACETATE
+Concomitant Medication|BEECHAM'S
+Concomitant Medication|CALCITE D
+Concomitant Medication|NEOCITRAN
+Concomitant Medication|B-100 COMPLEX
+Concomitant Medication|FAMCICLOVIR
+Concomitant Medication|CAMPHO-PHENIQUE
+Concomitant Medication|ONE A DAY
+Concomitant Medication|RETINOL
+Concomitant Medication|CALCIUM CARBONATE
+Concomitant Medication|CELL WISE
+Concomitant Medication|MEL-VITA
+Concomitant Medication|MELA-CAL
+Concomitant Medication|NURASIC
+Concomitant Medication|COLOFAC
+Concomitant Medication|MERBENTYL
 Concomitant Medication|SUPER B COMPLEX
-Concomitant Medication|DARVOCET-N
+Concomitant Medication|ANBESOL
+Concomitant Medication|BROMTAPP
+Concomitant Medication|EXPECTORANT
+Concomitant Medication|ZILACTIN
+Concomitant Medication|CALCITONIN
 Concomitant Medication|CIPRALEX
 Concomitant Medication|IMMUNOGLOBULINS
 Concomitant Medication|SLOW K
 Adverse Event|Protozoal infectious disorders
+Concomitant Medication|DOXYCLINE
+Concomitant Medication|QUININE SULF
 Adverse Event|Cardiac and vascular disorders congenital
+Concomitant Medication|BENGAY
+Concomitant Medication|ESTRAGEST
+Concomitant Medication|ESTRATAB
+Concomitant Medication|ACETAMINOPHEN W/PSEUDOEPHEDRINE
+Concomitant Medication|ENZYMES NOS
+Concomitant Medication|Z BEC
+Concomitant Medication|ANSAID
 Adverse Event|Genitourinary tract disorders NEC
-Adverse Event|Ectoparasitic disorders
-Concomitant Medication|COZAAR
+Concomitant Medication|BRICANYL
+Concomitant Medication|KALEORID
+Concomitant Medication|OROKEN
+Concomitant Medication|TADENAN
+Concomitant Medication|DARVON-N COMPOUND
+Concomitant Medication|APROTAN
+Concomitant Medication|ELIMITE
+Concomitant Medication|GALIUM
+Concomitant Medication|GOLD BOND
+Concomitant Medication|VITA-LEA
+Concomitant Medication|LAMALINE
+Concomitant Medication|DRISDOL
+Concomitant Medication|MEDROL
+Concomitant Medication|MICATIN
+Concomitant Medication|NAPRELAN
+Concomitant Medication|ROBITUSSIN COLD
+Concomitant Medication|SALIVART
 Adverse Event|Medication errors
+Concomitant Medication|ADRONAT
+Concomitant Medication|FOLINA
+Concomitant Medication|GINODEN
+Concomitant Medication|LUTENYL
+Concomitant Medication|SEREUPIN
 Concomitant Medication|CAVINTON
 Concomitant Medication|CIPROBAY
 Concomitant Medication|METOTHYRIN
 Concomitant Medication|NOOTROPIL
-Concomitant Medication|PENTOXIFYLLINE
-Concomitant Medication|PROPRANOLOL
 Concomitant Medication|OPIPRAMOL
 Concomitant Medication|SEVREDOL
 Concomitant Medication|HYDROXYUREA
-Concomitant Medication|PROCARDIA
-Concomitant Medication|MUCOMYST
-Concomitant Medication|BACTRIM
+Concomitant Medication|HEMOCLAR
+Concomitant Medication|CARDIOLITE
+Concomitant Medication|PINK BISMUTH
+Concomitant Medication|ISOSORBIDE DINITRATE
+Concomitant Medication|MYCOSTATINE
+Concomitant Medication|SUPRADYNE
+Concomitant Medication|MINOXIDIL
+Concomitant Medication|APO-OXYBUTYNIN
+Concomitant Medication|CES
+Concomitant Medication|NOVO-MEDRONE
+Concomitant Medication|NOVO-TRIPRAMINE
+Concomitant Medication|RHOVANE
+Concomitant Medication|VITAMIN C AND E
+Concomitant Medication|CEFTIZOXIME SODIUM
+Concomitant Medication|HEPRIN
+Concomitant Medication|ISOSORBIDE MONONITRATE
+Concomitant Medication|SUPHEDRINE
+Concomitant Medication|FATTY ACIDS NOS
+Concomitant Medication|MULTI MINERAL
+Concomitant Medication|PAPAYA ENZYME
+Concomitant Medication|RELAX
 Concomitant Medication|JUICE PLUS
 Adverse Event|Reproductive neoplasms male benign
+Concomitant Medication|TROLOVOL
+Concomitant Medication|CYTOKINES AND IMMUNOMODULATORS
 Adverse Event|Seizures (incl subtypes)
+Concomitant Medication|SILYBUM MARIANUM
 Adverse Event|Physical examination and organ system status topics
 Concomitant Medication|BEXTRA
-Concomitant Medication|ROXANOL
+Concomitant Medication|CAPTOMER
+Concomitant Medication|DEQUALINIUM CHLORIDE
+Concomitant Medication|FLUTICASONE PROPIONATE
 Concomitant Medication|DRIDASE
-Concomitant Medication|MARCUMAR
 Concomitant Medication|OMEP
+Concomitant Medication|BREXINE
+Concomitant Medication|CYCLO 3
+Concomitant Medication|PRORHINEL
+Concomitant Medication|TUSSIONEX
+Concomitant Medication|MICONAZOLNITRAAT/HYDROCORTISON
+Concomitant Medication|AULIN
+Concomitant Medication|CALCIA
+Concomitant Medication|CENTYL K
+Concomitant Medication|CODOLAX
+Concomitant Medication|CYCLIZINE
+Concomitant Medication|DESMOPRESSIN
+Concomitant Medication|DYDROGESTERONE
+Concomitant Medication|ISTIN
+Concomitant Medication|MEFENAMIC ACID
+Concomitant Medication|MST
+Concomitant Medication|PRIMOLUT N
+Concomitant Medication|DESURIC
+Concomitant Medication|TENORDATE
+Concomitant Medication|BUFLOMEDIL
+Concomitant Medication|CHLORAZEPATE
+Concomitant Medication|CLARAMID
+Concomitant Medication|DUODERM
 Concomitant Medication|ALGINIC ACID
-Concomitant Medication|SULFAMETHOXAZOLE
-Concomitant Medication|TRIMETHOPRIM
-Concomitant Medication|ZIAC
-Concomitant Medication|DIPHENHYDRAMINE
-Concomitant Medication|ORTHO-NOVUM 7/7/7
-Concomitant Medication|PSEUDOEPHEDRINE HYDROCHLORIDE
-Concomitant Medication|LOTRIMIN
-Concomitant Medication|ESTROGEN
-Concomitant Medication|NOVO-MEDRONE
-Lab Test|Creatine Kinase MB
+Concomitant Medication|CASODEX
+Concomitant Medication|NATURE'S WAY MULTIVITAMIN
+Concomitant Medication|EXOCIN
+Concomitant Medication|TOBREX
+Concomitant Medication|CELIPROLOL
+Concomitant Medication|METILDIGOXIN
+Concomitant Medication|PIRACETAM
+Concomitant Medication|PROMETHAZIN
+Concomitant Medication|XYLOMETAZOLIN
+Concomitant Medication|NYTOL
+Concomitant Medication|DIPHEDRYL
+Concomitant Medication|VICKS 44
+Concomitant Medication|BETNESOL
+Concomitant Medication|PENGLOBE
 Adverse Event|Blood and lymphatic system disorders congenital
 Concomitant Medication|AMIODARONE
 Concomitant Medication|CHOLESTYRAMINE
-Concomitant Medication|LEVOXYL
-Concomitant Medication|ANCEF
-Concomitant Medication|BACTROBAN
-Concomitant Medication|ROCEPHINE
-Adverse Event|Heart failures
-Concomitant Medication|ROBITUSSIN AC
+Concomitant Medication|LIDOCAINE AND PRILOCAINE
+Concomitant Medication|FERROUS GLUCONATE
+Concomitant Medication|PHENERGAN DM
+Concomitant Medication|CHROMIUM
+Concomitant Medication|GAMMA-LINOLENIC ACID
+Concomitant Medication|VANADYL SULFATE
+Concomitant Medication|ANETHOLE TRITHIONE
+Concomitant Medication|METHYLERGOMETRINE MALEATE
+Concomitant Medication|SULFAMETHOXAZOL W/TRIMETOPRIM
+Concomitant Medication|TENOXICAM
+Concomitant Medication|TRANEXAMIC ACID
+Concomitant Medication|CITIOLONE
+Concomitant Medication|PINAZEPAM
+Concomitant Medication|PNEUMOCOCCAL VACCINE POLYVALENT
+Concomitant Medication|NUTILIS AQUA
+Concomitant Medication|CLONIDINE HYDROCHLORIDE
+Concomitant Medication|FOSINOPRIL SODIUM
+Concomitant Medication|DOXIUM
+Concomitant Medication|IMOVAN
+Concomitant Medication|MYOVITON
+Concomitant Medication|CO-DANTHRAMER
+Concomitant Medication|POLYVIDONE
+Concomitant Medication|BIOFLAVONOIDS
+Concomitant Medication|BIOTIN
+Concomitant Medication|BORON
+Concomitant Medication|CAFFEINE
+Concomitant Medication|CHOLINE
+Concomitant Medication|DICLOXACILLIN
+Concomitant Medication|IODINE
+Concomitant Medication|MOLYBDENUM
+Concomitant Medication|PABA
+Concomitant Medication|SALICYLAMIDE
+Concomitant Medication|SILICON
+Concomitant Medication|VANADIUM
+Concomitant Medication|VITAMIN B2
+Concomitant Medication|ALLERGOSPASMIN
+Concomitant Medication|CEFETAMET
+Concomitant Medication|SOLOSIN
+Concomitant Medication|CODEINE PHOSPHATE W/PARACETAMOL
+Concomitant Medication|DOXAPRAM
+Concomitant Medication|GLYCERYL TRINITRATE
+Concomitant Medication|KAPAKE
+Concomitant Medication|PARACETAMOL CODEINE
+Concomitant Medication|SUSCARD
+Concomitant Medication|MOTIVAL
+Concomitant Medication|NOOTROPYL
+Concomitant Medication|LANSOYL
+Concomitant Medication|MAGNE B6
+Concomitant Medication|STERIMAR
+Concomitant Medication|VISCERALGINE FORTE
 Concomitant Medication|MV
+Concomitant Medication|RHINOPRONT
 Lab Test|Hepatitis C Antibody
+Concomitant Medication|POLYSPORIN
 Concomitant Medication|MULTI VITAMIN & MINERAL
+Concomitant Medication|CHLORHEXIDINE
+Concomitant Medication|DUOVENT
+Concomitant Medication|MARVELON
+Concomitant Medication|TETANUS AND DIPHTHERIA TOXOIDS ADSORBED
+Concomitant Medication|TYLENOL ALLERGY-D
+Concomitant Medication|ZINC GLUCONATE
+Concomitant Medication|AMPHOJEL
+Concomitant Medication|HYDERM
+Concomitant Medication|SIBERIAN GINSENG
+Concomitant Medication|TYLOX
+Concomitant Medication|B COMPLEX WITH VITAMIN C
+Concomitant Medication|EDTA
+Concomitant Medication|SANUVIS
+Concomitant Medication|UTILIN D6
+Concomitant Medication|NASAREL
+Concomitant Medication|ACTISOUFRE
+Concomitant Medication|HYPOSTAMINE
+Concomitant Medication|CLEMASTINE
+Concomitant Medication|ESTROGENS CONJUGATED
+Concomitant Medication|IPRINDOLE
+Concomitant Medication|NEUROPLEX
+Concomitant Medication|PANCREATIC ENZYMES
+Concomitant Medication|PEPSIN
+Concomitant Medication|RIBONUCLEIC ACID
+Concomitant Medication|VASCULIN
 Concomitant Medication|METFORMIN
-Concomitant Medication|CEFTIN
 Concomitant Medication|DEXTROSE SALINE
-Concomitant Medication|FLUCONAZOLE
-Concomitant Medication|FLUTICASONE PROPIONATE
-Concomitant Medication|NYSTATIN
+Concomitant Medication|CO-PROXAMOL
+Concomitant Medication|BACITRACIN ZINC
+Concomitant Medication|LARYLIN
+Concomitant Medication|METAPLEXAN
+Concomitant Medication|MICROKLIST
+Concomitant Medication|REPELTIN
+Concomitant Medication|XIMOVAN
+Concomitant Medication|ATASOL
+Concomitant Medication|BECLOFORT
+Concomitant Medication|EPIMORPH
+Concomitant Medication|PHYLLOCONTIN
+Concomitant Medication|BETASELEN
+Concomitant Medication|HEPTAMYL
+Concomitant Medication|NUTRIDORAL
+Concomitant Medication|NUTRIDRINK
+Concomitant Medication|ENDOCET
+Concomitant Medication|NECON
 Concomitant Medication|PHENYLEPHRINE
-Concomitant Medication|SALMON OIL
-Concomitant Medication|ZINC OXIDE
-Concomitant Medication|COPPER
-Concomitant Medication|IRBESARTAN
-Concomitant Medication|LASIX
+Concomitant Medication|HERBOLAX
+Concomitant Medication|BRONCHIPRET
+Concomitant Medication|THYME
+Concomitant Medication|UMCKALOABO
 Concomitant Medication|NITRO-MACK
 Concomitant Medication|TERAZOSIN HYDROCHLORIDE
-Concomitant Medication|ARTANE
-Concomitant Medication|ASPEGIC
-Concomitant Medication|LEXOMIL
+Concomitant Medication|SINUS
+Concomitant Medication|TYLENOL COLD & FLU
+Concomitant Medication|ADALAT CC
+Concomitant Medication|LIBRIUM
+Concomitant Medication|MULTIVITAMIN MULTIMINERAL
+Concomitant Medication|CAPISTEN
+Concomitant Medication|NORFLEX
+Concomitant Medication|ART
+Concomitant Medication|DORZOLAMIDE
+Concomitant Medication|CAPSAICIN
 Adverse Event|Skin and subcutaneous tissue therapeutic procedures
-Concomitant Medication|DIGESTIVE ENZYMES
+Concomitant Medication|BUTYLSCOPOLAMIN
+Concomitant Medication|ACTAPULGITE
+Concomitant Medication|CIBLOR
+Concomitant Medication|FEBRECTOL
+Concomitant Medication|GLOSSITHIASE
+Concomitant Medication|NEGRAM
+Concomitant Medication|NEUTRAGEL
+Concomitant Medication|OROPIVALONE
+Concomitant Medication|RILMENIDINE
+Concomitant Medication|SPASFON-LYOC
+Concomitant Medication|OESTROGEN
 Adverse Event|Breast neoplasms benign (incl nipple)
+Concomitant Medication|CHLORPHENIRAMINE MALEATE
+Concomitant Medication|VALISONE
+Concomitant Medication|BETAHISTINE
+Concomitant Medication|ACTRAPID
+Concomitant Medication|CAPTEA
+Concomitant Medication|DIFFU K
+Concomitant Medication|LENITRAL
+Concomitant Medication|LIQUID PARAFFIN
+Concomitant Medication|MONOTILDIEM
+Concomitant Medication|NITRIDERM
+Concomitant Medication|ORGASULINE NPH
+Concomitant Medication|PARKINANE
+Concomitant Medication|POLYGYNAX
+Concomitant Medication|TAMARINE
+Concomitant Medication|UMULINE NPH
+Concomitant Medication|COLCHIMAX
+Concomitant Medication|PANFUREX
+Concomitant Medication|VAGOSTABYL
+Concomitant Medication|COLOPEG
+Concomitant Medication|FLUDEX
+Concomitant Medication|PHYSIOTENS
+Concomitant Medication|BETA-VAL
+Concomitant Medication|POLBAX
+Concomitant Medication|BETAMETHASONE DIPROPIONATE
+Concomitant Medication|FAVERIN
+Concomitant Medication|SODIUM CROMOGLYCATE
+Concomitant Medication|ZINC AND CASTOR OIL
+Concomitant Medication|ADVIL COLD AND FLU
+Concomitant Medication|DOLOMITE
+Concomitant Medication|TOPAMAX
+Concomitant Medication|B-VITAMINS
+Concomitant Medication|MEFOXIN
 Adverse Event|Pigmentation disorders
+Concomitant Medication|MULTIVITAMIN AND MINERAL SUPPLEMENT
+Concomitant Medication|MUPIROCIN
+Concomitant Medication|TRIOMINIC
+Concomitant Medication|ALLANTOIN
+Concomitant Medication|DIMETHICONE
+Concomitant Medication|DIOCTO
+Concomitant Medication|JOINT FUEL
+Concomitant Medication|MUCOSIL
+Concomitant Medication|VASELINE
+Concomitant Medication|PAMIDRONATE DISODIUM
+Concomitant Medication|PERIDEX
+Concomitant Medication|ROBAXIN
+Concomitant Medication|SUPER E COMPLEX
+Concomitant Medication|ATHLETES FOOT
+Concomitant Medication|TUSSIGON
+Concomitant Medication|CLOPERASTINE
+Concomitant Medication|VITAMIDYNE A AND D
+Concomitant Medication|PROPOXYPHENE
+Concomitant Medication|CIBADREX
+Concomitant Medication|TELFAST
+Concomitant Medication|ADENINE
+Concomitant Medication|SILYMARIN
+Concomitant Medication|SODIUM ASCORBATE
+Concomitant Medication|WOBENZYM N
+Concomitant Medication|NUTREN 1.5
+Concomitant Medication|OSMOLITE HN
+Concomitant Medication|DUVADILAN
+Concomitant Medication|DUXIL
+Concomitant Medication|ELUDRIL
 Adverse Event|Endocrine disorders of gonadal function
+Concomitant Medication|APO-TIMOP
+Concomitant Medication|CYCLOSPORIN
+Concomitant Medication|LIPIDIL
 Adverse Event|Investigations, imaging and histopathology procedures NEC
 Adverse Event|Nervous system neoplasms benign
-Concomitant Medication|BETAMETHASONE DIPROPIONATE
-Concomitant Medication|CYCLOBENZAPRINE
-Concomitant Medication|DETROL
-Concomitant Medication|DUONEB
-Concomitant Medication|FUROSEMIDE
-Concomitant Medication|VITAMIN C WITH ROSE HIPS
+Concomitant Medication|DEQUADIN
+Concomitant Medication|FIBYRAX
+Concomitant Medication|PROTEGRA
+Concomitant Medication|TOFRANIL
+Concomitant Medication|PROSTA FINK
+Concomitant Medication|ZINKOROTAT
+Concomitant Medication|ETOLAC XL
+Concomitant Medication|TROGLITAZONE
+Concomitant Medication|FLUDROCORTISONE
+Concomitant Medication|MAGNESIUM PHOSPHATE
+Concomitant Medication|NUROFEN
+Concomitant Medication|CASANTHRANOL
+Concomitant Medication|SALAGEN
+Concomitant Medication|TAKETIAM
 Concomitant Medication|BUPIVACAINE
 Concomitant Medication|CEFDINIR
 Concomitant Medication|CHERATUSSIN AC
-Concomitant Medication|OXYMETAZOLINE
-Concomitant Medication|SALINE
-Concomitant Medication|DIPHENHYDRAMINE HYDROCHLORIDE
-Concomitant Medication|PENICILLIN
-Concomitant Medication|CHLOR-TRIMETON
+Concomitant Medication|HYDROCHLOROTHIAZIDE W/SPIRONOLACTONE
 Concomitant Medication|GLUCOSAMINE SULFATE
-Concomitant Medication|BUPRENORPHINE
+Concomitant Medication|VICKS COLDCARE
 Concomitant Medication|CEFDITORENE
 Concomitant Medication|DEXTROPROPOXIFEN
-Concomitant Medication|METAMIZOL
 Concomitant Medication|ESCITALOPRAM OXALATE
-Concomitant Medication|IPRATROPIUM
-Concomitant Medication|TERBUTALINE
+Concomitant Medication|EXPUTEX
+Concomitant Medication|NORMISON
+Concomitant Medication|PULMOZYME
+Concomitant Medication|THYROLAR
+Concomitant Medication|CEFTIZOXIME
+Concomitant Medication|PRO BANTHINE
 Concomitant Medication|BUERLECITHIN
-Concomitant Medication|VITASPRINT
+Concomitant Medication|SAB SIMPLEX
+Concomitant Medication|URIDINE
 Lab Test|Parathyroid Hormone
+Concomitant Medication|AVAPRO
+Concomitant Medication|METATONE
+Concomitant Medication|GOTU KOLA
+Concomitant Medication|PREGNENOLONE
 Adverse Event|Food intolerance syndromes
+Concomitant Medication|BROMPHENIRAMINE
+Concomitant Medication|CROMOLYN
+Concomitant Medication|FAT EMULSIONS
+Concomitant Medication|NIFEREX
+Concomitant Medication|RIFAMPIN
+Concomitant Medication|STADOL
+Concomitant Medication|TEDIVAX
+Concomitant Medication|WEIGHT GAINER
+Concomitant Medication|OXYCODONE HYDROCHLORIDE
+Concomitant Medication|VICODIN ES
+Concomitant Medication|OROCAL
+Concomitant Medication|RENITEC
+Concomitant Medication|SIBELIUM
+Concomitant Medication|ANTACID
+Concomitant Medication|CEFALEXIN MONOHYDRATE
 Concomitant Medication|ALFA-TOCOPHEROL ACETATE
+Concomitant Medication|GAMMA GLOBULIN
+Concomitant Medication|GAMMAGLOBULIN
+Concomitant Medication|HEPATITIS A VACCINE
+Concomitant Medication|HMS 90
+Concomitant Medication|TYLENOL ALL/SINUS
+Concomitant Medication|ZEPHREX
 Adverse Event|Metabolic and nutritional disorders congenital
+Concomitant Medication|TRIMEX
+Concomitant Medication|CLIMAVAL
+Concomitant Medication|ISOPROPAMIDE
+Concomitant Medication|CARMEX
+Concomitant Medication|NUTRIN
+Concomitant Medication|BENZYLPENICILLIN
+Concomitant Medication|DIFENE
+Concomitant Medication|ESTRACOMBI
+Concomitant Medication|PONSTAN
+Concomitant Medication|BAMBUTEROL
+Concomitant Medication|CEPHALOSPORIN NOS
+Concomitant Medication|DIMETICONE
+Concomitant Medication|MEPIPHYLLINE
+Concomitant Medication|METAMIDOL
+Concomitant Medication|AXOTAL
+Concomitant Medication|CYSTOSPAZ
+Concomitant Medication|MINITRAN
 Concomitant Medication|EPA
 Concomitant Medication|INOSITOL NICOTINATE
 Concomitant Medication|RESVERATROL
+Concomitant Medication|KOREC
+Concomitant Medication|NATISEDINE
+Concomitant Medication|NORMACOL
+Concomitant Medication|METHSCOPOLAMINE BROMIDE
+Concomitant Medication|SYNTHYROID
+Concomitant Medication|ATROPINUM SULFURICUM
+Concomitant Medication|CYSTINOL AKUT
+Concomitant Medication|EMBIAL
+Concomitant Medication|KEPINOL
+Concomitant Medication|REMESTAN
+Concomitant Medication|NICOLAN
+Concomitant Medication|DEXCHLORPHENIRAMINE
+Concomitant Medication|ASPECTON N
+Concomitant Medication|BROTIZOLAM
+Concomitant Medication|GELSEMIUM
+Concomitant Medication|MELPERON
+Concomitant Medication|NICOTROL
 Concomitant Medication|KETAZOLAM
 Concomitant Medication|PREGABALINE
-Concomitant Medication|BUSPAR
-Concomitant Medication|IMITREX
 Concomitant Medication|NUTRIENT 950
-Concomitant Medication|CLAVULIN
-Concomitant Medication|PSEUDOPHED
+Concomitant Medication|SULFACETAMIDE SODIUM
+Concomitant Medication|HYPROMELLOSE
+Concomitant Medication|LIQUID TEARS
+Concomitant Medication|ADRENALINE
+Concomitant Medication|CALCIUM HYDROXIDE
+Concomitant Medication|EUGENOL
+Concomitant Medication|FELYPRESSIN
+Concomitant Medication|MERCURY
+Concomitant Medication|PRILOCAINE HYDROCHLORIDE
+Concomitant Medication|SILVER
 Concomitant Medication|CARBOLITHIUM
-Concomitant Medication|LOPERAMIDE
 Concomitant Medication|MESALAZINE
-Concomitant Medication|LIPANTHYL
-Concomitant Medication|MAGNE B6
+Concomitant Medication|CALCIUM COMPLEX
+Concomitant Medication|FISH LIVER OIL
+Concomitant Medication|D5LRS
+Concomitant Medication|SAFE CLEANSE
+Concomitant Medication|HYDROXYETHYLCELLULOSE
+Concomitant Medication|PHENPROCOUMON
 Lab Test|Erythrocyte Sediment
 Concomitant Medication|FRESUBIN
-Concomitant Medication|VITAMINS NOS
-Concomitant Medication|LUPRON
-Concomitant Medication|INDERAL
-Concomitant Medication|BRONCHIPRET
-Concomitant Medication|DEXCHLORPHENIRAMINE
+Concomitant Medication|PROCAN
+Concomitant Medication|SULINDAC
+Concomitant Medication|MG-PLUS-PROTEIN
+Concomitant Medication|BENZAFIBRATO
+Concomitant Medication|BEZAFIBRAT
+Concomitant Medication|CALCIUM VERLA
+Concomitant Medication|CEFETAMET PIVOXIL
+Concomitant Medication|CHININ
+Concomitant Medication|JODTHYROX
 Concomitant Medication|FLUOCID
 Concomitant Medication|GELOMYRTOL
-Concomitant Medication|SIRDALUD
 Concomitant Medication|WICK DAYMED
+Concomitant Medication|BETAINE HCL
+Concomitant Medication|KOREAN GINSENG
+Concomitant Medication|LIPASE
+Concomitant Medication|PAPAIN
+Concomitant Medication|PHOSPHORUS
+Concomitant Medication|DIHYDROCODEINE
+Concomitant Medication|VICKS COUGH
+Concomitant Medication|CALCITRATE
+Concomitant Medication|SALINEX
+Concomitant Medication|CREATINE PHOSPHATE
+Concomitant Medication|CHLORPHENAMINE MALEATE
+Concomitant Medication|EUCERIN
+Concomitant Medication|AMBROHEXAL
+Concomitant Medication|PECTORHINYL
+Concomitant Medication|TONICUM
+Concomitant Medication|CHLORPHENIRAMINE W/HYDROCODONE
+Concomitant Medication|DURATUSS G
+Concomitant Medication|GOLYTELY
+Concomitant Medication|LABETALOL
+Concomitant Medication|MEXILETINE
+Concomitant Medication|MOISTURIZER
+Concomitant Medication|NITROPASTE
+Concomitant Medication|RISPID
+Concomitant Medication|THEO 24
+Concomitant Medication|FONLIPOL
+Concomitant Medication|QUESTRAN
+Concomitant Medication|SOLUPSAN
 Concomitant Medication|ROBITUSSIN CF
+Concomitant Medication|ALDOMET
 Concomitant Medication|CLINUTREN HP ENERGY
 Concomitant Medication|FORTIMEL
-Concomitant Medication|IMOVANE
-Concomitant Medication|BIOTIN
-Concomitant Medication|CHLORELLA VULGARIS
-Concomitant Medication|DMSA
-Concomitant Medication|LYCOPENE
+Concomitant Medication|APO-DESIPRAMINE
+Concomitant Medication|FRAMYCETIN SULFATE
+Concomitant Medication|NITRO-SPRAY
+Concomitant Medication|NITROSPRAY
+Concomitant Medication|TOPSYM
 Concomitant Medication|OMEGA 3-6-9
 Concomitant Medication|SOLIDAGO
-Concomitant Medication|SOY ISOFLAVONES
-Concomitant Medication|PROPOFOL
+Concomitant Medication|MAGNESIUM GLUCONATE
+Concomitant Medication|TALC POWDER
+Concomitant Medication|TRINORDIAL
+Concomitant Medication|GENASAL
+Concomitant Medication|MARIJUANA
+Concomitant Medication|POTASSIUM CHLORATE
+Concomitant Medication|ZYLOPRIM
+Concomitant Medication|COLPRONE
+Concomitant Medication|DEPURATUM
+Concomitant Medication|LECITHINE
+Concomitant Medication|LIVOSTIN
+Concomitant Medication|LOPROX
+Concomitant Medication|ROBAXISAL
 Adverse Event|Connective tissue disorders (excl congenital)
+Concomitant Medication|GENASOFT PLUS
+Concomitant Medication|HUMALOG
 Adverse Event|Haematological disorders NEC
+Concomitant Medication|TENSTATEN
 Concomitant Medication|HYDROXYCHLOROQUINE
 Concomitant Medication|METHOTREXATE
-Concomitant Medication|GATIFLOXACIN
+Concomitant Medication|LATANOPROST
+Concomitant Medication|CAMPHOR
+Concomitant Medication|CEFRADINE
+Concomitant Medication|CHERACOL
+Concomitant Medication|INDOMETACIN
+Concomitant Medication|ISOCAL
+Concomitant Medication|ROSIGLITAZONE MALEATE
 Adverse Event|Hepatobiliary therapeutic procedures
-Concomitant Medication|FIORINAL
 Concomitant Medication|LYRICA
-Concomitant Medication|GAS X
-Concomitant Medication|METRONIDAZOLE
-Concomitant Medication|NOVOCAINE
-Concomitant Medication|PYCNOGENOL
-Concomitant Medication|SILYMARIN
+Concomitant Medication|METHYLPHENIDATE
+Concomitant Medication|RISPERIDONE
+Concomitant Medication|RIVASTIGMINE TARTRATE
+Concomitant Medication|CALTRATE 600+D3 PLUS MINERALS
 Adverse Event|Vitamin related disorders
 Concomitant Medication|BRINZOLAMIDE
 Concomitant Medication|COLECALCIFEROL
 Concomitant Medication|CASSADAN
+Concomitant Medication|JEVITY PLUS
+Concomitant Medication|TRAUMACAL
+Concomitant Medication|ACTIFED PLUS
+Concomitant Medication|ISOPTO HOMATROPINE
+Concomitant Medication|SULFACETAMIDE
+Concomitant Medication|TOBRADEX
+Concomitant Medication|TRIAMINIC EXPECTORANT
+Concomitant Medication|AGREAL
+Concomitant Medication|DOSULEPIN
+Concomitant Medication|MONTMORILLONITE
+Concomitant Medication|SYMPAVAGOL
+Concomitant Medication|TRINITRINE
+Concomitant Medication|VERALIPRIDE
 Concomitant Medication|BIAXIN XL
-Concomitant Medication|MACRODANTIN
 Concomitant Medication|MYTUSSIN AC
-Concomitant Medication|TAGAMET
-Concomitant Medication|TOPROL
-Concomitant Medication|BENZONATATE
-Concomitant Medication|MYCELEX
-Concomitant Medication|CHONDROITIN
-Concomitant Medication|CREATINE MONOHYDRATE
 Concomitant Medication|TERAGRAN M
+Concomitant Medication|FUCIDINE
+Concomitant Medication|BELLERGAL
+Concomitant Medication|GUIATEX
+Concomitant Medication|THERAFLU SINUS & COLD
 Lab Test|Urine Triple Phosphate Crystals
-Concomitant Medication|TOPALGIC
-Concomitant Medication|EXCEDRIN
+Concomitant Medication|BENZYDAMINE
+Concomitant Medication|BREXIN
+Concomitant Medication|LOPRIL
+Concomitant Medication|GENISTEIN
+Concomitant Medication|TIGAN
+Concomitant Medication|KELTICAN N
+Concomitant Medication|NEUROTRAT
+Concomitant Medication|URACID
 Concomitant Medication|METFORM
-Concomitant Medication|VIAGRA
+Concomitant Medication|NIFEDIPIN
+Concomitant Medication|TRISEQUENS
 Concomitant Medication|ACAPRIL
 Concomitant Medication|K-LYTE
-Concomitant Medication|HYDROCHLOROTHIAZIDE W/TRIAMTERENE
+Concomitant Medication|BETNEVAL
+Concomitant Medication|CALCIDOSE
+Concomitant Medication|COLOPRIV
+Concomitant Medication|DERINOX
+Concomitant Medication|EUPAN
+Concomitant Medication|HEXASPRAY
+Concomitant Medication|OGAST
+Concomitant Medication|POLARAMINE
+Concomitant Medication|POLERY
+Concomitant Medication|TOPLEXIL
+Concomitant Medication|TROPHIRES
+Concomitant Medication|ULTRA LEVURE
+Concomitant Medication|VIRLIX
+Concomitant Medication|RIZATRIPTAN BENZOATE
 Concomitant Medication|BALANCED B-150
 Concomitant Medication|VITAMIN A AND D
+Concomitant Medication|FLUVASTATIN
+Concomitant Medication|BENTELAN
+Concomitant Medication|BRONCHOKOD
+Concomitant Medication|KLIPAL
+Concomitant Medication|SINTOCEF
+Concomitant Medication|VERATRAN
+Concomitant Medication|DELIX
+Concomitant Medication|KLACID
+Concomitant Medication|NIMOTOP S
+Concomitant Medication|SIOFOR
+Concomitant Medication|SPASURET
+Concomitant Medication|ALACERIL
+Concomitant Medication|DIPHENOXYLATE/ATROPINE
 Concomitant Medication|ORTHOMOL
+Concomitant Medication|PROCALAMINE
+Concomitant Medication|DEOXYRIBONUCLEIC ACID
+Concomitant Medication|DPA
+Concomitant Medication|FIBROPLEX
+Concomitant Medication|L-ARGININE
+Concomitant Medication|MEGA-VITA
+Concomitant Medication|SONATA
+Concomitant Medication|NTG
+Concomitant Medication|CHLORAMMONIC
+Concomitant Medication|CEFPROZIL
+Concomitant Medication|FORT-E-VITE
+Concomitant Medication|FYBOGEL
+Concomitant Medication|OXYTETRACYLINE
+Concomitant Medication|ACECLOFENAC
+Concomitant Medication|CARBOCYSTEINE
+Concomitant Medication|CLOPERASTINE HYDROCHLORIDE
+Concomitant Medication|SALMETEROL
 Adverse Event|Soft tissue neoplasms benign
+Concomitant Medication|VITAMIN D2
 Concomitant Medication|DETROL LA
+Concomitant Medication|ANUSOL-HC
+Concomitant Medication|CARISOPRODOL
+Concomitant Medication|THERAFLU DAYTIME
+Concomitant Medication|THERAFLU NIGHT TIME
+Concomitant Medication|DYNABAC
+Concomitant Medication|FLUISEDAL
+Concomitant Medication|CALCIUM CARBONATE W/VITAMIN D
+Concomitant Medication|LACHYDRIN
+Concomitant Medication|MENTHACIN
+Concomitant Medication|FLUNIR
 Adverse Event|Respiratory and mediastinal neoplasms benign (excl mesotheliomas)
+Concomitant Medication|COLLAGEN COMPLEX
+Concomitant Medication|PHEMEROL
+Concomitant Medication|OMEGA-EFA
+Concomitant Medication|FORMULA 44-D
+Concomitant Medication|SCANDISHAKE MIX
+Concomitant Medication|SINUS RELIEF
+Concomitant Medication|CEDAX
+Concomitant Medication|OXYBUTIN
+Concomitant Medication|ZINAXIN
 Concomitant Medication|TRAZODONE HYDROCHLORIDE
-Concomitant Medication|FLOVENT
-Concomitant Medication|VENTOLIN
+Concomitant Medication|CAFERGOT
+Concomitant Medication|ASTEMIZOLE
+Concomitant Medication|PRAVASTATIN
+Concomitant Medication|GUAITEX
+Concomitant Medication|ICHTHAMMOL
 Adverse Event|Neurological disorders congenital
-Concomitant Medication|LIMPTAR N
+Concomitant Medication|COLLUNOVAR
+Concomitant Medication|LEVOPHED
+Concomitant Medication|MAXILASE 3000
+Concomitant Medication|RHINOTROPHYL
+Concomitant Medication|RIBATRAN
+Concomitant Medication|TICARPEN
+Concomitant Medication|TUSSILENE
+Concomitant Medication|PENICILLIN V
+Concomitant Medication|BEECHAMS FLU-PLUS
+Concomitant Medication|DIFFLAM
+Concomitant Medication|E 45 ITCH RELIEF
+Concomitant Medication|VENOS COUGH
 Concomitant Medication|FLUVASTATINE
+Concomitant Medication|DECOLD
+Concomitant Medication|PERCOGESIC
+Concomitant Medication|MINOVITAL
+Concomitant Medication|MINERAL SUPPLEMENTS
+Concomitant Medication|SULFASALAZINE
+Concomitant Medication|ECHINACIN
+Concomitant Medication|GLIBENCLAMID
+Concomitant Medication|IS 5 MONO
+Concomitant Medication|LYOGEN
+Concomitant Medication|SINUPRET
+Concomitant Medication|OTOSPORIN
+Concomitant Medication|TOLMETIN
+Concomitant Medication|B6
 Adverse Event|Protein and amino acid metabolism disorders NEC
-Concomitant Medication|SERTRALINE HYDROCHLORIDE
+Concomitant Medication|ATRACURIUM
+Concomitant Medication|DEXTROSE
+Concomitant Medication|DEXTROSE IN WATER
+Concomitant Medication|GLYCOPYRRONIUM BROMIDE
+Concomitant Medication|HARTMANS
+Concomitant Medication|LIVIAL
+Concomitant Medication|NEOSTIGMINE
+Concomitant Medication|PICOLAX
+Concomitant Medication|BRISERIN
+Concomitant Medication|PEPDUL
+Concomitant Medication|TARIVID
+Concomitant Medication|CHLORZOXAZONE
+Concomitant Medication|FEOSOL
+Concomitant Medication|KINESED
+Concomitant Medication|LEVSINEX
+Concomitant Medication|ONE A DAY WOMEN'S
+Concomitant Medication|PRELONE
 Concomitant Medication|CARMOL 20
-Concomitant Medication|CLOBETASOL PROPIONATE
-Concomitant Medication|GENTAMICIN
+Concomitant Medication|AEROBID
 Adverse Event|Skin and subcutaneous tissue disorders congenital
+Concomitant Medication|TUMS ANTACID
+Concomitant Medication|INSULINA HUMALOG
+Concomitant Medication|INSULIN NPH
+Concomitant Medication|LANTUS
+Concomitant Medication|NEUROPLUS
+Concomitant Medication|ALPRESS
+Concomitant Medication|BI-PROFENID
+Concomitant Medication|CATAPRESSAN
+Concomitant Medication|OSPEN
 Adverse Event|Cervix disorders (excl infections and inflammations)
-Concomitant Medication|MIRALAX
+Concomitant Medication|BECONASE AQ
+Concomitant Medication|ESGIC
+Concomitant Medication|LOESTRIN
+Concomitant Medication|TALWIN
+Concomitant Medication|BIFONAZOLE
 Adverse Event|Nervous system, skull and spine therapeutic procedures
-Concomitant Medication|ALKA SELTZER
+Concomitant Medication|HISMANAL
 Concomitant Medication|TUSSIONEX PENNKINETIC
+Lab Test|Urine HCG
+Concomitant Medication|POLYFAX
+Concomitant Medication|CYCLO-MENORETTE
+Concomitant Medication|DEPO TESTOSTERONE
 Adverse Event|Skin investigations
-Concomitant Medication|DOXYCYCLINE
+Concomitant Medication|BENZYLPENICILLINE
+Concomitant Medication|CEBION
 Concomitant Medication|INSIDON
 Concomitant Medication|TRAMADOLOR
+Concomitant Medication|ALUTAB
 Concomitant Medication|NORETISTERONE
 Concomitant Medication|CEFEPIME
-Concomitant Medication|EVISTA
 Concomitant Medication|TENORETIC
+Concomitant Medication|ASPIRIN CHILDREN
+Concomitant Medication|CODIMAL DH
+Concomitant Medication|V-CILLIN K
+Concomitant Medication|PECTOSAN
+Concomitant Medication|AROVENT
+Concomitant Medication|DAFALGAN CODEINE
 Lab Test|Follicle Stimulating Hormone
+Concomitant Medication|UREX
+Concomitant Medication|TERBUTALINE SULFATE
 Lab Test|Urine Ammonia Urate Crystals
 Lab Test|Urine Granular Cast
-Concomitant Medication|ALTACE
+Concomitant Medication|DOXYLAMINE SUCCINATE
+Concomitant Medication|ESGIC-PLUS
+Concomitant Medication|LIQUID OXYGEN
+Concomitant Medication|TRANSDERM-NITRO
 Concomitant Medication|CALCIUM D GLUCARATE
 Concomitant Medication|CARNOSINE
 Concomitant Medication|GAMMA
-Concomitant Medication|GINKO
-Concomitant Medication|METHYLCOBALAMIN
 Concomitant Medication|NEUROMINS
 Concomitant Medication|SAME
 Concomitant Medication|SILIBININ
-Concomitant Medication|BISOPROLOL
-Concomitant Medication|CALCITE D
-Concomitant Medication|CHLORPHENIRAMINE
+Concomitant Medication|ALESSE-28
+Concomitant Medication|DIMETABS
+Concomitant Medication|ORTHO-NOVUM
+Concomitant Medication|ROBITUSSIN EXPECTORANT
+Concomitant Medication|CENTRUM FORTE
+Concomitant Medication|DEFENDOL
 Concomitant Medication|DIPROSALIC
-Concomitant Medication|LEVOTHYROXINE SODIUM
 Lab Test|Antinuclear Antibody
 Adverse Event|Gastrointestinal neoplasms malignant and unspecified
-Concomitant Medication|DYAZIDE
-Concomitant Medication|PHAZYME
-Concomitant Medication|TAMOXIFEN
-Concomitant Medication|TEMAZEPAM
+Concomitant Medication|ACILAC
+Concomitant Medication|DIOVOL
+Concomitant Medication|FERINSOL
+Concomitant Medication|MAALOX H2
+Concomitant Medication|OVOL
 Concomitant Medication|NATURE'S OWN ANTIOXIDANT FORMULA
-Concomitant Medication|ZOVIRAX
+Concomitant Medication|OMEGA
+Concomitant Medication|ANALPRAM HC
+Concomitant Medication|NU-SEALS ASPIRIN
+Concomitant Medication|CALAN
+Concomitant Medication|ALENDRONATE SODIUM
+Concomitant Medication|ETIDRONATE
+Concomitant Medication|PROMEGESTONE
 Concomitant Medication|SPORINEX
-Concomitant Medication|LO/OVRAL
+Concomitant Medication|PROMETHAZINE HYDROCHLORIDE
+Concomitant Medication|ROXICODONE
+Concomitant Medication|BETAINE HYDROCHLORIDE
+Concomitant Medication|DURALEX
+Concomitant Medication|TAMBOCOR
+Concomitant Medication|EOSINE ALCOOL
+Concomitant Medication|VITAMIN B PLUS C
+Concomitant Medication|HEPATITIS B VACCINE
+Concomitant Medication|TUBERCULOSIS VACCINES
+Concomitant Medication|MAGALDRATE
+Concomitant Medication|ESTRATEST HS
+Concomitant Medication|QUERCETIN
+Concomitant Medication|TURMERIC
+Concomitant Medication|CAL/MAG CITRATE
+Concomitant Medication|AZO STANDARD
+Concomitant Medication|NIQUIL
+Concomitant Medication|HYDROXIZINE HCL
+Concomitant Medication|OCUFLOX
+Concomitant Medication|CITRIC ACID
+Concomitant Medication|FUSIDIC ACID
 Concomitant Medication|WELCHOL
-Concomitant Medication|DUPHALAC
-Concomitant Medication|MOVICOL
 Concomitant Medication|REDOMEX
-Concomitant Medication|SEROXAT
 Concomitant Medication|SIPRALEXA
+Concomitant Medication|ACIC
+Concomitant Medication|FENOFIBRAT
+Concomitant Medication|DETRUSITOL
+Concomitant Medication|DIOCTYL
+Concomitant Medication|DISTACLOR
+Concomitant Medication|DOVONEX
+Concomitant Medication|SELDANE
 Adverse Event|Male genital tract therapeutic procedures
+Concomitant Medication|SULPIRIDE
 Concomitant Medication|HERBAL EXTRACT NOS
-Concomitant Medication|TROMCARDIN
+Concomitant Medication|BEECHAMS POWDERS
+Concomitant Medication|BUFFERIN
+Concomitant Medication|SHARK CARTILAGE
+Concomitant Medication|OPTOVIT
+Concomitant Medication|CHARCOAL, ACTIVATED
+Concomitant Medication|B50
 Concomitant Medication|METHOCARBAMOL
 Concomitant Medication|ORABASE
-Concomitant Medication|PREMPHASE
-Concomitant Medication|PAMINE
-Concomitant Medication|ACETYLSALICYLZUUR
-Concomitant Medication|CAFFEINE
+Concomitant Medication|AMAREL
+Concomitant Medication|METFORMINE
+Concomitant Medication|TETAGRIP
+Concomitant Medication|PROBENECID/COLCHICINE
+Concomitant Medication|CLIVARINE
+Concomitant Medication|BISMUTH
+Concomitant Medication|CHLORPHENAMINE
+Concomitant Medication|DEXTROPROPOXYPHENE
+Concomitant Medication|PREM
+Concomitant Medication|TESSALON
+Concomitant Medication|NEURALGIN
+Concomitant Medication|PARAMAX
+Concomitant Medication|PENICILLIN G
+Concomitant Medication|CATARSTAT
+Concomitant Medication|UMULINE PROFIL
+Concomitant Medication|DOXEPIN HYDROCHLORIDE
+Concomitant Medication|OMIX
+Concomitant Medication|LESTIN
+Concomitant Medication|KLOR-CON
+Concomitant Medication|NIFEDIPINE XL
+Concomitant Medication|NUTRACORT
+Concomitant Medication|ESTRADIOL W/MEDROXYPROGESTERONE
+Concomitant Medication|ESTROPIPATE
+Concomitant Medication|LISINOPRIL AND HYDROCHLOROTHIAZIDE
+Concomitant Medication|ISOFLAVON
+Concomitant Medication|AMARID
+Concomitant Medication|CETIRIZINE HYDROCHLORIDE
+Concomitant Medication|MOMETASONE
+Concomitant Medication|RYNACROM
+Concomitant Medication|BUMEX
+Concomitant Medication|CYCLOSPORINE
+Concomitant Medication|LOPERAMIDE HYDROCHLORIDE W/SIMETICONE
+Concomitant Medication|VALACYCLOVIR
+Concomitant Medication|CYPROTERONE
+Concomitant Medication|PERPHENAZINE
+Concomitant Medication|BENADRYL ALLERGY & SINUS HEADACHE
+Concomitant Medication|NASALIDE
+Concomitant Medication|BLEPHAMIDE
+Concomitant Medication|EX-LAX STOOL SOFTENER
+Concomitant Medication|TUMS EX
+Concomitant Medication|BENZODIAZEPINE DERIVATIVES
+Concomitant Medication|GREPAFLOXACIN HCL
+Concomitant Medication|CALCIUM GLUCONATE W/CALCIUM LACTATE
+Concomitant Medication|KENACOMB
+Concomitant Medication|NOVOCHLORHYDRATE
+Concomitant Medication|NOVONIDAZOL
+Concomitant Medication|NOVOQUININE
+Concomitant Medication|BECLOFORTE
+Concomitant Medication|BROMOCRIPTINE MESYLATE
+Concomitant Medication|CITICOLINE
+Concomitant Medication|ADENYL
+Concomitant Medication|CATACOL
+Concomitant Medication|HEPT A MYL
+Concomitant Medication|METEOSPASMYL
+Concomitant Medication|PEREFLAT
 Adverse Event|Mycoplasmal infectious disorders
+Concomitant Medication|KYOLIC
+Concomitant Medication|CONTRAMAL
+Concomitant Medication|ENAPREN
+Concomitant Medication|FOZITEC
+Concomitant Medication|MEDIATENSYL
+Concomitant Medication|NATISPRAY FORT
+Concomitant Medication|OZIDIA
+Concomitant Medication|SOPROL
+Concomitant Medication|SUSTACAL
 Adverse Event|Benign neoplasms gastrointestinal
+Concomitant Medication|COVERA-HS
+Concomitant Medication|PIASCLEDINE
+Concomitant Medication|T GEL ANTI DANDRUF
+Concomitant Medication|LOFEPRAMINE
+Concomitant Medication|SLOW FE
+Concomitant Medication|MEGLUCON
 Adverse Event|Eating disorders and disturbances
-Concomitant Medication|OMEGA
+Concomitant Medication|OESCLIM
+Concomitant Medication|CALCIUM W/ZINC
+Concomitant Medication|CAUMADIN
+Concomitant Medication|GERMANIUM
+Concomitant Medication|CACIT
+Concomitant Medication|COLIMYCINE
+Concomitant Medication|DICYNONE
+Concomitant Medication|JOSIR
+Concomitant Medication|TIAPRIDAL
+Concomitant Medication|CORTATE
+Concomitant Medication|METICORTEN
+Concomitant Medication|MYCLO
+Concomitant Medication|VARIDASA
+Concomitant Medication|VITATHION
+Concomitant Medication|METAXALONE
+Concomitant Medication|MITAPROGEN
+Concomitant Medication|ONDANSETRON HCL
+Concomitant Medication|PEDIACARE
 Concomitant Medication|LERCANIDIPINE
+Concomitant Medication|SOLPADOL
+Concomitant Medication|GINKOR
+Concomitant Medication|SULFAMETHIZOLE W/TRIMETHOPRIM
+Concomitant Medication|ACARBOSE
+Concomitant Medication|METILPREDNISOLONE
+Concomitant Medication|OYSTER SHELL CALCIUM
+Concomitant Medication|GLYCINE
+Concomitant Medication|L GLUTAMIC ACID
+Concomitant Medication|L-ALANINE
+Concomitant Medication|L-CITRULLINE
+Concomitant Medication|L-HISTIDINE
+Concomitant Medication|L-ISOLEUCINE
+Concomitant Medication|L-LEUCINE
+Concomitant Medication|L-METHIONINE
+Concomitant Medication|L-PHENYLALANINE
+Concomitant Medication|L-PROLINE
+Concomitant Medication|L-SERINE
+Concomitant Medication|L-VALINE
 Adverse Event|Nephropathies
-Concomitant Medication|MOTILIUM
+Concomitant Medication|LYSOPAINE
+Concomitant Medication|MARAX
 Adverse Event|Malabsorption conditions
-Concomitant Medication|METFORMIN HYDROCHLORIDE
+Concomitant Medication|ESTER-C PLUS
+Concomitant Medication|FLUTICASONE PROPRIONATE
+Concomitant Medication|TRASIPRESSOL
+Concomitant Medication|CATAPRESS TTS
+Concomitant Medication|GENTAK
+Concomitant Medication|TRANDOLAPRIL
+Concomitant Medication|BURINEX K
+Concomitant Medication|ACULAR
+Concomitant Medication|SINEX
+Concomitant Medication|GLYCOPYRRONIUM
+Concomitant Medication|ICHTHOPASTE
+Concomitant Medication|ZINC SULFATE MONOHYDRATE
 Lab Test|Free Thyroxine Index
 Lab Test|T3 Uptake
 Lab Test|Total T4
+Concomitant Medication|ALTIZIDE
+Concomitant Medication|CLOTIAPINE
+Concomitant Medication|COLLUDOL
+Concomitant Medication|DEXETIMIDE
+Concomitant Medication|EPRAZINONE HYDROCHLORIDE
+Concomitant Medication|ISOSORBIDEDINITRAAT
+Concomitant Medication|LOPRAZOLAM
+Concomitant Medication|METHYLPREDNISOLON
+Concomitant Medication|PIPAMPERON
+Concomitant Medication|PREPACOL
+Concomitant Medication|SPIRONOLACTON
+Concomitant Medication|TAMSULOSIN HYDROCHLORIDE
+Concomitant Medication|THEBACON HYDROCHLORIDE
+Concomitant Medication|RELAFIN
+Concomitant Medication|TECHNETIUM TC 99M
+Concomitant Medication|ISOTONIX OPC-3
+Concomitant Medication|BALDRIAN-DISPERT
+Concomitant Medication|CROMOGLICIC ACID
 Concomitant Medication|CO-RENITEC
-Concomitant Medication|OGAST
+Concomitant Medication|PROTEOLYTIC ENZYMES
+Concomitant Medication|GINKOBA
+Concomitant Medication|GUIATUSS DAC
+Concomitant Medication|PROMETHAZINE HYDROCHLORIDE WITH CODEINE
+Concomitant Medication|ATRACURIUM BESYLATE
+Concomitant Medication|PARALINK
+Concomitant Medication|SUXAMETHONIUM
+Concomitant Medication|TAGOCIN
+Concomitant Medication|TOILAX
+Concomitant Medication|TRIMIPRAMINE
+Concomitant Medication|EUNERPAN
+Concomitant Medication|AURORIX
+Concomitant Medication|CARBIUM
+Concomitant Medication|DANTAMACRIN
+Concomitant Medication|MONOFLAM
 Concomitant Medication|NADROPARIN
+Concomitant Medication|MINIPRESS
+Concomitant Medication|PROMETHAZINE VC
+Concomitant Medication|TOCOTRIENOLS NOS
+Concomitant Medication|SELINE
+Concomitant Medication|DECONAMINE
+Concomitant Medication|DIMETAPP SINUS
+Concomitant Medication|LAMICTAL
+Concomitant Medication|MYLANTA MAXIMUM STRENGTH
+Concomitant Medication|HYCOCLEAR TUSS
 Adverse Event|Hypothalamus and pituitary gland disorders
+Concomitant Medication|AZELASTINE
+Concomitant Medication|NEFAZODONE
+Concomitant Medication|SALT
+Concomitant Medication|VOGALENE LYOC
+Concomitant Medication|TYLENOL W/CODEINE
+Concomitant Medication|SOLPADEINE
+Concomitant Medication|SIMVASTIN
+Concomitant Medication|ETHINYLESTRADIOL W/NORGESTREL
+Concomitant Medication|APO-CIMETIDINE
+Concomitant Medication|BRICANYL TURBUHALER
+Concomitant Medication|CHLORTRIPOLON
+Concomitant Medication|POLAMIDON
+Concomitant Medication|SERVENT
+Concomitant Medication|ALLERGAN
+Concomitant Medication|B50 COMPLEX
+Concomitant Medication|DOXYCYCLINE MONOHYDRATE
+Concomitant Medication|TERAZOL 7
+Concomitant Medication|ACETYLDIGOXIN
+Concomitant Medication|AMPHOTERICIN B
+Concomitant Medication|ASGOVISCUM
+Concomitant Medication|BIPERIDEN
+Concomitant Medication|FENOTEROL
+Concomitant Medication|LEVOPROMAZIN
+Concomitant Medication|TAUNAS
+Concomitant Medication|TRILISATE
 Concomitant Medication|FENSPIRIDE HCL
 Concomitant Medication|MEQUITAZINE
 Concomitant Medication|SODIUM ENOXAPARIN
 Concomitant Medication|TRAMADOL AND ACETAMINOPHEN
-Concomitant Medication|ENULOSE
+Concomitant Medication|LYSOCLINE
+Concomitant Medication|PONSTYL
+Concomitant Medication|SURGAM
+Concomitant Medication|GELUSIL
 Concomitant Medication|GUAIFENEX LA
 Concomitant Medication|NASAL SPRAY II
-Concomitant Medication|ULTRACAL
-Concomitant Medication|ORAL BALANCE
 Concomitant Medication|STILNOCT
-Concomitant Medication|BUDESONIDE
+Concomitant Medication|OMNICEF
+Concomitant Medication|MOCLOBEMID
+Concomitant Medication|MOVICOLON
+Concomitant Medication|EFIDAC
+Concomitant Medication|GENESERINE
+Concomitant Medication|PROCTOSEDYL
+Concomitant Medication|PROANTHOCYANIDIN
+Concomitant Medication|THEOLAIR
+Concomitant Medication|CIPROFLOXACIN HCL
+Concomitant Medication|PROPOXYPHENE HYDROCHLORIDE
+Concomitant Medication|DIMERCAPROL
 Concomitant Medication|REFRESH
-Concomitant Medication|QUININE SULPHATE
-Concomitant Medication|TIZANIDINE HYDROCHLORIDE
-Concomitant Medication|BACTRIM DS
-Concomitant Medication|CARDURA
-Concomitant Medication|DIPYRIDAMOLE
-Concomitant Medication|DRAMAMINE
-Concomitant Medication|PENTAZOCINE
+Concomitant Medication|CEFIXIME
+Concomitant Medication|SALBEN
+Concomitant Medication|ORBENINE
+Concomitant Medication|BIPROFENID
+Concomitant Medication|SALUTENSIN
+Concomitant Medication|POSICOR
+Concomitant Medication|GRAMAXIN
+Concomitant Medication|BIOCIDAN
+Concomitant Medication|ECAZIDE
+Concomitant Medication|URISPAS
+Concomitant Medication|VITAMINS WITH MINERALS
+Concomitant Medication|RUFOL
+Concomitant Medication|DICLOFENAC W/MISOPROSTOL
+Concomitant Medication|MUCINEX DM
+Concomitant Medication|ASPIRIN W/CODEINE
+Concomitant Medication|CEFACET
+Concomitant Medication|CANDESARTAN CILEXETIL
+Concomitant Medication|PILOPINE HS
+Concomitant Medication|ALOMIDE
+Concomitant Medication|TRI-LEVLEN
+Concomitant Medication|OLMESARTAN
+Concomitant Medication|FORADIL
+Concomitant Medication|CYCLOKAPRON
+Concomitant Medication|FERROGRADUMET
+Concomitant Medication|SOFRADEX
+Concomitant Medication|STEDIRIL-D
+Concomitant Medication|XYLOMET
+Concomitant Medication|WEST DECON
+Concomitant Medication|FLUVAX
+Concomitant Medication|ALESSE
+Concomitant Medication|MELAVITA
+Concomitant Medication|TUSSI-ORGANIDIN
+Concomitant Medication|CODEINE HYDROCHLORIDE
+Concomitant Medication|CORMAX
+Concomitant Medication|CYNARA CARDUNCULUS
+Concomitant Medication|HEPP FORTE
+Concomitant Medication|PARSLEY
+Concomitant Medication|PEDIALYTE
+Concomitant Medication|SELAX
+Concomitant Medication|MEGAZYME
+Concomitant Medication|TETRAHYDRAZOLINE
+Concomitant Medication|CODEINE PHOSPHATE
+Concomitant Medication|PREMPAK
+Concomitant Medication|DEXTROSE IN LACTATED RINGER'S
+Concomitant Medication|MICRO K
+Concomitant Medication|SLOBID
+Concomitant Medication|ACEMETACIN
+Concomitant Medication|ARTHOTEC
+Concomitant Medication|HEXETIDIN
+Concomitant Medication|TUSSIBID
+Concomitant Medication|ASMANEX
+Concomitant Medication|D-AMFETAMINE
+Concomitant Medication|EXCEDRIN MIGRAINE
+Concomitant Medication|LITHIUM OROTATE
+Lab Test|Aldolase
+Adverse Event|Hepatic and biliary neoplasms benign
+Concomitant Medication|BLEPHAMIDE SOP
+Adverse Event|Age related factors
+Concomitant Medication|EXACYL
+Concomitant Medication|METHERGIN
+Concomitant Medication|AMIKACIN
+Concomitant Medication|CILASTATIN W/IMIPENEM
+Concomitant Medication|VIGABATRIN
+Concomitant Medication|B-50
+Concomitant Medication|CALCIUM DOBESILATE
+Concomitant Medication|LEVOXIN
+Concomitant Medication|Q-GEL
+Concomitant Medication|STELAR
+Concomitant Medication|CORTISOL
+Concomitant Medication|FIBER
+Concomitant Medication|HIDRORONOL
+Concomitant Medication|NEUROBIONTA
+Concomitant Medication|NOVAHISTEX
+Concomitant Medication|NOVAMILOR
+Concomitant Medication|OMEGA-3
+Concomitant Medication|PASSIFLORINE
+Concomitant Medication|VITAFERRO
+Concomitant Medication|ALEGRA
+Concomitant Medication|DEXAMPHETAMINE
+Concomitant Medication|CLINDAMYCIN HYDROCHLORIDE
+Concomitant Medication|DIUREX
+Concomitant Medication|MAXILIFE
+Concomitant Medication|DDAVP
+Concomitant Medication|HYDROCORTONE
+Concomitant Medication|222
+Concomitant Medication|292
+Concomitant Medication|PENTA-3B
+Concomitant Medication|APO-TRIAZO
+Concomitant Medication|SOFLAX
+Concomitant Medication|MELOXICAM
+Concomitant Medication|TRAMACET
+Concomitant Medication|METHOTRIMEPRAZINE
+Concomitant Medication|POLYETHYLENE GLYCOL
+Concomitant Medication|TICARCILLIN
+Concomitant Medication|DOSTINEX
+Concomitant Medication|LORIBID
+Concomitant Medication|BENYLIN NON-DROWSY CHESTY COUGHS
+Concomitant Medication|SCALPICIN
+Concomitant Medication|KLIOGEST
+Concomitant Medication|MAALOXAN
+Concomitant Medication|TEPILTA
+Concomitant Medication|UBISTESIN
+Concomitant Medication|MAXERAN
+Concomitant Medication|LOXAPAC
+Concomitant Medication|CIBACALCINE
+Concomitant Medication|BISOPROLOL HEMIFUMARATE
+Concomitant Medication|DISCOTRINE
+Adverse Event|Acid-base disorders
+Concomitant Medication|SETTLERS
+Concomitant Medication|APO K
+Concomitant Medication|NOVOSEMIDE
+Concomitant Medication|DESOGESTREL W/ETHINYLESTRADIOL
+Concomitant Medication|HEMI-DAONIL
+Adverse Event|Hepatobiliary neoplasms malignant and unspecified
+Concomitant Medication|BARIUM SULPHATE
+Concomitant Medication|BIOFENAC
+Concomitant Medication|CETEBE
+Concomitant Medication|MULTIBIONTA
+Concomitant Medication|MULTIBIONTA N
+Concomitant Medication|OMERPRAZOL
+Concomitant Medication|NEBIVOLOL HYDROCHLORIDE
+Concomitant Medication|TRIATEC
+Concomitant Medication|COATED ASPIRIN
+Concomitant Medication|VIVELLE DOT
+Concomitant Medication|MAGNESIUM GLYCINATE
+Concomitant Medication|SELENOMETHIONINE
+Concomitant Medication|TINACTIN
+Concomitant Medication|CARBOLEVURE
+Concomitant Medication|CORDIPATCH
+Concomitant Medication|ZADITEN
+Concomitant Medication|LANZOR
+Concomitant Medication|CROTAMITON
+Concomitant Medication|DEXPANTHENOL
+Concomitant Medication|ETILEFRINE HYDROCHLORIDE
+Concomitant Medication|FINASTERID
+Adverse Event|Schizophrenia and other psychotic disorders
+Concomitant Medication|RISPERDAL
+Concomitant Medication|FORTINOL
+Concomitant Medication|SPECYTON
+Concomitant Medication|ZELITREX
+Concomitant Medication|TIME RELEASE VITAMIN C
+Concomitant Medication|EASYLAX
+Concomitant Medication|MYCELEX-7
+Concomitant Medication|SILVADENE
+Concomitant Medication|FOSFOMYCIN
+Concomitant Medication|ONO 2506
+Concomitant Medication|PERDOLAN
+Concomitant Medication|MAG OXIDE
+Concomitant Medication|KLOTRIX
+Concomitant Medication|VASORETIC
+Concomitant Medication|MANNITOL
+Concomitant Medication|DOXYCYCLINE HYCLATE
+Concomitant Medication|IMMUNE GLOBULIN
+Concomitant Medication|SILICA
+Concomitant Medication|AMPHETAMINE
+Concomitant Medication|AFONILUM
+Concomitant Medication|BROMUC
+Concomitant Medication|BRONCHORETARD
+Concomitant Medication|FLUTIDE
+Concomitant Medication|OESTROFEMINAL
+Concomitant Medication|PERENTEROL
+Concomitant Medication|SULTANOL
+Concomitant Medication|URBASON
+Concomitant Medication|ZANTIC
+Concomitant Medication|ALOPURINOL
+Concomitant Medication|TARDYFERON
+Concomitant Medication|TEMOVATE
+Concomitant Medication|VAXAR
+Concomitant Medication|MEPRONIZINE
+Concomitant Medication|PSEUDOEPHEDRINE SULFATE
+Lab Test|Urine Epithelial Cells
+Concomitant Medication|MYCOLOG
+Concomitant Medication|CHOLERA VACCINE
+Concomitant Medication|MEFLOQUINE
+Concomitant Medication|TYPHOID VACCINE
+Concomitant Medication|APO-TEMAZEPAM
+Concomitant Medication|ASA W/CODEINE
+Concomitant Medication|FRIARS
+Concomitant Medication|PNEUMOCOCCAL POLYSACCHARIDE VACCINE
+Concomitant Medication|DEFENSE
+Concomitant Medication|SHARK-LIVER OIL
+Concomitant Medication|ALUMINIUM HYDROXIDE-MAGNESIUM CARBONATE GEL
+Concomitant Medication|MAALOX PLUS
+Concomitant Medication|RU-TUSS
+Concomitant Medication|BORAGE OIL
+Concomitant Medication|FLINTSTONES
+Adverse Event|Musculoskeletal and soft tissue investigations (excl enzyme tests)
+Concomitant Medication|NOOTROP
+Concomitant Medication|SELENASE
+Concomitant Medication|DILACOR XR
+Concomitant Medication|ROBITUSSIN COUGH DROPS
+Adverse Event|Central nervous system infections and inflammations
+Concomitant Medication|DIBROMM
+Concomitant Medication|FUMAFER
+Concomitant Medication|GYNO-DAKTARIN
+Concomitant Medication|TEDELPARIN
+Concomitant Medication|CAPISTAN
+Concomitant Medication|MANNA
+Adverse Event|Vascular therapeutic procedures
+Concomitant Medication|HABITROL
+Concomitant Medication|ISOSORBIDE
+Concomitant Medication|LOVINA
+Concomitant Medication|ZOSTIN
+Concomitant Medication|DECARIS
+Concomitant Medication|NEUROBION FORTE
+Concomitant Medication|ZOFRAN
+Concomitant Medication|HALIBUT
+Concomitant Medication|PONARIS
+Concomitant Medication|IPRATROPIUM BR
+Concomitant Medication|SALBUTAMOL SULFATE
+Concomitant Medication|XYLOMETAZOLINE
+Concomitant Medication|TUSSIN DM
+Concomitant Medication|SPROT
+Concomitant Medication|GLIMEPIRID
+Concomitant Medication|NEUROCIL
+Concomitant Medication|BOTULINUM TOXIN
+Concomitant Medication|ASPIRINE PH8
+Concomitant Medication|BEFIZAL
+Concomitant Medication|DESATURA
+Concomitant Medication|MUXOL
+Concomitant Medication|STHENOREX
+Concomitant Medication|MAGNESIUM DIASPORAL
+Concomitant Medication|ATTAPULGITE
+Concomitant Medication|PIRBUTEROL
+Concomitant Medication|BRONILIDE
+Concomitant Medication|PIVALONE NEOMYCINE
+Concomitant Medication|SALGYDAL
+Concomitant Medication|DELTACORTENE
+Concomitant Medication|HEMOCYTE PLUS
+Concomitant Medication|PRENOVIL
+Concomitant Medication|ACTILYSE
+Concomitant Medication|ASPIRIN UPSA
+Concomitant Medication|DI-ANTALVIC
+Concomitant Medication|PHENAZOPYRIDINE HYDROCHLORIDE
+Concomitant Medication|PRIMAXIN
+Lab Test|Urine Urobilinogen
+Lab Test|Urine Nitrite
+Concomitant Medication|CIPRO HC OTIC
+Concomitant Medication|DURAVENT
+Concomitant Medication|PROMETRIUM
+Concomitant Medication|AXID AR
+Concomitant Medication|MAGNESIUM SALICYLATE
+Concomitant Medication|SINE OFF
+Concomitant Medication|ACEON
+Concomitant Medication|CIPRODEX
+Concomitant Medication|ENZYME
+Concomitant Medication|GRAMICIDIN
+Concomitant Medication|NEDOCROMIL
+Concomitant Medication|CO-GESIC
+Concomitant Medication|CARTIA XT
+Concomitant Medication|DESITIN
+Concomitant Medication|DILTIAZEM CD
+Concomitant Medication|ZINC + VITAMIN C
+Concomitant Medication|ABUFENE
+Concomitant Medication|MAGNESIUM ASPARTATE
+Concomitant Medication|SMECTITE
+Concomitant Medication|NITRO
+Concomitant Medication|DEXTROPROPOXYPHENE/ PARACETAMOL
+Concomitant Medication|HEXALYSE
+Concomitant Medication|OZOTHINE A LA DIPROPHYLLINE
+Concomitant Medication|SWEATOSAN
+Concomitant Medication|NIMESULIDE
+Concomitant Medication|ASASANTIN
+Concomitant Medication|GELUPRANE
+Concomitant Medication|PERSANTINE
+Concomitant Medication|RYTHMOL
+Concomitant Medication|SPASMAG
+Concomitant Medication|TAHOR
+Concomitant Medication|AZITROMYCINE
+Concomitant Medication|PERINDOPRIL ARGININE
+Concomitant Medication|ENZYME DIGEST
+Concomitant Medication|L TAURINE
+Concomitant Medication|VITAMIN E + MAGNESIUM
+Lab Test|Hepatitis B Antigen
+Concomitant Medication|MATRIX
+Concomitant Medication|CUTIVATE
+Concomitant Medication|SULFAMETHIZOLE
+Concomitant Medication|TOCOFEROL
+Concomitant Medication|PIRITRAMIDE
+Concomitant Medication|CONSTULOSE
+Concomitant Medication|FERROGEN
+Concomitant Medication|URISED
+Concomitant Medication|HUMATIN
+Concomitant Medication|TINIDAZOLE
+Concomitant Medication|AZULFIDINE
+Concomitant Medication|CLONT
+Concomitant Medication|GAMMANEURON
+Concomitant Medication|HYDERGINE
+Concomitant Medication|XANTINOL NICOTINATE
+Concomitant Medication|ACICLOVIR SODIUM
+Concomitant Medication|CALADRYL
+Lab Test|Luteinizing Hormone
+Lab Test|free (unbound) testosterone
+Concomitant Medication|ANDRIOL
+Concomitant Medication|BACAMPICILLIN
+Concomitant Medication|FLUORIDE
+Concomitant Medication|INFLAMASE
+Concomitant Medication|ACETAMINOPHEN W/DIPHENHYDRAMINE HYDROCHLORIDE
+Concomitant Medication|CALTRATE PLUS
+Concomitant Medication|CETACAINE
+Concomitant Medication|DOXAZOCIN
+Concomitant Medication|LYCOPENE W/MINERALS NOS/VITAMINS NOS
+Concomitant Medication|TUMS 500 CALCIUM
+Concomitant Medication|AMILORIDE HYDROCHLORIDE W/HYDROCHLOROTHIAZIDE
+Concomitant Medication|DILZEM
+Concomitant Medication|GARLITE
+Concomitant Medication|MAGNESIUM MALATE
+Concomitant Medication|OLIGOMERIC PROANTHOCYANIDIN W/RESVERATROL
+Concomitant Medication|NICORETTE
+Concomitant Medication|CALCIT
+Concomitant Medication|CIRKAN
+Concomitant Medication|ESIDREX
+Concomitant Medication|LACTEOL FORT
+Concomitant Medication|SACOLENE
+Concomitant Medication|STERIMYCINE
+Concomitant Medication|COSOPT
+Concomitant Medication|CO-AMILOFRUSE
+Concomitant Medication|MANTADIX
+Concomitant Medication|NIDREL
+Concomitant Medication|VIDARABINE
+Concomitant Medication|VINCENTS
+Lab Test|Urine Culture
+Concomitant Medication|ESTRACOMB
+Concomitant Medication|GELFOAM
+Concomitant Medication|ALGESAL SURACTIVE
+Concomitant Medication|DIPRIVAN
+Concomitant Medication|LACRIGEL
+Concomitant Medication|LACRYPOS
+Concomitant Medication|OROCAL VITAMINE D3
+Concomitant Medication|SANDOCAL
+Concomitant Medication|CLONEX
+Concomitant Medication|ETORICOXIB
+Concomitant Medication|CARTIA
+Concomitant Medication|NITROCOR
+Concomitant Medication|SERAZON
+Concomitant Medication|AMIBID DM
+Concomitant Medication|AVALIDE
+Concomitant Medication|AVELOX
+Concomitant Medication|MIDAZOLAM HYDROCHLORIDE
+Concomitant Medication|MAGNESIUM CHLORIDE
+Concomitant Medication|ALIZAPRIDE
+Concomitant Medication|SALCATONIN
+Concomitant Medication|NOVABRITINE
+Concomitant Medication|ECONAZOLE
+Concomitant Medication|SELEGILINE
+Concomitant Medication|NOVALGINA
+Concomitant Medication|NOVALGINE
+Concomitant Medication|RINOGUTT
+Concomitant Medication|SARIDON A
+Concomitant Medication|DEFEN-LA
+Concomitant Medication|CALCIPOT
+Concomitant Medication|MTV
+Concomitant Medication|SLEEPING
+Concomitant Medication|DONEPEZIL
+Concomitant Medication|TITRALAC
+Concomitant Medication|DOTHIEPIN HYDROCHLORIDE
+Concomitant Medication|FINASTERIDE
+Concomitant Medication|NAPHCON
+Concomitant Medication|REFRESH CLASSIC LUCRICANT EYE DROPS
+Concomitant Medication|MEGESTROL
+Concomitant Medication|COVATINE
+Concomitant Medication|GUAFENSIN
+Concomitant Medication|SUPER ANTIOXIDANT
+Concomitant Medication|ASILONE
+Concomitant Medication|QUALAQUIN
+Concomitant Medication|N-ACETYLCYSTEINE
+Lab Test|Lipase
+Lab Test|Urine Density
+Concomitant Medication|BUSCOPAN COMPOSITUM
+Concomitant Medication|FOSFOMYCINE
+Concomitant Medication|VENORUTON
+Adverse Event|Miscellaneous and site unspecified neoplasms benign
+Concomitant Medication|ESCLEROBION
+Concomitant Medication|PYRIDIN
+Concomitant Medication|CEFUROXIN
+Concomitant Medication|AMOXAPINE
+Concomitant Medication|COLBENEMID
+Concomitant Medication|CALCIUM-EAP
+Adverse Event|Musculoskeletal and connective tissue disorders congenital
+Concomitant Medication|MEI CAL
+Concomitant Medication|APO-NAPROXEN
+Concomitant Medication|OXYCOCET
+Concomitant Medication|BISMUTH SUBSALICYLATE
+Concomitant Medication|NORPACE CR
+Concomitant Medication|PARAMETASONE
+Concomitant Medication|DAYHIST-D
+Concomitant Medication|HYDROCORT
+Concomitant Medication|AMERGE
+Concomitant Medication|BUTALBIT/APAP/CAFFEINE PLUS
+Concomitant Medication|CORRECTAL
+Concomitant Medication|DURADRIN
+Concomitant Medication|MAXALT
+Concomitant Medication|MIGRANOL
+Concomitant Medication|PRENATAL VITAMINS
+Concomitant Medication|DOXY WOLFF
+Concomitant Medication|EPITIZIDE W/TRIAMTERENE
+Concomitant Medication|GERITOL
+Concomitant Medication|CARLYTENE
+Concomitant Medication|VASOBRAL
+Concomitant Medication|ZINC CITRATE
+Concomitant Medication|KAOLIN PECTIN
+Concomitant Medication|VANCOCIN
+Concomitant Medication|REPLETE
+Concomitant Medication|MULTIVITAMINS
+Concomitant Medication|L ISOLEUCINE
+Concomitant Medication|L VALINE
+Concomitant Medication|EMPORTAL
+Concomitant Medication|LUTERAN
+Concomitant Medication|MYOREL
+Concomitant Medication|CIPRALAN
+Concomitant Medication|EUCOL
+Concomitant Medication|STALTOR
+Concomitant Medication|CARISOPRODOL W/PARACETAMOL
+Concomitant Medication|ERYFLUID
+Concomitant Medication|JONCTUM
+Concomitant Medication|LACTACYD
+Concomitant Medication|SERECOR
+Concomitant Medication|ARISTOCORT
+Concomitant Medication|EFUDEX
+Concomitant Medication|TESTOSTERONE CIPIONATE
+Concomitant Medication|DONNAGEL
+Concomitant Medication|WESTCORT
+Concomitant Medication|MESALAMINE
+Concomitant Medication|PAIN EASE
+Concomitant Medication|TROXERUTINE
+Concomitant Medication|DESOGESTREL
+Concomitant Medication|CAPRIN
+Concomitant Medication|AMITRIPTYLINE HYDROCHLORIDE W/PERPHENAZINE
+Concomitant Medication|CHERATUSSIN
+Concomitant Medication|NORTRIPTYLINE HYDROCHLORIDE
+Concomitant Medication|TRIMAX
+Concomitant Medication|VITADVANCE
+Concomitant Medication|DULAX
+Concomitant Medication|LENTIZOL
+Concomitant Medication|NOCTAMID
+Concomitant Medication|BEFACT
+Concomitant Medication|BETHANECHOL CHLORIDE
+Concomitant Medication|BRONCHOSEDAL
+Concomitant Medication|URGENIN
+Concomitant Medication|CLIMAXOL
+Concomitant Medication|CITROCIL
+Concomitant Medication|HYDRALAZINE HYDROCHLORIDE
+Concomitant Medication|PRIMATENE MIST
+Concomitant Medication|BLACKCURRANT C
+Concomitant Medication|DIGESTASE
+Concomitant Medication|SILVER COLLOIDAL
+Concomitant Medication|TRACE MINERALS
+Concomitant Medication|PRECOSE
+Concomitant Medication|LEVONORGESTREL
+Lab Test|Transferrin Saturation
+Concomitant Medication|ESTRIOL
+Concomitant Medication|OFLOXACINE
+Concomitant Medication|DEBROX
+Concomitant Medication|LAXAMALT
+Concomitant Medication|LUCIDRIL
+Concomitant Medication|MYTELASE
+Concomitant Medication|RANIPLEX
+Concomitant Medication|NOVADERM
+Concomitant Medication|NAPRATEC
+Concomitant Medication|FLUINDIONE
+Concomitant Medication|NOMEGESTROL
+Concomitant Medication|ACECLOFENACO
+Concomitant Medication|ACETYLSALICYLATE LYSINE
+Concomitant Medication|RANITIDINA
+Concomitant Medication|RANITIDINA R
+Concomitant Medication|CENTRUM PLUS
+Concomitant Medication|ANAESTHETIC
+Concomitant Medication|ACTIFED COMPOUND LINCTUS
+Concomitant Medication|YELLOW PHENOLPHTHALEIN
+Concomitant Medication|LEGATRIN PM
+Concomitant Medication|CODAMINE
+Concomitant Medication|BROMPHENIRAMINE MALEATE W/PHENYLPROPANOLAMINE
+Concomitant Medication|DEXTROMETHORPHAN W/GUAIFENESIN/PHENYLPROPANOLAMINE
+Concomitant Medication|FORMULA 1
+Concomitant Medication|VANICREAM
+Lab Test|Globulin
+Lab Test|Urine Crystals
+Concomitant Medication|BEE PROPOLIS
+Concomitant Medication|BRISTAMOX
+Concomitant Medication|KEPPRA
+Concomitant Medication|ABREVA
+Concomitant Medication|MOTRIN IB
+Concomitant Medication|DIHYDROERGOTAMINE
+Concomitant Medication|THYRONAJOD
+Concomitant Medication|VIVIMED N
+Concomitant Medication|CITROFLAVONOID
+Concomitant Medication|CHLORAMPHENICOL
+Concomitant Medication|VICKS FORMULA 44
+Concomitant Medication|DEXIUM
+Concomitant Medication|GLUCOVANCE
+Concomitant Medication|HUMAN INSULIN MIX
+Concomitant Medication|LUMIGAN
+Concomitant Medication|BENZTHIAZIDE
+Concomitant Medication|KLIOFEM
+Concomitant Medication|NUVELLE
+Concomitant Medication|LINOLEIC ACID
+Concomitant Medication|BROMODIPHENHYDRAMINE HYDROCHLORIDE
+Concomitant Medication|DOMEBORO
+Concomitant Medication|ACETOSAL
+Concomitant Medication|CINNARIZINE
+Concomitant Medication|INSULIN MIXTARD
+Lab Test|Urine Sodium
+Lab Test|Total Cortisol
+Lab Test|Urine Osmolality
+Concomitant Medication|MYAMBUTOL
+Concomitant Medication|THYRAX
+Concomitant Medication|VIDISIC
+Concomitant Medication|MIXTURA SOLVENTS
+Concomitant Medication|CHLORHEXIDINE GLUCONATE
+Concomitant Medication|SENNA-S
+Concomitant Medication|SODIUM PHOSPHATE
+Concomitant Medication|SYNACTHENE
+Concomitant Medication|MAXIDEX
+Concomitant Medication|PROXYMETACAINE
+Concomitant Medication|SULFURIC ACID
+Concomitant Medication|DELSYM
+Concomitant Medication|PROAIR HFA
+Concomitant Medication|LICORICE
+Concomitant Medication|INHIBIN
+Lab Test|Osmolality Gap
+Concomitant Medication|OLEOSORBATE 80
+Concomitant Medication|THIAMPHENICOL GLYCINATE ACETYLCYSTEINE
+Concomitant Medication|VITAPANTOL
+Adverse Event|Retina, choroid and vitreous haemorrhages and vascular disorders
+Concomitant Medication|BARIUM
+Concomitant Medication|ISOVUE 300
+Concomitant Medication|BENZTROPINE MESYLATE
+Concomitant Medication|INDOTEC
+Concomitant Medication|DIOCTYL SODIUM SULPHOSUCCINATE
+Concomitant Medication|SCOPACE
+Concomitant Medication|YEAST DRIED
+Concomitant Medication|ANTACIDS
+Concomitant Medication|CALCIUM W/MAGNESIUM/VITAMIN D
+Concomitant Medication|IBANDRONIC ACID
+Concomitant Medication|METEOXANE
+Concomitant Medication|TELMISARTAN
+Concomitant Medication|ZOFENILDUO
+Concomitant Medication|ZOFENOPRIL
+Concomitant Medication|ATORVASTATIN CALCIUM TRIHYDRATE
+Concomitant Medication|DIBLOCIN
+Concomitant Medication|MOTENS
+Concomitant Medication|NIFICAL
+Concomitant Medication|PROSTESS
+Concomitant Medication|NITROFURANTOINE
+Concomitant Medication|RODOGYL
+Concomitant Medication|BERIGLOBIN
+Concomitant Medication|LYCOPIN
+Concomitant Medication|PHOSETAMIN
+Adverse Event|Neurological disorders of the eye
+Concomitant Medication|NAROPIN
+Concomitant Medication|ATENOLOL + CLORTALIDONE
+Concomitant Medication|DEXAMTHEASONE
+Concomitant Medication|MYTUSSIN DAC
+Concomitant Medication|RIBOFLAVIN
+Concomitant Medication|THIAMIN
+Concomitant Medication|THORAZINE
+Concomitant Medication|CADENS
+Concomitant Medication|DACRYOSERUM
+Concomitant Medication|NERISONE
+Concomitant Medication|CORTISPORIN OTIC
+Concomitant Medication|XOPENEX
+Concomitant Medication|DEMULEN
+Concomitant Medication|OZONOL
+Concomitant Medication|MUCODYNE
+Concomitant Medication|OLBAS
+Concomitant Medication|OTRIVINE
+Concomitant Medication|COMBIPATCH
+Concomitant Medication|BISOBETA
+Concomitant Medication|DORMICUM
+Concomitant Medication|PLASMALYTE

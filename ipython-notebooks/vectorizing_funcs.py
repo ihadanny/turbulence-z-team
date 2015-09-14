@@ -4,9 +4,10 @@
 # ## Methods used for vectorizing the raw data 
 # * Used several times across our flow
 
-# In[8]:
+# In[28]:
 
 import pandas as pd
+import copy
 import numpy as np
 import pickle
 from collections import defaultdict
@@ -24,7 +25,7 @@ from collections import defaultdict
 
 # ### Scalar -> Dummies
 
-# In[1]:
+# In[29]:
 
 def scalar_feature_to_dummies_core(df, feature_metadata):
     my_slice = df[df.feature_name == feature_metadata["feature_name"]]
@@ -51,72 +52,84 @@ def apply_scalar_feature_to_dummies(df, feature_metadata):
 
 # ### Timeseries -> Slope, %diff, stats
 
-# In[10]:
+# In[30]:
 
 def ts_pct_diff(ts_data, feature_metadata):
     if len(ts_data) < 2:
-        return { "pct_diff": None }
-    
-    ts_data_sorted = ts_data.sort('feature_delta')
-    values = ts_data_sorted.feature_value.astype('float')
-    time_values = ts_data_sorted.feature_delta.astype('float')
+        return None
+    try:
+        ts_data_sorted = ts_data.sort('feature_delta')
+        values = ts_data_sorted.feature_value.astype('float')
+        time_values = ts_data_sorted.feature_delta.astype('float')
 
-    time_diff = time_values.iloc[-1] - time_values.iloc[0]
-    val = ( values.iloc[-1] - values.iloc[0] ) / ( values.iloc[0] * time_diff)
-    if val == float('inf'):
-        return { "pct_diff": None }
-    
-    return { "pct_diff": val }
+        time_diff = time_values.iloc[-1] - time_values.iloc[0]
+        val = ( values.iloc[-1] - values.iloc[0] ) / ( values.iloc[0] * time_diff)
+        if val == float('inf'):
+            return None
+
+        return { "pct_diff": val }
+    except Exception:
+        return None
+        
     
 def ts_stats(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return { "mean": None, "std": None, "median": None }
-    
-    values = ts_data.feature_value.astype('float')
-    return { "mean": values.mean(), "std": values.std(), "median": values.median() }
-    
+        return None
+    try:
+        values = ts_data.feature_value.astype('float')
+        return { "mean": values.mean() }
+        #return { "mean": values.mean(), "std": values.std(), "median": values.median() }
+    except Exception:
+        return None
+
 def ts_mean_slope(ts_data, feature_metadata):
     if len(ts_data) < 2:
-        return { "mean_slope": None }
-    
-    ts_data_sorted = ts_data.sort('feature_delta') 
-    ts_data_sorted.feature_value = ts_data_sorted.feature_value.astype('float')
-    first, others = ts_data_sorted.iloc[0], ts_data_sorted.iloc[1:]
-    slopes = [ ( x[1].feature_value - first.feature_value) / ( x[1].feature_delta - first.feature_delta ) for x in others.iterrows() ]
-    slopes = [ x for x in slopes if x!=float('inf') ]
-    return { "mean_slope": np.mean(slopes) }
+        return None
+    try:
+        ts_data_sorted = ts_data.sort('feature_delta') 
+        ts_data_sorted.feature_value = ts_data_sorted.feature_value.astype('float')
+        first, others = ts_data_sorted.iloc[0], ts_data_sorted.iloc[1:]
+        slopes = [ ( x[1].feature_value - first.feature_value) / ( x[1].feature_delta - first.feature_delta ) for x in others.iterrows() ]
+        slopes = [ x for x in slopes if x!=float('inf') ]
+        return { "mean_slope": np.mean(slopes) }
+    except Exception:
+        return None
 
 
 # ## Timeseries -> last value
 
-# In[11]:
+# In[31]:
 
 def ts_last_value(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return { "last": None }
-    
-    ts_data_sorted = ts_data.sort('feature_delta') 
-    return { "last": ts_data_sorted.feature_value.astype('float').iloc[-1] }
+        return None
+    try:
+        ts_data_sorted = ts_data.sort('feature_delta') 
+        return { "last": ts_data_sorted.feature_value.astype('float').iloc[-1] }
+    except Exception:
+        return None
 
 
-# In[12]:
+# In[32]:
 
 def ts_last_boolean(ts_data, feature_metadata):
     if len(ts_data) < 1:
-        return { "last": None }
-    val_str = str(ts_data.feature_value.iloc[-1]).lower()
-    if val_str == 'y' or val_str == 'true':
-        val = 1
-    else:
-        val = 0
-    return { "last": val }
-    
+        return None
+    try:
+        val_str = str(ts_data.feature_value.iloc[-1]).lower()
+        if val_str == 'y' or val_str == 'true' or val_str == 'yes':
+            val = 1
+        else:
+            val = 0
+        return { "last": val }
+    except Exception:
+        return None
 
 
 # ## Metadata
 # Static part of our metadata - which feature maps to which vectorizing func?
 
-# In[ ]:
+# In[34]:
 
 ts_funcs_to_features = [ 
     { 
@@ -129,6 +142,7 @@ ts_funcs_to_features = [
     },
     {
         "funcs": ts_last_value,
+        # following features appear only once, so we just take their last values 
         "features": [
             'BMI', 'Age', 'onset_delta',
         ]
@@ -136,10 +150,28 @@ ts_funcs_to_features = [
     {
         "funcs": ts_last_boolean,
         "features": [
-            'family_ALS_hist',
+            'family_ALS_hist', 'if_use_Riluzole',
         ]
     }
 ]
+
+# Adding all lab tests that more than 1800 subjects took more than twice each
+# TODO: this shouldnt be static, we should do it per fold for the train data
+df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
+def add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features): 
+    metadata =  copy.deepcopy(ts_funcs_to_features)
+    lab = df[df.form_name == 'Lab Test']
+    lab_numeric = lab[~np.isnan(lab.feature_value.convert_objects(convert_numeric=True))]
+    by_feature = lab_numeric.groupby(["feature_name", "SubjectID"])
+    features_with_multiple_visits = by_feature.filter(lambda x: len(x)>2)
+    distinct_subjects = features_with_multiple_visits.groupby("feature_name").SubjectID.nunique()
+    lab_having_enough_samples = distinct_subjects[distinct_subjects > df.SubjectID.nunique() * 0.75]
+
+    for f in lab_having_enough_samples.index:
+        metadata[0]["features"].append(f)
+    return metadata
+
+ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)
 
 dummy_funcs_to_features = [ 
     { 
@@ -164,7 +196,7 @@ def invert_func_to_features(ftf, feature_type):
     return res
 
 
-# In[ ]:
+# In[36]:
 
 def learn_to_dummies_model(df, all_feature_metadata):
     new_metadata = all_feature_metadata.copy()
@@ -177,12 +209,15 @@ def learn_to_dummies_model(df, all_feature_metadata):
 
 # ## Helper functions
 
-# In[13]:
+# In[37]:
 
 def to_series(f):
     def foo(x, args):
         res = f(x, args)
-        return pd.Series(res)
+        if res is None: 
+            return None
+        else:
+            return pd.Series(res)
     return foo
 
 def parse_feature_delta(fd):
@@ -197,7 +232,7 @@ def parse_feature_delta(fd):
 
 # ## Vectorize
 
-# In[1]:
+# In[38]:
 
 
 def vectorize(df, all_feature_metadata, debug=False):
@@ -228,7 +263,7 @@ def vectorize(df, all_feature_metadata, debug=False):
 
 # ## Normalize
 
-# In[15]:
+# In[39]:
 
 def normalize(vectorized, all_feature_metadata, train_data_means, train_data_std):
     vectorized = vectorized.reindex(columns=train_data_means.keys())
