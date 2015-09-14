@@ -157,7 +157,6 @@ ts_funcs_to_features = [
 
 # Adding all lab tests that more than 1800 subjects took more than twice each
 # TODO: this shouldnt be static, we should do it per fold for the train data
-df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 def add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features): 
     metadata =  copy.deepcopy(ts_funcs_to_features)
     lab = df[df.form_name == 'Lab Test']
@@ -170,8 +169,6 @@ def add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features):
     for f in lab_having_enough_samples.index:
         metadata[0]["features"].append(f)
     return metadata
-
-ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)
 
 dummy_funcs_to_features = [ 
     { 
