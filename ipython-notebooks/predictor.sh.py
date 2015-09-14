@@ -4,7 +4,7 @@
 # ## Run predictor.sh
 # Read the challenge standard selected features and emit a prediction
 
-# In[3]:
+# In[6]:
 
 import pickle
 import pandas as pd
@@ -17,7 +17,7 @@ from vectorizing_funcs import *
 if "IPython" not in sys.argv[0]:
     models_folder, input_file, output_file= sys.argv[1], sys.argv[2], sys.argv[3]
 else:
-    models_folder, input_file, output_file= "../", "../selected_60879.txt", "../predicted_60879.txt"
+    models_folder, input_file, output_file= "../", "../selected_19871.txt", "../predicted_19871.txt"
 
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )
@@ -34,7 +34,7 @@ with open(input_file, 'r') as f:
     content = f.readlines()
     c = int(content[0].split(":")[1])
     s = "".join(content[1:])
-    df = pd.read_csv(StringIO(s), sep='|', index_col=False,
+    df = pd.read_csv(StringIO(s), sep='|', index_col=False, dtype="unicode",
                     names =["SubjectID","form_name","feature_name","feature_value","feature_unit","feature_delta"])
     vectorized, _ = vectorize(df, all_feature_metadata)
     normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)

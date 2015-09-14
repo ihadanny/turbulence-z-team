@@ -8,7 +8,7 @@
 # * First line: the cluster identifier for that patient
 # * Following lines: the selected features selected for that specific single patient, using the same format as the input data. A maximum of 6 features are allowed.
 
-# In[1]:
+# In[2]:
 
 import pickle
 import pandas as pd
@@ -18,7 +18,7 @@ from vectorizing_funcs import *
 if "IPython" not in sys.argv[0]:
     models_folder, input_file, output_file= sys.argv[1], sys.argv[2], sys.argv[3]
 else:
-    models_folder, input_file, output_file= "../", "../60879.txt", "../selected_60879.txt"
+    models_folder, input_file, output_file= "../", "../19871.txt", "../selected_19871.txt"
 
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )

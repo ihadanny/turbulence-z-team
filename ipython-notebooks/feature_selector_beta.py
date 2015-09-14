@@ -17,7 +17,7 @@ from IPython.display import display
 from modeling_funcs import *
 
 
-# In[24]:
+# In[2]:
 
 vectorized_data = pd.read_csv('../all_data_vectorized.csv', sep='|', index_col=0)
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col=0)
@@ -29,13 +29,18 @@ Y = everybody[['cluster', 'ALSFRS_slope']]
 X = everybody.drop('ALSFRS_slope', 1)
 
 
-# In[25]:
+# In[ ]:
+
+
+
+
+# In[3]:
 
 best_features_per_cluster = get_best_features_per_cluster(X, Y, all_feature_metadata)
 best_features_per_cluster
 
 
-# In[26]:
+# In[4]:
 
 with open("../best_features_per_cluster.pickle", "wb") as output_file:
     pickle.dump(best_features_per_cluster, output_file)
@@ -44,7 +49,7 @@ with open("../best_features_per_cluster.pickle", "wb") as output_file:
 # #Apply the selector 
 # leave only the best features per cluster
 
-# In[27]:
+# In[5]:
 
 for t in ["all", "test"]:
     print t

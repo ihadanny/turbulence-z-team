@@ -1,3 +1,0 @@
-cluster: 0
-60879|Lab Test|Creatinine|51|umol/L|174.0
-60879|Lab Test|Creatinine|63|umol/L|0.0

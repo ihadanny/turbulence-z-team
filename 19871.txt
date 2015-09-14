@@ -1,0 +1,391 @@
+SubjectID|form_name|feature_name|feature_value|feature_unit|feature_delta
+19871|Lab Test|H. Pylori Antibody|-||0
+19871|ALSHX|onset_site|Limb|NA|0
+19871|Concomitant Medication|BACLOFEN|5;BID (twice a day);Oral|Milligrams (mg)|136;
+19871|Demographic|Race|White|NA|0
+19871|FVC|fvc_normal|2.7365079073684|L|378
+19871|FVC|fvc_normal|2.7365079073684|L|198
+19871|FVC|fvc_normal|2.7365079073684|L|247
+19871|FVC|fvc_normal|2.7365079073684|L|70
+19871|FVC|fvc_normal|2.7365079073684|L|10
+19871|FVC|fvc_normal|2.7365079073684|L|0
+19871|FVC|fvc_normal|2.7365079073684|L|329
+19871|FVC|fvc_normal|2.7365079073684|L|135
+19871|Lab Test|Stool Occult Blood|-||241
+19871|Lab Test|Stool Occult Blood|-||198
+19871|Lab Test|Stool Occult Blood|-||39
+19871|Lab Test|Stool Occult Blood|-||163
+19871|Lab Test|Stool Occult Blood|-||328
+19871|Lab Test|Stool Occult Blood|-||13
+19871|Lab Test|Stool Occult Blood|-||8
+19871|Lab Test|Stool Occult Blood|-||135
+19871|Lab Test|Stool Occult Blood|-||83
+19871|Lab Test|Stool Occult Blood|-||304
+19871|Lab Test|Stool Occult Blood|-||246
+19871|ALSFRS|ALSFRS_Total|14|NA|329
+19871|ALSFRS|ALSFRS_Total|16|NA|135
+19871|ALSFRS|ALSFRS_Total|15|NA|247
+19871|ALSFRS|ALSFRS_Total|24|NA|10
+19871|ALSFRS|ALSFRS_Total|15|NA|198
+19871|ALSFRS|ALSFRS_Total|18|NA|70
+19871|ALSFRS|ALSFRS_Total|11|NA|378
+19871|Treatment|treatment_group|Placebo|NA|0
+19871|ALSFRS|Q2_Salivation|3|NA|329
+19871|ALSFRS|Q2_Salivation|3|NA|135
+19871|ALSFRS|Q2_Salivation|3|NA|247
+19871|ALSFRS|Q2_Salivation|3|NA|10
+19871|ALSFRS|Q2_Salivation|3|NA|198
+19871|ALSFRS|Q2_Salivation|3|NA|70
+19871|ALSFRS|Q2_Salivation|1|NA|378
+19871|ALSHX|onset_delta|-379|NA|0
+19871|Lab Test|Chloride|104|mmol/L|55
+19871|Lab Test|Chloride|102|mmol/L|0
+19871|Lab Test|Chloride|103|mmol/L|198
+19871|Lab Test|Chloride|104|mmol/L|378
+19871|Lab Test|Chloride|103|mmol/L|135
+19871|Lab Test|Chloride|104|mmol/L|107
+19871|Lab Test|Chloride|100|mmol/L|329
+19871|Lab Test|Chloride|104|mmol/L|70
+19871|Lab Test|Chloride|103|mmol/L|247
+19871|FVC|fvc|0.64|L|378
+19871|FVC|fvc|0.796666666666667|L|198
+19871|FVC|fvc|1.27|L|247
+19871|FVC|fvc|1.34666666666667|L|70
+19871|FVC|fvc|1.61666666666667|L|10
+19871|FVC|fvc|1.58333333333333|L|0
+19871|FVC|fvc|0.663333333333333|L|329
+19871|FVC|fvc|1.14666666666667|L|135
+19871|FVC|fvc_percent3|28.8689098201699|%|378
+19871|FVC|fvc_percent3|30.3306267730899|%|198
+19871|FVC|fvc_percent3|39.1009284906098|%|247
+19871|FVC|fvc_percent3|56.2761026874197|%|70
+19871|FVC|fvc_percent3|56.6415319256497|%|10
+19871|FVC|fvc_percent3|61.3921120226397|%|0
+19871|FVC|fvc_percent3|6.57772628813997|%|329
+19871|FVC|fvc_percent3|40.5626454435298|%|135
+19871|Vitals|BMI|0.0028383929749185|NA|0
+19871|Concomitant Medication|ENDURA|1;QD (every day);Oral|Tablet (s)|-121;
+19871|ALSFRS|respiratory|3|NA|329
+19871|ALSFRS|respiratory|3|NA|135
+19871|ALSFRS|respiratory|3|NA|247
+19871|ALSFRS|respiratory|3|NA|10
+19871|ALSFRS|respiratory|3|NA|198
+19871|ALSFRS|respiratory|3|NA|70
+19871|ALSFRS|respiratory|3|NA|378
+19871|ALSFRS|Q5_Cutting|0|NA|329
+19871|ALSFRS|Q5_Cutting|1|NA|135
+19871|ALSFRS|Q5_Cutting|0|NA|247
+19871|ALSFRS|Q5_Cutting|1|NA|10
+19871|ALSFRS|Q5_Cutting|0|NA|198
+19871|ALSFRS|Q5_Cutting|1|NA|70
+19871|ALSFRS|Q5_Cutting|0|NA|378
+19871|ALSFRS|Q9_Climbing_Stairs|1|NA|329
+19871|ALSFRS|Q9_Climbing_Stairs|1|NA|135
+19871|ALSFRS|Q9_Climbing_Stairs|1|NA|247
+19871|ALSFRS|Q9_Climbing_Stairs|3|NA|10
+19871|ALSFRS|Q9_Climbing_Stairs|0|NA|198
+19871|ALSFRS|Q9_Climbing_Stairs|0|NA|70
+19871|ALSFRS|Q9_Climbing_Stairs|0|NA|378
+19871|ALSFRS|Q4_Handwriting|1|NA|329
+19871|ALSFRS|Q4_Handwriting|2|NA|135
+19871|ALSFRS|Q4_Handwriting|2|NA|247
+19871|ALSFRS|Q4_Handwriting|4|NA|10
+19871|ALSFRS|Q4_Handwriting|2|NA|198
+19871|ALSFRS|Q4_Handwriting|3|NA|70
+19871|ALSFRS|Q4_Handwriting|1|NA|378
+19871|Lab Test|ALT(SGPT)|21|U/L|135
+19871|Lab Test|ALT(SGPT)|26|U/L|247
+19871|Lab Test|ALT(SGPT)|28|U/L|198
+19871|Lab Test|ALT(SGPT)|40|U/L|107
+19871|Lab Test|ALT(SGPT)|45|U/L|55
+19871|Lab Test|ALT(SGPT)|28|U/L|0
+19871|Lab Test|ALT(SGPT)|27|U/L|329
+19871|Lab Test|ALT(SGPT)|19|U/L|70
+19871|Lab Test|ALT(SGPT)|25|U/L|378
+19871|Lab Test|Potassium|3.7|mmol/L|329
+19871|Lab Test|Potassium|4.1|mmol/L|378
+19871|Lab Test|Potassium|4|mmol/L|0
+19871|Lab Test|Potassium|4.1|mmol/L|55
+19871|Lab Test|Potassium|4|mmol/L|247
+19871|Lab Test|Potassium|4.4|mmol/L|198
+19871|Lab Test|Potassium|3.7|mmol/L|107
+19871|Lab Test|Potassium|4.1|mmol/L|70
+19871|Lab Test|Potassium|4|mmol/L|135
+19871|Lab Test|Sodium|141|mmol/L|135
+19871|Lab Test|Sodium|139|mmol/L|0
+19871|Lab Test|Sodium|141|mmol/L|247
+19871|Lab Test|Sodium|142|mmol/L|378
+19871|Lab Test|Sodium|147|mmol/L|198
+19871|Lab Test|Sodium|141|mmol/L|329
+19871|Lab Test|Sodium|142|mmol/L|70
+19871|Lab Test|Sodium|139|mmol/L|107
+19871|Lab Test|Sodium|142|mmol/L|55
+19871|Vitals|height|159.6|cm|0
+19871|ALSFRS|Q3_Swallowing|2|NA|329
+19871|ALSFRS|Q3_Swallowing|2|NA|135
+19871|ALSFRS|Q3_Swallowing|2|NA|247
+19871|ALSFRS|Q3_Swallowing|3|NA|10
+19871|ALSFRS|Q3_Swallowing|3|NA|198
+19871|ALSFRS|Q3_Swallowing|3|NA|70
+19871|ALSFRS|Q3_Swallowing|2|NA|378
+19871|Vitals|pulse|73|# per minitue|378
+19871|Vitals|pulse|78|# per minitue|198
+19871|Vitals|pulse|88|# per minitue|247
+19871|Vitals|pulse|78|# per minitue|70
+19871|Vitals|pulse|71|# per minitue|10
+19871|Vitals|pulse|61|# per minitue|0
+19871|Vitals|pulse|73|# per minitue|329
+19871|Vitals|pulse|77|# per minitue|135
+19871|Vitals|bp_diastolic|86|mmHg|378
+19871|Vitals|bp_diastolic|89|mmHg|198
+19871|Vitals|bp_diastolic|108|mmHg|247
+19871|Vitals|bp_diastolic|85|mmHg|70
+19871|Vitals|bp_diastolic|86|mmHg|10
+19871|Vitals|bp_diastolic|80|mmHg|0
+19871|Vitals|bp_diastolic|79|mmHg|329
+19871|Vitals|bp_diastolic|72|mmHg|135
+19871|FVC|fvc_percent1|25.2146174378699|%|378
+19871|FVC|fvc_percent1|33.9849191553898|%|198
+19871|FVC|fvc_percent1|39.1009284906098|%|247
+19871|FVC|fvc_percent1|41.6589331582198|%|70
+19871|FVC|fvc_percent1|58.4686781167997|%|10
+19871|FVC|fvc_percent1|55.5452442109597|%|0
+19871|FVC|fvc_percent1|31.7923437260098|%|329
+19871|FVC|fvc_percent1|44.9477963022898|%|135
+19871|ALSFRS|hands|1|NA|329
+19871|ALSFRS|hands|3|NA|135
+19871|ALSFRS|hands|2|NA|247
+19871|ALSFRS|hands|5|NA|10
+19871|ALSFRS|hands|2|NA|198
+19871|ALSFRS|hands|4|NA|70
+19871|ALSFRS|hands|1|NA|378
+19871|Concomitant Medication|CREATINE|5;QD (every day);Oral|Grams (g)|-121;153
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|329
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|135
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|247
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|10
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|198
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|70
+19871|ALSFRS|R3_Respiratory_Insufficiency|4|NA|378
+19871|ALSFRS|mouth|6|NA|329
+19871|ALSFRS|mouth|6|NA|135
+19871|ALSFRS|mouth|6|NA|247
+19871|ALSFRS|mouth|8|NA|10
+19871|ALSFRS|mouth|7|NA|198
+19871|ALSFRS|mouth|7|NA|70
+19871|ALSFRS|mouth|4|NA|378
+19871|Lab Test|Bilirubin (Total)|0.5|umol/L|55
+19871|Lab Test|Bilirubin (Total)|0.7|umol/L|247
+19871|Lab Test|Bilirubin (Total)|0.9|umol/L|329
+19871|Lab Test|Bilirubin (Total)|0.8|umol/L|378
+19871|Lab Test|Bilirubin (Total)|0.8|umol/L|135
+19871|Lab Test|Bilirubin (Total)|0.5|umol/L|107
+19871|Lab Test|Bilirubin (Total)|0.7|umol/L|0
+19871|Lab Test|Bilirubin (Total)|0.9|umol/L|198
+19871|Lab Test|Bilirubin (Total)|0.7|umol/L|70
+19871|Vitals|weight|67.8|kg|378
+19871|Vitals|weight|68.4|kg|198
+19871|Vitals|weight|66|kg|247
+19871|Vitals|weight|68.3|kg|70
+19871|Vitals|weight|71.5|kg|10
+19871|Vitals|weight|72.3|kg|0
+19871|Vitals|weight|66.3|kg|329
+19871|Vitals|weight|67.1|kg|135
+19871|Riluzole|if_use_Riluzole|No|NA|0
+19871|Concomitant Medication|ROBINUL|1;BID (twice a day);Oral|Milligrams (mg)|167;
+19871|ALSFRS|Q8_Walking|2|NA|329
+19871|ALSFRS|Q8_Walking|2|NA|135
+19871|ALSFRS|Q8_Walking|2|NA|247
+19871|ALSFRS|Q8_Walking|2|NA|10
+19871|ALSFRS|Q8_Walking|2|NA|198
+19871|ALSFRS|Q8_Walking|2|NA|70
+19871|ALSFRS|Q8_Walking|2|NA|378
+19871|Concomitant Medication|PAXIL|25;QD (every day);Oral|Milligrams (mg)|-288;
+19871|Concomitant Medication|GLUCOSAMINE & CHONDROITIN|1500/1200;QD (every day);Oral|Milligrams (mg)|-121;108
+19871|Vitals|respiratory_rate|24|# per minitue|378
+19871|Vitals|respiratory_rate|22|# per minitue|198
+19871|Vitals|respiratory_rate|24|# per minitue|247
+19871|Vitals|respiratory_rate|20|# per minitue|70
+19871|Vitals|respiratory_rate|24|# per minitue|10
+19871|Vitals|respiratory_rate|16|# per minitue|0
+19871|Vitals|respiratory_rate|18|# per minitue|329
+19871|Vitals|respiratory_rate|20|# per minitue|135
+19871|ALSFRS|R2_Orthopnea|4|NA|329
+19871|ALSFRS|R2_Orthopnea|3|NA|135
+19871|ALSFRS|R2_Orthopnea|3|NA|247
+19871|ALSFRS|R2_Orthopnea|4|NA|10
+19871|ALSFRS|R2_Orthopnea|4|NA|198
+19871|ALSFRS|R2_Orthopnea|3|NA|70
+19871|ALSFRS|R2_Orthopnea|4|NA|378
+19871|Concomitant Medication|FLAXSEED OIL|500;BID (twice a day);Oral|Milligrams (mg)|-121;
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|329
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|135
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|247
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|10
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|198
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|70
+19871|ALSFRS|Q7_Turning_in_Bed|1|NA|378
+19871|ALSFRS|Q1_Speech|1|NA|329
+19871|ALSFRS|Q1_Speech|1|NA|135
+19871|ALSFRS|Q1_Speech|1|NA|247
+19871|ALSFRS|Q1_Speech|2|NA|10
+19871|ALSFRS|Q1_Speech|1|NA|198
+19871|ALSFRS|Q1_Speech|1|NA|70
+19871|ALSFRS|Q1_Speech|1|NA|378
+19871|ALSHX|diag_delta|-172|NA|0
+19871|FVC|fvc_percent2|16.0788864821199|%|378
+19871|FVC|fvc_percent2|23.0220420084899|%|198
+19871|FVC|fvc_percent2|61.0266827844097|%|247
+19871|FVC|fvc_percent2|49.6983763992798|%|70
+19871|FVC|fvc_percent2|62.1229704990997|%|10
+19871|FVC|fvc_percent2|56.6415319256497|%|0
+19871|FVC|fvc_percent2|34.3503483936198|%|329
+19871|FVC|fvc_percent2|40.1972162052998|%|135
+19871|ALSFRS|Q6_Dressing_and_Hygiene|0|NA|329
+19871|ALSFRS|Q6_Dressing_and_Hygiene|0|NA|135
+19871|ALSFRS|Q6_Dressing_and_Hygiene|0|NA|247
+19871|ALSFRS|Q6_Dressing_and_Hygiene|2|NA|10
+19871|ALSFRS|Q6_Dressing_and_Hygiene|0|NA|198
+19871|ALSFRS|Q6_Dressing_and_Hygiene|1|NA|70
+19871|ALSFRS|Q6_Dressing_and_Hygiene|0|NA|378
+19871|Concomitant Medication|HYZAAR|50/12.5;QD (every day);Oral|Milligrams (mg)|-288;
+19871|ALSFRS|R1_Dyspnea|4|NA|329
+19871|ALSFRS|R1_Dyspnea|2|NA|135
+19871|ALSFRS|R1_Dyspnea|2|NA|247
+19871|ALSFRS|R1_Dyspnea|3|NA|10
+19871|ALSFRS|R1_Dyspnea|4|NA|198
+19871|ALSFRS|R1_Dyspnea|2|NA|70
+19871|ALSFRS|R1_Dyspnea|3|NA|378
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|0|NA|329
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|1|NA|135
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|0|NA|247
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|1|NA|10
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|0|NA|198
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|1|NA|70
+19871|ALSFRS|Q5a_Cutting_without_Gastrostomy|0|NA|378
+19871|ALSFRS|Q10_Respiratory|3|NA|329
+19871|ALSFRS|Q10_Respiratory|3|NA|135
+19871|ALSFRS|Q10_Respiratory|3|NA|247
+19871|ALSFRS|Q10_Respiratory|3|NA|10
+19871|ALSFRS|Q10_Respiratory|3|NA|198
+19871|ALSFRS|Q10_Respiratory|3|NA|70
+19871|ALSFRS|Q10_Respiratory|3|NA|378
+19871|Concomitant Medication|VITAMIN E|400;BID (twice a day);Oral|Milligrams (mg)|-121;
+19871|Vitals|temperature|36.9|C|378
+19871|Vitals|temperature|36.1|C|198
+19871|Vitals|temperature|36.6|C|70
+19871|Vitals|temperature|36.1|C|10
+19871|Vitals|temperature|36.3|C|0
+19871|Vitals|temperature|36|C|329
+19871|Vitals|temperature|36|C|135
+19871|Concomitant Medication|OMEGA 3|2;QD (every day);Oral|Tablet (s)|-121;
+19871|ALSFRS|ALSFRS_R_Total|23|NA|329
+19871|ALSFRS|ALSFRS_R_Total|22|NA|135
+19871|ALSFRS|ALSFRS_R_Total|21|NA|247
+19871|ALSFRS|ALSFRS_R_Total|32|NA|10
+19871|ALSFRS|ALSFRS_R_Total|24|NA|198
+19871|ALSFRS|ALSFRS_R_Total|24|NA|70
+19871|ALSFRS|ALSFRS_R_Total|19|NA|378
+19871|Lab Test|Bicarbonate|25|mmol/L|198
+19871|Lab Test|Bicarbonate|26|mmol/L|378
+19871|Lab Test|Bicarbonate|20|mmol/L|70
+19871|Lab Test|Bicarbonate|26|mmol/L|135
+19871|Lab Test|Bicarbonate|25|mmol/L|329
+19871|Lab Test|Bicarbonate|21|mmol/L|107
+19871|Lab Test|Bicarbonate|25|mmol/L|0
+19871|Lab Test|Bicarbonate|26|mmol/L|55
+19871|Lab Test|Bicarbonate|25|mmol/L|247
+19871|ALSFRS|respiratory_R|12|NA|329
+19871|ALSFRS|respiratory_R|9|NA|135
+19871|ALSFRS|respiratory_R|9|NA|247
+19871|ALSFRS|respiratory_R|11|NA|10
+19871|ALSFRS|respiratory_R|12|NA|198
+19871|ALSFRS|respiratory_R|9|NA|70
+19871|ALSFRS|respiratory_R|11|NA|378
+19871|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|55
+19871|Lab Test|Blood Urea Nitrogen (BUN)|4.7463|mmol/L|0
+19871|Lab Test|Blood Urea Nitrogen (BUN)|6.2067|mmol/L|198
+19871|Lab Test|Blood Urea Nitrogen (BUN)|6.2067|mmol/L|329
+19871|Lab Test|Blood Urea Nitrogen (BUN)|4.7463|mmol/L|378
+19871|Lab Test|Blood Urea Nitrogen (BUN)|5.8416|mmol/L|247
+19871|Lab Test|Blood Urea Nitrogen (BUN)|6.2067|mmol/L|70
+19871|Lab Test|Blood Urea Nitrogen (BUN)|3.87006|mmol/L|107
+19871|Lab Test|Blood Urea Nitrogen (BUN)|6.5718|mmol/L|135
+19871|FVC|fvc3|0.79|L|378
+19871|FVC|fvc3|0.83|L|198
+19871|FVC|fvc3|1.07|L|247
+19871|FVC|fvc3|1.54|L|70
+19871|FVC|fvc3|1.55|L|10
+19871|FVC|fvc3|1.68|L|0
+19871|FVC|fvc3|0.18|L|329
+19871|FVC|fvc3|1.11|L|135
+19871|FVC|fvc1|0.69|L|378
+19871|FVC|fvc1|0.93|L|198
+19871|FVC|fvc1|1.07|L|247
+19871|FVC|fvc1|1.14|L|70
+19871|FVC|fvc1|1.6|L|10
+19871|FVC|fvc1|1.52|L|0
+19871|FVC|fvc1|0.87|L|329
+19871|FVC|fvc1|1.23|L|135
+19871|Demographic|Gender|F|NA|0
+19871|Concomitant Medication|PREMARIN|0.625;QD (every day);Oral|Milligrams (mg)|-2661;357
+19871|Concomitant Medication|CORAL CALCIUM|1;QD (every day);Oral|Tablet (s)|-121;
+19871|Concomitant Medication|CORAL CALCIUM|1;QD (every day);Oral||-121;
+19871|Vitals|bp_systolic|130|mmHg|378
+19871|Vitals|bp_systolic|155|mmHg|198
+19871|Vitals|bp_systolic|143|mmHg|247
+19871|Vitals|bp_systolic|142|mmHg|70
+19871|Vitals|bp_systolic|151|mmHg|10
+19871|Vitals|bp_systolic|158|mmHg|0
+19871|Vitals|bp_systolic|124|mmHg|329
+19871|Vitals|bp_systolic|131|mmHg|135
+19871|Lab Test|Creatinine|61.88|umol/L|247
+19871|Lab Test|Creatinine|70.72|umol/L|107
+19871|Lab Test|Creatinine|70.72|umol/L|55
+19871|Lab Test|Creatinine|70.72|umol/L|198
+19871|Lab Test|Creatinine|79.56|umol/L|70
+19871|Lab Test|Creatinine|79.56|umol/L|0
+19871|Lab Test|Creatinine|70.72|umol/L|135
+19871|Lab Test|Creatinine|61.88|umol/L|329
+19871|Lab Test|Creatinine|61.88|umol/L|378
+19871|ALSFRS|trunk|1|NA|329
+19871|ALSFRS|trunk|1|NA|135
+19871|ALSFRS|trunk|1|NA|247
+19871|ALSFRS|trunk|3|NA|10
+19871|ALSFRS|trunk|1|NA|198
+19871|ALSFRS|trunk|2|NA|70
+19871|ALSFRS|trunk|1|NA|378
+19871|ALSFRS|leg|3|NA|329
+19871|ALSFRS|leg|3|NA|135
+19871|ALSFRS|leg|3|NA|247
+19871|ALSFRS|leg|5|NA|10
+19871|ALSFRS|leg|2|NA|198
+19871|ALSFRS|leg|2|NA|70
+19871|ALSFRS|leg|2|NA|378
+19871|FVC|fvc_percent|23.3874712467199|%|378
+19871|FVC|fvc_percent|29.1125293123232|%|198
+19871|FVC|fvc_percent|46.4095132552098|%|247
+19871|FVC|fvc_percent|49.2111374149731|%|70
+19871|FVC|fvc_percent|59.077726847183|%|10
+19871|FVC|fvc_percent|57.8596293864164|%|0
+19871|FVC|fvc_percent|24.2401394692565|%|329
+19871|FVC|fvc_percent|41.9025526503731|%|135
+19871|Demographic|Age|59|NA|0
+19871|FVC|fvc2|0.44|L|378
+19871|FVC|fvc2|0.63|L|198
+19871|FVC|fvc2|1.67|L|247
+19871|FVC|fvc2|1.36|L|70
+19871|FVC|fvc2|1.7|L|10
+19871|FVC|fvc2|1.55|L|0
+19871|FVC|fvc2|0.94|L|329
+19871|FVC|fvc2|1.1|L|135
+19871|Lab Test|AST(SGOT)|32|U/L|247
+19871|Lab Test|AST(SGOT)|30|U/L|198
+19871|Lab Test|AST(SGOT)|28|U/L|135
+19871|Lab Test|AST(SGOT)|24|U/L|107
+19871|Lab Test|AST(SGOT)|22|U/L|55
+19871|Lab Test|AST(SGOT)|27|U/L|70
+19871|Lab Test|AST(SGOT)|32|U/L|378
+19871|Lab Test|AST(SGOT)|35|U/L|0
+19871|Lab Test|AST(SGOT)|27|U/L|329
+19871|Concomitant Medication|AMITRIPTYLINE|25;QHS (at bedtime);Oral|Milligrams (mg)|70;167

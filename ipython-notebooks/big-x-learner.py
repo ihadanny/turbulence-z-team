@@ -72,7 +72,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[22]:
+# In[5]:
 
 def train_it(train_data, my_n_clusters):
         global ts_funcs_to_features
@@ -115,7 +115,7 @@ def train_it(train_data, my_n_clusters):
         return all_feature_metadata, train_data_means, train_data_std,                      kmeans, best_features_per_cluster, model_per_cluster
 
 
-# In[23]:
+# In[6]:
 
 from datetime import datetime
 
@@ -158,9 +158,9 @@ def train_and_test(df, slope, my_n_clusters=3):
 
 
 
-# In[24]:
+# In[ ]:
 
-for n_clusters in range(2, 5):
+for n_clusters in range(2, 4):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)
