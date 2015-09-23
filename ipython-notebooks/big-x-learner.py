@@ -4,7 +4,7 @@
 # ## Builds all our models x-validated
 # 
 
-# In[1]:
+# In[7]:
 
 from IPython.display import display
 
@@ -15,14 +15,12 @@ from sklearn.cluster import KMeans
 from StringIO import StringIO
 from sklearn import metrics
 from sklearn.cross_validation import KFold
-from sklearn import cross_validation, grid_search
-from sklearn.ensemble import RandomForestRegressor
 
 from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[2]:
+# In[8]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
@@ -34,7 +32,7 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[3]:
+# In[9]:
 
 def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
                  clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster):
@@ -65,65 +63,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[4]:
-
-def train_it(train_data, my_n_clusters):
-        global ts_funcs_to_features
-        # Prepare metadata
-        ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(train_data, ts_funcs_to_features)
-        all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
-        all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "dummy"))
-        all_feature_metadata = learn_to_dummies_model(train_data, all_feature_metadata)
-        
-        # Vectorizing
-        vectorized, all_feature_metadata = vectorize(train_data, all_feature_metadata)
-        train_data_means = vectorized.mean()
-        train_data_std = vectorized.std()            
-        normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-
-        everybody = normalized.join(slope)
-        X = everybody.drop(['ALSFRS_slope'], 1)
-        Y = everybody[['ALSFRS_slope']]
-        print "train_data: ", X.shape, Y.shape
-        
-        # Clustering
-        #for_clustering = normalized[clustering_columns]
-        #kmeans = KMeans(init='k-means++', n_clusters=my_n_clusters)
-        #clusters['cluster'] = kmeans.fit_predict(for_clustering)
-
-        forest = grid_search.GridSearchCV(RandomForestRegressor(min_samples_leaf=60, min_samples_split=260, random_state=0), 
-                               {'min_samples_leaf': range(60,61,10), 'n_estimators': [1000]})
-        forest.fit(X, Y.ALSFRS_slope)
-        quart = 100 / my_n_clusters
-        bins = np.percentile(forest.predict(X), range(quart,100,quart))
-                          
-        # Note we must convert to str to join with slope later
-        clusters = pd.DataFrame(index = normalized.index.astype(str))
-        clusters['cluster'] = np.digitize(forest.predict(X), bins)
-        print "train cluster cnt: ", np.bincount(clusters.cluster)
-
-        X = X.join(clusters)
-        Y = Y.join(clusters)
-
-        best_features_per_cluster = stepwise_best_features_per_cluster(X, Y, all_feature_metadata)
-        print "best_features_per_cluster: ", best_features_per_cluster 
-        buf = filter_only_selected_features(train_data.set_index("SubjectID"), clusters,                                             best_features_per_cluster)
-
-        s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
-        s_vectorized, _ = vectorize(s_df, all_feature_metadata)
-        # if we have a subject missing all selected features, fill him with missing values right before normalizing
-        s_vectorized = s_vectorized.join(Y, how = 'right')
-        s_vectorized = s_vectorized.drop('ALSFRS_slope', 1)
-
-        s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
-        s_X = s_normalized.join(clusters)
-        
-        model_per_cluster = get_model_per_cluster(s_X, Y)
-        
-        return all_feature_metadata, train_data_means, train_data_std,                      bins, forest, best_features_per_cluster, model_per_cluster
-
-
-# In[ ]:
+# In[10]:
 
 from datetime import datetime
 
@@ -139,7 +79,7 @@ def train_and_test(df, slope, my_n_clusters=2):
         print "fold: %d" % fold
         tick = datetime.now()
         
-        all_feature_metadata, train_data_means, train_data_std,                      bins, forest, best_features_per_cluster, model_per_cluster = train_it(train_data, my_n_clusters)
+        all_feature_metadata, train_data_means, train_data_std,                      bins, forest, best_features_per_cluster, model_per_cluster = train_it(train_data, slope, my_n_clusters)
 
         input_for_model, pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
                      clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
@@ -169,6 +109,11 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 
 # In[ ]:
+
+
+
+
+# In[6]:
 
 for n_clusters in range(2, 6):
     print "*"*60
