@@ -1,0 +1,1907 @@
+95131|Demographic|Gender|F||0.0
+95131|Demographic|Age|71||0.0
+95131|Demographic|Race|White||0.0
+95131|ALSHX|onset_delta|-641||0.0
+95131|ALSHX|onset_site|Limb||0.0
+95131|Riluzole|if_use_Riluzole|Yes||0.0
+95131|Treatment|treatment_group|Active||0.0
+95131|ALSFRS|Q1_Speech|3||0.0
+95131|ALSFRS|Q1_Speech|3||28.0
+95131|ALSFRS|Q1_Speech|3||56.0
+95131|ALSFRS|Q1_Speech|3||87.0
+95131|ALSFRS|Q1_Speech|3||112.0
+95131|ALSFRS|Q1_Speech|3||168.0
+95131|ALSFRS|Q1_Speech|3||234.0
+95131|ALSFRS|Q1_Speech|3||287.0
+95131|ALSFRS|Q1_Speech|2||357.0
+95131|ALSFRS|Q1_Speech|2||434.0
+95131|ALSFRS|Q1_Speech|2||490.0
+95131|ALSFRS|Q2_Salivation|4||0.0
+95131|ALSFRS|Q2_Salivation|3||28.0
+95131|ALSFRS|Q2_Salivation|4||56.0
+95131|ALSFRS|Q2_Salivation|4||87.0
+95131|ALSFRS|Q2_Salivation|2||112.0
+95131|ALSFRS|Q2_Salivation|3||168.0
+95131|ALSFRS|Q2_Salivation|3||234.0
+95131|ALSFRS|Q2_Salivation|3||287.0
+95131|ALSFRS|Q2_Salivation|2||357.0
+95131|ALSFRS|Q2_Salivation|3||434.0
+95131|ALSFRS|Q2_Salivation|3||490.0
+95131|ALSFRS|Q3_Swallowing|4.0||0
+95131|ALSFRS|Q3_Swallowing|4.0||28
+95131|ALSFRS|Q3_Swallowing|4.0||56
+95131|ALSFRS|Q3_Swallowing|4.0||87
+95131|ALSFRS|Q3_Swallowing|4.0||112
+95131|ALSFRS|Q3_Swallowing|4.0||168
+95131|ALSFRS|Q3_Swallowing|4.0||234
+95131|ALSFRS|Q3_Swallowing|4.0||287
+95131|ALSFRS|Q3_Swallowing|4.0||357
+95131|ALSFRS|Q3_Swallowing|3.0||434
+95131|ALSFRS|Q3_Swallowing|3.0||490
+95131|ALSFRS|Q4_Handwriting|2.0||0
+95131|ALSFRS|Q4_Handwriting|3.0||28
+95131|ALSFRS|Q4_Handwriting|3.0||56
+95131|ALSFRS|Q4_Handwriting|2.0||87
+95131|ALSFRS|Q4_Handwriting|1.0||112
+95131|ALSFRS|Q4_Handwriting|1.0||168
+95131|ALSFRS|Q4_Handwriting|0.0||234
+95131|ALSFRS|Q4_Handwriting|0.0||287
+95131|ALSFRS|Q4_Handwriting|0.0||357
+95131|ALSFRS|Q4_Handwriting|0.0||434
+95131|ALSFRS|Q4_Handwriting|0.0||490
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||0
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||28
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||56
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||87
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||112
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||168
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|0.0||234
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|0.0||287
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|1.0||357
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|0.0||434
+95131|ALSFRS|Q5a_Cutting_without_Gastrostomy|0.0||490
+95131|ALSFRS|Q5_Cutting|1.0||0
+95131|ALSFRS|Q5_Cutting|1.0||28
+95131|ALSFRS|Q5_Cutting|1.0||56
+95131|ALSFRS|Q5_Cutting|1.0||87
+95131|ALSFRS|Q5_Cutting|1.0||112
+95131|ALSFRS|Q5_Cutting|1.0||168
+95131|ALSFRS|Q5_Cutting|0.0||234
+95131|ALSFRS|Q5_Cutting|0.0||287
+95131|ALSFRS|Q5_Cutting|1.0||357
+95131|ALSFRS|Q5_Cutting|0.0||434
+95131|ALSFRS|Q5_Cutting|0.0||490
+95131|ALSFRS|Q6_Dressing_and_Hygiene|0.0||0
+95131|ALSFRS|Q6_Dressing_and_Hygiene|0.0||28
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||56
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||87
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||112
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||168
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||234
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||287
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||357
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||434
+95131|ALSFRS|Q6_Dressing_and_Hygiene|1.0||490
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||0
+95131|ALSFRS|Q7_Turning_in_Bed|1.0||28
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||56
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||87
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||112
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||168
+95131|ALSFRS|Q7_Turning_in_Bed|0.0||234
+95131|ALSFRS|Q7_Turning_in_Bed|1.0||287
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||357
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||434
+95131|ALSFRS|Q7_Turning_in_Bed|2.0||490
+95131|ALSFRS|Q8_Walking|4.0||0
+95131|ALSFRS|Q8_Walking|4.0||28
+95131|ALSFRS|Q8_Walking|3.0||56
+95131|ALSFRS|Q8_Walking|3.0||87
+95131|ALSFRS|Q8_Walking|4.0||112
+95131|ALSFRS|Q8_Walking|3.0||168
+95131|ALSFRS|Q8_Walking|3.0||234
+95131|ALSFRS|Q8_Walking|3.0||287
+95131|ALSFRS|Q8_Walking|3.0||357
+95131|ALSFRS|Q8_Walking|3.0||434
+95131|ALSFRS|Q8_Walking|3.0||490
+95131|ALSFRS|Q9_Climbing_Stairs|4.0||0
+95131|ALSFRS|Q9_Climbing_Stairs|4.0||28
+95131|ALSFRS|Q9_Climbing_Stairs|3.0||56
+95131|ALSFRS|Q9_Climbing_Stairs|3.0||87
+95131|ALSFRS|Q9_Climbing_Stairs|4.0||112
+95131|ALSFRS|Q9_Climbing_Stairs|4.0||168
+95131|ALSFRS|Q9_Climbing_Stairs|3.0||234
+95131|ALSFRS|Q9_Climbing_Stairs|3.0||287
+95131|ALSFRS|Q9_Climbing_Stairs|1.0||357
+95131|ALSFRS|Q9_Climbing_Stairs|1.0||434
+95131|ALSFRS|Q9_Climbing_Stairs|1.0||490
+95131|ALSFRS|Q10_Respiratory|3.0||0
+95131|ALSFRS|Q10_Respiratory|3.0||28
+95131|ALSFRS|Q10_Respiratory|3.0||56
+95131|ALSFRS|Q10_Respiratory|3.0||87
+95131|ALSFRS|Q10_Respiratory|3.0||112
+95131|ALSFRS|Q10_Respiratory|3.0||168
+95131|ALSFRS|Q10_Respiratory|3.0||234
+95131|ALSFRS|Q10_Respiratory|2.0||287
+95131|ALSFRS|Q10_Respiratory|3.0||357
+95131|ALSFRS|Q10_Respiratory|3.0||434
+95131|ALSFRS|Q10_Respiratory|2.0||490
+95131|ALSFRS|ALSFRS_Total|27.0||0
+95131|ALSFRS|ALSFRS_Total|26.0||28
+95131|ALSFRS|ALSFRS_Total|27.0||56
+95131|ALSFRS|ALSFRS_Total|26.0||87
+95131|ALSFRS|ALSFRS_Total|25.0||112
+95131|ALSFRS|ALSFRS_Total|25.0||168
+95131|ALSFRS|ALSFRS_Total|20.0||234
+95131|ALSFRS|ALSFRS_Total|20.0||287
+95131|ALSFRS|ALSFRS_Total|19.0||357
+95131|ALSFRS|ALSFRS_Total|18.0||434
+95131|ALSFRS|ALSFRS_Total|17.0||490
+95131|ALSFRS|mouth|11.0||0
+95131|ALSFRS|mouth|10.0||28
+95131|ALSFRS|mouth|11.0||56
+95131|ALSFRS|mouth|11.0||87
+95131|ALSFRS|mouth|9.0||112
+95131|ALSFRS|mouth|10.0||168
+95131|ALSFRS|mouth|10.0||234
+95131|ALSFRS|mouth|10.0||287
+95131|ALSFRS|mouth|8.0||357
+95131|ALSFRS|mouth|8.0||434
+95131|ALSFRS|mouth|8.0||490
+95131|ALSFRS|hands|3.0||0
+95131|ALSFRS|hands|4.0||28
+95131|ALSFRS|hands|4.0||56
+95131|ALSFRS|hands|3.0||87
+95131|ALSFRS|hands|2.0||112
+95131|ALSFRS|hands|2.0||168
+95131|ALSFRS|hands|0.0||234
+95131|ALSFRS|hands|0.0||287
+95131|ALSFRS|hands|1.0||357
+95131|ALSFRS|hands|0.0||434
+95131|ALSFRS|hands|0.0||490
+95131|ALSFRS|trunk|2.0||0
+95131|ALSFRS|trunk|1.0||28
+95131|ALSFRS|trunk|3.0||56
+95131|ALSFRS|trunk|3.0||87
+95131|ALSFRS|trunk|3.0||112
+95131|ALSFRS|trunk|3.0||168
+95131|ALSFRS|trunk|1.0||234
+95131|ALSFRS|trunk|2.0||287
+95131|ALSFRS|trunk|3.0||357
+95131|ALSFRS|trunk|3.0||434
+95131|ALSFRS|trunk|3.0||490
+95131|ALSFRS|leg|8.0||0
+95131|ALSFRS|leg|8.0||28
+95131|ALSFRS|leg|6.0||56
+95131|ALSFRS|leg|6.0||87
+95131|ALSFRS|leg|8.0||112
+95131|ALSFRS|leg|7.0||168
+95131|ALSFRS|leg|6.0||234
+95131|ALSFRS|leg|6.0||287
+95131|ALSFRS|leg|4.0||357
+95131|ALSFRS|leg|4.0||434
+95131|ALSFRS|leg|4.0||490
+95131|ALSFRS|respiratory|3.0||0
+95131|ALSFRS|respiratory|3.0||28
+95131|ALSFRS|respiratory|3.0||56
+95131|ALSFRS|respiratory|3.0||87
+95131|ALSFRS|respiratory|3.0||112
+95131|ALSFRS|respiratory|3.0||168
+95131|ALSFRS|respiratory|3.0||234
+95131|ALSFRS|respiratory|2.0||287
+95131|ALSFRS|respiratory|3.0||357
+95131|ALSFRS|respiratory|3.0||434
+95131|ALSFRS|respiratory|2.0||490
+95131|Vitals|bp_diastolic|80.0|mmHg|28
+95131|Vitals|bp_diastolic|85.0|mmHg|56
+95131|Vitals|bp_diastolic|80.0|mmHg|87
+95131|Vitals|bp_diastolic|85.0|mmHg|112
+95131|Vitals|bp_diastolic|80.0|mmHg|168
+95131|Vitals|bp_diastolic|90.0|mmHg|234
+95131|Vitals|bp_diastolic|90.0|mmHg|287
+95131|Vitals|bp_diastolic|100.0|mmHg|357
+95131|Vitals|bp_diastolic|95.0|mmHg|434
+95131|Vitals|bp_diastolic|95.0|mmHg|490
+95131|Vitals|bp_systolic|130.0|mmHg|28
+95131|Vitals|bp_systolic|135.0|mmHg|56
+95131|Vitals|bp_systolic|130.0|mmHg|87
+95131|Vitals|bp_systolic|140.0|mmHg|112
+95131|Vitals|bp_systolic|120.0|mmHg|168
+95131|Vitals|bp_systolic|120.0|mmHg|234
+95131|Vitals|bp_systolic|145.0|mmHg|287
+95131|Vitals|bp_systolic|140.0|mmHg|357
+95131|Vitals|bp_systolic|140.0|mmHg|434
+95131|Vitals|bp_systolic|140.0|mmHg|490
+95131|Vitals|pulse|64.0|# per minitue|0
+95131|Vitals|pulse|74.0|# per minitue|28
+95131|Vitals|pulse|96.0|# per minitue|56
+95131|Vitals|pulse|82.0|# per minitue|87
+95131|Vitals|pulse|84.0|# per minitue|112
+95131|Vitals|pulse|72.0|# per minitue|168
+95131|Vitals|pulse|72.0|# per minitue|234
+95131|Vitals|pulse|76.0|# per minitue|287
+95131|Vitals|pulse|76.0|# per minitue|357
+95131|Vitals|pulse|72.0|# per minitue|434
+95131|Vitals|pulse|72.0|# per minitue|490
+95131|Vitals|respiratory_rate|18.0|# per minitue|28
+95131|Vitals|respiratory_rate|16.0|# per minitue|56
+95131|Vitals|respiratory_rate|14.0|# per minitue|87
+95131|Vitals|respiratory_rate|16.0|# per minitue|112
+95131|Vitals|respiratory_rate|18.0|# per minitue|168
+95131|Vitals|respiratory_rate|18.0|# per minitue|234
+95131|Vitals|respiratory_rate|16.0|# per minitue|287
+95131|Vitals|respiratory_rate|14.0|# per minitue|357
+95131|Vitals|respiratory_rate|16.0|# per minitue|434
+95131|Vitals|respiratory_rate|16.0|# per minitue|490
+95131|Vitals|weight|64.2|kg|0
+95131|Vitals|weight|64.0|kg|28
+95131|Vitals|weight|63.6|kg|56
+95131|Vitals|weight|63.6|kg|87
+95131|Vitals|weight|62.8|kg|112
+95131|Vitals|weight|61.4|kg|168
+95131|Vitals|weight|59.4|kg|234
+95131|Vitals|weight|58.6|kg|287
+95131|Vitals|weight|56.8|kg|357
+95131|Vitals|weight|52.4|kg|434
+95131|Vitals|weight|50.0|kg|490
+95131|Vitals|height|163.0|cm|0
+95131|Vitals|BMI|0.00241634988144078||0
+95131|FVC|fvc_normal|2.98223535|L|0
+95131|FVC|fvc_normal|2.98223535|L|28
+95131|FVC|fvc_normal|2.98223535|L|56
+95131|FVC|fvc_normal|2.98223535|L|87
+95131|FVC|fvc_normal|2.98223535|L|112
+95131|FVC|fvc_normal|2.98223535|L|168
+95131|FVC|fvc_normal|2.98223535|L|234
+95131|FVC|fvc_normal|2.98223535|L|287
+95131|FVC|fvc_normal|2.98223535|L|357
+95131|FVC|fvc_normal|2.98223535|L|434
+95131|FVC|fvc_normal|2.98223535|L|490
+95131|FVC|fvc1|2.66|L|0
+95131|FVC|fvc1|2.71|L|28
+95131|FVC|fvc1|2.55|L|56
+95131|FVC|fvc1|2.5|L|87
+95131|FVC|fvc1|2.46|L|112
+95131|FVC|fvc1|2.01|L|168
+95131|FVC|fvc1|2.17|L|234
+95131|FVC|fvc1|1.84|L|287
+95131|FVC|fvc1|1.57|L|357
+95131|FVC|fvc1|1.19|L|434
+95131|FVC|fvc1|0.84|L|490
+95131|FVC|fvc_percent1|89.1948383617678|%|0
+95131|FVC|fvc_percent1|90.87143306781608|%|28
+95131|FVC|fvc_percent1|85.50633000846159|%|56
+95131|FVC|fvc_percent1|83.8297353024133|%|87
+95131|FVC|fvc_percent1|82.4884595375747|%|112
+95131|FVC|fvc_percent1|67.3991071831403|%|168
+95131|FVC|fvc_percent1|72.7642102424948|%|234
+95131|FVC|fvc_percent1|61.6986851825762|%|287
+95131|FVC|fvc_percent1|52.6450737699156|%|357
+95131|FVC|fvc_percent1|39.9029540039487|%|434
+95131|FVC|fvc_percent1|28.166791061610898|%|490
+95131|FVC|fvc|2.66|L|0
+95131|FVC|fvc|2.71|L|28
+95131|FVC|fvc|2.55|L|56
+95131|FVC|fvc|2.5|L|87
+95131|FVC|fvc|2.46|L|112
+95131|FVC|fvc|2.01|L|168
+95131|FVC|fvc|2.17|L|234
+95131|FVC|fvc|1.84|L|287
+95131|FVC|fvc|1.57|L|357
+95131|FVC|fvc|1.19|L|434
+95131|FVC|fvc|0.84|L|490
+95131|FVC|fvc_percent|89.1948383617678|%|0
+95131|FVC|fvc_percent|90.8714330678161|%|28
+95131|FVC|fvc_percent|85.5063300084616|%|56
+95131|FVC|fvc_percent|83.8297353024133|%|87
+95131|FVC|fvc_percent|82.4884595375747|%|112
+95131|FVC|fvc_percent|67.3991071831403|%|168
+95131|FVC|fvc_percent|72.7642102424948|%|234
+95131|FVC|fvc_percent|61.6986851825762|%|287
+95131|FVC|fvc_percent|52.6450737699156|%|357
+95131|FVC|fvc_percent|39.9029540039487|%|434
+95131|FVC|fvc_percent|28.1667910616109|%|490
+95131|Lab Test|Eosinophils|0.8|%|56.0
+95131|Lab Test|Eosinophils|0.6|%|434.0
+95131|Lab Test|Absolute Eosinophil Count|0.08|10E9/L|56.0
+95131|Lab Test|Eosinophils|1.4|%|87.0
+95131|Lab Test|Absolute Eosinophil Count|0.12|10E9/L|87.0
+95131|Lab Test|Absolute Eosinophil Count|0.08|10E9/L|112.0
+95131|Lab Test|Absolute Eosinophil Count|0.11|10E9/L|168.0
+95131|Lab Test|Eosinophils|1.3|%|168.0
+95131|Lab Test|Absolute Eosinophil Count|0.14|10E9/L|234.0
+95131|Lab Test|Eosinophils|1.8|%|287.0
+95131|Lab Test|Absolute Eosinophil Count|0.17|10E9/L|287.0
+95131|Lab Test|Eosinophils|1.6|%|357.0
+95131|Lab Test|Absolute Eosinophil Count|0.07|10E9/L|434.0
+95131|Lab Test|Absolute Eosinophil Count|0.08|10E9/L|490.0
+95131|Lab Test|Creatinine|59|umol/L|0.0
+95131|Lab Test|Creatinine|56|umol/L|0.0
+95131|Lab Test|Creatinine|57|umol/L|28.0
+95131|Lab Test|Creatinine|46|umol/L|56.0
+95131|Lab Test|Creatinine|50|umol/L|87.0
+95131|Lab Test|Creatinine|50|umol/L|168.0
+95131|Lab Test|Creatinine|47|umol/L|234.0
+95131|Lab Test|Creatinine|44|umol/L|287.0
+95131|Lab Test|Creatinine|34|umol/L|434.0
+95131|Lab Test|Creatinine|32|umol/L|490.0
+95131|Lab Test|CK|128|U/L|0.0
+95131|Lab Test|CK|211|U/L|56.0
+95131|Lab Test|CK|317|U/L|87.0
+95131|Lab Test|CK|192|U/L|112.0
+95131|Lab Test|CK|140|U/L|168.0
+95131|Lab Test|CK|159|U/L|234.0
+95131|Lab Test|CK|130|U/L|287.0
+95131|Lab Test|CK|131|U/L|357.0
+95131|Lab Test|CK|59|U/L|490.0
+95131|Lab Test|Chloride|107|mmol/L|0.0
+95131|Lab Test|Chloride|104|mmol/L|28.0
+95131|Lab Test|Chloride|110|mmol/L|87.0
+95131|Lab Test|Chloride|106|mmol/L|112.0
+95131|Lab Test|Chloride|105|mmol/L|168.0
+95131|Lab Test|Chloride|103|mmol/L|287.0
+95131|Lab Test|Chloride|103|mmol/L|357.0
+95131|Lab Test|Chloride|99|mmol/L|434.0
+95131|Lab Test|Chloride|101|mmol/L|490.0
+95131|Lab Test|Calcium|2.33|mmol/L|0.0
+95131|Lab Test|Calcium|2.33|mmol/L|28.0
+95131|Lab Test|Calcium|2.33|mmol/L|56.0
+95131|Lab Test|Calcium|2.48|mmol/L|112.0
+95131|Lab Test|Calcium|2.43|mmol/L|168.0
+95131|Lab Test|Calcium|2.38|mmol/L|234.0
+95131|Lab Test|Calcium|2.43|mmol/L|357.0
+95131|Lab Test|Calcium|2.33|mmol/L|434.0
+95131|Lab Test|Calcium|2.30|mmol/L|490.0
+95131|Lab Test|CO2 Fraction|50|mmHg|434.0
+95131|Lab Test|CO2 Fraction|60|mmHg|490.0
+95131|Lab Test|Bilirubin (Total)|7|umol/L|0.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|28.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|56.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|87.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|112.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|234.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|287.0
+95131|Lab Test|Bilirubin (Total)|10|umol/L|357.0
+95131|Lab Test|Bilirubin (Total)|9|umol/L|490.0
+95131|Lab Test|Bicarbonate|35.9|mmol/L|490.0
+95131|Lab Test|Bicarbonate|31.7|mmol/L|434.0
+95131|Lab Test|Bicarbonate|27|mmol/L|0.0
+95131|Lab Test|Bicarbonate|28|mmol/L|28.0
+95131|Lab Test|Bicarbonate|27|mmol/L|56.0
+95131|Lab Test|Bicarbonate|26|mmol/L|87.0
+95131|Lab Test|Bicarbonate|30|mmol/L|112.0
+95131|Lab Test|Bicarbonate|31|mmol/L|168.0
+95131|Lab Test|Bicarbonate|35|mmol/L|434.0
+95131|Lab Test|Bicarbonate|29|mmol/L|234.0
+95131|Lab Test|Bicarbonate|32|mmol/L|287.0
+95131|Lab Test|Bicarbonate|28|mmol/L|357.0
+95131|Lab Test|Bicarbonate|38|mmol/L|490.0
+95131|Lab Test|Basophils|1|%|0.0
+95131|Lab Test|Absolute Basophil Count|0.04|10E9/L|0.0
+95131|Lab Test|Basophils|0.4|%|0.0
+95131|Lab Test|Basophils|0.4|%|28.0
+95131|Lab Test|Bicarbonate|30.6|mmol/L|357.0
+95131|Lab Test|Bilirubin (Total)|12|umol/L|434.0
+95131|Lab Test|Absolute Basophil Count|0.04|10E9/L|28.0
+95131|Lab Test|Basophils|0.6|%|56.0
+95131|Lab Test|Absolute Basophil Count|0.06|10E9/L|56.0
+95131|Lab Test|Basophils|0.2|%|87.0
+95131|Lab Test|Bilirubin (Total)|12|umol/L|168.0
+95131|Lab Test|Absolute Basophil Count|0.05|10E9/L|357.0
+95131|Lab Test|Absolute Basophil Count|0.02|10E9/L|87.0
+95131|Lab Test|Basophils|0.3|%|112.0
+95131|Lab Test|Absolute Basophil Count|0.04|10E9/L|112.0
+95131|Lab Test|Absolute Basophil Count|0.03|10E9/L|168.0
+95131|Lab Test|Basophils|0.4|%|168.0
+95131|Lab Test|Absolute Basophil Count|0.08|10E9/L|234.0
+95131|Lab Test|Basophils|0.8|%|234.0
+95131|Lab Test|CO2 Fraction|48|mmHg|357.0
+95131|Lab Test|Basophils|0.8|%|287.0
+95131|Lab Test|Absolute Basophil Count|0.07|10E9/L|287.0
+95131|Lab Test|Basophils|0.5|%|357.0
+95131|Lab Test|Basophils|0.5|%|434.0
+95131|Lab Test|Calcium|2.38|mmol/L|287.0
+95131|Lab Test|Calcium|2.43|mmol/L|87.0
+95131|Lab Test|Absolute Basophil Count|0.06|10E9/L|434.0
+95131|Lab Test|Basophils|0.4|%|490.0
+95131|Lab Test|Absolute Basophil Count|0.04|10E9/L|490.0
+95131|Lab Test|Base Excess|9.2|mmol/L|490.0
+95131|Lab Test|Base Excess|5.6|mmol/L|357.0
+95131|Lab Test|Base Excess|6.4|mmol/L|434.0
+95131|Lab Test|Plasma Ph|7.41||357.0
+95131|Lab Test|Plasma Ph|7.41||434.0
+95131|Lab Test|Chloride|104|mmol/L|234.0
+95131|Lab Test|Plasma Ph|7.39||490.0
+95131|Lab Test|Arterial O2 Fraction|64|mmHg|490.0
+95131|Lab Test|Arterial O2 Fraction|78|mmHg|357.0
+95131|Lab Test|Arterial O2 Fraction|79|mmHg|434.0
+95131|Lab Test|Chloride|109|mmol/L|56.0
+95131|Lab Test|Alkaline Phosphatase|78|U/L|0.0
+95131|Lab Test|Alkaline Phosphatase|81|U/L|28.0
+95131|Lab Test|Alkaline Phosphatase|92|U/L|56.0
+95131|Lab Test|Alkaline Phosphatase|84|U/L|87.0
+95131|Lab Test|CK|84|U/L|434.0
+95131|Lab Test|Alkaline Phosphatase|90|U/L|112.0
+95131|Lab Test|Alkaline Phosphatase|84|U/L|168.0
+95131|Lab Test|Alkaline Phosphatase|81|U/L|234.0
+95131|Lab Test|Alkaline Phosphatase|85|U/L|287.0
+95131|Lab Test|Alkaline Phosphatase|80|U/L|357.0
+95131|Lab Test|Alkaline Phosphatase|91|U/L|434.0
+95131|Lab Test|Alkaline Phosphatase|80|U/L|490.0
+95131|Lab Test|Albumin|43|g/L|0.0
+95131|Lab Test|CK|184|U/L|28.0
+95131|Lab Test|Creatinine|42|umol/L|357.0
+95131|Lab Test|Albumin|43|g/L|28.0
+95131|Lab Test|Albumin|42|g/L|56.0
+95131|Lab Test|Albumin|46|g/L|87.0
+95131|Lab Test|Albumin|45|g/L|112.0
+95131|Lab Test|Creatinine|49|umol/L|112.0
+95131|Lab Test|Albumin|46|g/L|168.0
+95131|Lab Test|Albumin|44|g/L|234.0
+95131|Lab Test|Albumin|45|g/L|287.0
+95131|Lab Test|Albumin|47|g/L|357.0
+95131|Lab Test|Albumin|46|g/L|434.0
+95131|Lab Test|Albumin|44|g/L|490.0
+95131|Lab Test|Absolute Eosinophil Count|0.14|10E9/L|357.0
+95131|Lab Test|AST(SGOT)|19|U/L|0.0
+95131|Lab Test|AST(SGOT)|17|U/L|28.0
+95131|Lab Test|AST(SGOT)|17|U/L|56.0
+95131|Lab Test|AST(SGOT)|25|U/L|87.0
+95131|Lab Test|AST(SGOT)|22|U/L|112.0
+95131|Lab Test|AST(SGOT)|18|U/L|168.0
+95131|Lab Test|Eosinophils|1.4|%|234.0
+95131|Lab Test|Eosinophils|0.7|%|112.0
+95131|Lab Test|AST(SGOT)|17|U/L|234.0
+95131|Lab Test|AST(SGOT)|19|U/L|287.0
+95131|Lab Test|AST(SGOT)|17|U/L|357.0
+95131|Lab Test|AST(SGOT)|15|U/L|434.0
+95131|Lab Test|AST(SGOT)|17|U/L|490.0
+95131|Lab Test|ALT(SGPT)|35|U/L|0.0
+95131|Lab Test|ALT(SGPT)|32|U/L|28.0
+95131|Lab Test|ALT(SGPT)|36|U/L|56.0
+95131|Lab Test|ALT(SGPT)|35|U/L|87.0
+95131|Lab Test|ALT(SGPT)|31|U/L|112.0
+95131|Lab Test|ALT(SGPT)|30|U/L|168.0
+95131|Lab Test|ALT(SGPT)|29|U/L|287.0
+95131|Lab Test|ALT(SGPT)|28|U/L|234.0
+95131|Lab Test|ALT(SGPT)|23|U/L|357.0
+95131|Lab Test|ALT(SGPT)|15|U/L|434.0
+95131|Lab Test|ALT(SGPT)|18|U/L|490.0
+95131|Lab Test|Saturated O2 Fraction|96|%|357.0
+95131|Lab Test|Phosphorus|1.36|mmol/L|234.0
+95131|Lab Test|Hemoglobin|130|g/L|287.0
+95131|Lab Test|Absolute Neutrophil Count|8.31|10E9/L|434.0
+95131|Lab Test|Phosphorus|1.13|mmol/L|0.0
+95131|Lab Test|Potassium|4.4|mmol/L|490.0
+95131|Lab Test|Protein|78|g/L|87.0
+95131|Lab Test|Triglycerides|1.72|mmol/L|234.0
+95131|Lab Test|Monocytes|3.6|%|28.0
+95131|Lab Test|Triglycerides|1.76|mmol/L|0.0
+95131|Lab Test|Absolute Neutrophil Count|5.38|10E9/L|168.0
+95131|Lab Test|Phosphorus|1.39|mmol/L|357.0
+95131|Lab Test|Platelets|318|10E9/L|434.0
+95131|Lab Test|Platelets|321|10E9/L|357.0
+95131|Lab Test|Protein|77|g/L|168.0
+95131|Lab Test|Protein|73|g/L|28.0
+95131|Lab Test|Sodium|145|mmol/L|434.0
+95131|Lab Test|Neutrophils|73.4|%|87.0
+95131|Lab Test|Triglycerides|1.66|mmol/L|112.0
+95131|Lab Test|Absolute Monocyte Count|0.36|10E9/L|87.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|4.28|mmol/L|490.0
+95131|Lab Test|Absolute Neutrophil Count|6.39|10E9/L|87.0
+95131|Lab Test|Sodium|146|mmol/L|490.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.36|mmol/L|234.0
+95131|Lab Test|Urine Ph|6||234.0
+95131|Lab Test|Urine Ph|5||28.0
+95131|Lab Test|Neutrophils|75.8|%|490.0
+95131|Lab Test|Hematocrit|40|%|168.0
+95131|Lab Test|Potassium|4.7|mmol/L|87.0
+95131|Lab Test|Lymphocytes|21.5|%|112.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|28.0
+95131|Lab Test|Phosphorus|1.32|mmol/L|28.0
+95131|Lab Test|Lymphocytes|26.7|%|234.0
+95131|Lab Test|Red Blood Cells (RBC)|4400|10E9/L|234.0
+95131|Lab Test|Lymphocytes|28.4|%|28.0
+95131|Lab Test|Protein|75|g/L|234.0
+95131|Lab Test|Absolute Monocyte Count|0.38|10E9/L|287.0
+95131|Lab Test|White Blood Cell (WBC)|9.0|10E9/L|357.0
+95131|Lab Test|Lymphocytes|20.3|%|490.0
+95131|Lab Test|Total Cholesterol|5.23|mmol/L|434.0
+95131|Lab Test|Red Blood Cells (RBC)|4300|10E9/L|56.0
+95131|Lab Test|Monocytes|3.0|%|56.0
+95131|Lab Test|Total Cholesterol|6.48|mmol/L|168.0
+95131|Lab Test|Urine Ph|6||0.0
+95131|Lab Test|Absolute Monocyte Count|0.41|10E9/L|0.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.00|mmol/L|168.0
+95131|Lab Test|Total Cholesterol|6.11|mmol/L|28.0
+95131|Lab Test|Total Cholesterol|6.35|mmol/L|234.0
+95131|Lab Test|Eosinophils|0.8|%|490.0
+95131|Lab Test|Absolute Lymphocyte Count|2.16|10E9/L|434.0
+95131|Lab Test|Neutrophils|67.0|%|357.0
+95131|Lab Test|Monocytes|4.1|%|168.0
+95131|Lab Test|Hemoglobin|135|g/L|87.0
+95131|Lab Test|Protein|75|g/L|357.0
+95131|Lab Test|Neutrophils|74.7|%|112.0
+95131|Lab Test|Potassium|4.2|mmol/L|28.0
+95131|Lab Test|Hemoglobin|122.529|g/L|0.0
+95131|Lab Test|Neutrophils|68.5|%|0.0
+95131|Lab Test|Gamma-glutamyltransferase|24|U/L|434.0
+95131|Lab Test|Absolute Eosinophil Count|0.12|10E9/L|28.0
+95131|Lab Test|Absolute Lymphocyte Count|1.91|10E9/L|490.0
+95131|Lab Test|Eosinophils|1|%|0.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.6|%|112.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.5|%|0.0
+95131|Lab Test|Absolute Lymphocyte Count|2.54|10E9/L|112.0
+95131|Lab Test|Absolute Lymphocyte Count|2.67|10E9/L|234.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|490.0
+95131|Lab Test|Platelets|307|10E9/L|112.0
+95131|Lab Test|Platelets|290|10E9/L|234.0
+95131|Lab Test|Absolute Lymphocyte Count|1.82|10E9/L|87.0
+95131|Lab Test|Platelets|327|10E9/L|28.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.00|mmol/L|287.0
+95131|Lab Test|Glucose|4.8|mmol/L|357.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.4|%|234.0
+95131|Lab Test|Absolute Lymphocyte Count|2.30|10E9/L|56.0
+95131|Lab Test|Lymphocytes|26.7|%|357.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.7|%|168.0
+95131|Lab Test|Absolute Lymphocyte Count|2.74|10E9/L|287.0
+95131|Lab Test|Hematocrit|42|%|112.0
+95131|Lab Test|Lymphocytes|29.5|%|287.0
+95131|Lab Test|Monocytes|4.1|%|87.0
+95131|Lab Test|Monocytes|5.4|%|434.0
+95131|Lab Test|Urine Ph|5||490.0
+95131|Lab Test|Monocytes|4.2|%|357.0
+95131|Lab Test|Total Cholesterol|6.09|mmol/L|287.0
+95131|Lab Test|Monocytes|4.1|%|287.0
+95131|Lab Test|Total Cholesterol|6.45|mmol/L|112.0
+95131|Lab Test|Neutrophils|64.0|%|168.0
+95131|Lab Test|Sodium|141|mmol/L|112.0
+95131|Lab Test|Absolute Neutrophil Count|5.93|10E9/L|287.0
+95131|Lab Test|Hemoglobin|133|g/L|168.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.2|%|434.0
+95131|Lab Test|Glucose|5.7|mmol/L|56.0
+95131|Lab Test|Glucose|4.1|mmol/L|87.0
+95131|Lab Test|Monocytes|2.7|%|490.0
+95131|Lab Test|Monocytes|6|%|0.0
+95131|Lab Test|Absolute Neutrophil Count|8.81|10E9/L|112.0
+95131|Lab Test|Triglycerides|0.98|mmol/L|434.0
+95131|Lab Test|Triglycerides|1.60|mmol/L|490.0
+95131|Lab Test|Gamma-glutamyltransferase|28|U/L|56.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.00|mmol/L|112.0
+95131|Lab Test|Hematocrit|42|%|434.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|357.0
+95131|Lab Test|Urine Ph|7.41||357.0
+95131|Lab Test|Glucose|4.9|mmol/L|234.0
+95131|Lab Test|Triglycerides|2.46|mmol/L|28.0
+95131|Lab Test|White Blood Cell (WBC)|10.8|10E9/L|0.0
+95131|Lab Test|Absolute Neutrophil Count|6.03|10E9/L|357.0
+95131|Lab Test|Saturated O2 Fraction|92|%|490.0
+95131|Lab Test|Total Cholesterol|6.53|mmol/L|0.0
+95131|Lab Test|Red Blood Cells (RBC)|4500|10E9/L|87.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.71|mmol/L|87.0
+95131|Lab Test|Hematocrit|40|%|234.0
+95131|Lab Test|Protein|76|g/L|434.0
+95131|Lab Test|Triglycerides|1.65|mmol/L|87.0
+95131|Lab Test|Protein|74|g/L|0.0
+95131|Lab Test|Lymphocytes|23.0|%|56.0
+95131|Lab Test|Sodium|142|mmol/L|28.0
+95131|Lab Test|Gamma-glutamyltransferase|32|U/L|0.0
+95131|Lab Test|Protein|76|g/L|56.0
+95131|Lab Test|Absolute Neutrophil Count|7.19|10E9/L|0.0
+95131|Lab Test|Saturated O2 Fraction|95|%|434.0
+95131|Lab Test|White Blood Cell (WBC)|8.7|10E9/L|87.0
+95131|Lab Test|Absolute Monocyte Count|0.67|10E9/L|234.0
+95131|Lab Test|Absolute Neutrophil Count|7.13|10E9/L|490.0
+95131|Lab Test|Potassium|4.2|mmol/L|0.0
+95131|Lab Test|Protein|73|g/L|490.0
+95131|Lab Test|Lymphocytes|20.9|%|87.0
+95131|Lab Test|Absolute Monocyte Count|0.60|10E9/L|434.0
+95131|Lab Test|Potassium|4.6|mmol/L|287.0
+95131|Lab Test|Potassium|4.1|mmol/L|0.0
+95131|Lab Test|Platelets|313|10E9/L|0.0
+95131|Lab Test|Hematocrit|41|%|490.0
+95131|Lab Test|Platelets|298|10E9/L|287.0
+95131|Lab Test|Potassium|4.4|mmol/L|234.0
+95131|Lab Test|Absolute Monocyte Count|0.38|10E9/L|357.0
+95131|Lab Test|Lymphocytes|30.2|%|168.0
+95131|Lab Test|Platelets|325|10E9/L|87.0
+95131|Lab Test|Glucose|4.9|mmol/L|490.0
+95131|Lab Test|Absolute Lymphocyte Count|2.54|10E9/L|168.0
+95131|Lab Test|Glucose|4.3|mmol/L|434.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.1|%|56.0
+95131|Lab Test|Potassium|4.5|mmol/L|434.0
+95131|Lab Test|Protein|76|g/L|112.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|87.0
+95131|Lab Test|Absolute Eosinophil Count|0.15|10E9/L|0.0
+95131|Lab Test|Platelets|310|10E9/L|56.0
+95131|Lab Test|Red Blood Cells (RBC)|4500|10E9/L|490.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|3.93|mmol/L|434.0
+95131|Lab Test|Phosphorus|1.26|mmol/L|56.0
+95131|Lab Test|Platelets|369|10E9/L|0.0
+95131|Lab Test|Glucose|4.6|mmol/L|287.0
+95131|Lab Test|Phosphorus|1.26|mmol/L|87.0
+95131|Lab Test|Potassium|4.5|mmol/L|168.0
+95131|Lab Test|Phosphorus|1.32|mmol/L|112.0
+95131|Lab Test|Phosphorus|1.13|mmol/L|434.0
+95131|Lab Test|Phosphorus|1.36|mmol/L|287.0
+95131|Lab Test|Lymphocytes|25.8|%|0.0
+95131|Lab Test|Protein|73|g/L|287.0
+95131|Lab Test|Red Blood Cells (RBC)|4600|10E9/L|112.0
+95131|Lab Test|Phosphorus|1.26|mmol/L|490.0
+95131|Lab Test|Lymphocytes|26|%|0.0
+95131|Lab Test|Gamma-glutamyltransferase|32|U/L|287.0
+95131|Lab Test|White Blood Cell (WBC)|9.3|10E9/L|287.0
+95131|Lab Test|Gamma-glutamyltransferase|32|U/L|28.0
+95131|Lab Test|White Blood Cell (WBC)|10.0|10E9/L|56.0
+95131|Lab Test|White Blood Cell (WBC)|10.5|10E9/L|0.0
+95131|Lab Test|Urine Ph|6||56.0
+95131|Lab Test|Potassium|4.8|mmol/L|112.0
+95131|Lab Test|Gamma-glutamyltransferase|28|U/L|234.0
+95131|Lab Test|Urine Ph|5||168.0
+95131|Lab Test|Neutrophils|72.6|%|56.0
+95131|Lab Test|Absolute Neutrophil Count|6.57|10E9/L|28.0
+95131|Lab Test|Sodium|142|mmol/L|56.0
+95131|Lab Test|Sodium|140|mmol/L|0.0
+95131|Lab Test|Sodium|141|mmol/L|234.0
+95131|Lab Test|Total Cholesterol|5.98|mmol/L|357.0
+95131|Lab Test|Urine Ph|6||434.0
+95131|Lab Test|Urine Ph|5||287.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.36|mmol/L|28.0
+95131|Lab Test|Total Cholesterol|7.38|mmol/L|87.0
+95131|Lab Test|Hemoglobin|132|g/L|357.0
+95131|Lab Test|Glucose|5.4|mmol/L|28.0
+95131|Lab Test|Absolute Lymphocyte Count|2.81|10E9/L|28.0
+95131|Lab Test|Neutrophils|63.8|%|287.0
+95131|Lab Test|Eosinophils|1.4|%|0.0
+95131|Lab Test|Gamma-glutamyltransferase|28|U/L|87.0
+95131|Lab Test|Monocytes|3.9|%|0.0
+95131|Lab Test|Absolute Monocyte Count|0.25|10E9/L|490.0
+95131|Lab Test|Urine Ph|6||357.0
+95131|Lab Test|Glucose|5.1|mmol/L|112.0
+95131|Lab Test|Hemoglobin|133|g/L|234.0
+95131|Lab Test|Absolute Monocyte Count|0.30|10E9/L|56.0
+95131|Lab Test|Hemoglobin|129|g/L|28.0
+95131|Lab Test|Urine Ph|7.41||434.0
+95131|Lab Test|Triglycerides|2.12|mmol/L|56.0
+95131|Lab Test|Gamma-glutamyltransferase|27|U/L|112.0
+95131|Lab Test|Urine Ph|5||87.0
+95131|Lab Test|Neutrophils|74.2|%|434.0
+95131|Lab Test|Sodium|142|mmol/L|168.0
+95131|Lab Test|Glucose|5.4|mmol/L|0.0
+95131|Lab Test|Triglycerides|1.60|mmol/L|168.0
+95131|Lab Test|White Blood Cell (WBC)|11.2|10E9/L|434.0
+95131|Lab Test|Hemoglobin|137|g/L|112.0
+95131|Lab Test|Hemoglobin|137|g/L|434.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.71|mmol/L|0.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.71|mmol/L|56.0
+95131|Lab Test|Urine Ph|5||112.0
+95131|Lab Test|Absolute Monocyte Count|0.36|10E9/L|28.0
+95131|Lab Test|Hemoglobin|129|g/L|56.0
+95131|Lab Test|Sodium|143|mmol/L|0.0
+95131|Lab Test|Hematocrit|39|%|357.0
+95131|Lab Test|Hematocrit|38|%|0.0
+95131|Lab Test|Absolute Neutrophil Count|7.26|10E9/L|56.0
+95131|Lab Test|Gamma-glutamyltransferase|27|U/L|168.0
+95131|Lab Test|Platelets|315|10E9/L|168.0
+95131|Lab Test|Glucose|7.3|mmol/L|0.0
+95131|Lab Test|Urine Ph|7.39||490.0
+95131|Lab Test|HbA1c (Glycated Hemoglobin)|5.5|%|287.0
+95131|Lab Test|Absolute Neutrophil Count|6.44|10E9/L|234.0
+95131|Lab Test|Triglycerides|1.49|mmol/L|287.0
+95131|Lab Test|Absolute Monocyte Count|0.33|10E9/L|112.0
+95131|Lab Test|Triglycerides|1.45|mmol/L|357.0
+95131|Lab Test|Red Blood Cells (RBC)|4300|10E9/L|287.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|5.00|mmol/L|357.0
+95131|Lab Test|Potassium|4.7|mmol/L|357.0
+95131|Lab Test|Neutrophils|64.4|%|234.0
+95131|Lab Test|Gamma-glutamyltransferase|22|U/L|490.0
+95131|Lab Test|Total Cholesterol|6.89|mmol/L|56.0
+95131|Lab Test|Red Blood Cells (RBC)|4300|10E9/L|28.0
+95131|Lab Test|White Blood Cell (WBC)|10.0|10E9/L|234.0
+95131|Lab Test|Hematocrit|41|%|87.0
+95131|Lab Test|Blood Urea Nitrogen (BUN)|4.7|mmol/L|0.0
+95131|Lab Test|Hematocrit|38|%|287.0
+95131|Lab Test|Absolute Lymphocyte Count|2.71|10E9/L|0.0
+95131|Lab Test|Absolute Lymphocyte Count|2.40|10E9/L|357.0
+95131|Lab Test|Hematocrit|37|%|0.0
+95131|Lab Test|White Blood Cell (WBC)|8.4|10E9/L|168.0
+95131|Lab Test|Total Cholesterol|5.36|mmol/L|490.0
+95131|Lab Test|Phosphorus|1.36|mmol/L|168.0
+95131|Lab Test|Hemoglobin|129|g/L|0.0
+95131|Lab Test|Potassium|4.5|mmol/L|56.0
+95131|Lab Test|Glucose|5.1|mmol/L|168.0
+95131|Lab Test|White Blood Cell (WBC)|9.4|10E9/L|490.0
+95131|Lab Test|Sodium|143|mmol/L|87.0
+95131|Lab Test|Eosinophils|1.2|%|28.0
+95131|Lab Test|Hematocrit|38|%|28.0
+95131|Lab Test|Hemoglobin|133|g/L|490.0
+95131|Lab Test|Hematocrit|39|%|56.0
+95131|Lab Test|Sodium|146|mmol/L|357.0
+95131|Lab Test|Sodium|144|mmol/L|287.0
+95131|Lab Test|Neutrophils|66|%|0.0
+95131|Lab Test|Lymphocytes|19.3|%|434.0
+95131|Lab Test|White Blood Cell (WBC)|11.8|10E9/L|112.0
+95131|Lab Test|Red Blood Cells (RBC)|4400|10E9/L|357.0
+95131|Lab Test|White Blood Cell (WBC)|9.9|10E9/L|28.0
+95131|Lab Test|Red Blood Cells (RBC)|4300|10E9/L|0.0
+95131|Lab Test|Monocytes|6.7|%|234.0
+95131|Lab Test|Red Blood Cells (RBC)|4400|10E9/L|168.0
+95131|Lab Test|Platelets|325|10E9/L|490.0
+95131|Lab Test|Gamma-glutamyltransferase|26|U/L|357.0
+95131|Lab Test|Red Blood Cells (RBC)|4600|10E9/L|434.0
+95131|Lab Test|Red Blood Cells (RBC)|4370|10E9/L|0.0
+95131|Lab Test|Absolute Monocyte Count|0.34|10E9/L|168.0
+95131|Lab Test|Monocytes|2.8|%|112.0
+95131|Lab Test|Neutrophils|66.4|%|28.0
+95131|Adverse Event|Neurological disorders NEC|Tingling;Paraesthesia;Paraesthesias and dysaesthesias;MILD;ONGOING (PERSISTENT)||1;NA
+95131|Concomitant Medication|MOGADON|NULL;NULL;NULL||-124;
+95131|Concomitant Medication|RILUTEK|NULL;NULL;NULL||-273;
+727983|Demographic|Gender|F||0.0
+727983|Demographic|Age|42||0.0
+727983|Demographic|Race|White||0.0
+727983|ALSHX|onset_delta|-1066||0.0
+727983|ALSHX|diag_delta|-292||0.0
+727983|ALSHX|onset_site|Limb||0.0
+727983|ALSFRS|Q1_Speech|3||0.0
+727983|ALSFRS|Q1_Speech|3||25.0
+727983|ALSFRS|Q1_Speech|3||108.0
+727983|ALSFRS|Q1_Speech|2||205.0
+727983|ALSFRS|Q1_Speech|2||296.0
+727983|ALSFRS|Q1_Speech|2||394.0
+727983|ALSFRS|Q2_Salivation|3||0.0
+727983|ALSFRS|Q2_Salivation|3||25.0
+727983|ALSFRS|Q2_Salivation|3||108.0
+727983|ALSFRS|Q2_Salivation|3||205.0
+727983|ALSFRS|Q2_Salivation|3||296.0
+727983|ALSFRS|Q2_Salivation|2||394.0
+727983|ALSFRS|Q3_Swallowing|3.0||0
+727983|ALSFRS|Q3_Swallowing|3.0||25
+727983|ALSFRS|Q3_Swallowing|3.0||108
+727983|ALSFRS|Q3_Swallowing|3.0||205
+727983|ALSFRS|Q3_Swallowing|3.0||296
+727983|ALSFRS|Q3_Swallowing|3.0||394
+727983|ALSFRS|Q4_Handwriting|4.0||0
+727983|ALSFRS|Q4_Handwriting|4.0||25
+727983|ALSFRS|Q4_Handwriting|4.0||108
+727983|ALSFRS|Q4_Handwriting|4.0||205
+727983|ALSFRS|Q4_Handwriting|3.0||296
+727983|ALSFRS|Q4_Handwriting|3.0||394
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||0
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||25
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||108
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||205
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||296
+727983|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||394
+727983|ALSFRS|Q5_Cutting|4.0||0
+727983|ALSFRS|Q5_Cutting|4.0||25
+727983|ALSFRS|Q5_Cutting|4.0||108
+727983|ALSFRS|Q5_Cutting|3.0||205
+727983|ALSFRS|Q5_Cutting|4.0||296
+727983|ALSFRS|Q5_Cutting|3.0||394
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||0
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||25
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||108
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||205
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||296
+727983|ALSFRS|Q6_Dressing_and_Hygiene|2.0||394
+727983|ALSFRS|Q7_Turning_in_Bed|3.0||0
+727983|ALSFRS|Q7_Turning_in_Bed|3.0||25
+727983|ALSFRS|Q7_Turning_in_Bed|2.0||108
+727983|ALSFRS|Q7_Turning_in_Bed|2.0||205
+727983|ALSFRS|Q7_Turning_in_Bed|1.0||296
+727983|ALSFRS|Q7_Turning_in_Bed|2.0||394
+727983|ALSFRS|Q8_Walking|2.0||0
+727983|ALSFRS|Q8_Walking|2.0||25
+727983|ALSFRS|Q8_Walking|2.0||108
+727983|ALSFRS|Q8_Walking|2.0||205
+727983|ALSFRS|Q8_Walking|2.0||296
+727983|ALSFRS|Q8_Walking|2.0||394
+727983|ALSFRS|Q9_Climbing_Stairs|1.0||0
+727983|ALSFRS|Q9_Climbing_Stairs|1.0||25
+727983|ALSFRS|Q9_Climbing_Stairs|0.0||108
+727983|ALSFRS|Q9_Climbing_Stairs|0.0||205
+727983|ALSFRS|Q9_Climbing_Stairs|1.0||296
+727983|ALSFRS|Q9_Climbing_Stairs|0.0||394
+727983|ALSFRS|Q10_Respiratory|4.0||0
+727983|ALSFRS|Q10_Respiratory|4.0||25
+727983|ALSFRS|Q10_Respiratory|4.0||108
+727983|ALSFRS|Q10_Respiratory|4.0||205
+727983|ALSFRS|Q10_Respiratory|3.0||296
+727983|ALSFRS|Q10_Respiratory|4.0||394
+727983|ALSFRS|R1_Dyspnea|4.0||0
+727983|ALSFRS|R1_Dyspnea|4.0||25
+727983|ALSFRS|R1_Dyspnea|4.0||108
+727983|ALSFRS|R1_Dyspnea|4.0||205
+727983|ALSFRS|R1_Dyspnea|4.0||296
+727983|ALSFRS|R1_Dyspnea|4.0||394
+727983|ALSFRS|R2_Orthopnea|4.0||0
+727983|ALSFRS|R2_Orthopnea|4.0||25
+727983|ALSFRS|R2_Orthopnea|4.0||108
+727983|ALSFRS|R2_Orthopnea|4.0||205
+727983|ALSFRS|R2_Orthopnea|4.0||296
+727983|ALSFRS|R2_Orthopnea|4.0||394
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||0
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||25
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||108
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||205
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||296
+727983|ALSFRS|R3_Respiratory_Insufficiency|4.0||394
+727983|ALSFRS|ALSFRS_Total|29.0||0
+727983|ALSFRS|ALSFRS_Total|29.0||25
+727983|ALSFRS|ALSFRS_Total|27.0||108
+727983|ALSFRS|ALSFRS_Total|25.0||205
+727983|ALSFRS|ALSFRS_Total|24.0||296
+727983|ALSFRS|ALSFRS_Total|23.0||394
+727983|ALSFRS|ALSFRS_R_Total|37.0||0
+727983|ALSFRS|ALSFRS_R_Total|37.0||25
+727983|ALSFRS|ALSFRS_R_Total|35.0||108
+727983|ALSFRS|ALSFRS_R_Total|33.0||205
+727983|ALSFRS|ALSFRS_R_Total|33.0||296
+727983|ALSFRS|ALSFRS_R_Total|31.0||394
+727983|ALSFRS|mouth|9.0||0
+727983|ALSFRS|mouth|9.0||25
+727983|ALSFRS|mouth|9.0||108
+727983|ALSFRS|mouth|8.0||205
+727983|ALSFRS|mouth|8.0||296
+727983|ALSFRS|mouth|7.0||394
+727983|ALSFRS|hands|8.0||0
+727983|ALSFRS|hands|8.0||25
+727983|ALSFRS|hands|8.0||108
+727983|ALSFRS|hands|7.0||205
+727983|ALSFRS|hands|7.0||296
+727983|ALSFRS|hands|6.0||394
+727983|ALSFRS|trunk|5.0||0
+727983|ALSFRS|trunk|5.0||25
+727983|ALSFRS|trunk|4.0||108
+727983|ALSFRS|trunk|4.0||205
+727983|ALSFRS|trunk|3.0||296
+727983|ALSFRS|trunk|4.0||394
+727983|ALSFRS|leg|3.0||0
+727983|ALSFRS|leg|3.0||25
+727983|ALSFRS|leg|2.0||108
+727983|ALSFRS|leg|2.0||205
+727983|ALSFRS|leg|3.0||296
+727983|ALSFRS|leg|2.0||394
+727983|ALSFRS|respiratory|4.0||0
+727983|ALSFRS|respiratory|4.0||25
+727983|ALSFRS|respiratory|4.0||108
+727983|ALSFRS|respiratory|4.0||205
+727983|ALSFRS|respiratory|3.0||296
+727983|ALSFRS|respiratory|4.0||394
+727983|ALSFRS|respiratory_R|12.0||0
+727983|ALSFRS|respiratory_R|12.0||25
+727983|ALSFRS|respiratory_R|12.0||108
+727983|ALSFRS|respiratory_R|12.0||205
+727983|ALSFRS|respiratory_R|12.0||296
+727983|ALSFRS|respiratory_R|12.0||394
+727983|Vitals|bp_diastolic|80.0|mmHg|0
+727983|Vitals|bp_diastolic|82.0|mmHg|25
+727983|Vitals|bp_diastolic|96.0|mmHg|38
+727983|Vitals|bp_diastolic|80.0|mmHg|52
+727983|Vitals|bp_diastolic|72.0|mmHg|66
+727983|Vitals|bp_diastolic|82.0|mmHg|108
+727983|Vitals|bp_diastolic|78.0|mmHg|205
+727983|Vitals|bp_diastolic|70.0|mmHg|296
+727983|Vitals|bp_diastolic|82.0|mmHg|394
+727983|Vitals|bp_systolic|120.0|mmHg|0
+727983|Vitals|bp_systolic|120.0|mmHg|25
+727983|Vitals|bp_systolic|132.0|mmHg|38
+727983|Vitals|bp_systolic|110.0|mmHg|52
+727983|Vitals|bp_systolic|106.0|mmHg|66
+727983|Vitals|bp_systolic|122.0|mmHg|108
+727983|Vitals|bp_systolic|120.0|mmHg|205
+727983|Vitals|bp_systolic|120.0|mmHg|296
+727983|Vitals|bp_systolic|138.0|mmHg|394
+727983|Vitals|pulse|88.0|# per minitue|0
+727983|Vitals|pulse|100.0|# per minitue|25
+727983|Vitals|pulse|72.0|# per minitue|38
+727983|Vitals|pulse|72.0|# per minitue|52
+727983|Vitals|pulse|76.0|# per minitue|66
+727983|Vitals|pulse|92.0|# per minitue|108
+727983|Vitals|pulse|90.0|# per minitue|205
+727983|Vitals|pulse|72.0|# per minitue|296
+727983|Vitals|pulse|80.0|# per minitue|394
+727983|Vitals|respiratory_rate|18.0|# per minitue|0
+727983|Vitals|respiratory_rate|16.0|# per minitue|25
+727983|Vitals|respiratory_rate|15.0|# per minitue|38
+727983|Vitals|respiratory_rate|12.0|# per minitue|52
+727983|Vitals|respiratory_rate|14.0|# per minitue|66
+727983|Vitals|respiratory_rate|21.0|# per minitue|108
+727983|Vitals|respiratory_rate|20.0|# per minitue|205
+727983|Vitals|respiratory_rate|16.0|# per minitue|296
+727983|Vitals|respiratory_rate|16.0|# per minitue|394
+727983|Vitals|temperature|36.8|C|0
+727983|Vitals|temperature|37.3|C|25
+727983|Vitals|temperature|36.6|C|38
+727983|Vitals|temperature|37.0|C|52
+727983|Vitals|temperature|37.0|C|66
+727983|Vitals|temperature|36.4|C|108
+727983|Vitals|temperature|36.8|C|205
+727983|Vitals|temperature|36.8|C|296
+727983|Vitals|temperature|36.6|C|394
+727983|Vitals|weight|95.0|kg|0
+727983|Vitals|weight|95.2|kg|25
+727983|Vitals|weight|99.5|kg|38
+727983|Vitals|weight|98.6|kg|52
+727983|Vitals|weight|99.0|kg|66
+727983|Vitals|weight|99.1|kg|108
+727983|Vitals|weight|98.7|kg|205
+727983|Vitals|weight|93.0|kg|296
+727983|Vitals|weight|93.0|kg|394
+727983|FVC|fvc_normal|3.6404040404040403|L|0
+727983|FVC|fvc_normal|3.6404040404040403|L|25
+727983|FVC|fvc1|3.2|L|0
+727983|FVC|fvc1|3.28|L|25
+727983|FVC|fvc_percent1|87.90233074361821|%|0
+727983|FVC|fvc_percent1|90.0998890122087|%|25
+727983|FVC|fvc2|3.11|L|0
+727983|FVC|fvc2|3.16|L|25
+727983|FVC|fvc_percent2|85.4300776914539|%|0
+727983|FVC|fvc_percent2|86.803551609323|%|25
+727983|FVC|fvc3|2.81|L|0
+727983|FVC|fvc3|2.85|L|25
+727983|FVC|fvc_percent3|77.1892341842397|%|0
+727983|FVC|fvc_percent3|78.288013318535|%|25
+727983|FVC|fvc|3.04|L|0
+727983|FVC|fvc|3.09666666666667|L|25
+727983|FVC|fvc_percent|83.5072142064373|%|0
+727983|FVC|fvc_percent|85.0638179800222|%|25
+727983|Lab Test|Monocytes|3.2|%|205.0
+727983|Lab Test|Monocytes|3.4|%|108.0
+727983|Lab Test|Lymphocytes|24.2|%|0.0
+727983|Lab Test|Lymphocytes|28.2|%|205.0
+727983|Lab Test|Lymphocytes|30.5|%|108.0
+727983|Lab Test|Lactate Dehydrogenase|110|U/L|296.0
+727983|Lab Test|Lactate Dehydrogenase|137|U/L|205.0
+727983|Lab Test|Hemoglobin|121|g/L|296.0
+727983|Lab Test|Hemoglobin|130|g/L|205.0
+727983|Lab Test|Hemoglobin|120|g/L|0.0
+727983|Lab Test|Hematocrit|33.5|%|0.0
+727983|Lab Test|Hematocrit|35.1|%|108.0
+727983|Lab Test|Glucose|5.2725|mmol/L|296.0
+727983|Lab Test|Eosinophils|2.2|%|296.0
+727983|Lab Test|Glucose|4.2735|mmol/L|0.0
+727983|Lab Test|Eosinophils|1.4|%|0.0
+727983|Lab Test|Eosinophils|0.7|%|108.0
+727983|Lab Test|Creatinine|44.2|umol/L|108.0
+727983|Lab Test|Creatinine|44.2|umol/L|296.0
+727983|Lab Test|Creatinine|44.2|umol/L|0.0
+727983|Lab Test|CK|179|U/L|0.0
+727983|Lab Test|CK|214|U/L|205.0
+727983|Lab Test|CK|111|U/L|296.0
+727983|Lab Test|Chloride|105|mmol/L|108.0
+727983|Lab Test|Glucose|4.662|mmol/L|205.0
+727983|Lab Test|Hematocrit|37.0|%|205.0
+727983|Lab Test|Chloride|102|mmol/L|0.0
+727983|Lab Test|Calcium|2.3952|mmol/L|205.0
+727983|Lab Test|Calcium|2.1956|mmol/L|108.0
+727983|Lab Test|Hematocrit|34.2|%|296.0
+727983|Lab Test|Hemoglobin|122|g/L|108.0
+727983|Lab Test|Calcium|2.3453|mmol/L|296.0
+727983|Lab Test|Calcium|2.22055|mmol/L|0.0
+727983|Lab Test|Chloride|107|mmol/L|296.0
+727983|Lab Test|Chloride|105|mmol/L|205.0
+727983|Lab Test|Bicarbonate|17|mmol/L|108.0
+727983|Lab Test|Bicarbonate|22|mmol/L|0.0
+727983|Lab Test|Bicarbonate|21|mmol/L|296.0
+727983|Lab Test|Lactate Dehydrogenase|148|U/L|0.0
+727983|Lab Test|Bicarbonate|23|mmol/L|205.0
+727983|Lab Test|Glucose|6.6045|mmol/L|108.0
+727983|Lab Test|Eosinophils|1.0|%|205.0
+727983|Lab Test|CK|175|U/L|108.0
+727983|Lab Test|Blood Urea Nitrogen (BUN)|4.0161|mmol/L|296.0
+727983|Lab Test|Lymphocytes|24.1|%|296.0
+727983|Lab Test|Blood Urea Nitrogen (BUN)|4.0161|mmol/L|205.0
+727983|Lab Test|Monocytes|2.9|%|296.0
+727983|Lab Test|Blood Urea Nitrogen (BUN)|3.651|mmol/L|108.0
+727983|Lab Test|Blood Urea Nitrogen (BUN)|4.0161|mmol/L|0.0
+727983|Lab Test|Bilirubin (Total)|5.1312|umol/L|0.0
+727983|Lab Test|Bilirubin (Total)|5.1312|umol/L|108.0
+727983|Lab Test|Monocytes|3.4|%|0.0
+727983|Lab Test|Bilirubin (Total)|5.1312|umol/L|205.0
+727983|Lab Test|Bilirubin (Total)|5.1312|umol/L|296.0
+727983|Lab Test|Bilirubin (Direct)|-|umol/L|296.0
+727983|Lab Test|Basophils|0.4|%|205.0
+727983|Lab Test|Basophils|0.3|%|0.0
+727983|Lab Test|Basophils|0.6|%|296.0
+727983|Lab Test|Creatinine|53.04|umol/L|205.0
+727983|Lab Test|Basophils|0.7|%|108.0
+727983|Lab Test|Lactate Dehydrogenase|167|U/L|108.0
+727983|Lab Test|Alkaline Phosphatase|85|U/L|108.0
+727983|Lab Test|Alkaline Phosphatase|61|U/L|296.0
+727983|Lab Test|Alkaline Phosphatase|80|U/L|0.0
+727983|Lab Test|Alkaline Phosphatase|81|U/L|205.0
+727983|Lab Test|Albumin|44|g/L|205.0
+727983|Lab Test|Albumin|37|g/L|296.0
+727983|Lab Test|Bilirubin (Direct)|-|umol/L|108.0
+727983|Lab Test|Albumin|39|g/L|108.0
+727983|Lab Test|Bilirubin (Direct)|-|umol/L|205.0
+727983|Lab Test|Albumin|39|g/L|0.0
+727983|Lab Test|AST(SGOT)|16|U/L|0.0
+727983|Lab Test|Bilirubin (Direct)|-|umol/L|0.0
+727983|Lab Test|AST(SGOT)|18|U/L|205.0
+727983|Lab Test|AST(SGOT)|9|U/L|296.0
+727983|Lab Test|AST(SGOT)|19|U/L|108.0
+727983|Lab Test|ALT(SGPT)|14|U/L|205.0
+727983|Lab Test|ALT(SGPT)|18|U/L|0.0
+727983|Lab Test|ALT(SGPT)|9|U/L|296.0
+727983|Lab Test|ALT(SGPT)|20|U/L|108.0
+727983|Lab Test|Protein|77|g/L|205.0
+727983|Lab Test|Sodium|142|mmol/L|108.0
+727983|Lab Test|Urine Protein|-|mg/dL|0.0
+727983|Lab Test|WAS PATIENT FASTING?|NO||296.0
+727983|Lab Test|White Blood Cell (WBC)|8.76|10E9/L|0.0
+727983|Lab Test|White Blood Cell (WBC)|6.63|10E9/L|205.0
+727983|Lab Test|White Blood Cell (WBC)|6.76|10E9/L|296.0
+727983|Lab Test|WAS PATIENT FASTING?|NO||0.0
+727983|Lab Test|WAS PATIENT FASTING?|NO||108.0
+727983|Lab Test|WAS PATIENT FASTING?|NO||205.0
+727983|Lab Test|Urine WBCs|6.0||0.0
+727983|Lab Test|Urine Ph|6||0.0
+727983|Lab Test|Urine Glucose|-|mg/dL|0.0
+727983|Lab Test|Urine Calcium Oxalate Crystals|+||0.0
+727983|Lab Test|Urine Bacteria|+||0.0
+727983|Lab Test|Sodium|138|mmol/L|296.0
+727983|Lab Test|Sodium|139|mmol/L|205.0
+727983|Lab Test|Sodium|137|mmol/L|0.0
+727983|Lab Test|Red Blood Cells (RBC)|4200|10E9/L|205.0
+727983|Lab Test|Red Blood Cells (RBC)|3900|10E9/L|0.0
+727983|Lab Test|Red Blood Cells (RBC)|4000|10E9/L|296.0
+727983|Lab Test|Red Blood Cells (RBC)|4100|10E9/L|108.0
+727983|Lab Test|Prothrombin Time (clotting)|10.0|seconds|0.0
+727983|Lab Test|Protein|71|g/L|0.0
+727983|Lab Test|Protein|71|g/L|108.0
+727983|Lab Test|Protein|73|g/L|296.0
+727983|Lab Test|Potassium|3.8|mmol/L|0.0
+727983|Lab Test|Potassium|3.7|mmol/L|108.0
+727983|Lab Test|Potassium|4.4|mmol/L|205.0
+727983|Lab Test|Potassium|4.1|mmol/L|296.0
+727983|Lab Test|Platelets|280|10E9/L|296.0
+727983|Lab Test|Platelets|308|10E9/L|0.0
+727983|Lab Test|Phosphorus|1.0336|mmol/L|296.0
+727983|Lab Test|Phosphorus|1.1628|mmol/L|108.0
+727983|Lab Test|Phosphorus|1.1951|mmol/L|0.0
+727983|Lab Test|Phosphorus|1.292|mmol/L|205.0
+727983|Lab Test|Partial Thromboplastin Time|27.0|seconds|0.0
+727983|Lab Test|Partial Thromboplastin Time|34.9|seconds|0.0
+727983|Lab Test|White Blood Cell (WBC)|8.43|10E9/L|108.0
+727983|Lab Test|Neutrophils|70.7|%|0.0
+727983|Lab Test|Platelets|284|10E9/L|108.0
+727983|Lab Test|Neutrophils|64.6|%|108.0
+727983|Lab Test|Platelets|300|10E9/L|205.0
+727983|Lab Test|Neutrophils|70.3|%|296.0
+727983|Lab Test|Neutrophils|67.3|%|205.0
+727983|Lab Test|Normocytic|+||205.0
+727983|Lab Test|Normocytic|+||296.0
+727983|Lab Test|Normocytic|+||108.0
+727983|Lab Test|Normocytic|+||0.0
+727983|Adverse Event|Neurological disorders NEC|Extremities burning sensation of;Burning sensation;Paraesthesias and dysaesthesias;Moderate;Resolved||74;74
+727983|Adverse Event|Gastrointestinal conditions NEC|Food poisoning;Food poisoning;Gastrointestinal disorders NEC;Moderate;Resolved||3;8
+727983|Adverse Event|General system disorders NEC|Sensation of warmth;Feeling hot;Feelings and sensations NEC;Mild;Resolved||62;62
+727983|Concomitant Medication|BACLOFEN|NULL;NULL;NULL||1;
+727983|Concomitant Medication|CREATINE|NULL;NULL;NULL||-319;
+727983|Concomitant Medication|ETHINYLESTRADIOL W/NORGESTREL|NULL;NULL;NULL||261;385
+727983|Concomitant Medication|IBUPROFEN|NULL;NULL;NULL||261;
+727983|Concomitant Medication|MEDROXYPROGESTERONE|NULL;NULL;NULL||386;
+727983|Concomitant Medication|RILUZOLE|NULL;NULL;NULL||-450;
+727983|Concomitant Medication|VITAMIN E|NULL;NULL;NULL||-450;
+940788|Demographic|Gender|M||0.0
+940788|Demographic|Age|58||0.0
+940788|Demographic|Race|White||0.0
+940788|ALSHX|onset_delta|-592||0.0
+940788|ALSHX|onset_site|Limb||0.0
+940788|Riluzole|if_use_Riluzole|No||0.0
+940788|Treatment|treatment_group|Placebo||145.0
+940788|ALSFRS|Q1_Speech|3||19.0
+940788|ALSFRS|Q1_Speech|4||52.0
+940788|ALSFRS|Q1_Speech|4||82.0
+940788|ALSFRS|Q1_Speech|4||112.0
+940788|ALSFRS|Q1_Speech|4||145.0
+940788|ALSFRS|Q1_Speech|4||203.0
+940788|ALSFRS|Q1_Speech|4||265.0
+940788|ALSFRS|Q1_Speech|4||321.0
+940788|ALSFRS|Q1_Speech|4||391.0
+940788|ALSFRS|Q1_Speech|4||447.0
+940788|ALSFRS|Q1_Speech|4||510.0
+940788|ALSFRS|Q1_Speech|4||573.0
+940788|ALSFRS|Q2_Salivation|4.0||19
+940788|ALSFRS|Q2_Salivation|4.0||52
+940788|ALSFRS|Q2_Salivation|4.0||82
+940788|ALSFRS|Q2_Salivation|4.0||112
+940788|ALSFRS|Q2_Salivation|4.0||145
+940788|ALSFRS|Q2_Salivation|4.0||203
+940788|ALSFRS|Q2_Salivation|4.0||265
+940788|ALSFRS|Q2_Salivation|4.0||321
+940788|ALSFRS|Q2_Salivation|4.0||391
+940788|ALSFRS|Q2_Salivation|4.0||447
+940788|ALSFRS|Q2_Salivation|4.0||510
+940788|ALSFRS|Q2_Salivation|4.0||573
+940788|ALSFRS|Q3_Swallowing|4.0||19
+940788|ALSFRS|Q3_Swallowing|4.0||52
+940788|ALSFRS|Q3_Swallowing|4.0||82
+940788|ALSFRS|Q3_Swallowing|4.0||112
+940788|ALSFRS|Q3_Swallowing|4.0||145
+940788|ALSFRS|Q3_Swallowing|4.0||203
+940788|ALSFRS|Q3_Swallowing|4.0||265
+940788|ALSFRS|Q3_Swallowing|4.0||321
+940788|ALSFRS|Q3_Swallowing|4.0||391
+940788|ALSFRS|Q3_Swallowing|4.0||447
+940788|ALSFRS|Q3_Swallowing|4.0||510
+940788|ALSFRS|Q3_Swallowing|4.0||573
+940788|ALSFRS|Q4_Handwriting|3.0||19
+940788|ALSFRS|Q4_Handwriting|3.0||52
+940788|ALSFRS|Q4_Handwriting|3.0||82
+940788|ALSFRS|Q4_Handwriting|4.0||112
+940788|ALSFRS|Q4_Handwriting|4.0||145
+940788|ALSFRS|Q4_Handwriting|3.0||203
+940788|ALSFRS|Q4_Handwriting|3.0||265
+940788|ALSFRS|Q4_Handwriting|3.0||321
+940788|ALSFRS|Q4_Handwriting|3.0||391
+940788|ALSFRS|Q4_Handwriting|3.0||447
+940788|ALSFRS|Q4_Handwriting|3.0||510
+940788|ALSFRS|Q4_Handwriting|3.0||573
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||19
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||52
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||82
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||112
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||145
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|3.0||203
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||265
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|4.0||321
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|2.0||391
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|2.0||447
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|2.0||510
+940788|ALSFRS|Q5a_Cutting_without_Gastrostomy|2.0||573
+940788|ALSFRS|Q5_Cutting|3.0||19
+940788|ALSFRS|Q5_Cutting|3.0||52
+940788|ALSFRS|Q5_Cutting|3.0||82
+940788|ALSFRS|Q5_Cutting|4.0||112
+940788|ALSFRS|Q5_Cutting|4.0||145
+940788|ALSFRS|Q5_Cutting|3.0||203
+940788|ALSFRS|Q5_Cutting|4.0||265
+940788|ALSFRS|Q5_Cutting|4.0||321
+940788|ALSFRS|Q5_Cutting|2.0||391
+940788|ALSFRS|Q5_Cutting|2.0||447
+940788|ALSFRS|Q5_Cutting|2.0||510
+940788|ALSFRS|Q5_Cutting|2.0||573
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||19
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||52
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||82
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||112
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||145
+940788|ALSFRS|Q6_Dressing_and_Hygiene|4.0||203
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||265
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||321
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||391
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||447
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||510
+940788|ALSFRS|Q6_Dressing_and_Hygiene|3.0||573
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||19
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||52
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||82
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||112
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||145
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||203
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||265
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||321
+940788|ALSFRS|Q7_Turning_in_Bed|3.0||391
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||447
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||510
+940788|ALSFRS|Q7_Turning_in_Bed|4.0||573
+940788|ALSFRS|Q8_Walking|4.0||19
+940788|ALSFRS|Q8_Walking|4.0||52
+940788|ALSFRS|Q8_Walking|4.0||82
+940788|ALSFRS|Q8_Walking|4.0||112
+940788|ALSFRS|Q8_Walking|4.0||145
+940788|ALSFRS|Q8_Walking|4.0||203
+940788|ALSFRS|Q8_Walking|4.0||265
+940788|ALSFRS|Q8_Walking|4.0||321
+940788|ALSFRS|Q8_Walking|4.0||391
+940788|ALSFRS|Q8_Walking|4.0||447
+940788|ALSFRS|Q8_Walking|4.0||510
+940788|ALSFRS|Q8_Walking|4.0||573
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||19
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||52
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||82
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||112
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||145
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||203
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||265
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||321
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||391
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||447
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||510
+940788|ALSFRS|Q9_Climbing_Stairs|4.0||573
+940788|ALSFRS|Q10_Respiratory|4.0||19
+940788|ALSFRS|Q10_Respiratory|4.0||52
+940788|ALSFRS|Q10_Respiratory|4.0||82
+940788|ALSFRS|Q10_Respiratory|4.0||112
+940788|ALSFRS|Q10_Respiratory|4.0||145
+940788|ALSFRS|Q10_Respiratory|4.0||203
+940788|ALSFRS|Q10_Respiratory|4.0||265
+940788|ALSFRS|Q10_Respiratory|4.0||321
+940788|ALSFRS|Q10_Respiratory|4.0||391
+940788|ALSFRS|Q10_Respiratory|4.0||447
+940788|ALSFRS|Q10_Respiratory|4.0||510
+940788|ALSFRS|Q10_Respiratory|4.0||573
+940788|ALSFRS|ALSFRS_Total|37.0||19
+940788|ALSFRS|ALSFRS_Total|38.0||52
+940788|ALSFRS|ALSFRS_Total|38.0||82
+940788|ALSFRS|ALSFRS_Total|40.0||112
+940788|ALSFRS|ALSFRS_Total|40.0||145
+940788|ALSFRS|ALSFRS_Total|38.0||203
+940788|ALSFRS|ALSFRS_Total|38.0||265
+940788|ALSFRS|ALSFRS_Total|38.0||321
+940788|ALSFRS|ALSFRS_Total|35.0||391
+940788|ALSFRS|ALSFRS_Total|36.0||447
+940788|ALSFRS|ALSFRS_Total|36.0||510
+940788|ALSFRS|ALSFRS_Total|36.0||573
+940788|ALSFRS|mouth|11.0||19
+940788|ALSFRS|mouth|12.0||52
+940788|ALSFRS|mouth|12.0||82
+940788|ALSFRS|mouth|12.0||112
+940788|ALSFRS|mouth|12.0||145
+940788|ALSFRS|mouth|12.0||203
+940788|ALSFRS|mouth|12.0||265
+940788|ALSFRS|mouth|12.0||321
+940788|ALSFRS|mouth|12.0||391
+940788|ALSFRS|mouth|12.0||447
+940788|ALSFRS|mouth|12.0||510
+940788|ALSFRS|mouth|12.0||573
+940788|ALSFRS|hands|6.0||19
+940788|ALSFRS|hands|6.0||52
+940788|ALSFRS|hands|6.0||82
+940788|ALSFRS|hands|8.0||112
+940788|ALSFRS|hands|8.0||145
+940788|ALSFRS|hands|6.0||203
+940788|ALSFRS|hands|7.0||265
+940788|ALSFRS|hands|7.0||321
+940788|ALSFRS|hands|5.0||391
+940788|ALSFRS|hands|5.0||447
+940788|ALSFRS|hands|5.0||510
+940788|ALSFRS|hands|5.0||573
+940788|ALSFRS|trunk|8.0||19
+940788|ALSFRS|trunk|8.0||52
+940788|ALSFRS|trunk|8.0||82
+940788|ALSFRS|trunk|8.0||112
+940788|ALSFRS|trunk|8.0||145
+940788|ALSFRS|trunk|8.0||203
+940788|ALSFRS|trunk|7.0||265
+940788|ALSFRS|trunk|7.0||321
+940788|ALSFRS|trunk|6.0||391
+940788|ALSFRS|trunk|7.0||447
+940788|ALSFRS|trunk|7.0||510
+940788|ALSFRS|trunk|7.0||573
+940788|ALSFRS|leg|8.0||19
+940788|ALSFRS|leg|8.0||52
+940788|ALSFRS|leg|8.0||82
+940788|ALSFRS|leg|8.0||112
+940788|ALSFRS|leg|8.0||145
+940788|ALSFRS|leg|8.0||203
+940788|ALSFRS|leg|8.0||265
+940788|ALSFRS|leg|8.0||321
+940788|ALSFRS|leg|8.0||391
+940788|ALSFRS|leg|8.0||447
+940788|ALSFRS|leg|8.0||510
+940788|ALSFRS|leg|8.0||573
+940788|ALSFRS|respiratory|4.0||19
+940788|ALSFRS|respiratory|4.0||52
+940788|ALSFRS|respiratory|4.0||82
+940788|ALSFRS|respiratory|4.0||112
+940788|ALSFRS|respiratory|4.0||145
+940788|ALSFRS|respiratory|4.0||203
+940788|ALSFRS|respiratory|4.0||265
+940788|ALSFRS|respiratory|4.0||321
+940788|ALSFRS|respiratory|4.0||391
+940788|ALSFRS|respiratory|4.0||447
+940788|ALSFRS|respiratory|4.0||510
+940788|ALSFRS|respiratory|4.0||573
+940788|Vitals|bp_diastolic|98.0|mmHg|19
+940788|Vitals|bp_diastolic|84.0|mmHg|52
+940788|Vitals|bp_diastolic|90.0|mmHg|82
+940788|Vitals|bp_diastolic|80.0|mmHg|112
+940788|Vitals|bp_diastolic|90.0|mmHg|145
+940788|Vitals|bp_diastolic|88.0|mmHg|203
+940788|Vitals|bp_diastolic|80.0|mmHg|265
+940788|Vitals|bp_diastolic|70.0|mmHg|321
+940788|Vitals|bp_diastolic|80.0|mmHg|391
+940788|Vitals|bp_diastolic|80.0|mmHg|447
+940788|Vitals|bp_diastolic|80.0|mmHg|510
+940788|Vitals|bp_diastolic|90.0|mmHg|573
+940788|Vitals|bp_systolic|150.0|mmHg|19
+940788|Vitals|bp_systolic|154.0|mmHg|52
+940788|Vitals|bp_systolic|156.0|mmHg|82
+940788|Vitals|bp_systolic|132.0|mmHg|112
+940788|Vitals|bp_systolic|142.0|mmHg|145
+940788|Vitals|bp_systolic|120.0|mmHg|203
+940788|Vitals|bp_systolic|126.0|mmHg|265
+940788|Vitals|bp_systolic|130.0|mmHg|321
+940788|Vitals|bp_systolic|130.0|mmHg|391
+940788|Vitals|bp_systolic|120.0|mmHg|447
+940788|Vitals|bp_systolic|120.0|mmHg|510
+940788|Vitals|bp_systolic|140.0|mmHg|573
+940788|Vitals|pulse|83.0|# per minitue|19
+940788|Vitals|pulse|81.0|# per minitue|52
+940788|Vitals|pulse|90.0|# per minitue|82
+940788|Vitals|pulse|99.0|# per minitue|112
+940788|Vitals|pulse|84.0|# per minitue|145
+940788|Vitals|pulse|72.0|# per minitue|203
+940788|Vitals|pulse|72.0|# per minitue|265
+940788|Vitals|pulse|84.0|# per minitue|321
+940788|Vitals|pulse|80.0|# per minitue|391
+940788|Vitals|pulse|76.0|# per minitue|447
+940788|Vitals|pulse|88.0|# per minitue|510
+940788|Vitals|pulse|80.0|# per minitue|573
+940788|Vitals|respiratory_rate|16.0|# per minitue|19
+940788|Vitals|respiratory_rate|18.0|# per minitue|52
+940788|Vitals|respiratory_rate|18.0|# per minitue|82
+940788|Vitals|respiratory_rate|20.0|# per minitue|112
+940788|Vitals|respiratory_rate|12.0|# per minitue|145
+940788|Vitals|respiratory_rate|18.0|# per minitue|203
+940788|Vitals|respiratory_rate|16.0|# per minitue|265
+940788|Vitals|respiratory_rate|16.0|# per minitue|321
+940788|Vitals|respiratory_rate|16.0|# per minitue|391
+940788|Vitals|respiratory_rate|16.0|# per minitue|447
+940788|Vitals|respiratory_rate|16.0|# per minitue|510
+940788|Vitals|respiratory_rate|16.0|# per minitue|573
+940788|Vitals|weight|70.8|kg|19
+940788|Vitals|weight|70.4|kg|52
+940788|Vitals|weight|69.3|kg|82
+940788|Vitals|weight|69.4|kg|112
+940788|Vitals|weight|66.8|kg|145
+940788|Vitals|weight|66.2|kg|203
+940788|Vitals|weight|65.6|kg|265
+940788|Vitals|weight|65.7|kg|321
+940788|Vitals|weight|65.1|kg|391
+940788|Vitals|weight|63.7|kg|447
+940788|Vitals|weight|62.0|kg|510
+940788|Vitals|weight|63.9|kg|573
+940788|Vitals|height|170.0|cm|0
+940788|Vitals|height|170.0|cm|19
+940788|FVC|fvc_normal|4.326442|L|0
+940788|FVC|fvc_normal|4.326442|L|19
+940788|FVC|fvc_normal|4.326442|L|52
+940788|FVC|fvc_normal|4.326442|L|82
+940788|FVC|fvc_normal|4.326442|L|112
+940788|FVC|fvc_normal|4.326442|L|145
+940788|FVC|fvc_normal|4.326442|L|203
+940788|FVC|fvc_normal|4.326442|L|265
+940788|FVC|fvc_normal|4.326442|L|321
+940788|FVC|fvc_normal|4.326442|L|391
+940788|FVC|fvc_normal|4.326442|L|447
+940788|FVC|fvc_normal|4.326442|L|510
+940788|FVC|fvc_normal|4.326442|L|573
+940788|FVC|fvc1|4.49|L|0
+940788|FVC|fvc1|4.47|L|19
+940788|FVC|fvc1|4.89|L|52
+940788|FVC|fvc1|4.68|L|82
+940788|FVC|fvc1|4.81|L|112
+940788|FVC|fvc1|4.64|L|145
+940788|FVC|fvc1|4.65|L|203
+940788|FVC|fvc1|4.88|L|265
+940788|FVC|fvc1|4.86|L|321
+940788|FVC|fvc1|4.8|L|391
+940788|FVC|fvc1|4.82|L|447
+940788|FVC|fvc1|4.86|L|510
+940788|FVC|fvc1|4.64|L|573
+940788|FVC|fvc_percent1|103.780427427433|%|0
+940788|FVC|fvc_percent1|103.318153808603|%|19
+940788|FVC|fvc_percent1|113.025899804042|%|52
+940788|FVC|fvc_percent1|108.17202680632299|%|82
+940788|FVC|fvc_percent1|111.17680532872|%|112
+940788|FVC|fvc_percent1|107.247479568662|%|145
+940788|FVC|fvc_percent1|107.47861637807699|%|203
+940788|FVC|fvc_percent1|112.79476299462699|%|265
+940788|FVC|fvc_percent1|112.33248937579701|%|321
+940788|FVC|fvc_percent1|110.945668519305|%|391
+940788|FVC|fvc_percent1|111.40794213813601|%|447
+940788|FVC|fvc_percent1|112.33248937579701|%|510
+940788|FVC|fvc_percent1|107.247479568662|%|573
+940788|FVC|fvc|4.49|L|0
+940788|FVC|fvc|4.47|L|19
+940788|FVC|fvc|4.89|L|52
+940788|FVC|fvc|4.68|L|82
+940788|FVC|fvc|4.81|L|112
+940788|FVC|fvc|4.64|L|145
+940788|FVC|fvc|4.65|L|203
+940788|FVC|fvc|4.88|L|265
+940788|FVC|fvc|4.86|L|321
+940788|FVC|fvc|4.8|L|391
+940788|FVC|fvc|4.82|L|447
+940788|FVC|fvc|4.86|L|510
+940788|FVC|fvc|4.64|L|573
+940788|FVC|fvc_percent|103.780427427433|%|0
+940788|FVC|fvc_percent|103.318153808603|%|19
+940788|FVC|fvc_percent|113.025899804042|%|52
+940788|FVC|fvc_percent|108.172026806323|%|82
+940788|FVC|fvc_percent|111.17680532872|%|112
+940788|FVC|fvc_percent|107.247479568662|%|145
+940788|FVC|fvc_percent|107.478616378077|%|203
+940788|FVC|fvc_percent|112.794762994627|%|265
+940788|FVC|fvc_percent|112.332489375797|%|321
+940788|FVC|fvc_percent|110.945668519305|%|391
+940788|FVC|fvc_percent|111.407942138136|%|447
+940788|FVC|fvc_percent|112.332489375797|%|510
+940788|FVC|fvc_percent|107.247479568662|%|573
+940788|Lab Test|Triglycerides|2.5538|mmol/L|321
+940788|Lab Test|Absolute Eosinophil Count|0.08|10E9/L|82
+940788|Lab Test|Total Cholesterol|4.62894|mmol/L|447
+940788|Lab Test|Gamma-glutamyltransferase|15|U/L|510
+940788|Lab Test|Triglycerides|1.4125|mmol/L|265
+940788|Lab Test|Basophils|0.3|%|52
+940788|Lab Test|Urine Ph|5.0||0
+940788|Lab Test|Total Cholesterol|5.48232|mmol/L|203
+940788|Lab Test|ALT(SGPT)|30|U/L|82
+940788|Lab Test|Sodium|142|mmol/L|145
+940788|Lab Test|Red Blood Cells (RBC)|5000|10E9/L|447
+940788|Lab Test|Creatinine|61.88|umol/L|510
+940788|Lab Test|Creatinine|70.72|umol/L|321
+940788|Lab Test|Absolute Basophil Count|0.00|10E9/L|573
+940788|Lab Test|Red Blood Cells (RBC)|5000|10E9/L|82
+940788|Lab Test|Protein|69|g/L|82
+940788|Lab Test|Protein|72|g/L|447
+940788|Lab Test|Protein|76|g/L|510
+940788|Lab Test|Potassium|3.9|mmol/L|52
+940788|Lab Test|Absolute Neutrophil Count|3.54|10E9/L|321
+940788|Lab Test|Alkaline Phosphatase|74|U/L|321
+940788|Lab Test|Platelets|203|10E9/L|0
+940788|Lab Test|Platelets|196|10E9/L|391
+940788|Lab Test|Chloride|106|mmol/L|82
+940788|Lab Test|Phosphorus|1.0982|mmol/L|0
+940788|Lab Test|Absolute Neutrophil Count|3.11|10E9/L|265
+940788|Lab Test|Lymphocytes|21.8|%|82
+940788|Lab Test|Monocytes|5.3|%|391
+940788|Lab Test|Monocytes|5.9|%|203
+940788|Lab Test|Alkaline Phosphatase|62|U/L|203
+940788|Lab Test|Absolute Neutrophil Count|3.01|10E9/L|52
+940788|Lab Test|Neutrophils|70.0|%|203
+940788|Lab Test|Neutrophils|60.4|%|447
+940788|Lab Test|Calcium|2.2455|mmol/L|265
+940788|Lab Test|Absolute Monocyte Count|0.40|10E9/L|0
+940788|Lab Test|Alkaline Phosphatase|67|U/L|447
+940788|Lab Test|Absolute Monocyte Count|0.49|10E9/L|82
+940788|Lab Test|Neutrophils|61.3|%|112
+940788|Lab Test|Alkaline Phosphatase|60|U/L|145
+940788|Lab Test|Absolute Neutrophil Count|3.86|10E9/L|0
+940788|Lab Test|Alkaline Phosphatase|79|U/L|573
+940788|Lab Test|Phosphorus|1.0336|mmol/L|112
+940788|Lab Test|Chloride|106|mmol/L|145
+940788|Lab Test|Phosphorus|1.0982|mmol/L|391
+940788|Lab Test|Blood Urea Nitrogen (BUN)|4.7463|mmol/L|82
+940788|Lab Test|Platelets|170|10E9/L|112
+940788|Lab Test|Phosphorus|1.0336|mmol/L|82
+940788|Lab Test|Potassium|3.5|mmol/L|203
+940788|Lab Test|Phosphorus|1.2597|mmol/L|19
+940788|Lab Test|Potassium|3.9|mmol/L|447
+940788|Lab Test|Platelets|150|10E9/L|145
+940788|Lab Test|Protein|68|g/L|265
+940788|Lab Test|Potassium|3.5|mmol/L|82
+940788|Lab Test|Protein|73|g/L|321
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|265
+940788|Lab Test|Red Blood Cells (RBC)|4900|10E9/L|321
+940788|Lab Test|ALT(SGPT)|40|U/L|112
+940788|Lab Test|Sodium|144|mmol/L|510
+940788|Lab Test|Red Blood Cells (RBC)|5000|10E9/L|391
+940788|Lab Test|Sodium|142|mmol/L|19
+940788|Lab Test|Total Cholesterol|5.0427|mmol/L|145
+940788|Lab Test|Total Cholesterol|5.22372|mmol/L|52
+940788|Lab Test|Absolute Eosinophil Count|0.17|10E9/L|145
+940788|Lab Test|Triglycerides|1.1752|mmol/L|391
+940788|Lab Test|Absolute Basophil Count|0.04|10E9/L|82
+940788|Lab Test|Triglycerides|1.5594|mmol/L|82
+940788|Lab Test|Absolute Eosinophil Count|0.32|10E9/L|321
+940788|Lab Test|Urine Ph|5.0||112
+940788|Lab Test|Absolute Basophil Count|0.01|10E9/L|19
+940788|Lab Test|Urine Ph|6.0||447
+940788|Lab Test|Calcium|2.17065|mmol/L|0
+940788|Lab Test|Monocytes|7.7|%|447
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.5|%|82
+940788|Lab Test|Albumin|43|g/L|573
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.7|%|145
+940788|Lab Test|Neutrophils|26.0|%|573
+940788|Lab Test|Monocytes|6.9|%|0
+940788|Lab Test|Calcium|2.2455|mmol/L|203
+940788|Lab Test|Calcium|2.27045|mmol/L|391
+940788|Lab Test|Monocytes|10.5|%|82
+940788|Lab Test|Hematocrit|46.6|%|203
+940788|Lab Test|AST(SGOT)|25|U/L|52
+940788|Lab Test|Monocytes|7.8|%|52
+940788|Lab Test|Absolute Lymphocyte Count|1.02|10E9/L|265
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.4765|mmol/L|573
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|321
+940788|Lab Test|Lymphocytes|29.2|%|52
+940788|Lab Test|Hemoglobin|149|g/L|82
+940788|Lab Test|Albumin|49|g/L|112
+940788|Lab Test|Absolute Neutrophil Count|2.66|10E9/L|447
+940788|Lab Test|Alkaline Phosphatase|58|U/L|265
+940788|Lab Test|Neutrophils|59.1|%|52
+940788|Lab Test|Lymphocytes|21.9|%|203
+940788|Lab Test|Blood Urea Nitrogen (BUN)|6.2067|mmol/L|145
+940788|Lab Test|Bilirubin (Total)|11.9728|umol/L|321
+940788|Lab Test|Hemoglobin|151|g/L|510
+940788|Lab Test|Bilirubin (Total)|15.3936|umol/L|19
+940788|Lab Test|Phosphorus|1.2274|mmol/L|265
+940788|Lab Test|Chloride|105|mmol/L|510
+940788|Lab Test|Absolute Lymphocyte Count|1.08|10E9/L|573
+940788|Lab Test|Lymphocytes|27.3|%|447
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.1|%|265
+940788|Lab Test|Hemoglobin|141|g/L|573
+940788|Lab Test|Albumin|45|g/L|82
+940788|Lab Test|Absolute Lymphocyte Count|1.36|10E9/L|203
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|265
+940788|Lab Test|Lymphocytes|28.0|%|145
+940788|Lab Test|Bilirubin (Total)|20.5248|umol/L|203
+940788|Lab Test|Neutrophils|60.7|%|145
+940788|Lab Test|Albumin|47|g/L|52
+940788|Lab Test|Hematocrit|45.2|%|19
+940788|Lab Test|Blood Urea Nitrogen (BUN)|4.0161|mmol/L|447
+940788|Lab Test|Monocytes|8.3|%|265
+940788|Lab Test|Hematocrit|43.7|%|447
+940788|Lab Test|Monocytes|14.4|%|112
+940788|Lab Test|Hematocrit|44.6|%|391
+940788|Lab Test|Albumin|49|g/L|391
+940788|Lab Test|Calcium|2.2954|mmol/L|321
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|573
+940788|Lab Test|Calcium|2.2455|mmol/L|112
+940788|Lab Test|Absolute Monocyte Count|0.40|10E9/L|321
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.6|%|19
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.4|%|112
+940788|Lab Test|Albumin|45|g/L|447
+940788|Lab Test|Absolute Monocyte Count|0.34|10E9/L|447
+940788|Lab Test|Absolute Monocyte Count|0.38|10E9/L|19
+940788|Lab Test|Glucose|5.661|mmol/L|82
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|4.5|%|391
+940788|Lab Test|Neutrophils|61.9|%|510
+940788|Lab Test|Neutrophils|74.2|%|391
+940788|Lab Test|Hematocrit|44.3|%|510
+940788|Lab Test|Monocytes|7.5|%|145
+940788|Lab Test|Protein|77|g/L|203
+940788|Lab Test|Neutrophils|66.6|%|19
+940788|Lab Test|Glucose|6.7155|mmol/L|112
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|391
+940788|Lab Test|Lymphocytes|22.9|%|19
+940788|Lab Test|Absolute Lymphocyte Count|1.24|10E9/L|19
+940788|Lab Test|Hematocrit|44.8|%|321
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.8416|mmol/L|52
+940788|Lab Test|Blood Urea Nitrogen (BUN)|4.3812|mmol/L|0
+940788|Lab Test|Neutrophils|65.1|%|82
+940788|Lab Test|Hemoglobin|155|g/L|19
+940788|Lab Test|Absolute Lymphocyte Count|1.60|10E9/L|321
+940788|Lab Test|Absolute Lymphocyte Count|1.15|10E9/L|391
+940788|Lab Test|Chloride|106|mmol/L|321
+940788|Lab Test|Hemoglobin|154|g/L|391
+940788|Lab Test|AST(SGOT)|27|U/L|0
+940788|Lab Test|Absolute Lymphocyte Count|1.36|10E9/L|510
+940788|Lab Test|Neutrophils|60.0|%|321
+940788|Lab Test|Phosphorus|1.2597|mmol/L|203
+940788|Lab Test|CK|609|U/L|447
+940788|Lab Test|Alkaline Phosphatase|59|U/L|82
+940788|Lab Test|Phosphorus|1.1305|mmol/L|510
+940788|Lab Test|CK|521|U/L|203
+940788|Lab Test|Potassium|3.9|mmol/L|145
+940788|Lab Test|CK|443|U/L|52
+940788|Lab Test|CK|661|U/L|0
+940788|Lab Test|CK|571|U/L|82
+940788|Lab Test|Potassium|3.7|mmol/L|321
+940788|Lab Test|Creatinine|61.88|umol/L|265
+940788|Lab Test|Potassium|4.1|mmol/L|391
+940788|Lab Test|Potassium|3.7|mmol/L|0
+940788|Lab Test|Glucose|5.0505|mmol/L|391
+940788|Lab Test|Red Blood Cells (RBC)|5100|10E9/L|19
+940788|Lab Test|Chloride|107|mmol/L|0
+940788|Lab Test|Protein|70|g/L|0
+940788|Lab Test|Eosinophils|1.7|%|391
+940788|Lab Test|Absolute Eosinophil Count|0.02|10E9/L|573
+940788|Lab Test|Absolute Eosinophil Count|0.11|10E9/L|391
+940788|Lab Test|Red Blood Cells (RBC)|4700|10E9/L|573
+940788|Lab Test|AST(SGOT)|48|U/L|573
+940788|Lab Test|Absolute Eosinophil Count|0.19|10E9/L|447
+940788|Lab Test|ALT(SGPT)|27|U/L|52
+940788|Lab Test|Sodium|142|mmol/L|52
+940788|Lab Test|Eosinophils|1.5|%|112
+940788|Lab Test|Eosinophils|3.5|%|145
+940788|Lab Test|AST(SGOT)|30|U/L|391
+940788|Lab Test|Total Cholesterol|4.37034|mmol/L|265
+940788|Lab Test|Glucose|5.2725|mmol/L|447
+940788|Lab Test|Total Cholesterol|4.6548|mmol/L|391
+940788|Lab Test|Basophils|0.4|%|112
+940788|Lab Test|Triglycerides|1.5029|mmol/L|510
+940788|Lab Test|Urine Ph|6.0||391
+940788|Lab Test|Triglycerides|1.1413|mmol/L|145
+940788|Lab Test|Basophils|0.9|%|82
+940788|Lab Test|Triglycerides|1.3447|mmol/L|19
+940788|Lab Test|Gamma-glutamyltransferase|15|U/L|112
+940788|Lab Test|Eosinophils|5.5|%|321
+940788|Lab Test|Gamma-glutamyltransferase|15|U/L|145
+940788|Lab Test|Urine Ph|6.0||52
+940788|Lab Test|ALT(SGPT)|29|U/L|510
+940788|Lab Test|ALT(SGPT)|33|U/L|321
+940788|Lab Test|Urine Ph|6.0||510
+940788|Lab Test|Eosinophils|3.2|%|19
+940788|Lab Test|Bilirubin (Total)|13.6832|umol/L|52
+940788|Lab Test|Phosphorus|1.1628|mmol/L|573
+940788|Lab Test|Bilirubin (Total)|10.2624|umol/L|82
+940788|Lab Test|Bilirubin (Total)|15.3936|umol/L|112
+940788|Lab Test|Phosphorus|1.0982|mmol/L|447
+940788|Lab Test|Alkaline Phosphatase|53|U/L|0
+940788|Lab Test|Hemoglobin|150|g/L|145
+940788|Lab Test|Bilirubin (Total)|17.104|umol/L|145
+940788|Lab Test|CK|347|U/L|19
+940788|Lab Test|AST(SGOT)|24|U/L|19
+940788|Lab Test|Bilirubin (Total)|15.3936|umol/L|265
+940788|Lab Test|Bilirubin (Total)|15.3936|umol/L|447
+940788|Lab Test|Potassium|3.9|mmol/L|112
+940788|Lab Test|Absolute Band Neutrophil Count|0.08|10E9/L|573
+940788|Lab Test|Bilirubin (Total)|17.104|umol/L|391
+940788|Lab Test|Bilirubin (Total)|13.6832|umol/L|573
+940788|Lab Test|Creatinine|70.72|umol/L|52
+940788|Lab Test|Bilirubin (Total)|13.6832|umol/L|510
+940788|Lab Test|Bicarbonate|25|mmol/L|510
+940788|Lab Test|Potassium|3.9|mmol/L|19
+940788|Lab Test|ALT(SGPT)|27|U/L|145
+940788|Lab Test|Protein|73|g/L|145
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.1|%|447
+940788|Lab Test|Bicarbonate|26|mmol/L|447
+940788|Lab Test|Bicarbonate|27|mmol/L|573
+940788|Lab Test|Eosinophils|1.0|%|573
+940788|Lab Test|Bicarbonate|26|mmol/L|321
+940788|Lab Test|Red Blood Cells (RBC)|5300|10E9/L|203
+940788|Lab Test|Red Blood Cells (RBC)|5300|10E9/L|112
+940788|Lab Test|Creatinine|61.88|umol/L|447
+940788|Lab Test|Basophils|0.0|%|573
+940788|Lab Test|AST(SGOT)|33|U/L|112
+940788|Lab Test|Hematocrit|41.9|%|573
+940788|Lab Test|Creatinine|70.72|umol/L|0
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|510
+940788|Lab Test|Potassium|4.1|mmol/L|510
+940788|Lab Test|Absolute Basophil Count|0.01|10E9/L|391
+940788|Lab Test|Creatinine|79.56|umol/L|112
+940788|Lab Test|Basophils|0.4|%|510
+940788|Lab Test|Creatinine|79.56|umol/L|203
+940788|Lab Test|Lymphocytes|21.6|%|265
+940788|Lab Test|CK|538|U/L|265
+940788|Lab Test|Band Neutrophils|4.0|%|573
+940788|Lab Test|Platelets|160|10E9/L|19
+940788|Lab Test|Absolute Lymphocyte Count|1.42|10E9/L|0
+940788|Lab Test|Platelets|151|10E9/L|82
+940788|Lab Test|Albumin|47|g/L|145
+940788|Lab Test|Chloride|104|mmol/L|573
+940788|Lab Test|Absolute Lymphocyte Count|1.02|10E9/L|82
+940788|Lab Test|CK|624|U/L|145
+940788|Lab Test|Platelets|187|10E9/L|447
+940788|Lab Test|Alkaline Phosphatase|64|U/L|52
+940788|Lab Test|CK|680|U/L|510
+940788|Lab Test|CK|574|U/L|573
+940788|Lab Test|Phosphorus|1.1305|mmol/L|52
+940788|Lab Test|Chloride|105|mmol/L|447
+940788|Lab Test|Albumin|51|g/L|203
+940788|Lab Test|Neutrophils|66.1|%|265
+940788|Lab Test|Lymphocytes|54.0|%|573
+940788|Lab Test|Absolute Eosinophil Count|0.18|10E9/L|52
+940788|Lab Test|Absolute Lymphocyte Count|1.20|10E9/L|447
+940788|Lab Test|Lymphocytes|18.6|%|391
+940788|Lab Test|Bilirubin (Total)|11.9728|umol/L|0
+940788|Lab Test|Chloride|103|mmol/L|203
+940788|Lab Test|Hemoglobin|148|g/L|447
+940788|Lab Test|Hemoglobin|155|g/L|321
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|112
+940788|Lab Test|Chloride|106|mmol/L|19
+940788|Lab Test|Hemoglobin|151|g/L|0
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.4765|mmol/L|19
+940788|Lab Test|Hemoglobin|155|g/L|52
+940788|Lab Test|Absolute Neutrophil Count|2.97|10E9/L|145
+940788|Lab Test|Absolute Lymphocyte Count|0.87|10E9/L|112
+940788|Lab Test|Absolute Neutrophil Count|2.39|10E9/L|112
+940788|Lab Test|Lymphocytes|27.7|%|510
+940788|Lab Test|Hemoglobin|158|g/L|203
+940788|Lab Test|Hemoglobin|141|g/L|265
+940788|Lab Test|Chloride|101|mmol/L|112
+940788|Lab Test|Hematocrit|42.1|%|265
+940788|Lab Test|Red Blood Cells (RBC)|4900|10E9/L|0
+940788|Lab Test|Hematocrit|43.8|%|0
+940788|Lab Test|Hematocrit|45.6|%|52
+940788|Lab Test|Blood Urea Nitrogen (BUN)|4.0161|mmol/L|510
+940788|Lab Test|Albumin|47|g/L|0
+940788|Lab Test|Hematocrit|43.3|%|82
+940788|Lab Test|Hematocrit|45.4|%|112
+940788|Lab Test|Hematocrit|44.7|%|145
+940788|Lab Test|Absolute Basophil Count|0.01|10E9/L|447
+940788|Lab Test|Bicarbonate|27|mmol/L|391
+940788|Lab Test|Absolute Monocyte Count|0.37|10E9/L|145
+940788|Lab Test|Absolute Monocyte Count|0.56|10E9/L|112
+940788|Lab Test|Glucose|5.661|mmol/L|19
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|510
+940788|Lab Test|Albumin|45|g/L|265
+940788|Lab Test|Monocytes|7.4|%|510
+940788|Lab Test|Calcium|2.42015|mmol/L|510
+940788|Lab Test|Absolute Monocyte Count|0.37|10E9/L|203
+940788|Lab Test|Albumin|49|g/L|321
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.3|%|321
+940788|Lab Test|Calcium|2.2954|mmol/L|145
+940788|Lab Test|Bicarbonate|29|mmol/L|19
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.4|%|0
+940788|Lab Test|Calcium|2.1956|mmol/L|52
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.5|%|52
+940788|Lab Test|Calcium|2.1956|mmol/L|82
+940788|Lab Test|Absolute Monocyte Count|0.33|10E9/L|391
+940788|Lab Test|Absolute Monocyte Count|0.30|10E9/L|573
+940788|Lab Test|Absolute Monocyte Count|0.36|10E9/L|510
+940788|Lab Test|Absolute Monocyte Count|0.39|10E9/L|265
+940788|Lab Test|AST(SGOT)|30|U/L|447
+940788|Lab Test|Monocytes|6.8|%|321
+940788|Lab Test|Glucose|6.1605|mmol/L|321
+940788|Lab Test|Absolute Monocyte Count|0.40|10E9/L|52
+940788|Lab Test|HbA1c (Glycated Hemoglobin)|5.5|%|203
+940788|Lab Test|AST(SGOT)|26|U/L|145
+940788|Lab Test|Red Blood Cells (RBC)|5000|10E9/L|510
+940788|Lab Test|Glucose|5.55|mmol/L|0
+940788|Lab Test|AST(SGOT)|28|U/L|203
+940788|Lab Test|Red Blood Cells (RBC)|4600|10E9/L|265
+940788|Lab Test|Basophils|0.2|%|391
+940788|Lab Test|Bicarbonate|27|mmol/L|0
+940788|Lab Test|Calcium|2.2455|mmol/L|19
+940788|Lab Test|Albumin|46|g/L|19
+940788|Lab Test|Monocytes|15.0|%|573
+940788|Lab Test|Calcium|2.3952|mmol/L|573
+940788|Lab Test|AST(SGOT)|28|U/L|82
+940788|Lab Test|Sodium|144|mmol/L|447
+940788|Lab Test|Eosinophils|4.3|%|447
+940788|Lab Test|ALT(SGPT)|30|U/L|0
+940788|Lab Test|Absolute Neutrophil Count|3.60|10E9/L|19
+940788|Lab Test|Lymphocytes|24.4|%|0
+940788|Lab Test|Albumin|49|g/L|510
+940788|Lab Test|Sodium|144|mmol/L|391
+940788|Lab Test|Sodium|141|mmol/L|203
+940788|Lab Test|Bicarbonate|30|mmol/L|52
+940788|Lab Test|Lymphocytes|27.1|%|321
+940788|Lab Test|Bicarbonate|27|mmol/L|145
+940788|Lab Test|Absolute Neutrophil Count|4.60|10E9/L|391
+940788|Lab Test|Absolute Lymphocyte Count|1.49|10E9/L|52
+940788|Lab Test|Absolute Eosinophil Count|0.11|10E9/L|203
+940788|Lab Test|Bicarbonate|26|mmol/L|82
+940788|Lab Test|Alkaline Phosphatase|61|U/L|510
+940788|Lab Test|Absolute Neutrophil Count|4.34|10E9/L|203
+940788|Lab Test|Blood Urea Nitrogen (BUN)|5.1114|mmol/L|203
+940788|Lab Test|Phosphorus|1.2274|mmol/L|321
+940788|Lab Test|Hemoglobin|157|g/L|112
+940788|Lab Test|Absolute Eosinophil Count|0.13|10E9/L|510
+940788|Lab Test|Absolute Eosinophil Count|0.17|10E9/L|265
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|203
+940788|Lab Test|Glucose|5.772|mmol/L|52
+940788|Lab Test|Bicarbonate|28|mmol/L|112
+940788|Lab Test|AST(SGOT)|31|U/L|321
+940788|Lab Test|Lymphocytes|22.4|%|112
+940788|Lab Test|Absolute Lymphocyte Count|1.37|10E9/L|145
+940788|Lab Test|Absolute Neutrophil Count|3.06|10E9/L|82
+940788|Lab Test|Chloride|105|mmol/L|52
+940788|Lab Test|Absolute Neutrophil Count|3.03|10E9/L|510
+940788|Lab Test|ALT(SGPT)|23|U/L|19
+940788|Lab Test|Absolute Eosinophil Count|0.06|10E9/L|112
+940788|Lab Test|Neutrophils|66.6|%|0
+940788|Lab Test|Creatinine|70.72|umol/L|19
+940788|Lab Test|Platelets|162|10E9/L|321
+940788|Lab Test|Chloride|105|mmol/L|391
+940788|Lab Test|Glucose|6.0495|mmol/L|145
+940788|Lab Test|Alkaline Phosphatase|68|U/L|112
+940788|Lab Test|AST(SGOT)|25|U/L|265
+940788|Lab Test|Total Cholesterol|4.6548|mmol/L|82
+940788|Lab Test|Total Cholesterol|5.74092|mmol/L|19
+940788|Lab Test|Bicarbonate|27|mmol/L|203
+940788|Lab Test|CK|420|U/L|112
+940788|Lab Test|CK|577|U/L|391
+940788|Lab Test|Platelets|106|10E9/L|573
+940788|Lab Test|Phosphorus|1.0982|mmol/L|145
+940788|Lab Test|Alkaline Phosphatase|51|U/L|19
+940788|Lab Test|Platelets|222|10E9/L|510
+940788|Lab Test|Absolute Neutrophil Count|0.52|10E9/L|573
+940788|Lab Test|Protein|73|g/L|391
+940788|Lab Test|Platelets|165|10E9/L|52
+940788|Lab Test|Alkaline Phosphatase|60|U/L|391
+940788|Lab Test|Glucose|5.439|mmol/L|573
+940788|Lab Test|Glucose|5.772|mmol/L|265
+940788|Lab Test|CK|566|U/L|321
+940788|Lab Test|Potassium|4.0|mmol/L|265
+940788|Lab Test|ALT(SGPT)|30|U/L|265
+940788|Lab Test|Platelets|152|10E9/L|265
+940788|Lab Test|Glucose|5.0505|mmol/L|510
+940788|Lab Test|Platelets|192|10E9/L|203
+940788|Lab Test|Total Cholesterol|5.48232|mmol/L|0
+940788|Lab Test|Gamma-glutamyltransferase|17|U/L|321
+940788|Lab Test|Glucose|5.2725|mmol/L|203
+940788|Lab Test|Gamma-glutamyltransferase|15|U/L|391
+940788|Lab Test|Creatinine|79.56|umol/L|145
+940788|Lab Test|Creatinine|61.88|umol/L|82
+940788|Lab Test|Potassium|4.0|mmol/L|573
+940788|Lab Test|Gamma-glutamyltransferase|14|U/L|447
+940788|Lab Test|Red Blood Cells (RBC)|5100|10E9/L|52
+940788|Lab Test|Protein|74|g/L|112
+940788|Lab Test|Protein|68|g/L|573
+940788|Lab Test|Protein|74|g/L|19
+940788|Lab Test|Monocytes|7.1|%|19
+940788|Lab Test|Creatinine|53.04|umol/L|573
+940788|Lab Test|Sodium|140|mmol/L|573
+940788|Lab Test|Red Blood Cells (RBC)|5000|10E9/L|145
+940788|Lab Test|Eosinophils|2.6|%|510
+940788|Lab Test|ALT(SGPT)|26|U/L|203
+940788|Lab Test|Gamma-glutamyltransferase|30|U/L|573
+940788|Lab Test|Protein|73|g/L|52
+940788|Lab Test|Bicarbonate|29|mmol/L|265
+940788|Lab Test|Sodium|137|mmol/L|112
+940788|Lab Test|Basophils|0.4|%|203
+940788|Lab Test|Sodium|141|mmol/L|265
+940788|Lab Test|Eosinophils|1.8|%|203
+940788|Lab Test|Sodium|142|mmol/L|82
+940788|Lab Test|Sodium|141|mmol/L|0
+940788|Lab Test|Basophils|0.4|%|265
+940788|Lab Test|Absolute Basophil Count|0.04|10E9/L|321
+940788|Lab Test|Creatinine|70.72|umol/L|391
+940788|Lab Test|Basophils|0.3|%|145
+940788|Lab Test|Total Cholesterol|3.80142|mmol/L|112
+940788|Lab Test|Eosinophils|1.7|%|82
+940788|Lab Test|Absolute Basophil Count|0.01|10E9/L|145
+940788|Lab Test|Basophils|0.4|%|0
+940788|Lab Test|Gamma-glutamyltransferase|14|U/L|265
+940788|Lab Test|White Blood Cell (WBC)|4.7|10E9/L|265
+940788|Lab Test|Total Cholesterol|4.80996|mmol/L|510
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|112
+940788|Lab Test|Total Cholesterol|3.80142|mmol/L|573
+940788|Lab Test|White Blood Cell (WBC)|2.0|10E9/L|573
+940788|Lab Test|Triglycerides|2.0679|mmol/L|573
+940788|Lab Test|Gamma-glutamyltransferase|18|U/L|19
+940788|Lab Test|Triglycerides|1.243|mmol/L|447
+940788|Lab Test|Urine Ph|5.0||19
+940788|Lab Test|Triglycerides|1.1752|mmol/L|203
+940788|Lab Test|ALT(SGPT)|29|U/L|447
+940788|Lab Test|Triglycerides|0.904|mmol/L|112
+940788|Lab Test|Urine Ph|6.0||82
+940788|Lab Test|Triglycerides|1.7628|mmol/L|52
+940788|Lab Test|Gamma-glutamyltransferase|16|U/L|203
+940788|Lab Test|Triglycerides|1.5481|mmol/L|0
+940788|Lab Test|Basophils|0.2|%|19
+940788|Lab Test|Urine Ph|7.0||265
+940788|Lab Test|Urine Ph|6.0||145
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|52
+940788|Lab Test|Urine Ph|5.0||321
+940788|Lab Test|Eosinophils|3.6|%|265
+940788|Lab Test|Urine Ph|6.0||203
+940788|Lab Test|Absolute Eosinophil Count|0.10|10E9/L|0
+940788|Lab Test|Eosinophils|3.6|%|52
+940788|Lab Test|Eosinophils|1.7|%|0
+940788|Lab Test|Absolute Eosinophil Count|0.17|10E9/L|19
+940788|Lab Test|Gamma-glutamyltransferase|15|U/L|82
+940788|Lab Test|Gamma-glutamyltransferase|18|U/L|0
+940788|Lab Test|White Blood Cell (WBC)|4.9|10E9/L|510
+940788|Lab Test|Urine Ph|5.0||573
+940788|Lab Test|Basophils|0.6|%|321
+940788|Lab Test|White Blood Cell (WBC)|5.8|10E9/L|0
+940788|Lab Test|Gamma-glutamyltransferase|21|U/L|52
+940788|Lab Test|White Blood Cell (WBC)|5.1|10E9/L|52
+940788|Lab Test|White Blood Cell (WBC)|4.7|10E9/L|82
+940788|Lab Test|White Blood Cell (WBC)|3.9|10E9/L|112
+940788|Lab Test|ALT(SGPT)|36|U/L|391
+940788|Lab Test|White Blood Cell (WBC)|5.4|10E9/L|19
+940788|Lab Test|White Blood Cell (WBC)|4.9|10E9/L|145
+940788|Lab Test|White Blood Cell (WBC)|5.9|10E9/L|321
+940788|Lab Test|Calcium|2.3952|mmol/L|447
+940788|Lab Test|White Blood Cell (WBC)|6.2|10E9/L|203
+940788|Lab Test|ALT(SGPT)|52|U/L|573
+940788|Lab Test|White Blood Cell (WBC)|6.2|10E9/L|391
+940788|Lab Test|Basophils|0.3|%|447
+940788|Lab Test|Sodium|140|mmol/L|321
+940788|Lab Test|Total Cholesterol|5.27544|mmol/L|321
+940788|Lab Test|AST(SGOT)|27|U/L|510
+940788|Lab Test|Chloride|104|mmol/L|265
+940788|Lab Test|Absolute Basophil Count|0.02|10E9/L|0
+940788|Lab Test|White Blood Cell (WBC)|4.4|10E9/L|447
+940788|Adverse Event|Infections - pathogen unspecified|Dental abscess;Tooth abscess;Dental and oral soft tissue infections;MILD;RECOVERED||234;291
+940788|Adverse Event|Muscle disorders|Generalized muscle weakness;Muscular weakness;Muscle weakness conditions;MILD;ONGOING (PERSISTENT)||-15;NA
+940788|Adverse Event|Joint disorders|Joint stiffness;Joint stiffness;Joint related signs and symptoms;MILD;ONGOING (PERSISTENT)||79;NA
+940788|Adverse Event|Decreased and nonspecific blood pressure disorders and shock|Postural hypotension;Orthostatic hypotension;Vascular hypotensive disorders;MILD;ONGOING (PERSISTENT)||48;NA
+940788|Concomitant Medication|BETACAROTENE|NULL;NULL;NULL||-44;20
+940788|Concomitant Medication|CENTRUM PLUS|NULL;NULL;NULL||20;
+940788|Concomitant Medication|HYTRIN|NULL;NULL;NULL||-317;
+940788|Concomitant Medication|PENICILLIN V|NULL;NULL;NULL||241;289
+940788|Concomitant Medication|VITAMIN C|NULL;NULL;NULL||147;
+940788|Concomitant Medication|VITAMIN C|NULL;NULL;NULL||-44;146
+940788|Concomitant Medication|VITAMIN E|NULL;NULL;NULL||-44;146
+940788|Concomitant Medication|VITAMIN E|NULL;NULL;NULL||147;

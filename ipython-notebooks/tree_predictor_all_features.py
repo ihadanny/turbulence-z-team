@@ -106,6 +106,12 @@ res = pred_vs_actual(clf, X, y)
 print
 
 
+# In[75]:
+
+cols = [col for col in X.columns if 'ALS' in col]
+print X.loc[15154, cols]
+
+
 # In[57]:
 
 forest = clf.best_estimator_
@@ -128,6 +134,30 @@ plt.bar(range(10), importances[indices],
 plt.xticks(range(10), X.columns[indices], rotation='vertical')
 plt.xlim([-1, 10])
 plt.show()
+
+
+# In[83]:
+
+q = np.percentile(forest.predict(X), range(20,100,20))
+print q
+
+
+# In[84]:
+
+clustering_model = {"model": forest, "bins": q}
+pickle.dump( clustering_model, open('../forest_clustering_model.pickle', 'wb') )
+
+
+# In[85]:
+
+
+for t in ['all', 'test']:
+    cur_data = pd.read_csv('../' + t + '_data_vectorized.csv', sep = '|', error_bad_lines=False, index_col="SubjectID")
+    res = pd.DataFrame(index = cur_data.index.astype(str)) # SubjectID is always str for later joins
+    res['cluster'] = np.digitize(forest.predict(cur_data), q)
+    print np.bincount(res.cluster)
+    print t, res.shape
+    res.to_csv('../' + t + '_forest_clusters.csv',sep='|')
 
 
 # In[ ]:

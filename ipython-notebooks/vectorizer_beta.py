@@ -8,7 +8,7 @@
 # * fill missing values with train data means, and normalize to z-scores with train data std
 # 
 
-# In[1]:
+# In[5]:
 
 from IPython.display import display
 
@@ -19,7 +19,7 @@ from collections import defaultdict
 from vectorizing_funcs import *
 
 
-# In[2]:
+# In[6]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
@@ -30,7 +30,7 @@ df.head()
 # 
 # There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[3]:
+# In[7]:
 
 ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)    
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
@@ -40,14 +40,14 @@ all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "du
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[4]:
+# In[8]:
 
 all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 
 # ##Vectorize `train` data 
 
-# In[5]:
+# In[9]:
 
 
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
