@@ -20,11 +20,11 @@ digraph Tree {
 7 -> 9 ;
 10 [label="mouth_mean <= 0.1370\nmse = 0.388904324676\nsamples = 735", shape="box"] ;
 0 -> 10 ;
-11 [label="weight_pct_diff <= -0.5646\nmse = 0.431365955931\nsamples = 308", shape="box"] ;
+11 [label="weight_pct_diff <= -0.5916\nmse = 0.431365955931\nsamples = 308", shape="box"] ;
 10 -> 11 ;
-12 [label="mse = 0.4794\nsamples = 66\nvalue = [-1.2454718]", shape="box"] ;
+12 [label="mse = 0.4841\nsamples = 64\nvalue = [-1.25684146]", shape="box"] ;
 11 -> 12 ;
-13 [label="mse = 0.4009\nsamples = 242\nvalue = [-0.9607825]", shape="box"] ;
+13 [label="mse = 0.3992\nsamples = 244\nvalue = [-0.96013381]", shape="box"] ;
 11 -> 13 ;
 14 [label="hands_mean <= 0.5455\nmse = 0.332631844104\nsamples = 427", shape="box"] ;
 10 -> 14 ;

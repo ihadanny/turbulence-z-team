@@ -139,8 +139,9 @@ print q
 
 # In[12]:
 
+import cPickle
 clustering_model = {"model": forest, "bins": q}
-pickle.dump( clustering_model, open('../forest_clustering_model.pickle', 'wb') )
+cPickle.dump( clustering_model, open('../forest_clustering_model.pickle', 'wb') )
 
 
 # In[13]:

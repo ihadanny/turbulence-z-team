@@ -8,9 +8,10 @@
 # * First line: the cluster identifier for that patient
 # * Following lines: the selected features selected for that specific single patient, using the same format as the input data. A maximum of 6 features are allowed.
 
-# In[5]:
+# In[4]:
 
 import pickle
+import cPickle
 import pandas as pd
 import sys
 from vectorizing_funcs import *
@@ -23,7 +24,7 @@ else:
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )
 train_data_std = pickle.load( open(models_folder + '/all_data_std.pickle', 'rb') )
-clustering_model = pickle.load( open(models_folder + '/forest_clustering_model.pickle', 'rb') )
+clustering_model = cPickle.load( open(models_folder + '/forest_clustering_model.pickle', 'rb') )
 best_features_per_cluster = pickle.load( open(models_folder + '/best_features_per_cluster.pickle', 'rb') )
    
 df = pd.read_csv(input_file, sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')

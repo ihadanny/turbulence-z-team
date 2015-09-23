@@ -10,7 +10,7 @@ from IPython.display import display
 
 import pandas as pd
 import numpy as np
-import pickle
+import pickle, cPickle
 from sklearn.cluster import KMeans
 from StringIO import StringIO
 from sklearn import metrics
