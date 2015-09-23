@@ -4,7 +4,7 @@
 # ## Run predictor.sh
 # Read the challenge standard selected features and emit a prediction
 
-# In[6]:
+# In[2]:
 
 import pickle
 import pandas as pd

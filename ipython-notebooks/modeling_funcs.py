@@ -71,6 +71,43 @@ def stepwise_best_features_per_cluster(X, Y, all_feature_metadata):
     return best_features_per_cluster
 
 
+# In[ ]:
+
+from sklearn.ensemble import RandomForestRegressor
+def backward_best_features_per_cluster(X, Y, all_feature_metadata):
+    best_features_per_cluster = {}
+    for c in sorted(X['cluster'].unique()):
+        seg_X, seg_Y = X[X['cluster'] == c], Y[Y['cluster'] == c].ALSFRS_slope
+        print "cluster:", c, "with size:", seg_X.shape, "with mean target:", seg_Y.mean(), "std:", seg_Y.std()
+        seg_Y = seg_Y.fillna(seg_Y.mean())
+        
+        model = RandomForestRegressor(min_samples_leaf=60, random_state=0, n_estimators=1000).fit(seg_X, seg_Y)
+        print "best we can do with all features:", np.sqrt(np.mean((model.predict(seg_X) - seg_Y) ** 2))
+
+        selected_fams = set(all_feature_metadata.keys())
+        selected_derived = set([])
+        for fam in selected_fams:
+            selected_derived.update([der for der in all_feature_metadata[fam]['derived_features']])
+        while len(selected_fams) > 6:
+            score_per_family = {}
+            t1 = time.time()
+            for family, fm in all_feature_metadata.iteritems():
+                if family in selected_fams:
+                    X_feature_fam = seg_X[list(selected_derived - set(fm["derived_features"]))]
+                    model = RandomForestRegressor(min_samples_leaf=60, random_state=0, n_estimators=1000).fit(
+                        X_feature_fam, seg_Y)
+                    score_per_family[family] = np.sqrt(np.mean((model.predict(X_feature_fam) - seg_Y) ** 2))
+            t_lasso_cv = time.time() - t1
+            worst_fam = sorted(score_per_family.items(), key=operator.itemgetter(1), reverse=True)[0]
+            print "removing worst family:", worst_fam, "time:", t_lasso_cv
+            selected_fams.remove(worst_fam[0])
+            selected_derived = set([])
+            for fam in selected_fams:
+                selected_derived.update([der for der in all_feature_metadata[fam]['derived_features']])
+        best_features_per_cluster[c] = list(selected_fams)                          
+    return best_features_per_cluster
+
+
 # In[3]:
 
 def filter_only_selected_features(df, clusters, best_features_per_cluster, debug=False): 

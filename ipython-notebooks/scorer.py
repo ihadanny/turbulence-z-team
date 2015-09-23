@@ -1,18 +1,18 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[15]:
 
 # Used by organizers to calculate score
 
 
-# In[2]:
+# In[16]:
 
 import pandas as pd
 import numpy as np
 
 
-# In[14]:
+# In[18]:
 
 for t in [('all_prediction', 'all_slope'), 
           ('test_prediction', 'test_slope'), 

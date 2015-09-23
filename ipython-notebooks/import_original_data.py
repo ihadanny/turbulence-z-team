@@ -1,14 +1,14 @@
 
 # coding: utf-8
 
-# In[2]:
+# In[1]:
 
 import pandas as pd
 import numpy as np
 from IPython.display import display
 
 
-# In[19]:
+# In[2]:
 
 df = pd.read_csv('../../all_forms_PROACT.txt', sep = '|')
 slope = pd.read_csv('../../ALSFRS_slope_PROACT.txt', sep = '|')
@@ -27,11 +27,11 @@ print slope_legal.shape, data_with_slope.shape, data_with_slope.SubjectID.unique
 data_with_slope.head()
 
 
-# In[20]:
+# In[3]:
 
 data = data_with_slope.drop(['ALSFRS_slope'], 1)
-data.to_csv('../all_data.csv',sep='|')
-slope_legal.to_csv('../all_slope.csv',sep='|')
+data.to_csv('../all_data.csv',sep='|', index=False)
+slope_legal.to_csv('../all_slope.csv',sep='|', index=False)
 
 
 # In[ ]:

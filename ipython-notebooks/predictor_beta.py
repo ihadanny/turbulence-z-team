@@ -20,7 +20,7 @@ from modeling_funcs import *
 # ## Revectorize the selected data
 # We now reload the metadata and the 6 attributes selected per cluster
 
-# In[12]:
+# In[9]:
 
 # load all metadata
 all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
@@ -31,24 +31,40 @@ best_features_per_cluster = pickle.load( open('../best_features_per_cluster.pick
 # reload the data imputed only for the 6 selected attributes per cluster
 df = pd.read_csv('../all_data_selected.csv', sep='|', index_col=False, dtype="unicode")
 vectorized, _ = vectorize(df, all_feature_metadata)
+vectorized.head()
+
+
+# In[15]:
+
+vectorized.index = vectorized.index.astype(str)
+d = vectorized.describe().T
+d[d['count'] > 0.0].sort("count", ascending=False).head()
+
+
+# In[16]:
+
+slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
+slope.index = slope.index.astype(str)
+
+# if we have a subject missing all selected features, fill him with missing values right before normalizing
+vectorized = vectorized.join(slope, how = 'right')
+vectorized = vectorized.drop('ALSFRS_slope', 1)
 normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
 print normalized.shape
 normalized.head()
 
 
-# In[13]:
+# In[18]:
 
 d = normalized.describe().T
-d[d['std'] > 0.0].sort("std", ascending=False)
+d[d['std'] > 0.0].sort("std", ascending=False).head()
 
 
-# In[14]:
+# In[19]:
 
-slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
 clusters = pd.read_csv('../all_forest_clusters.csv', sep = '|', index_col="SubjectID")
 
 clusters.index = clusters.index.astype(str)
-slope.index = slope.index.astype(str)
 normalized.index = normalized.index.astype(str)
 
 X = normalized.join(clusters)
@@ -61,14 +77,14 @@ display(Y.head(3))
 
 # ## Train a prediction model per cluster
 
-# In[17]:
+# In[20]:
 
 
 model_per_cluster = get_model_per_cluster(X, Y)
     
 
 
-# In[18]:
+# In[21]:
 
 with open("../model_per_cluster.pickle", "wb") as output_file:
     pickle.dump(model_per_cluster, output_file)
@@ -76,7 +92,7 @@ with open("../model_per_cluster.pickle", "wb") as output_file:
 
 # ## Apply the model on both `train` and `test`
 
-# In[20]:
+# In[22]:
 
 
 for t in ['all', 'test']:

@@ -18,7 +18,6 @@ from sklearn.cross_validation import KFold
 from sklearn import cross_validation, grid_search
 from sklearn.ensemble import RandomForestRegressor
 
-
 from vectorizing_funcs import *
 from modeling_funcs import *
 
@@ -95,7 +94,8 @@ def train_it(train_data, my_n_clusters):
         forest = grid_search.GridSearchCV(RandomForestRegressor(min_samples_leaf=60, min_samples_split=260, random_state=0), 
                                {'min_samples_leaf': range(60,61,10), 'n_estimators': [1000]})
         forest.fit(X, Y.ALSFRS_slope)
-        bins = np.percentile(forest.predict(X), range(20,100,20))
+        quart = 100 / my_n_clusters
+        bins = np.percentile(forest.predict(X), range(quart,100,quart))
                           
         # Note we must convert to str to join with slope later
         clusters = pd.DataFrame(index = normalized.index.astype(str))
@@ -111,6 +111,10 @@ def train_it(train_data, my_n_clusters):
 
         s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
         s_vectorized, _ = vectorize(s_df, all_feature_metadata)
+        # if we have a subject missing all selected features, fill him with missing values right before normalizing
+        s_vectorized = s_vectorized.join(Y, how = 'right')
+        s_vectorized = s_vectorized.drop('ALSFRS_slope', 1)
+
         s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
         s_X = s_normalized.join(clusters)
         
@@ -125,7 +129,7 @@ from datetime import datetime
 
 def train_and_test(df, slope, my_n_clusters=2):
     kf = KFold(df.SubjectID.unique().size, n_folds=3)
-    fold, test_rmse, train_rmse = 0, 0.0, 0.0
+    fold, test_rmse, train_rmse, fold_test_rmse, fold_train_rmse = 0, 0.0, 0.0, 0.0, 0.0
 
     for train, test in kf:
         train_data = df[df.SubjectID.isin(df.SubjectID.unique()[train])]
@@ -140,18 +144,20 @@ def train_and_test(df, slope, my_n_clusters=2):
         input_for_model, pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
                      clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
         res = pred.join(slope)
-        train_rmse += np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
+        fold_train_rmse = np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
 
         input_for_model, pred = apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
-                     clustering_columns, kmeans, best_features_per_cluster, model_per_cluster)
+                     clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
         res = pred.join(slope)
-        test_rmse += np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
+        fold_test_rmse = np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
         
         input_for_model.to_csv('../x_results/test_%d_input_for_model.csv' % fold,sep='|')
         res.to_csv('../x_results/test_%d_prediction.csv' % fold,sep='|')
 
         fold += 1
-        print "fold RMS Error train, test: ", train_rmse / fold, test_rmse / fold
+        print "fold RMS Error train, test: ", fold_train_rmse, fold_test_rmse
+        train_rmse += fold_train_rmse
+        test_rmse += fold_test_rmse
 
         tock = datetime.now()   
         diff = tock - tick 
@@ -164,7 +170,7 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 # In[ ]:
 
-for n_clusters in range(2, 4):
+for n_clusters in range(2, 6):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)

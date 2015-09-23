@@ -63,6 +63,11 @@ print j.shape
 j[j.feature_delta < 365].shape
 
 
+# In[33]:
+
+df[df.feature_name == 'onset_site'].feature_value.unique()
+
+
 # In[ ]:
 
 

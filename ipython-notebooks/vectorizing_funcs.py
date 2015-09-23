@@ -4,7 +4,7 @@
 # ## Methods used for vectorizing the raw data 
 # * Used several times across our flow
 
-# In[1]:
+# In[8]:
 
 import pandas as pd
 import copy
@@ -25,7 +25,7 @@ from collections import defaultdict
 
 # ### Scalar -> Dummies
 
-# In[2]:
+# In[9]:
 
 def scalar_feature_to_dummies_core(df, feature_metadata):
     my_slice = df[df.feature_name == feature_metadata["feature_name"]]
@@ -52,7 +52,7 @@ def apply_scalar_feature_to_dummies(df, feature_metadata):
 
 # ### Timeseries -> Slope, %diff, stats
 
-# In[3]:
+# In[10]:
 
 def ts_pct_diff(ts_data, feature_metadata):
     if len(ts_data) < 2:
@@ -98,7 +98,7 @@ def ts_mean_slope(ts_data, feature_metadata):
 
 # ## Timeseries -> last value
 
-# In[4]:
+# In[11]:
 
 def ts_last_value(ts_data, feature_metadata):
     if len(ts_data) < 1:
@@ -110,7 +110,7 @@ def ts_last_value(ts_data, feature_metadata):
         return None
 
 
-# In[5]:
+# In[12]:
 
 def ts_last_boolean(ts_data, feature_metadata):
     if len(ts_data) < 1:
@@ -129,7 +129,7 @@ def ts_last_boolean(ts_data, feature_metadata):
 # ## Metadata
 # Static part of our metadata - which feature maps to which vectorizing func?
 
-# In[7]:
+# In[13]:
 
 ts_funcs_to_features = [ 
     { 
@@ -229,7 +229,7 @@ def add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features):
 dummy_funcs_to_features = [ 
     { 
         "funcs": apply_scalar_feature_to_dummies,
-        "features": [ 'Gender', 'Race' ]
+        "features": [ 'Gender', 'Race', 'onset_site']
     }   
 ]
 
@@ -249,7 +249,7 @@ def invert_func_to_features(ftf, feature_type):
     return res
 
 
-# In[36]:
+# In[14]:
 
 def learn_to_dummies_model(df, all_feature_metadata):
     new_metadata = all_feature_metadata.copy()
@@ -262,7 +262,7 @@ def learn_to_dummies_model(df, all_feature_metadata):
 
 # ## Helper functions
 
-# In[37]:
+# In[15]:
 
 def to_series(f):
     def foo(x, args):
@@ -285,7 +285,7 @@ def parse_feature_delta(fd):
 
 # ## Vectorize
 
-# In[38]:
+# In[16]:
 
 
 def vectorize(df, all_feature_metadata, debug=False):
@@ -316,7 +316,7 @@ def vectorize(df, all_feature_metadata, debug=False):
 
 # ## Normalize
 
-# In[39]:
+# In[17]:
 
 def normalize(vectorized, all_feature_metadata, train_data_means, train_data_std):
     vectorized = vectorized.reindex(columns=train_data_means.keys())

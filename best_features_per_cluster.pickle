@@ -23,15 +23,15 @@ p8
 tp9
 Rp10
 (lp11
-S'CK'
+S'temperature'
 p12
-aS'pulse'
+aS'mouth'
 p13
-aS'Calcium'
-p14
-aS'Race'
-p15
 aS'ALSFRS_Total'
+p14
+aS'Chloride'
+p15
+aS'fvc_percent'
 p16
 aS'ALT(SGPT)'
 p17
@@ -42,17 +42,17 @@ p18
 tp19
 Rp20
 (lp21
-g12
-aS'weight'
+S'AST(SGOT)'
 p22
-aS'Platelets'
+aS'pulse'
 p23
-aS'mouth'
+aS'White Blood Cell (WBC)'
 p24
 aS'Creatinine'
 p25
-aS'Albumin'
+aS'Blood Urea Nitrogen (BUN)'
 p26
+ag12
 asg1
 (g5
 S'\x02\x00\x00\x00\x00\x00\x00\x00'
@@ -60,16 +60,16 @@ p27
 tp28
 Rp29
 (lp30
-S'Alkaline Phosphatase'
+S'respiratory'
 p31
-aS'Potassium'
+aS'weight'
 p32
-ag13
-aS'Red Blood Cells (RBC)'
+aS'Platelets'
 p33
-aS'Blood Urea Nitrogen (BUN)'
+aS'onset_delta'
 p34
-ag17
+ag15
+ag16
 asg1
 (g5
 S'\x03\x00\x00\x00\x00\x00\x00\x00'
@@ -77,30 +77,28 @@ p35
 tp36
 Rp37
 (lp38
-S'respiratory'
+g31
+aS'Potassium'
 p39
-ag22
-aS'bp_diastolic'
+aS'onset_site'
 p40
-aS'Bilirubin (Total)'
-p41
-ag26
-ag16
+ag13
+ag25
+ag14
 asg1
 (g5
 S'\x04\x00\x00\x00\x00\x00\x00\x00'
-p42
-tp43
-Rp44
-(lp45
-S'Hematocrit'
+p41
+tp42
+Rp43
+(lp44
+S'Alkaline Phosphatase'
+p45
+ag22
+ag23
+aS'Calcium'
 p46
-aS'Sodium'
-p47
-ag24
-aS'onset_delta'
-p48
-aS'Absolute Basophil Count'
-p49
 ag25
+aS'Glucose'
+p47
 as.
