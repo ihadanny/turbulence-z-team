@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[18]:
+# In[1]:
 
 import pandas as pd
 import numpy as np
@@ -66,6 +66,28 @@ j[j.feature_delta < 365].shape
 # In[33]:
 
 df[df.feature_name == 'onset_site'].feature_value.unique()
+
+
+# In[7]:
+
+slope = pd.read_csv('../all_slope.csv', sep = '|', index_col=0)
+filtered = pd.read_csv('../../ALSFRS_slope_PROACT_filtered.txt', sep = '|', index_col=0)
+filtered.head()
+
+
+# In[8]:
+
+slope.head()
+
+
+# In[19]:
+
+j = pd.merge(filtered, slope, how='right', left_index = True, right_index = True)
+
+
+# In[22]:
+
+j[np.isnan(j.ALSFRS_slope_x)].head()
 
 
 # In[ ]:

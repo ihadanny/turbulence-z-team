@@ -170,6 +170,7 @@ def apply_model(x, model_per_cluster):
 
 from sklearn import cross_validation, grid_search
 from sklearn.ensemble import RandomForestRegressor
+from StringIO import StringIO
 
 def train_it(train_data, slope, my_n_clusters):
         global ts_funcs_to_features
