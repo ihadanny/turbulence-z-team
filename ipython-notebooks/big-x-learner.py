@@ -34,11 +34,11 @@ display(slope.head(2))
 
 # In[3]:
 
-clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'White',
+clustering_columns = [u'Asian',
        u'mouth_last', u'mouth_mean_slope',u'hands_last',
        u'hands_mean_slope',u'onset_delta_last', u'ALSFRS_Total_last',
-       u'ALSFRS_Total_mean_slope',u'BMI_last', u'fvc_percent_mean_slope', 
-                     u'respiratory_last', u'respiratory_mean_slope', u'family_ALS_hist_last']
+       u'ALSFRS_Total_mean_slope', u'fvc_percent_mean_slope', 
+                     u'respiratory_last', u'respiratory_mean_slope']
 
 
 # In[4]:
@@ -160,7 +160,7 @@ def train_and_test(df, slope, my_n_clusters=3):
 
 # In[7]:
 
-for n_clusters in range(2, 5):
+for n_clusters in range(2, 4):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)

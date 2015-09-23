@@ -4,7 +4,7 @@
 # ## Methods used for vectorizing the raw data 
 # * Used several times across our flow
 
-# In[28]:
+# In[1]:
 
 import pandas as pd
 import copy
@@ -25,7 +25,7 @@ from collections import defaultdict
 
 # ### Scalar -> Dummies
 
-# In[29]:
+# In[2]:
 
 def scalar_feature_to_dummies_core(df, feature_metadata):
     my_slice = df[df.feature_name == feature_metadata["feature_name"]]
@@ -52,7 +52,7 @@ def apply_scalar_feature_to_dummies(df, feature_metadata):
 
 # ### Timeseries -> Slope, %diff, stats
 
-# In[30]:
+# In[3]:
 
 def ts_pct_diff(ts_data, feature_metadata):
     if len(ts_data) < 2:
@@ -98,7 +98,7 @@ def ts_mean_slope(ts_data, feature_metadata):
 
 # ## Timeseries -> last value
 
-# In[31]:
+# In[4]:
 
 def ts_last_value(ts_data, feature_metadata):
     if len(ts_data) < 1:
@@ -110,7 +110,7 @@ def ts_last_value(ts_data, feature_metadata):
         return None
 
 
-# In[32]:
+# In[5]:
 
 def ts_last_boolean(ts_data, feature_metadata):
     if len(ts_data) < 1:
@@ -129,7 +129,7 @@ def ts_last_boolean(ts_data, feature_metadata):
 # ## Metadata
 # Static part of our metadata - which feature maps to which vectorizing func?
 
-# In[34]:
+# In[7]:
 
 ts_funcs_to_features = [ 
     { 
@@ -159,7 +159,63 @@ ts_funcs_to_features = [
 # TODO: this shouldnt be static, we should do it per fold for the train data
 def add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features): 
     metadata =  copy.deepcopy(ts_funcs_to_features)
+    good_features = ['Albumin',
+        'Alkaline Phosphatase',
+        'ALPHA1-GLOBULIN',
+        'ALPHA2-GLOBULIN',
+        'ALT(SGPT)',
+        'Amylase',
+        'AST(SGOT)',
+        'BETA-GLOBULIN',
+        'Bilirubin (Direct)',
+        'Bilirubin (Indirect)',
+        'Bilirubin (Total)',
+        'Blood Urea Nitrogen (BUN)',
+        'Calcium',
+        'Chloride',
+        'CK',
+        'C-Reactive Protein',
+        'Creatine Kinase MB',
+        'Creatinine',
+        'Erythrocyte Sediment',
+        'Ferritin',
+        'Fibrinogen',
+        'Free T3',
+        'Free T4',
+        'Free Thyroxine Index',
+        'GAMMA-GLOBULIN',
+        'Gamma-glutamyltransferase',
+        'Glucose',
+        'HbA1c (Glycated Hemoglobin)',
+        'HDL',
+        'Hemoglobin',
+        'Lactate Dehydrogenase',
+        'LDL',
+        'Lymphocytes',
+        'Magnesium',
+        'Mean Corpuscular Hemoglobin',
+        'Mean Platelet Volume',
+        'Monocytes',
+        'Neutrophils',
+        'Parathyroid Hormone',
+        'Phosphorus',
+        'Platelets',
+        'Potassium',
+        'Protein',
+        'RBC Morphology: Spherocytes',
+        'RBC Morphology: Target Cells',
+        'RBC Morphology: Tear drop cells',
+        'Sodium',
+        'Thyroid Stimulating Hormone',
+        'Total Cholesterol',
+        'Total T4',
+        'Triglycerides',
+        'Uric Acid',
+        'Urine Albumin',
+        'Vitamin B12',
+        'White Blood Cell (WBC)']
     lab = df[df.form_name == 'Lab Test']
+    lab = lab[lab.feature_name.isin(good_features)]
     lab_numeric = lab[~np.isnan(lab.feature_value.convert_objects(convert_numeric=True))]
     by_feature = lab_numeric.groupby(["feature_name", "SubjectID"])
     features_with_multiple_visits = by_feature.filter(lambda x: len(x)>2)

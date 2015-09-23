@@ -1,0 +1,35 @@
+digraph Tree {
+0 [label="onset_delta_last <= -0.2187\nmse = 0.400259338192\nsamples = 1624", shape="box"] ;
+1 [label="fvc_percent_pct_diff <= -0.1106\nmse = 0.207896891742\nsamples = 542", shape="box"] ;
+0 -> 1 ;
+2 [label="mse = 0.2571\nsamples = 171\nvalue = [-0.61890549]", shape="box"] ;
+1 -> 2 ;
+3 [label="onset_delta_last <= -0.6868\nmse = 0.170575543871\nsamples = 371", shape="box"] ;
+1 -> 3 ;
+4 [label="mse = 0.1317\nsamples = 245\nvalue = [-0.33698646]", shape="box"] ;
+3 -> 4 ;
+5 [label="mse = 0.2210\nsamples = 126\nvalue = [-0.53253825]", shape="box"] ;
+3 -> 5 ;
+6 [label="fvc_percent_pct_diff <= -0.0190\nmse = 0.445605726592\nsamples = 1082", shape="box"] ;
+0 -> 6 ;
+7 [label="Red Blood Cells (RBC)_pct_diff <= -0.0206\nmse = 0.471908314376\nsamples = 434", shape="box"] ;
+6 -> 7 ;
+8 [label="mse = 0.3931\nsamples = 205\nvalue = [-0.90313443]", shape="box"] ;
+7 -> 8 ;
+9 [label="mse = 0.5091\nsamples = 229\nvalue = [-1.16885941]", shape="box"] ;
+7 -> 9 ;
+10 [label="ALSFRS_Total_pct_diff <= 0.0628\nmse = 0.391355160704\nsamples = 648", shape="box"] ;
+6 -> 10 ;
+11 [label="mouth_mean <= 0.4479\nmse = 0.457036878016\nsamples = 303", shape="box"] ;
+10 -> 11 ;
+12 [label="mse = 0.5659\nsamples = 151\nvalue = [-1.04649293]", shape="box"] ;
+11 -> 12 ;
+13 [label="mse = 0.3111\nsamples = 152\nvalue = [-0.77123368]", shape="box"] ;
+11 -> 13 ;
+14 [label="onset_delta_last <= 0.7911\nmse = 0.287510549649\nsamples = 345", shape="box"] ;
+10 -> 14 ;
+15 [label="mse = 0.2160\nsamples = 249\nvalue = [-0.50539316]", shape="box"] ;
+14 -> 15 ;
+16 [label="mse = 0.3993\nsamples = 96\nvalue = [-0.8246069]", shape="box"] ;
+14 -> 16 ;
+}
