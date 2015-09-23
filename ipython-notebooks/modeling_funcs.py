@@ -15,10 +15,12 @@ clustering_columns = [u'Asian', u'Black', u'Hispanic', u'Other', u'Unknown', u'W
 # ## Feature selection
 # We currently rank each feature family by regressing with it alone and comparing the regression score
 
-# In[7]:
+# In[1]:
 
 from sklearn import linear_model
 import operator
+import time
+from sklearn.linear_model import LassoCV, LassoLarsCV
 
 def get_best_features_per_cluster(X, Y, all_feature_metadata):
     best_features_per_cluster = {}
@@ -37,25 +39,34 @@ def get_best_features_per_cluster(X, Y, all_feature_metadata):
         best_features_per_cluster[c] = [k for k,v in sorted(score_per_feature.items(), key=operator.itemgetter(1))[:6]]
     return best_features_per_cluster
 
+
+# In[2]:
+
 def stepwise_best_features_per_cluster(X, Y, all_feature_metadata):
     best_features_per_cluster = {}
-    for c in X['cluster'].unique():
+    for c in sorted(X['cluster'].unique()):
         seg_X, seg_Y = X[X['cluster'] == c], Y[Y['cluster'] == c].ALSFRS_slope
+        print "cluster:", c, "with size:", seg_X.shape, "with mean target:", seg_Y.mean(), "std:", seg_Y.std()
         seg_Y = seg_Y.fillna(seg_Y.mean())
         
+        model = LassoCV(cv=5).fit(seg_X, seg_Y)
+        print "best we can do with all features:", np.sqrt(np.mean((model.predict(seg_X) - seg_Y) ** 2))
+
         selected_fams = set()
         selected_derived = set()
         for i in range(6):
             score_per_family = {}
+            t1 = time.time()
             for family, fm in all_feature_metadata.iteritems():
-                if family not in selected_fams:
-                    regr = linear_model.LinearRegression()
+                if family not in selected_fams:                    
                     X_feature_fam = seg_X[list(selected_derived) + list(fm["derived_features"])]
-                    regr.fit(X_feature_fam, seg_Y)
-                    score_per_family[family] = np.sqrt(np.mean((regr.predict(X_feature_fam) - seg_Y) ** 2))
-            best_fam = sorted(score_per_family.items(), key=operator.itemgetter(1))[0][0]
-            selected_fams.add(best_fam)
-            selected_derived.update(all_feature_metadata[best_fam]["derived_features"])
+                    model = LassoCV(cv=5).fit(X_feature_fam, seg_Y)
+                    score_per_family[family] = np.sqrt(np.mean((model.predict(X_feature_fam) - seg_Y) ** 2))
+            t_lasso_cv = time.time() - t1
+            best_fam = sorted(score_per_family.items(), key=operator.itemgetter(1))[0]
+            print "adding best family:", best_fam, "time:", t_lasso_cv
+            selected_fams.add(best_fam[0])
+            selected_derived.update(all_feature_metadata[best_fam[0]]["derived_features"])
         best_features_per_cluster[c] = list(selected_fams)                          
     return best_features_per_cluster
 
@@ -81,6 +92,7 @@ def filter_only_selected_features(df, clusters, best_features_per_cluster, debug
 # In[4]:
 
 from sklearn import linear_model
+from sklearn.linear_model import LassoCV, LassoLarsCV
 import numpy as np
 
 def get_model_per_cluster(X, Y):
@@ -88,14 +100,16 @@ def get_model_per_cluster(X, Y):
     for c in X.cluster.unique():    
         X_cluster = X[X.cluster==c]
         Y_cluster = Y[Y.cluster == c].ALSFRS_slope
-        regr = linear_model.LinearRegression()
+        
+        regr = LassoCV(cv=5)
         regr.fit(X_cluster, Y_cluster)
 
         print 'cluster: %d size: %s' % (c, Y_cluster.shape)
         print "\t RMS error (0 is perfect): %.2f" % np.sqrt(np.mean(
             (regr.predict(X_cluster) - Y_cluster) ** 2))
         print('\t explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
-        model_per_cluster[c] = {"train_data_means": X_cluster.mean(), "model" : regr}
+        print "3 sample predictions: ", regr.predict(X_cluster)[:3]
+        model_per_cluster[c] = {"cluster_train_data_means": X_cluster.mean(), "model" : regr}
     return model_per_cluster
 
 
