@@ -20,7 +20,7 @@ from modeling_funcs import *
 # ## Revectorize the selected data
 # We now reload the metadata and the 6 attributes selected per cluster
 
-# In[9]:
+# In[2]:
 
 # load all metadata
 all_feature_metadata = pickle.load( open('../all_feature_metadata.pickle', 'rb') )
@@ -34,14 +34,14 @@ vectorized, _ = vectorize(df, all_feature_metadata)
 vectorized.head()
 
 
-# In[15]:
+# In[3]:
 
 vectorized.index = vectorized.index.astype(str)
 d = vectorized.describe().T
 d[d['count'] > 0.0].sort("count", ascending=False).head()
 
 
-# In[16]:
+# In[4]:
 
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
 slope.index = slope.index.astype(str)
@@ -54,13 +54,13 @@ print normalized.shape
 normalized.head()
 
 
-# In[18]:
+# In[5]:
 
 d = normalized.describe().T
 d[d['std'] > 0.0].sort("std", ascending=False).head()
 
 
-# In[19]:
+# In[6]:
 
 clusters = pd.read_csv('../all_forest_clusters.csv', sep = '|', index_col="SubjectID")
 
@@ -77,14 +77,14 @@ display(Y.head(3))
 
 # ## Train a prediction model per cluster
 
-# In[20]:
+# In[7]:
 
 
 model_per_cluster = get_model_per_cluster(X, Y)
     
 
 
-# In[21]:
+# In[8]:
 
 with open("../model_per_cluster.pickle", "wb") as output_file:
     pickle.dump(model_per_cluster, output_file)
@@ -92,7 +92,7 @@ with open("../model_per_cluster.pickle", "wb") as output_file:
 
 # ## Apply the model on both `train` and `test`
 
-# In[22]:
+# In[9]:
 
 
 for t in ['all', 'test']:

@@ -8,7 +8,7 @@
 # * fill missing values with train data means, and normalize to z-scores with train data std
 # 
 
-# In[10]:
+# In[1]:
 
 from IPython.display import display
 
@@ -19,7 +19,7 @@ from collections import defaultdict
 from vectorizing_funcs import *
 
 
-# In[11]:
+# In[2]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
@@ -30,7 +30,7 @@ df.head()
 # 
 # There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[12]:
+# In[3]:
 
 ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)    
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
@@ -40,21 +40,21 @@ all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "du
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[13]:
+# In[4]:
 
 all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 
 # ##Vectorize `train` data 
 
-# In[14]:
+# In[5]:
 
 
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
 vectorized.head()
 
 
-# In[15]:
+# In[6]:
 
 vectorized.describe().transpose().sort("count", ascending=True)
 
@@ -62,17 +62,27 @@ vectorized.describe().transpose().sort("count", ascending=True)
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[16]:
+# In[13]:
+
+vectorized[[col for col in vectorized.columns if "Crea" in col]].describe().transpose().sort("count", ascending=True)
+
+
+# In[34]:
 
 train_data_means = vectorized.mean()
 train_data_std = vectorized.std()            
 normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-normalized.describe().T.sort("std", ascending=True)
+normalized.describe().T.sort("max", ascending=False).head(10)
 
 
-# In[ ]:
+# In[21]:
 
+get_ipython().magic(u'matplotlib inline')
+import matplotlib.pyplot as plt
+import seaborn as sns
 
+cre = normalized[normalized.Creatinine_pct_diff < 3].Creatinine_pct_diff
+sns.distplot(cre, rug=True, kde=False);
 
 
 # ## Pickle all metadata we will need to use later when applying vectorizer

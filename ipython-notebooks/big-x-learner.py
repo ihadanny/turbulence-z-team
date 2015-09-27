@@ -4,7 +4,7 @@
 # ## Builds all our models x-validated
 # 
 
-# In[7]:
+# In[1]:
 
 from IPython.display import display
 
@@ -20,7 +20,7 @@ from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[8]:
+# In[2]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
@@ -32,7 +32,7 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[9]:
+# In[3]:
 
 def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
                  clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster):
@@ -63,7 +63,7 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     
 
 
-# In[10]:
+# In[4]:
 
 from datetime import datetime
 
@@ -90,12 +90,13 @@ def train_and_test(df, slope, my_n_clusters=2):
                      clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
         res = pred.join(slope)
         fold_test_rmse = np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
-        
+
         input_for_model.to_csv('../x_results/test_%d_input_for_model.csv' % fold,sep='|')
         res.to_csv('../x_results/test_%d_prediction.csv' % fold,sep='|')
 
         fold += 1
         print "fold RMS Error train, test: ", fold_train_rmse, fold_test_rmse
+        print 'pearson correlation r = %.2f ' % scipy.stats.pearsonr(res.prediction, res.ALSFRS_slope)[0]
         train_rmse += fold_train_rmse
         test_rmse += fold_test_rmse
 
@@ -113,9 +114,9 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 
 
-# In[6]:
+# In[5]:
 
-for n_clusters in range(2, 6):
+for n_clusters in range(5, 3, -1):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)

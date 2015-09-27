@@ -54,8 +54,12 @@ def stepwise_best_features_per_cluster(X, Y, all_feature_metadata):
         print "cluster:", c, "with size:", seg_X.shape, "with mean target:", seg_Y.mean(), "std:", seg_Y.std()
         seg_Y = seg_Y.fillna(seg_Y.mean())
         
-        model = LassoCV(cv=5).fit(seg_X, seg_Y)
+        model = RandomForestRegressor(min_samples_leaf=60, random_state=0, n_estimators=1000)
+        #model = LassoCV(cv=5)
+        model = model.fit(seg_X, seg_Y)
+        
         print "best we can do with all features:", np.sqrt(np.mean((model.predict(seg_X) - seg_Y) ** 2))
+        print "using model:", model
 
         selected_fams = set()
         selected_derived = set()
@@ -65,7 +69,9 @@ def stepwise_best_features_per_cluster(X, Y, all_feature_metadata):
             for family, fm in all_feature_metadata.iteritems():
                 if family not in selected_fams:                    
                     X_feature_fam = seg_X[list(selected_derived) + list(fm["derived_features"])]
-                    model = LassoCV(cv=5).fit(X_feature_fam, seg_Y)
+                    model = RandomForestRegressor(min_samples_leaf=60, random_state=0, n_estimators=1000)
+                    #model = LassoCV(cv=5)
+                    model = model.fit(X_feature_fam, seg_Y)
                     score_per_family[family] = np.sqrt(np.mean((model.predict(X_feature_fam) - seg_Y) ** 2))
             t_lasso_cv = time.time() - t1
             best_fam = sorted(score_per_family.items(), key=operator.itemgetter(1))[0]
@@ -136,20 +142,28 @@ def filter_only_selected_features(df, clusters, best_features_per_cluster, debug
 from sklearn import linear_model
 from sklearn.linear_model import LassoCV, LassoLarsCV
 import numpy as np
+import scipy
 
 def get_model_per_cluster(X, Y):
     model_per_cluster = {}
     for c in X.cluster.unique():    
         X_cluster = X[X.cluster==c]
-        Y_cluster = Y[Y.cluster == c].ALSFRS_slope
+        Y_true = Y[Y.cluster == c].ALSFRS_slope
         
         regr = LassoCV(cv=5)
-        regr.fit(X_cluster, Y_cluster)
+        regr.fit(X_cluster, Y_true)
 
-        print 'cluster: %d size: %s' % (c, Y_cluster.shape)
+        print 'cluster: %d size: %s' % (c, Y_true.shape)
+        Y_predict = regr.predict(X_cluster)
         print "\t RMS error (0 is perfect): %.2f" % np.sqrt(np.mean(
-            (regr.predict(X_cluster) - Y_cluster) ** 2))
-        print('\t explained variance score (1 is perfect): %.2f' % regr.score(X_cluster, Y_cluster))
+            (Y_predict - Y_true) ** 2))
+        regression_SS = ((Y_predict - Y_true) ** 2).sum()
+        residual_SS =((Y_true - Y_true.mean()) ** 2).sum()
+        print '\t coefficient of determination R^2 = %.2f ' % (1.0 - regression_SS/residual_SS) # regr.score(X_cluster, Y_true)
+        cov = sum((Y_predict - Y_predict.mean())*(Y_true - Y_true.mean()))
+        Y_predict_std = np.sqrt(sum((Y_predict - Y_predict.mean())**2))
+        Y_true_std = np.sqrt(sum((Y_true - Y_true.mean())**2))
+        print '\t pearson correlation r = %.2f ' % (cov/(Y_predict_std*Y_true_std)) # scipy.stats.pearsonr(Y_predict, Y_true)[0]
         print "3 sample predictions: ", regr.predict(X_cluster)[:3]
         model_per_cluster[c] = {"cluster_train_data_means": X_cluster.mean(), "model" : regr}
     return model_per_cluster

@@ -3,9 +3,16 @@
 
 # In[1]:
 
+get_ipython().magic(u'matplotlib inline')
+
 import pandas as pd
 import numpy as np
 from IPython.display import display
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.set(color_codes=True)
+plt.rcParams['figure.figsize'] = (10.0, 10.0)
 
 from  vectorizing_funcs import *
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
@@ -13,6 +20,97 @@ df.head()
 
 
 # In[2]:
+
+good_features = [
+                'ALSFRS_Total', 'weight', 'Albumin', 'Creatinine',
+            'bp_diastolic', 'bp_systolic', 'pulse', 'respiratory_rate', 'temperature',
+            'mouth', 'respiratory', 'hands', 'fvc_percent'
+            'BMI', 'Age', 'onset_delta',
+            'family_ALS_hist', 'if_use_Riluzole',
+'Albumin',
+        'Alkaline Phosphatase',
+        'ALPHA1-GLOBULIN',
+        'ALPHA2-GLOBULIN',
+        'ALT(SGPT)',
+        'Amylase',
+        'AST(SGOT)',
+        'BETA-GLOBULIN',
+        'Bilirubin (Direct)',
+        'Bilirubin (Indirect)',
+        'Bilirubin (Total)',
+        'Blood Urea Nitrogen (BUN)',
+        'Calcium',
+        'Chloride',
+        'CK',
+        'C-Reactive Protein',
+        'Creatine Kinase MB',
+        'Creatinine',
+        'Erythrocyte Sediment',
+        'Ferritin',
+        'Fibrinogen',
+        'Free T3',
+        'Free T4',
+        'Free Thyroxine Index',
+        'GAMMA-GLOBULIN',
+        'Gamma-glutamyltransferase',
+        'Glucose',
+        'HbA1c (Glycated Hemoglobin)',
+        'HDL',
+        'Hemoglobin',
+        'Lactate Dehydrogenase',
+        'LDL',
+        'Lymphocytes',
+        'Magnesium',
+        'Mean Corpuscular Hemoglobin',
+        'Mean Platelet Volume',
+        'Monocytes',
+        'Neutrophils',
+        'Parathyroid Hormone',
+        'Phosphorus',
+        'Platelets',
+        'Potassium',
+        'Protein',
+        'RBC Morphology: Spherocytes',
+        'RBC Morphology: Target Cells',
+        'RBC Morphology: Tear drop cells',
+        'Sodium',
+        'Thyroid Stimulating Hormone',
+        'Total Cholesterol',
+        'Total T4',
+        'Triglycerides',
+        'Uric Acid',
+        'Urine Albumin',
+        'Vitamin B12',
+        'White Blood Cell (WBC)'
+]
+
+
+# In[8]:
+
+a = df[df.feature_name.isin(good_features)]
+a.loc[:, 'subj_time'] = a.SubjectID + "_" + a.feature_delta
+a = a.drop_duplicates(subset = ['subj_time', 'feature_name'], take_last=True)
+a.loc[:, 'feature_value'] = a.feature_value.convert_objects(convert_numeric=True)
+p = a.pivot(index='subj_time', columns='feature_name', values='feature_value')
+display(p.head())
+print p.shape
+
+
+# In[40]:
+
+distrib_per_col = a.groupby('feature_name')['feature_value'].agg(['mean', 'std'])
+j = pd.merge(a, distrib_per_col, left_on='feature_name', right_index=True)
+j.loc[:, 'critical'] = abs(j['mean']) + j['std']*3
+outliers = j[abs(j.feature_value) > abs(j.critical)]
+
+
+# In[43]:
+
+display(outliers.head())
+outliers.to_csv('../outliers.txt', sep = '|', index=False)
+
+
+# In[5]:
 
 feature_names = df[["form_name", "feature_name"]].drop_duplicates()
 feature_names.to_csv('../feature_names.csv', sep='|', index=False)
