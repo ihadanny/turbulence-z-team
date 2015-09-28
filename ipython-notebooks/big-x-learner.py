@@ -32,38 +32,7 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[3]:
-
-def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
-                 clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster):
-    
-    # Vectorizing
-    vectorized, _ = vectorize(test_data, all_feature_metadata)
-    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-    
-    print "applying on: ", normalized.shape
-    
-    # Clustering
-    
-    for_clustering = normalized
-    clusters = pd.DataFrame(index = for_clustering.index.astype(str))
-    clusters['cluster'] = np.digitize(forest.predict(for_clustering), bins)
-    print "applied cluster cnt: ", np.bincount(clusters.cluster)
-
-    X = normalized.join(clusters)
-    
-    buf = filter_only_selected_features(test_data.set_index("SubjectID"), clusters,                                         best_features_per_cluster)    
-    s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
-    s_vectorized, _ = vectorize(s_df, all_feature_metadata)
-    s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
-    input_for_model = s_normalized.join(clusters)    
-    
-    pred = input_for_model.apply(apply_model, args=[model_per_cluster], axis = 1)
-    return input_for_model, pred
-    
-
-
-# In[4]:
+# In[6]:
 
 from datetime import datetime
 
@@ -79,15 +48,17 @@ def train_and_test(df, slope, my_n_clusters=2):
         print "fold: %d" % fold
         tick = datetime.now()
         
-        all_feature_metadata, train_data_means, train_data_std,                      bins, forest, best_features_per_cluster, model_per_cluster = train_it(train_data, slope, my_n_clusters)
+        all_feature_metadata,                     train_data_means, train_data_std, train_data_medians, train_data_mads,                     bins, forest, best_features_per_cluster, model_per_cluster = train_it(train_data, slope, my_n_clusters)
 
-        input_for_model, pred = apply_on_test(train_data, all_feature_metadata, train_data_means, train_data_std, 
-                     clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
+        input_for_model, pred = apply_on_test(train_data, all_feature_metadata, 
+                    train_data_means, train_data_std, train_data_medians, train_data_mads,
+                    clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
         res = pred.join(slope)
         fold_train_rmse = np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
 
-        input_for_model, pred = apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, 
-                     clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
+        input_for_model, pred = apply_on_test(test_data, all_feature_metadata, 
+                    train_data_means, train_data_std, train_data_medians, train_data_mads, 
+                    clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster)
         res = pred.join(slope)
         fold_test_rmse = np.sqrt(np.mean((res.prediction - res.ALSFRS_slope) ** 2))
 
@@ -114,9 +85,9 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 
 
-# In[5]:
+# In[9]:
 
-for n_clusters in range(5, 3, -1):
+for n_clusters in range(3, 0, -1):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)

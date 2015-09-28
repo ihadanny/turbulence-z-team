@@ -180,7 +180,7 @@ def apply_model(x, model_per_cluster):
     return pd.Series({'prediction':pred, 'cluster': int(c)})
 
 
-# In[ ]:
+# In[1]:
 
 from sklearn import cross_validation, grid_search
 from sklearn.ensemble import RandomForestRegressor
@@ -196,9 +196,13 @@ def train_it(train_data, slope, my_n_clusters):
         
         # Vectorizing
         vectorized, all_feature_metadata = vectorize(train_data, all_feature_metadata)
-        train_data_means = vectorized.mean()
-        train_data_std = vectorized.std()            
-        normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+        train_data_medians = vectorized.median()
+        train_data_mads = (vectorized - train_data_medians).abs().median()
+        train_data_std = vectorized.std()
+        cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)
+        train_data_means = cleaned.mean()
+        train_data_std = cleaned.std()            
+        normalized, all_feature_metadata = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
 
         everybody = normalized.join(slope)
         X = everybody.drop(['ALSFRS_slope'], 1)
@@ -239,5 +243,37 @@ def train_it(train_data, slope, my_n_clusters):
         
         model_per_cluster = get_model_per_cluster(s_X, Y)
         
-        return all_feature_metadata, train_data_means, train_data_std,                      bins, forest, best_features_per_cluster, model_per_cluster
+        return all_feature_metadata, train_data_means, train_data_std, train_data_medians, train_data_mads,                     bins, forest, best_features_per_cluster, model_per_cluster
+
+
+# In[ ]:
+
+def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_std, train_data_medians, train_data_mads,
+                 clustering_columns, bins, forest, best_features_per_cluster, model_per_cluster):
+    
+    # Vectorizing
+    vectorized, _ = vectorize(test_data, all_feature_metadata)
+    cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)
+    normalized, _ = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
+    
+    print "applying on: ", normalized.shape
+    
+    # Clustering
+    
+    for_clustering = normalized
+    clusters = pd.DataFrame(index = for_clustering.index.astype(str))
+    clusters['cluster'] = np.digitize(forest.predict(for_clustering), bins)
+    print "applied cluster cnt: ", np.bincount(clusters.cluster)
+
+    X = normalized.join(clusters)
+    
+    buf = filter_only_selected_features(test_data.set_index("SubjectID"), clusters,                                         best_features_per_cluster)    
+    s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
+    s_vectorized, _ = vectorize(s_df, all_feature_metadata)
+    s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
+    input_for_model = s_normalized.join(clusters)    
+    
+    pred = input_for_model.apply(apply_model, args=[model_per_cluster], axis = 1)
+    return input_for_model, pred
+    
 

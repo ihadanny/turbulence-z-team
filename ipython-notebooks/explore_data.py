@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[56]:
 
 get_ipython().magic(u'matplotlib inline')
 
@@ -19,7 +19,7 @@ df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=
 df.head()
 
 
-# In[2]:
+# In[81]:
 
 good_features = [
                 'ALSFRS_Total', 'weight', 'Albumin', 'Creatinine',
@@ -34,7 +34,6 @@ good_features = [
         'ALT(SGPT)',
         'Amylase',
         'AST(SGOT)',
-        'BETA-GLOBULIN',
         'Bilirubin (Direct)',
         'Bilirubin (Indirect)',
         'Bilirubin (Total)',
@@ -85,10 +84,10 @@ good_features = [
 ]
 
 
-# In[8]:
+# In[82]:
 
 a = df[df.feature_name.isin(good_features)]
-a.loc[:, 'subj_time'] = a.SubjectID + "_" + a.feature_delta
+a.loc[:, 'subj_time'] = a.SubjectID + "_" + a.feature_delta.convert_objects(convert_numeric=True).astype(str)
 a = a.drop_duplicates(subset = ['subj_time', 'feature_name'], take_last=True)
 a.loc[:, 'feature_value'] = a.feature_value.convert_objects(convert_numeric=True)
 p = a.pivot(index='subj_time', columns='feature_name', values='feature_value')
@@ -108,6 +107,27 @@ outliers = j[abs(j.feature_value) > abs(j.critical)]
 
 display(outliers.head())
 outliers.to_csv('../outliers.txt', sep = '|', index=False)
+
+
+# In[128]:
+
+import scipy
+for col in good_features:
+    b = df[df.feature_name == col]
+    b_num = b.feature_value.convert_objects(convert_numeric=True)
+    if b_num.dtypes == np.float64 or b_num.dtypes == np.int64:
+        b_num = b_num[~np.isnan(b_num)]
+        if b_num.size > 10:
+            sns.distplot(b_num, axlabel = col)
+            plt.show()
+            medi = np.median(b_num)
+            mad = np.median(abs(b_num - medi))
+            print col, "median:", medi, "mad:", mad
+            if mad > 0.0:
+                sns.distplot(b_num[abs(b_num-medi) < 4 * mad], axlabel = col)
+                plt.show()
+            
+    
 
 
 # In[5]:

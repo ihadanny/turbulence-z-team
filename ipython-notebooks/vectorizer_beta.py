@@ -8,7 +8,7 @@
 # * fill missing values with train data means, and normalize to z-scores with train data std
 # 
 
-# In[1]:
+# In[2]:
 
 from IPython.display import display
 
@@ -19,7 +19,7 @@ from collections import defaultdict
 from vectorizing_funcs import *
 
 
-# In[2]:
+# In[3]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 df.head()
@@ -30,7 +30,7 @@ df.head()
 # 
 # There is a list for time-series functions (as described before) and for dummy functions. Both are inverted to feature_to_funcs maps.
 
-# In[3]:
+# In[4]:
 
 ts_funcs_to_features = add_frequent_lab_tests_to_ts_features(df, ts_funcs_to_features)    
 all_feature_metadata = invert_func_to_features(ts_funcs_to_features, "ts")
@@ -40,70 +40,76 @@ all_feature_metadata.update(invert_func_to_features(dummy_funcs_to_features, "du
 # ## Learn to_dummies model
 # Which kind of categories do we have available in our train data?
 
-# In[4]:
+# In[5]:
 
 all_feature_metadata = learn_to_dummies_model(df, all_feature_metadata)
 
 
 # ##Vectorize `train` data 
 
-# In[5]:
+# In[6]:
 
 
 vectorized, all_feature_metadata = vectorize(df, all_feature_metadata, debug=True)
 vectorized.head()
 
 
-# In[6]:
+# ## Clean outliers
+# As our data is really messy, we must clean it from outliers, or else our models fail.
+# We can not clean before the vectorizing, because even if there are only sane values, the slopes and pct_diffs can still get extreme values. 
+# We use the robust median and MAD for location and spread, because they are less likely to be affected by the outliers.
 
-vectorized.describe().transpose().sort("count", ascending=True)
+# In[7]:
+
+train_data_medians = vectorized.median()
+train_data_mads = (vectorized - train_data_medians).abs().median()
+train_data_std = vectorized.std()
+
+
+# In[8]:
+
+cleaned = clean_outliers(vectorized, all_feature_metadata, 
+                         train_data_medians, train_data_mads, train_data_std, debug=True)
+
+
+# In[9]:
+
+cleaned.describe().transpose().sort("std", ascending=False)
 
 
 # ## Filling empty values with means and normalizing
 # - NOTE that we have to use the `train` data means and std
 
-# In[13]:
+# In[10]:
 
-vectorized[[col for col in vectorized.columns if "Crea" in col]].describe().transpose().sort("count", ascending=True)
-
-
-# In[34]:
-
-train_data_means = vectorized.mean()
-train_data_std = vectorized.std()            
-normalized, all_feature_metadata = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
-normalized.describe().T.sort("max", ascending=False).head(10)
-
-
-# In[21]:
-
-get_ipython().magic(u'matplotlib inline')
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-cre = normalized[normalized.Creatinine_pct_diff < 3].Creatinine_pct_diff
-sns.distplot(cre, rug=True, kde=False);
+train_data_means = cleaned.mean()
+train_data_std = cleaned.std()
+normalized, all_feature_metadata = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
+normalized.describe().T.sort("max", ascending=False).head(20)
 
 
 # ## Pickle all metadata we will need to use later when applying vectorizer
 
-# In[17]:
+# In[11]:
 
 pickle.dump( all_feature_metadata, open('../all_feature_metadata.pickle', 'wb') )
 pickle.dump( train_data_means, open('../all_data_means.pickle', 'wb') )
 pickle.dump( train_data_std, open('../all_data_std.pickle', 'wb') )
+pickle.dump( train_data_medians, open('../all_data_medians.pickle', 'wb') )
+pickle.dump( train_data_mads, open('../all_data_mads.pickle', 'wb') )
 
 
 # ## Apply model on `train`,  `test` 
 # 
 
-# In[18]:
+# In[12]:
 
 
 for t in ["all", "test"]:
     df = pd.read_csv('../' + t + '_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
     vectorized, _ = vectorize(df, all_feature_metadata)
-    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+    cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)
+    normalized, _ = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
     print t, normalized.shape
     normalized.to_csv('../' + t + '_data_vectorized.csv' ,sep='|')
 

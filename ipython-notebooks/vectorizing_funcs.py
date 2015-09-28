@@ -314,6 +314,27 @@ def vectorize(df, all_feature_metadata, debug=False):
     return vectorized, new_metadata
 
 
+# ## Clean outliers
+# As our data is really messy, we must clean it from outliers, or else our models fail.
+# We can not clean before the vectorizing, because even if there are only sane values, the slopes and pct_diffs can still get extreme values. 
+# We use the robust median and MAD for location and spread, because they are less likely to be affected by the outliers.
+
+# In[1]:
+
+def clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std, debug=False):
+    cleaned = vectorized.reindex(columns=train_data_medians.keys())
+    for feature, fm in all_feature_metadata.iteritems():
+        if fm['feature_type'] == 'ts':
+            for col in fm["derived_features"]:
+                data = cleaned[col].astype('float')
+                spread = 3 * train_data_mads[col]
+                if spread == 0.0:
+                    spread = 3 * train_data_std[col]
+                cleaned.loc[:, col] = data.apply(
+                    lambda x: x if abs(x-train_data_medians[col]) <  spread else np.nan)
+    return cleaned
+
+
 # ## Normalize
 
 # In[17]:
