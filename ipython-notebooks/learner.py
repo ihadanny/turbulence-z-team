@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# In[1]:
+# In[2]:
 
 import pandas as pd
 import numpy as np
@@ -12,16 +12,23 @@ from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[2]:
+# In[ ]:
 
-df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
-slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
+tr_data = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
+tr_slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")
+
+test_data = pd.read_csv('../all_forms_validate_leader.txt', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
+test_slope = pd.read_csv('../ALSFRS_slope_validate_leader2.txt', sep = '|', index_col="SubjectID")
+
+df = pd.concat([tr_data, test_data])
+slope = pd.concat([tr_slope, test_slope])
+
 slope.index = slope.index.astype(str)
 
 print "*"*30
 tick = datetime.now()
 
-all_feature_metadata, train_data_means, train_data_std, train_data_medians, train_data_mads,              bins, forest, best_features_per_cluster, model_per_cluster = train_it(df, slope, 4)
+all_feature_metadata, train_data_means, train_data_std, train_data_medians, train_data_mads,              bins, forest, best_features_per_cluster, model_per_cluster = train_it(df, slope, 5)
 clustering_model = {"model": forest, "bins": bins}
 
 tock = datetime.now()   

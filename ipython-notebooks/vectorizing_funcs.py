@@ -33,7 +33,8 @@ def scalar_feature_to_dummies_core(df, feature_metadata):
         return pd.DataFrame()
     my_slice_pivot = pd.pivot_table(my_slice, values = ['feature_value'], index = ['SubjectID'], 
                                 columns = ['feature_name'], aggfunc = lambda x:x)
-    dum = pd.get_dummies(my_slice_pivot['feature_value'][feature_metadata["feature_name"]])
+    dum = pd.get_dummies(my_slice_pivot['feature_value'][feature_metadata["feature_name"]], 
+                         prefix = feature_metadata["feature_name"])
     return dum
 
 def learn_scalar_feature_to_dummies(df, feature_metadata):

@@ -205,23 +205,29 @@ def train_it(train_data, slope, my_n_clusters):
         normalized, all_feature_metadata = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
 
         everybody = normalized.join(slope)
+        everybody = everybody[~np.isnan(everybody.ALSFRS_slope)]
+
         X = everybody.drop(['ALSFRS_slope'], 1)
         Y = everybody[['ALSFRS_slope']]
         print "train_data: ", X.shape, Y.shape
         
+        everybody.to_csv('../x_results/input_for_forest_selector.csv', sep='|')
+
         # Clustering
         #for_clustering = normalized[clustering_columns]
         #kmeans = KMeans(init='k-means++', n_clusters=my_n_clusters)
         #clusters['cluster'] = kmeans.fit_predict(for_clustering)
 
-        forest = grid_search.GridSearchCV(RandomForestRegressor(min_samples_leaf=60, min_samples_split=260, random_state=0), 
-                               {'min_samples_leaf': range(60,61,10), 'n_estimators': [1000]})
+        forest = RandomForestRegressor(min_samples_leaf=60, min_samples_split=260, random_state=0, 
+                               n_estimators=1000)
         forest.fit(X, Y.ALSFRS_slope)
-        quart = 100 / my_n_clusters
-        bins = np.percentile(forest.predict(X), range(quart,100,quart))
+        quart = 100.0 / float(my_n_clusters)
+        
+        quart = (100 + my_n_clusters - 1) / my_n_clusters
+        bins = np.percentile(forest.predict(X), np.arange(quart,100,quart))
                           
         # Note we must convert to str to join with slope later
-        clusters = pd.DataFrame(index = normalized.index.astype(str))
+        clusters = pd.DataFrame(index = X.index.astype(str))
         clusters['cluster'] = np.digitize(forest.predict(X), bins)
         print "train cluster cnt: ", np.bincount(clusters.cluster)
 

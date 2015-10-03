@@ -4,7 +4,7 @@
 # ## Run predictor.sh
 # Read the challenge standard selected features and emit a prediction
 
-# In[1]:
+# In[25]:
 
 import pickle
 import pandas as pd
@@ -35,13 +35,15 @@ def calc(x):
 with open(input_file, 'r') as f:
     content = f.readlines()
     c = int(content[0].split(":")[1])
-    s = "".join(content[1:])
+    # adding a bogus subject as we suspect a bug if the subject comes empty from the selector 
+    s = "-1|bbb|k|v|u|0\n" + "".join(content[1:])
     df = pd.read_csv(StringIO(s), sep='|', index_col=False, dtype="unicode",
                     names =["SubjectID","form_name","feature_name","feature_value","feature_unit","feature_delta"])
     vectorized, _ = vectorize(df, all_feature_metadata)
     cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)    
     normalized, _ = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
     normalized.loc[:, "cluster"] = c
+    normalized = normalized[normalized.index != '-1']
     pred = normalized.apply(calc, axis=1)
     print pred
     pred.to_csv(output_file ,sep='|', header=False, index=False, 

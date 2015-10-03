@@ -85,10 +85,11 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 
 
-# In[4]:
+# In[ ]:
 
-for n_clusters in range(5, 0, -1):
+for n_clusters in range(6, 10):
     print "*"*60
+    print "n_clusters", n_clusters
     print "*"*60
     train_and_test(df, slope, n_clusters)
 
