@@ -12,7 +12,7 @@ from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[11]:
+# In[2]:
 
 test_data = pd.read_csv('../all_forms_validate_leader.txt', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../ALSFRS_slope_validate_leader2.txt', sep = '|', index_col="SubjectID")
