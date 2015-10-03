@@ -8,7 +8,7 @@
 # * First line: the cluster identifier for that patient
 # * Following lines: the selected features selected for that specific single patient, using the same format as the input data. A maximum of 6 features are allowed.
 
-# In[4]:
+# In[1]:
 
 import pickle
 import cPickle
@@ -24,14 +24,19 @@ else:
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )
 train_data_std = pickle.load( open(models_folder + '/all_data_std.pickle', 'rb') )
+train_data_medians = pickle.load( open(models_folder + '/all_data_medians.pickle', 'rb') )
+train_data_mads = pickle.load( open(models_folder + '/all_data_mads.pickle', 'rb') )
 clustering_model = cPickle.load( open(models_folder + '/forest_clustering_model.pickle', 'rb') )
 best_features_per_cluster = pickle.load( open(models_folder + '/best_features_per_cluster.pickle', 'rb') )
    
 df = pd.read_csv(input_file, sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 for subj in df.SubjectID.unique()[:3]:
     df_subj = df[df.SubjectID == subj]
+
     vectorized, _ = vectorize(df_subj, all_feature_metadata)
-    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+    cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)    
+    normalized, _ = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
+    
     c = np.digitize(clustering_model["model"].predict(normalized), clustering_model["bins"])[0]
     #cluster_data = normalized[clustering_model["columns"]]
     #c = clustering_model["model"].predict(cluster_data)[0]

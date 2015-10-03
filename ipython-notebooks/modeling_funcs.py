@@ -270,7 +270,8 @@ def apply_on_test(test_data, all_feature_metadata, train_data_means, train_data_
     buf = filter_only_selected_features(test_data.set_index("SubjectID"), clusters,                                         best_features_per_cluster)    
     s_df = pd.read_csv(StringIO(buf), sep='|', index_col=False, dtype='unicode')
     s_vectorized, _ = vectorize(s_df, all_feature_metadata)
-    s_normalized, _ = normalize(s_vectorized, all_feature_metadata, train_data_means, train_data_std)    
+    s_cleaned = clean_outliers(s_vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)
+    s_normalized, _ = normalize(s_cleaned, all_feature_metadata, train_data_means, train_data_std)    
     input_for_model = s_normalized.join(clusters)    
     
     pred = input_for_model.apply(apply_model, args=[model_per_cluster], axis = 1)

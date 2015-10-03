@@ -12,7 +12,7 @@ from vectorizing_funcs import *
 from modeling_funcs import *
 
 
-# In[ ]:
+# In[2]:
 
 df = pd.read_csv('../all_data.csv', sep = '|', error_bad_lines=False, index_col=False, dtype='unicode')
 slope = pd.read_csv('../all_slope.csv', sep = '|', index_col="SubjectID")

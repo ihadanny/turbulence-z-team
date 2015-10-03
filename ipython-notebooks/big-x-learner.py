@@ -32,7 +32,7 @@ display(df.head(2))
 display(slope.head(2))
 
 
-# In[6]:
+# In[3]:
 
 from datetime import datetime
 
@@ -85,9 +85,9 @@ def train_and_test(df, slope, my_n_clusters=2):
 
 
 
-# In[9]:
+# In[4]:
 
-for n_clusters in range(3, 0, -1):
+for n_clusters in range(5, 0, -1):
     print "*"*60
     print "*"*60
     train_and_test(df, slope, n_clusters)

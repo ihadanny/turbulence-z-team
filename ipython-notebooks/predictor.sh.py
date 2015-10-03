@@ -22,6 +22,8 @@ else:
 all_feature_metadata = pickle.load( open(models_folder + '/all_feature_metadata.pickle', 'rb') )
 train_data_means = pickle.load( open(models_folder + '/all_data_means.pickle', 'rb') )
 train_data_std = pickle.load( open(models_folder + '/all_data_std.pickle', 'rb') )
+train_data_medians = pickle.load( open(models_folder + '/all_data_medians.pickle', 'rb') )
+train_data_mads = pickle.load( open(models_folder + '/all_data_mads.pickle', 'rb') )
 model_per_cluster = pickle.load( open(models_folder + '/model_per_cluster.pickle', 'rb') )
 
 def calc(x):
@@ -37,7 +39,8 @@ with open(input_file, 'r') as f:
     df = pd.read_csv(StringIO(s), sep='|', index_col=False, dtype="unicode",
                     names =["SubjectID","form_name","feature_name","feature_value","feature_unit","feature_delta"])
     vectorized, _ = vectorize(df, all_feature_metadata)
-    normalized, _ = normalize(vectorized, all_feature_metadata, train_data_means, train_data_std)
+    cleaned = clean_outliers(vectorized, all_feature_metadata, train_data_medians, train_data_mads, train_data_std)    
+    normalized, _ = normalize(cleaned, all_feature_metadata, train_data_means, train_data_std)
     normalized.loc[:, "cluster"] = c
     pred = normalized.apply(calc, axis=1)
     print pred
